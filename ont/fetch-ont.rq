@@ -1,0 +1,20 @@
+SELECT DISTINCT ?item ?itemLabel ?super ?p233 ?p2017 ?p8533 ?goid
+WHERE 
+{
+  VALUES ?class { wd:Q47154513 wd:Q72044356 wd:Q17339814 wd:Q72070508 wd:Q56256086 wd:Q15711994 wd:Q59199015 }
+  ?item wdt:P31 ?class.
+  ?item wdt:P279 ?super.
+  ?item rdfs:label ?itemLabel.
+  FILTER (LANG(?itemLabel) = 'en')
+  OPTIONAL { ?item wdt:P233 ?p233. }
+  OPTIONAL { ?item wdt:P2017 ?p2017. }
+  OPTIONAL { ?item wdt:P8533 ?p8533. }
+  OPTIONAL
+  { 
+    ?item wdt:P361 ?partof.
+    ?partof wdt:P31 wd:Q2996394.
+    ?partof wdt:P686 ?goid.
+    ?partof wdt:P279/wdt:P279* wd:Q14914008.
+  }
+}
+
