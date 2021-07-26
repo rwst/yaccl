@@ -429,7 +429,7 @@
 {
 "item": {
 "value": "Q41873",
-"label": "\u03b2-lactam"
+"label": "β-lactam"
 },
 "super": "Q251124",
 "p233": "C1(C(N(*)C1*)=O)*"
@@ -1065,7 +1065,7 @@
 {
 "item": {
 "value": "Q139883",
-"label": "(\u00b1)-L-alliin"
+"label": "(±)-L-alliin"
 },
 "super": "Q24301658",
 "p233": "C=CCS(=O)CC(C(=O)O)N",
@@ -1074,7 +1074,7 @@
 {
 "item": {
 "value": "Q139883",
-"label": "(\u00b1)-L-alliin"
+"label": "(±)-L-alliin"
 },
 "super": "Q57741744",
 "p233": "C=CCS(=O)CC(C(=O)O)N",
@@ -3381,7 +3381,7 @@
 {
 "item": {
 "value": "Q407635",
-"label": "coenzyme\u00a0A"
+"label": "coenzyme A"
 },
 "super": "Q11173",
 "p233": "CC(C)(COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C2N=CN=C3N)O)OP(=O)(O)O)C(C(=O)NCCC(=O)NCCS)O",
@@ -3391,7 +3391,7 @@
 {
 "item": {
 "value": "Q407635",
-"label": "coenzyme\u00a0A"
+"label": "coenzyme A"
 },
 "super": "Q11173",
 "p233": "CC(C)(COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C2N=CN=C3N)O)OP(=O)(O)O)C(C(=O)NCCC(=O)NCCS)O",
@@ -3615,7 +3615,7 @@
 {
 "item": {
 "value": "Q408407",
-"label": "(+/-)-\u03b1-methoxy-\u03b1-trifluoromethylphenylacetic acid"
+"label": "(+/-)-α-methoxy-α-trifluoromethylphenylacetic acid"
 },
 "super": "Q11173",
 "p233": "COC(C1=CC=CC=C1)(C(=O)O)C(F)(F)F"
@@ -4853,7 +4853,7 @@
 {
 "item": {
 "value": "Q416022",
-"label": "(\u00b1)-muscone"
+"label": "(±)-muscone"
 },
 "super": "Q419178",
 "p233": "CC1CCCCCCCCCCCCC(=O)C1"
@@ -4861,7 +4861,7 @@
 {
 "item": {
 "value": "Q416022",
-"label": "(\u00b1)-muscone"
+"label": "(±)-muscone"
 },
 "super": "Q73232281",
 "p233": "CC1CCCCCCCCCCCCC(=O)C1"
@@ -7761,7 +7761,7 @@
 {
 "item": {
 "value": "Q593166",
-"label": "(\u00b1)-molindone"
+"label": "(±)-molindone"
 },
 "super": "Q12140",
 "p233": "CCC1=C(NC2=C1C(=O)C(CC2)CN3CCOCC3)C"
@@ -7769,7 +7769,7 @@
 {
 "item": {
 "value": "Q593166",
-"label": "(\u00b1)-molindone"
+"label": "(±)-molindone"
 },
 "super": "Q11173",
 "p233": "CCC1=C(NC2=C1C(=O)C(CC2)CN3CCOCC3)C"
@@ -8267,7 +8267,7 @@
 {
 "item": {
 "value": "Q780165",
-"label": "(\u00b1)-bornyl acetate"
+"label": "(±)-bornyl acetate"
 },
 "super": "Q28417815",
 "p233": "CC(=O)OC1CC2CCC1(C)C2(C)C"
@@ -11669,7 +11669,7 @@
 {
 "item": {
 "value": "Q2405371",
-"label": "10-formyltetrahydropteroyl-\u03be-glutamic acid"
+"label": "10-formyltetrahydropteroyl-ξ-glutamic acid"
 },
 "super": "Q251124",
 "p233": "C1C(NC2=C(N1)NC(=NC2=O)N)CN(C=O)C3=CC=C(C=C3)C(=O)NC(CCC(=O)O)C(=O)O"
@@ -11677,7 +11677,7 @@
 {
 "item": {
 "value": "Q2405371",
-"label": "10-formyltetrahydropteroyl-\u03be-glutamic acid"
+"label": "10-formyltetrahydropteroyl-ξ-glutamic acid"
 },
 "super": "Q101497",
 "p233": "C1C(NC2=C(N1)NC(=NC2=O)N)CN(C=O)C3=CC=C(C=C3)C(=O)NC(CCC(=O)O)C(=O)O"
@@ -11685,7 +11685,7 @@
 {
 "item": {
 "value": "Q2405371",
-"label": "10-formyltetrahydropteroyl-\u03be-glutamic acid"
+"label": "10-formyltetrahydropteroyl-ξ-glutamic acid"
 },
 "super": "Q422050",
 "p233": "C1C(NC2=C(N1)NC(=NC2=O)N)CN(C=O)C3=CC=C(C=C3)C(=O)NC(CCC(=O)O)C(=O)O"
@@ -11693,7 +11693,7 @@
 {
 "item": {
 "value": "Q2405371",
-"label": "10-formyltetrahydropteroyl-\u03be-glutamic acid"
+"label": "10-formyltetrahydropteroyl-ξ-glutamic acid"
 },
 "super": "Q2758348",
 "p233": "C1C(NC2=C(N1)NC(=NC2=O)N)CN(C=O)C3=CC=C(C=C3)C(=O)NC(CCC(=O)O)C(=O)O"
@@ -11701,7 +11701,7 @@
 {
 "item": {
 "value": "Q2405371",
-"label": "10-formyltetrahydropteroyl-\u03be-glutamic acid"
+"label": "10-formyltetrahydropteroyl-ξ-glutamic acid"
 },
 "super": "Q55499606",
 "p233": "C1C(NC2=C(N1)NC(=NC2=O)N)CN(C=O)C3=CC=C(C=C3)C(=O)NC(CCC(=O)O)C(=O)O"
@@ -13220,7 +13220,7 @@
 {
 "item": {
 "value": "Q3040723",
-"label": "\u03b3-amanitin"
+"label": "γ-amanitin"
 },
 "super": "Q74563185",
 "p233": "CCC(C)C1C(=O)NCC(=O)NC2CS(=O)C3=C(CC(C(=O)NCC(=O)N1)NC(=O)C(NC(=O)C4CC(CN4C(=O)C(NC2=O)CC(=O)N)O)C(C)C(C)O)C5=C(N3)C=C(C=C5)O",
@@ -13422,7 +13422,7 @@
 {
 "item": {
 "value": "Q3095007",
-"label": "\u03b3-lactone"
+"label": "γ-lactone"
 },
 "super": "Q59078",
 "p233": "O1C(C(C(C1=O)*)*)*"
@@ -14446,7 +14446,7 @@
 {
 "item": {
 "value": "Q3682585",
-"label": "5\u03b1/\u03b2-cholestane"
+"label": "5α/β-cholestane"
 },
 "super": "Q11173",
 "p233": "CC(C)CCCC(C)C1CCC2C1(CCC3C2CCC4C3(CCCC4)C)C",
@@ -14455,7 +14455,7 @@
 {
 "item": {
 "value": "Q3682585",
-"label": "5\u03b1/\u03b2-cholestane"
+"label": "5α/β-cholestane"
 },
 "super": "Q177911",
 "p233": "CC(C)CCCC(C)C1CCC2C1(CCC3C2CCC4C3(CCCC4)C)C",
@@ -14612,7 +14612,7 @@
 {
 "item": {
 "value": "Q3915149",
-"label": "(3\u039e,6\u039e)-D-pinitol"
+"label": "(3Ξ,6Ξ)-D-pinitol"
 },
 "super": "Q11173",
 "p233": "COC1C(C(C(C(C1O)O)O)O)O",
@@ -15508,7 +15508,7 @@
 {
 "item": {
 "value": "Q4630842",
-"label": "20\u03b1,22-Dihydroxycholesterol"
+"label": "20α,22-Dihydroxycholesterol"
 },
 "super": "Q11173",
 "p233": "CC(C)CCC(C(C)(C1CCC2C1(CCC3C2CC=C4C3(CCC(C4)O)C)C)O)O",
@@ -16677,7 +16677,7 @@
 {
 "item": {
 "value": "Q5397510",
-"label": "(14\u03be)-esculeoside A"
+"label": "(14ξ)-esculeoside A"
 },
 "super": "Q11173"
 },
@@ -17504,7 +17504,7 @@
 {
 "item": {
 "value": "Q6823338",
-"label": "(\u00b1)-metazocine"
+"label": "(±)-metazocine"
 },
 "super": "Q407142",
 "p233": "CC1C2CC3=C(C1(CCN2C)C)C=C(C=C3)O"
@@ -17512,7 +17512,7 @@
 {
 "item": {
 "value": "Q6823338",
-"label": "(\u00b1)-metazocine"
+"label": "(±)-metazocine"
 },
 "super": "Q72084185",
 "p233": "CC1C2CC3=C(C1(CCN2C)C)C=C(C=C3)O"
@@ -17520,7 +17520,7 @@
 {
 "item": {
 "value": "Q6823338",
-"label": "(\u00b1)-metazocine"
+"label": "(±)-metazocine"
 },
 "super": "Q72084374",
 "p233": "CC1C2CC3=C(C1(CCN2C)C)C=C(C=C3)O"
@@ -17528,7 +17528,7 @@
 {
 "item": {
 "value": "Q6823338",
-"label": "(\u00b1)-metazocine"
+"label": "(±)-metazocine"
 },
 "super": "Q67390836",
 "p233": "CC1C2CC3=C(C1(CCN2C)C)C=C(C=C3)O"
@@ -17719,7 +17719,7 @@
 {
 "item": {
 "value": "Q7050446",
-"label": "(6\u03b2)-18-(2-hydroxy-3,3-dimethyl-2-butanyl)-6-methoxy-18,19-dihydro-4,5-epoxy-6,14-ethenomorphinan-3-ol"
+"label": "(6β)-18-(2-hydroxy-3,3-dimethyl-2-butanyl)-6-methoxy-18,19-dihydro-4,5-epoxy-6,14-ethenomorphinan-3-ol"
 },
 "super": "Q11173",
 "p233": "CC(C)(C)C(C)(C1CC23CCC1(C4C25CCNC3CC6=C5C(=C(C=C6)O)O4)OC)O",
@@ -19544,7 +19544,7 @@
 {
 "item": {
 "value": "Q10859742",
-"label": "\u03b1-santalol"
+"label": "α-santalol"
 },
 "super": "Q11173",
 "p233": "CC(=C(CCC1(C)C2(CC3(C(C2)(C31C)[H])[H])[H])[H])CO",
@@ -19553,7 +19553,7 @@
 {
 "item": {
 "value": "Q10859742",
-"label": "\u03b1-santalol"
+"label": "α-santalol"
 },
 "super": "Q11173",
 "p233": "CC(=C(CCC1(C)C2(CC3(C(C2)(C31C)[H])[H])[H])[H])CO",
@@ -19562,7 +19562,7 @@
 {
 "item": {
 "value": "Q10859742",
-"label": "\u03b1-santalol"
+"label": "α-santalol"
 },
 "super": "Q11173",
 "p233": "CC(=CCCC1(C2CC3C1(C3C2)C)C)CO",
@@ -19571,7 +19571,7 @@
 {
 "item": {
 "value": "Q10859742",
-"label": "\u03b1-santalol"
+"label": "α-santalol"
 },
 "super": "Q11173",
 "p233": "CC(=CCCC1(C2CC3C1(C3C2)C)C)CO",
@@ -20518,7 +20518,7 @@
 {
 "item": {
 "value": "Q15410295",
-"label": "(14\u03be,20\u039e,24\u039e)-blazein"
+"label": "(14ξ,20Ξ,24Ξ)-blazein"
 },
 "super": "Q11173",
 "p233": "CC(C)C(C)C=CC(C)C1CCC2C1(CCC3C2=CC(C4(C3(CCC(C4)O)C)O)OC)C",
@@ -23338,42 +23338,42 @@
 {
 "item": {
 "value": "Q21177050",
-"label": "(\u00b1)-pisatin"
+"label": "(±)-pisatin"
 },
 "super": "Q2832212"
 },
 {
 "item": {
 "value": "Q21177050",
-"label": "(\u00b1)-pisatin"
+"label": "(±)-pisatin"
 },
 "super": "Q67206812"
 },
 {
 "item": {
 "value": "Q21177050",
-"label": "(\u00b1)-pisatin"
+"label": "(±)-pisatin"
 },
 "super": "Q43305851"
 },
 {
 "item": {
 "value": "Q21177050",
-"label": "(\u00b1)-pisatin"
+"label": "(±)-pisatin"
 },
 "super": "Q56809604"
 },
 {
 "item": {
 "value": "Q21177050",
-"label": "(\u00b1)-pisatin"
+"label": "(±)-pisatin"
 },
 "super": "Q75837448"
 },
 {
 "item": {
 "value": "Q21177050",
-"label": "(\u00b1)-pisatin"
+"label": "(±)-pisatin"
 },
 "super": "Q57841385"
 },
@@ -24763,7 +24763,7 @@
 {
 "item": {
 "value": "Q27070749",
-"label": "10-OBn-7\u03b1-F-gingkolide B"
+"label": "10-OBn-7α-F-gingkolide B"
 },
 "super": "Q11173",
 "p233": "CC1C(=O)OC2C1(C34C(=O)OC5C3(C2O)C6(C(C5F)C(C)(C)C)C(C(=O)OC6O4)OCC7=CC=CC=C7)O",
@@ -24887,7 +24887,7 @@
 {
 "item": {
 "value": "Q27074020",
-"label": "7\u03b1-Cl-ginkgolide B"
+"label": "7α-Cl-ginkgolide B"
 },
 "super": "Q11173",
 "p233": "CC1C(=O)OC2C1(C34C(=O)OC5C3(C2O)C6(C(C5Cl)C(C)(C)C)C(C(=O)OC6O4)O)O",
@@ -24896,7 +24896,7 @@
 {
 "item": {
 "value": "Q27074021",
-"label": "7\u03b1-F-ginkgolide B"
+"label": "7α-F-ginkgolide B"
 },
 "super": "Q11173",
 "p233": "CC1C(=O)OC2C1(C34C(=O)OC5C3(C2O)C6(C(C5F)C(C)(C)C)C(C(=O)OC6O4)O)O",
@@ -24905,7 +24905,7 @@
 {
 "item": {
 "value": "Q27074023",
-"label": "7\u03b1-NHEt-ginkgolide B"
+"label": "7α-NHEt-ginkgolide B"
 },
 "super": "Q11173",
 "p233": "CCNC1C(C23C(C(=O)OC2OC45C3(C1OC4=O)C(C6C5(C(C(=O)O6)C)O)O)O)C(C)(C)C",
@@ -24914,7 +24914,7 @@
 {
 "item": {
 "value": "Q27074024",
-"label": "7\u03b1-NHMe-ginkgolide B"
+"label": "7α-NHMe-ginkgolide B"
 },
 "super": "Q11173",
 "p233": "CC1C(=O)OC2C1(C34C(=O)OC5C3(C2O)C6(C(C5NC)C(C)(C)C)C(C(=O)OC6O4)O)O",
@@ -24923,7 +24923,7 @@
 {
 "item": {
 "value": "Q27074025",
-"label": "7\u03b1-NH2-ginkgolide B"
+"label": "7α-NH2-ginkgolide B"
 },
 "super": "Q11173",
 "p233": "CC1C(=O)OC2C1(C34C(=O)OC5C3(C2O)C6(C(C5N)C(C)(C)C)C(C(=O)OC6O4)O)O",
@@ -24932,7 +24932,7 @@
 {
 "item": {
 "value": "Q27074026",
-"label": "7\u03b1-N3-ginkgolide B"
+"label": "7α-N3-ginkgolide B"
 },
 "super": "Q11173",
 "p233": "[N-]=[N]=NC1C(C(C)(C)C)C23C45C1OC(=O)C4(OC2OC(=O)C3O)C6(C(C5O)OC(=O)C6C)O",
@@ -24941,7 +24941,7 @@
 {
 "item": {
 "value": "Q27074027",
-"label": "7\u03b1-OAc-ginkgolide B"
+"label": "7α-OAc-ginkgolide B"
 },
 "super": "Q11173",
 "p233": "CC1C(=O)OC2C1(C34C(=O)OC5C3(C2O)C6(C(C5OC(=O)C)C(C)(C)C)C(C(=O)OC6O4)O)O",
@@ -24950,7 +24950,7 @@
 {
 "item": {
 "value": "Q27074028",
-"label": "7\u03b1-OCOCH2Ph-ginkgolide B"
+"label": "7α-OCOCH2Ph-ginkgolide B"
 },
 "super": "Q11173",
 "p233": "CC1C(=O)OC2C1(C34C(=O)OC5C3(C2O)C6(C(C5OC(=O)CC7=CC=CC=C7)C(C)(C)C)C(C(=O)OC6O4)O)O",
@@ -24986,7 +24986,7 @@
 {
 "item": {
 "value": "Q27074043",
-"label": "9\u03b1,11\u03b2-prostaglandin F2\u03b1"
+"label": "9α,11β-prostaglandin F2α"
 },
 "super": "Q11173",
 "p233": "CCCCCC(C=CC1C(CC(C1CC=CCCCC(=O)O)O)O)O",
@@ -25004,7 +25004,7 @@
 {
 "item": {
 "value": "Q27074400",
-"label": "\u03b1-fluoromethylenephosphonate"
+"label": "α-fluoromethylenephosphonate"
 },
 "super": "Q11173",
 "p233": "CCCCCCCCC=CCCCCCCCC(=O)OCC(CC(F)P(=O)(O)O)OC",
@@ -25013,7 +25013,7 @@
 {
 "item": {
 "value": "Q27074404",
-"label": "\u03b1-methyl-D,L-tryptophan"
+"label": "α-methyl-D,L-tryptophan"
 },
 "super": "Q11173",
 "p233": "CC(CC1=CNC2=CC=CC=C21)(C(=O)O)N"
@@ -25084,7 +25084,7 @@
 {
 "item": {
 "value": "Q27075174",
-"label": "\u03b23-tetrapeptide"
+"label": "β3-tetrapeptide"
 },
 "super": "Q11173",
 "p233": "CC1C(CC(=O)O1)NC(=O)CC(CCCCN)NC(=O)C(CC2=CNC3=CC=CC=C32)NC(=O)CC(CC4=CC(=CC=C4)O)NC(=O)C",
@@ -25497,7 +25497,7 @@
 {
 "item": {
 "value": "Q27076992",
-"label": "dATP\u03b1S"
+"label": "dATPαS"
 },
 "super": "Q11173",
 "p233": "C1C(C(OC1N2C=NC3=C2N=CN=C3N)COP(=S)(O)OP(=O)(O)OP(=O)(O)O)O",
@@ -26058,7 +26058,7 @@
 {
 "item": {
 "value": "Q27088614",
-"label": "Rp-5-OMe-UDP\u03b1B"
+"label": "Rp-5-OMe-UDPαB"
 },
 "super": "Q11173",
 "p233": "[BH3-]P(=O)(OCC1C(C(C(O1)N2CC(C(=O)NC2=O)OC)O)O)OP(=O)(O)O",
@@ -32291,7 +32291,7 @@
 {
 "item": {
 "value": "Q27115862",
-"label": "16\u03b1,17\u03b1-dihydroxyprogesteroneacetophenide"
+"label": "16α,17α-dihydroxyprogesteroneacetophenide"
 },
 "super": "Q11173",
 "p233": "CC(=O)C12C(CC3C1(CCC4C3CCC5=CC(=O)CCC45C)C)OC(O2)(C)C6=CC=CC=C6",
@@ -33090,7 +33090,7 @@
 {
 "item": {
 "value": "Q27119834",
-"label": "\u03c4-fluvalinate"
+"label": "τ-fluvalinate"
 },
 "super": "Q11173",
 "p233": "CC(C)C(C(=O)OC(C#N)C1=CC(=CC=C1)OC2=CC=CC=C2)NC3=C(C=C(C=C3)C(F)(F)F)Cl",
@@ -33741,7 +33741,7 @@
 {
 "item": {
 "value": "Q27121537",
-"label": "\u03b1-himachalene"
+"label": "α-himachalene"
 },
 "super": "Q80218",
 "p233": "CC1=CC2C(CC1)C(=C)CCCC2(C)C"
@@ -33749,7 +33749,7 @@
 {
 "item": {
 "value": "Q27121537",
-"label": "\u03b1-himachalene"
+"label": "α-himachalene"
 },
 "super": "Q97367263",
 "p233": "CC1=CC2C(CC1)C(=C)CCCC2(C)C"
@@ -33757,7 +33757,7 @@
 {
 "item": {
 "value": "Q27121544",
-"label": "\u03b3-himachalene"
+"label": "γ-himachalene"
 },
 "super": "Q97367263",
 "p233": "CC1=CC2C(CC1)C(=CCCC2(C)C)C"
@@ -37749,7 +37749,7 @@
 {
 "item": {
 "value": "Q27132145",
-"label": "(rac)-\u03b1-longipinene"
+"label": "(rac)-α-longipinene"
 },
 "super": "Q80218",
 "p233": "CC1=CCC2C3C1C2(CCCC3(C)C)C"
@@ -37757,7 +37757,7 @@
 {
 "item": {
 "value": "Q27132145",
-"label": "(rac)-\u03b1-longipinene"
+"label": "(rac)-α-longipinene"
 },
 "super": "Q18379010",
 "p233": "CC1=CCC2C3C1C2(CCCC3(C)C)C"
@@ -43880,7 +43880,7 @@
 {
 "item": {
 "value": "Q27147422",
-"label": "(\u00b1)-tilidine"
+"label": "(±)-tilidine"
 },
 "super": "Q355518",
 "p233": "CCOC(=O)C1(CCC=CC1N(C)C)C2=CC=CC=C2"
@@ -43888,7 +43888,7 @@
 {
 "item": {
 "value": "Q27147422",
-"label": "(\u00b1)-tilidine"
+"label": "(±)-tilidine"
 },
 "super": "Q9255129",
 "p233": "CCOC(=O)C1(CCC=CC1N(C)C)C2=CC=CC=C2"
@@ -43896,7 +43896,7 @@
 {
 "item": {
 "value": "Q27147422",
-"label": "(\u00b1)-tilidine"
+"label": "(±)-tilidine"
 },
 "super": "Q71271159",
 "p233": "CCOC(=O)C1(CCC=CC1N(C)C)C2=CC=CC=C2"
@@ -43904,7 +43904,7 @@
 {
 "item": {
 "value": "Q27147422",
-"label": "(\u00b1)-tilidine"
+"label": "(±)-tilidine"
 },
 "super": "Q72801119",
 "p233": "CCOC(=O)C1(CCC=CC1N(C)C)C2=CC=CC=C2"
@@ -43912,7 +43912,7 @@
 {
 "item": {
 "value": "Q27147422",
-"label": "(\u00b1)-tilidine"
+"label": "(±)-tilidine"
 },
 "super": "Q57842052",
 "p233": "CCOC(=O)C1(CCC=CC1N(C)C)C2=CC=CC=C2"
@@ -55570,7 +55570,7 @@
 {
 "item": {
 "value": "Q27231285",
-"label": "7,7'-nonane-1,9-diylbis(estra-1,3,5(10)-triene-3,17\u03b2-diol)"
+"label": "7,7'-nonane-1,9-diylbis(estra-1,3,5(10)-triene-3,17β-diol)"
 },
 "super": "Q11173",
 "p233": "CC12CCC3C(C1CCC2O)C(CC4=C3C=CC(=C4)O)CCCCCCCCCC5CC6=C(C=CC(=C6)O)C7C5C8CCC(C8(CC7)C)O",
@@ -55615,7 +55615,7 @@
 {
 "item": {
 "value": "Q27231483",
-"label": "(8\u03b2)-N-ethyl-6-methyl-\u03b1-(methylsulfonyl)-ergoline-8-propanamide"
+"label": "(8β)-N-ethyl-6-methyl-α-(methylsulfonyl)-ergoline-8-propanamide"
 },
 "super": "Q11173",
 "p233": "CCNC(=O)C(CC1CC2C(CC3=CNC4=CC=CC2=C34)N(C1)C)S(=O)(=O)C",
@@ -55651,7 +55651,7 @@
 {
 "item": {
 "value": "Q27236094",
-"label": "(\u00b1)-hyoscyamine citrate"
+"label": "(±)-hyoscyamine citrate"
 },
 "super": "Q55503275",
 "p233": "CN1C2CCC1CC(C2)OC(=O)C(CO)C3=CC=CC=C3.C(C(=O)O)C(CC(=O)O)(C(=O)O)O",
@@ -55758,7 +55758,7 @@
 {
 "item": {
 "value": "Q27236855",
-"label": "6\u03b2-hydroxybudesonide"
+"label": "6β-hydroxybudesonide"
 },
 "super": "Q11173",
 "p233": "CCCC1OC2CC3C4CC(C5=CC(=O)C=CC5(C4C(CC3(C2(O1)C(=O)CO)C)O)C)O",
@@ -56347,7 +56347,7 @@
 {
 "item": {
 "value": "Q27254724",
-"label": "(2ar-(2a\u03b2,4\u03b2,4a\u03b1,6\u03b2,7\u03b2,9a\u03b2,9b\u03b1,10R*))-3,3-dichlorohexahydro-7-methoxy-7,9b-dimethyl-1H-4,6,9a-(epoxymetheno)-2-oxacycloocta(cd)pentalene-2a,4a(5H,9bh)-diol"
+"label": "(2ar-(2aβ,4β,4aα,6β,7β,9aβ,9bα,10R*))-3,3-dichlorohexahydro-7-methoxy-7,9b-dimethyl-1H-4,6,9a-(epoxymetheno)-2-oxacycloocta(cd)pentalene-2a,4a(5H,9bh)-diol"
 },
 "super": "Q11173",
 "p233": "CC1(CCC23COC4(C2(C5(CC1C3OC5C4(Cl)Cl)O)C)O)OC",
@@ -56446,7 +56446,7 @@
 {
 "item": {
 "value": "Q27255608",
-"label": "(8\u03b2)-\u03b1-cyano-6-(2-methylpropyl)ergoline-8-propanamide"
+"label": "(8β)-α-cyano-6-(2-methylpropyl)ergoline-8-propanamide"
 },
 "super": "Q11173",
 "p233": "CC(C)CN1CC(CC2C1CC3=CNC4=C3C2=CC=C4)CC(C#N)C(=O)N",
@@ -56599,7 +56599,7 @@
 {
 "item": {
 "value": "Q27256888",
-"label": "(7\u03b1,17\u03b2)-estra-1,3,5(10)-triene-3,17-diol,7-(9-(9-((4,4,5,5,5-pentafluoropentyl)sulfinyl)nonylsulfinyl)nonyl)"
+"label": "(7α,17β)-estra-1,3,5(10)-triene-3,17-diol,7-(9-(9-((4,4,5,5,5-pentafluoropentyl)sulfinyl)nonylsulfinyl)nonyl)"
 },
 "super": "Q11173",
 "p233": "CC12CCC3C(C1CCC2O)C(CC4=C3C=CC(=C4)O)CCCCCCCCCS(=O)CCCCCCCCCS(=O)CCCC(C(F)(F)F)(F)F",
@@ -56617,7 +56617,7 @@
 {
 "item": {
 "value": "Q27257041",
-"label": "2-hydroxypropyl 1-isopropyl-6-methylergoline-8\u03b2-carboxylate maleate"
+"label": "2-hydroxypropyl 1-isopropyl-6-methylergoline-8β-carboxylate maleate"
 },
 "super": "Q11173",
 "p233": "CC(C)N1C=C2CC3C(CC(CN3C)C(=O)OCC(C)O)C4=C2C1=CC=C4.C(=CC(=O)O)C(=O)O",
@@ -56725,7 +56725,7 @@
 {
 "item": {
 "value": "Q27258107",
-"label": "\u03b1-santalyl phenylacetate"
+"label": "α-santalyl phenylacetate"
 },
 "super": "Q11173",
 "p233": "CC(=CCCC1(C2CC3C1(C3C2)C)C)COC(=O)CC4=CC=CC=C4",
@@ -56788,7 +56788,7 @@
 {
 "item": {
 "value": "Q27258454",
-"label": "\u03b1-terpinyl isovalerate"
+"label": "α-terpinyl isovalerate"
 },
 "super": "Q11173",
 "p233": "CC1=CCC(CC1)C(C)(C)OC(=O)CC(C)C"
@@ -57000,7 +57000,7 @@
 {
 "item": {
 "value": "Q27259884",
-"label": "D-bornyl \u03b1-bromoisovalerate"
+"label": "D-bornyl α-bromoisovalerate"
 },
 "super": "Q11173",
 "p233": "CC(C)C(C(=O)OC1CC2CCC1(C2(C)C)C)Br",
@@ -57043,7 +57043,7 @@
 {
 "item": {
 "value": "Q27260294",
-"label": "4-(2-cyano-3-((8\u03b2)-6-methylergolin-8-yl)-1-oxopropyl)morpholine"
+"label": "4-(2-cyano-3-((8β)-6-methylergolin-8-yl)-1-oxopropyl)morpholine"
 },
 "super": "Q11173",
 "p233": "CN1CC(CC2C1CC3=CNC4=CC=CC2=C34)CC(C#N)C(=O)N5CCOCC5",
@@ -57124,7 +57124,7 @@
 {
 "item": {
 "value": "Q27260986",
-"label": "\u03b46,7-fulvestrant"
+"label": "δ6,7-fulvestrant"
 },
 "super": "Q11173",
 "p233": "CC12CCC3C(C1CCC2O)C(=CC4=C3C=CC(=C4)O)CCCCCCCCCS(=O)CCCC(C(F)(F)F)(F)F",
@@ -57509,7 +57509,7 @@
 {
 "item": {
 "value": "Q27264144",
-"label": "2-((3R)-3-(((1-(carboxymethyl)cyclopropyl)methyl)thio)-3-(3-((1E)-2-(7-chloro-2-quinolinyl)ethenyl)phenyl)propyl)-\u03b1-hydroxy-\u03b1-methylbenzeneacetic acid"
+"label": "2-((3R)-3-(((1-(carboxymethyl)cyclopropyl)methyl)thio)-3-(3-((1E)-2-(7-chloro-2-quinolinyl)ethenyl)phenyl)propyl)-α-hydroxy-α-methylbenzeneacetic acid"
 },
 "super": "Q11173",
 "p233": "CC(C1=CC=CC=C1CCC(C2=CC=CC(=C2)C=CC3=NC4=C(C=CC(=C4)Cl)C=C3)SCC5(CC5)CC(=O)O)(C(=O)O)O",
@@ -57849,7 +57849,7 @@
 {
 "item": {
 "value": "Q27266414",
-"label": "4\u03b2,5\u03b2-epoxypregnane-3,20-dione"
+"label": "4β,5β-epoxypregnane-3,20-dione"
 },
 "super": "Q11173",
 "p233": "CC(=O)C1CCC2C1(CCC3C2CCC45C3(CCC(=O)C4O5)C)C",
@@ -57991,7 +57991,7 @@
 {
 "item": {
 "value": "Q27268596",
-"label": "(\u2212)-ephedrine DL-lactate"
+"label": "(−)-ephedrine DL-lactate"
 },
 "super": "Q64778441",
 "p233": "CC(C(C1=CC=CC=C1)OC(=O)C(C)O)NC",
@@ -58297,7 +58297,7 @@
 {
 "item": {
 "value": "Q27270855",
-"label": "stigmasteryl-\u03b3-octyldodecyl lauroyl glutamate"
+"label": "stigmasteryl-γ-octyldodecyl lauroyl glutamate"
 },
 "super": "Q11173",
 "p233": "CCCCCCCCCCCC(=O)NC(CCC(=O)OCC(CCCCCCCC)CCCCCCCCCC)C(=O)OC1CCC2(C3CCC4(C(C3CC=C2C1)CCC4C(C)C=CC(CC)C(C)C)C)C",
@@ -58315,7 +58315,7 @@
 {
 "item": {
 "value": "Q27271139",
-"label": "(\u00b1)-hyoscyamine borate"
+"label": "(±)-hyoscyamine borate"
 },
 "super": "Q11173",
 "p233": "B(O)(O)O.CN1C2CCC1CC(C2)OC(=O)C(CO)C3=CC=CC=C3",
@@ -58431,7 +58431,7 @@
 {
 "item": {
 "value": "Q27272025",
-"label": "\u03b4-2-ceftazidime"
+"label": "δ-2-ceftazidime"
 },
 "super": "Q11173",
 "p233": "CC(C)(C(=O)O)ON=C(C1=CSC(=N1)N)C(=O)NC2C3N(C2=O)C(C(=CS3)C[N+]4=CC=CC=C4)C(=O)[O-]",
@@ -58467,7 +58467,7 @@
 {
 "item": {
 "value": "Q27272145",
-"label": "7-(9-((4,4,5,5,5-pentafluoropentyl)sulfinyl)nonyl)-3,17\u03b2-dihydroxyestra-1,3,5(10)-trien-6-one"
+"label": "7-(9-((4,4,5,5,5-pentafluoropentyl)sulfinyl)nonyl)-3,17β-dihydroxyestra-1,3,5(10)-trien-6-one"
 },
 "super": "Q11173",
 "p233": "CC12CCC3C4=CC=C(C=C4C(=O)C(C3C1CCC2O)CCCCCCCCC[S+](CCCC(C(F)(F)F)(F)F)[O-])O",
@@ -58539,7 +58539,7 @@
 {
 "item": {
 "value": "Q27272434",
-"label": "6-methyl-\u03b1-(4-methyl-1-piperazinylcarbonyl)ergoline-8-\u03b2-propionitrile"
+"label": "6-methyl-α-(4-methyl-1-piperazinylcarbonyl)ergoline-8-β-propionitrile"
 },
 "super": "Q11173",
 "p233": "CN1CCN(CC1)C(=O)C(CC2CC3C(CC4=CNC5=CC=CC3=C45)N(C2)C)C#N",
@@ -58557,7 +58557,7 @@
 {
 "item": {
 "value": "Q27272547",
-"label": "\u03b2-hydroxy thyroxine"
+"label": "β-hydroxy thyroxine"
 },
 "super": "Q11173",
 "p233": "C1=C(C=C(C(=C1I)OC2=CC(=C(C(=C2)I)O)I)I)C(C(C(=O)O)N)O",
@@ -58602,7 +58602,7 @@
 {
 "item": {
 "value": "Q27272693",
-"label": "(\u00b1)-hyoscyamine L-tartrate"
+"label": "(±)-hyoscyamine L-tartrate"
 },
 "super": "Q56702530",
 "p233": "CN1C2CCC1CC(C2)OC(=O)C(CO)C3=CC=CC=C3.C(C(C(=O)O)O)(C(=O)O)O",
@@ -58611,7 +58611,7 @@
 {
 "item": {
 "value": "Q27272761",
-"label": "\u03b1 hydroxy montelukast"
+"label": "α hydroxy montelukast"
 },
 "super": "Q11173",
 "p233": "CC(C)(C1=CC=CC=C1CCC(C2=CC=CC(=C2)C=CC3=NC4=C(C=CC(=C4)Cl)C=C3)SCC5(CC5)C(C(=O)O)O)O",
@@ -58835,7 +58835,7 @@
 {
 "item": {
 "value": "Q27274352",
-"label": "endo form-(1rs)-1-((1sr,2rs(\u03b2 hydrogen),4sr)-bicyclo(2.2.1)hept-5-en-2-yl)-1-phenyl-3-(piperidin-1-yl)propan-1-ol"
+"label": "endo form-(1rs)-1-((1sr,2rs(β hydrogen),4sr)-bicyclo(2.2.1)hept-5-en-2-yl)-1-phenyl-3-(piperidin-1-yl)propan-1-ol"
 },
 "super": "Q11173",
 "p233": "C1=CC=C(C=C1)C(CCN2CCCCC2)(C3CC4CC3C=C4)O",
@@ -58853,7 +58853,7 @@
 {
 "item": {
 "value": "Q27274412",
-"label": "(11\u03b2,16\u03b1)-6,6-difluoro-11,17-dihydroxy-16-methyl-21-(3-(methylsulfinyl)-1-oxopropoxy)-pregna-1,4-diene-3,20-dione"
+"label": "(11β,16α)-6,6-difluoro-11,17-dihydroxy-16-methyl-21-(3-(methylsulfinyl)-1-oxopropoxy)-pregna-1,4-diene-3,20-dione"
 },
 "super": "Q11173",
 "p233": "CC1CC2C3CC(C4=CC(=O)C=CC4(C3C(CC2(C1(C(=O)COC(=O)CCS(=O)C)O)C)O)C)(F)F",
@@ -59226,7 +59226,7 @@
 {
 "item": {
 "value": "Q27277111",
-"label": "DL-\u03b3-tocopherol"
+"label": "DL-γ-tocopherol"
 },
 "super": "Q910277",
 "p233": "CC1=C(C=C2CCC(OC2=C1C)(C)CCCC(C)CCCC(C)CCCC(C)C)O"
@@ -59234,7 +59234,7 @@
 {
 "item": {
 "value": "Q27277111",
-"label": "DL-\u03b3-tocopherol"
+"label": "DL-γ-tocopherol"
 },
 "super": "Q407142",
 "p233": "CC1=C(C=C2CCC(OC2=C1C)(C)CCCC(C)CCCC(C)CCCC(C)C)O"
@@ -59242,7 +59242,7 @@
 {
 "item": {
 "value": "Q27277111",
-"label": "DL-\u03b3-tocopherol"
+"label": "DL-γ-tocopherol"
 },
 "super": "Q56809604",
 "p233": "CC1=C(C=C2CCC(OC2=C1C)(C)CCCC(C)CCCC(C)CCCC(C)C)O"
@@ -59277,7 +59277,7 @@
 {
 "item": {
 "value": "Q27277313",
-"label": "exo form-(1rs)-1-((1sr,2rs(\u03b2 hydrogen),4sr)-bicyclo(2.2.1)hept-5-en-2-yl)-1-phenyl-3-(piperidin-1-yl)propan-1-ol"
+"label": "exo form-(1rs)-1-((1sr,2rs(β hydrogen),4sr)-bicyclo(2.2.1)hept-5-en-2-yl)-1-phenyl-3-(piperidin-1-yl)propan-1-ol"
 },
 "super": "Q11173",
 "p233": "C1=CC=C(C=C1)C(CCN2CCCCC2)(C3CC4CC3C=C4)O",
@@ -59304,7 +59304,7 @@
 {
 "item": {
 "value": "Q27277734",
-"label": "6-O-(2,2,2-trichloro-1-hydroxyethyl)-\u03b1-D-glucopyranose"
+"label": "6-O-(2,2,2-trichloro-1-hydroxyethyl)-α-D-glucopyranose"
 },
 "super": "Q11173",
 "p233": "C(C1C(C(C(C(O1)O)O)O)O)OC(C(Cl)(Cl)Cl)O",
@@ -59358,7 +59358,7 @@
 {
 "item": {
 "value": "Q27278161",
-"label": "6\u03b1-hydroxybudesonide"
+"label": "6α-hydroxybudesonide"
 },
 "super": "Q11173",
 "p233": "CCCC1OC2CC3C4CC(C5=CC(=O)C=CC5(C4C(CC3(C2(O1)C(=O)CO)C)O)C)O",
@@ -59385,7 +59385,7 @@
 {
 "item": {
 "value": "Q27278462",
-"label": "5\u03b1-androstanol(2,3)furazan-17\u03b2-tetrahydropyranol"
+"label": "5α-androstanol(2,3)furazan-17β-tetrahydropyranol"
 },
 "super": "Q11173",
 "p233": "CC12CCC3C(C1CCC2OC4CCCCO4)CCC5C3(CC6=NON=C6C5)C",
@@ -59412,7 +59412,7 @@
 {
 "item": {
 "value": "Q27278690",
-"label": "campesteryl-\u03b3-octyldodecyl lauroyl glutamate"
+"label": "campesteryl-γ-octyldodecyl lauroyl glutamate"
 },
 "super": "Q11173",
 "p233": "CCCCCCCCCCCC(=O)NC(CCC(=O)OCC(CCCCCCCC)CCCCCCCCCC)C(=O)OC1CCC2(C3CCC4(C(C3CC=C2C1)CCC4C(C)CCC(C)C(C)C)C)C",
@@ -59592,7 +59592,7 @@
 {
 "item": {
 "value": "Q27280117",
-"label": "(1'',2''-dimethyl-5''-ethyl)-\u03b46-tetrahydrocannabinol"
+"label": "(1'',2''-dimethyl-5''-ethyl)-δ6-tetrahydrocannabinol"
 },
 "super": "Q11173",
 "p233": "CCCCCC(C)C(C)C1=CC2=C(C3CC(CCC3C(O2)(C)C)C)C(=C1)O",
@@ -59619,7 +59619,7 @@
 {
 "item": {
 "value": "Q27280305",
-"label": "(2ar-(2a\u03b2,4\u03b2,4a\u03b1,6\u03b2,7\u03b2,9a\u03b2,9b\u03b1,10R*))-3,3-dichlorohexahydro-7,9b-dimethyl-1H-4,6,9a-(epoxymetheno)-2-oxacycloocta(cd)pentalene-2a,4a,7(5H,9bh)-triol"
+"label": "(2ar-(2aβ,4β,4aα,6β,7β,9aβ,9bα,10R*))-3,3-dichlorohexahydro-7,9b-dimethyl-1H-4,6,9a-(epoxymetheno)-2-oxacycloocta(cd)pentalene-2a,4a,7(5H,9bh)-triol"
 },
 "super": "Q11173",
 "p233": "CC1(CCC23COC4(C2(C5(CC1C3OC5C4(Cl)Cl)O)C)O)O",
@@ -59813,7 +59813,7 @@
 {
 "item": {
 "value": "Q27281521",
-"label": "\u03b43-cefuroxime axetil"
+"label": "δ3-cefuroxime axetil"
 },
 "super": "Q11173",
 "p233": "CC(OC(=O)C)OC(=O)C1C(=CSC2N1C(=O)C2NC(=O)C(=NOC)C3=CC=CO3)COC(=O)N",
@@ -59822,7 +59822,7 @@
 {
 "item": {
 "value": "Q27281535",
-"label": "4,5-dihydro-16\u03b1-hydroxyprednisolone"
+"label": "4,5-dihydro-16α-hydroxyprednisolone"
 },
 "super": "Q11173",
 "p233": "CC12CC(C3C(C1CC(C2(C(=O)CO)O)O)CCC4C3(C=CC(=O)C4)C)O",
@@ -59867,7 +59867,7 @@
 {
 "item": {
 "value": "Q27281730",
-"label": "(1RS,1\u2032RS)-glucosulfone"
+"label": "(1RS,1′RS)-glucosulfone"
 },
 "super": "Q11173",
 "p233": "C1=CC(=CC=C1NC(C(C(C(C(CO)O)O)O)O)S(=O)(=O)O)S(=O)(=O)C2=CC=C(C=C2)NC(C(C(C(C(CO)O)O)O)O)S(=O)(=O)O",
@@ -59921,7 +59921,7 @@
 {
 "item": {
 "value": "Q27282144",
-"label": "(\u00b1)-hyoscyamine sulfate"
+"label": "(±)-hyoscyamine sulfate"
 },
 "super": "Q11173",
 "p233": "CN1C2CCC1CC(C2)OC(=O)C(CO)C3=CC=CC=C3.CN1C2CCC1CC(C2)OC(=O)C(CO)C3=CC=CC=C3.OS(=O)(=O)O",
@@ -59930,7 +59930,7 @@
 {
 "item": {
 "value": "Q27282144",
-"label": "(\u00b1)-hyoscyamine sulfate"
+"label": "(±)-hyoscyamine sulfate"
 },
 "super": "Q64995433",
 "p233": "CN1C2CCC1CC(C2)OC(=O)C(CO)C3=CC=CC=C3.CN1C2CCC1CC(C2)OC(=O)C(CO)C3=CC=CC=C3.OS(=O)(=O)O",
@@ -60038,7 +60038,7 @@
 {
 "item": {
 "value": "Q27282835",
-"label": "7\u03b2-fulvestrant"
+"label": "7β-fulvestrant"
 },
 "super": "Q11173",
 "p233": "CC12CCC3C(C1CCC2O)C(CC4=C3C=CC(=C4)O)CCCCCCCCCS(=O)CCCC(C(F)(F)F)(F)F",
@@ -60074,7 +60074,7 @@
 {
 "item": {
 "value": "Q27283167",
-"label": "\u03b46-budesonide"
+"label": "δ6-budesonide"
 },
 "super": "Q11173",
 "p233": "CCCC1OC2CC3C4C=CC5=CC(=O)C=CC5(C4C(CC3(C2(O1)C(=O)CO)C)O)C",
@@ -60182,7 +60182,7 @@
 {
 "item": {
 "value": "Q27284420",
-"label": "4-\u03b1-hydroxy-5-methyltetrahydrofolic acid"
+"label": "4-α-hydroxy-5-methyltetrahydrofolic acid"
 },
 "super": "Q11173",
 "p233": "CN1C(CN=C2C1(C(=O)N=C(N2)N)O)CNC3=CC=C(C=C3)C(=O)NC(CCC(=O)O)C(=O)O",
@@ -60218,7 +60218,7 @@
 {
 "item": {
 "value": "Q27284619",
-"label": "\u03b2-erythroidine methiodide"
+"label": "β-erythroidine methiodide"
 },
 "super": "Q11173",
 "p233": "C[N+]12CCC3=C(C14CC(C=CC4=CC2)OC)CC(=O)OC3.[I-]",
@@ -60263,7 +60263,7 @@
 {
 "item": {
 "value": "Q27284926",
-"label": "11-keto-4,5-dihydro-16\u03b1-hydroxyprednisolone"
+"label": "11-keto-4,5-dihydro-16α-hydroxyprednisolone"
 },
 "super": "Q11173",
 "p233": "CC12CC(=O)C3C(C1CC(C2(C(=O)CO)O)O)CCC4C3(C=CC(=O)C4)C",
@@ -60361,7 +60361,7 @@
 {
 "item": {
 "value": "Q27285509",
-"label": "17\u03b2-hydroxy-17\u03b1-methyl-2-nor-5\u03b1-androstan-1,3-dioic acid"
+"label": "17β-hydroxy-17α-methyl-2-nor-5α-androstan-1,3-dioic acid"
 },
 "super": "Q11173",
 "p233": "CC12CCC3C(C1CCC2(C)O)CCC4C3(C(C(C4)C(=O)O)C(=O)O)C",
@@ -60370,7 +60370,7 @@
 {
 "item": {
 "value": "Q27285740",
-"label": "7-(9-((9-((4,4,5,5,5-pentafluoropentyl)sulfinyl)nonyl)sulfinyl)nonyl)estra-1,3,5(10)-triene-3,17\u03b2-diol"
+"label": "7-(9-((9-((4,4,5,5,5-pentafluoropentyl)sulfinyl)nonyl)sulfinyl)nonyl)estra-1,3,5(10)-triene-3,17β-diol"
 },
 "super": "Q11173",
 "p233": "CC12CCC3C(C1CCC2O)C(CC4=C3C=CC(=C4)O)CCCCCCCCCS(=O)CCCCCCCCCS(=O)CCCC(C(F)(F)F)(F)F",
@@ -60442,7 +60442,7 @@
 {
 "item": {
 "value": "Q27286307",
-"label": "21-chloro-9-fluoro-11\u03b2,16\u03b1,17-trihydroxypregn-4-ene-3,20-dione cyclic 16,17-acetal with acetophenone"
+"label": "21-chloro-9-fluoro-11β,16α,17-trihydroxypregn-4-ene-3,20-dione cyclic 16,17-acetal with acetophenone"
 },
 "super": "Q11173",
 "p233": "CC12CCC(=O)C=C1CCC3C2(C(CC4(C3CC5C4(OC(O5)(C)C6=CC=CC=C6)C(=O)CCl)C)O)F",
@@ -60549,7 +60549,7 @@
 {
 "item": {
 "value": "Q27286831",
-"label": "6\u03b2-6,21-dihydroxyeplerenone"
+"label": "6β-6,21-dihydroxyeplerenone"
 },
 "super": "Q11173",
 "p233": "CC12CCC(=O)C=C1C(C(C3C24C(O4)CC5(C3CCC56CC(C(=O)O6)O)C)C(=O)OC)O",
@@ -60781,7 +60781,7 @@
 {
 "item": {
 "value": "Q27287752",
-"label": "N-\u03b1-palmitoyl-S-(2,3-bis(palmitoyloxy)-(2rs)-propyl)-L-cysteine"
+"label": "N-α-palmitoyl-S-(2,3-bis(palmitoyloxy)-(2rs)-propyl)-L-cysteine"
 },
 "super": "Q11173",
 "p233": "CCCCCCCCCCCCCCCC(=O)NC(CSCC(COC(=O)CCCCCCCCCCCCCCC)OC(=O)CCCCCCCCCCCCCCC)C(=O)O",
@@ -60888,7 +60888,7 @@
 {
 "item": {
 "value": "Q27288326",
-"label": "17\u03b1-methyl-3-oxo-19-norandrostene-4,17-diol"
+"label": "17α-methyl-3-oxo-19-norandrostene-4,17-diol"
 },
 "super": "Q11173",
 "p233": "CC12CCC3C(C1CCC2(C)O)CCC4C3C=CC(=O)C4O",
@@ -61121,7 +61121,7 @@
 {
 "item": {
 "value": "Q27289870",
-"label": "(3S,4R)-4,5-dimethyl-3,4-epoxy-5-hydroxy-3-(methoxycarbonyl)-\u03b3-butyrolactam"
+"label": "(3S,4R)-4,5-dimethyl-3,4-epoxy-5-hydroxy-3-(methoxycarbonyl)-γ-butyrolactam"
 },
 "super": "Q11173",
 "p233": "CC12C(NC(=O)C1(O2)C(=O)OC)(C)O",
@@ -61432,7 +61432,7 @@
 {
 "item": {
 "value": "Q27292725",
-"label": "4-(2-hydroxy-3-(phosphonooxy)propyl)\u03b1-D-glucopyranoside"
+"label": "4-(2-hydroxy-3-(phosphonooxy)propyl)α-D-glucopyranoside"
 },
 "super": "Q11173",
 "p233": "C(C1C(C(C(C(O1)O)O)O)OCC(COP(=O)(O)O)O)O",
@@ -61548,7 +61548,7 @@
 {
 "item": {
 "value": "Q27293640",
-"label": "\u03b1-santalol acetate"
+"label": "α-santalol acetate"
 },
 "super": "Q11173",
 "p233": "CC(=CCCC1(C2CC3C1(C3C2)C)C)COC(=O)C",
@@ -61620,7 +61620,7 @@
 {
 "item": {
 "value": "Q27294026",
-"label": "11-keto-4,5-dihydro-3,16\u03b1-dihydroxyprednisolone"
+"label": "11-keto-4,5-dihydro-3,16α-dihydroxyprednisolone"
 },
 "super": "Q11173",
 "p233": "CC12CC(=O)C3C(C1CC(C2(C(=O)CO)O)O)CCC4C3(C=CC(C4)O)C",
@@ -61753,7 +61753,7 @@
 {
 "item": {
 "value": "Q27294579",
-"label": "(11\u03b2,16\u03b1)-21-(acetyloxy)-16,17-((2-(acetyloxy)-1,2-ethanediyl)bis(oxy))-9-fluoro-11-hydroxypregn-4-ene-3,20-dione"
+"label": "(11β,16α)-21-(acetyloxy)-16,17-((2-(acetyloxy)-1,2-ethanediyl)bis(oxy))-9-fluoro-11-hydroxypregn-4-ene-3,20-dione"
 },
 "super": "Q11173",
 "p233": "CC(=O)OCC(=O)C12C(CC3C1(CC(C4(C3CCC5=CC(=O)CCC54C)F)O)C)OCC(O2)OC(=O)C",
@@ -61789,7 +61789,7 @@
 {
 "item": {
 "value": "Q27294974",
-"label": "methyl ester 9,11,15-tris(tetra-hydropyran-2-yl ether)16-(phenoxy)-17,18,19,20-tetranor-2-(phenyl-selenyl)prostaglandin f2\u03b1"
+"label": "methyl ester 9,11,15-tris(tetra-hydropyran-2-yl ether)16-(phenoxy)-17,18,19,20-tetranor-2-(phenyl-selenyl)prostaglandin f2α"
 },
 "super": "Q11173",
 "p233": "COC(=O)C(CCC=CCC1C(CC(C1C=CC(COC2=CC=CC=C2)OC3CCCCO3)OC4CCCCO4)OC5CCCCO5)[Se]C6=CC=CC=C6",
@@ -61870,7 +61870,7 @@
 {
 "item": {
 "value": "Q27295855",
-"label": "\u03b2-sitosteryl-\u03b3-octyldodecyl lauroyl glutamate"
+"label": "β-sitosteryl-γ-octyldodecyl lauroyl glutamate"
 },
 "super": "Q11173",
 "p233": "CCCCCCCCCCCC(=O)NC(CCC(=O)OCC(CCCCCCCC)CCCCCCCCCC)C(=O)OC1CCC2(C3CCC4(C(C3CC=C2C1)CCC4C(C)CCC(CC)C(C)C)C)C",
@@ -62056,7 +62056,7 @@
 {
 "item": {
 "value": "Q27465434",
-"label": "[1R-(1\u03b1,3a\u03b2,4\u03b2,4a\u03b2,7\u03b2,7a\u03b1,8a\u03b2)]8a-[(6-deoxy-4-O-methyl-beta-D-altropyranosyloxy)methyl]-4-formyl-4,4a,5,6,7,7a,8,8a-octahydro-7-methyl-3-(1-methylethyl)-1,4-methano-S-indacene-3a(1H)-carboxylic acid"
+"label": "[1R-(1α,3aβ,4β,4aβ,7β,7aα,8aβ)]8a-[(6-deoxy-4-O-methyl-beta-D-altropyranosyloxy)methyl]-4-formyl-4,4a,5,6,7,7a,8,8a-octahydro-7-methyl-3-(1-methylethyl)-1,4-methano-S-indacene-3a(1H)-carboxylic acid"
 },
 "super": "Q11173",
 "p233": "CC1CCC2C1CC3(C4CC(C3(C2(C4)C=O)C(=O)O)C(C)C)COC5C(C(C(C(O5)C)OC)O)O",
@@ -62223,7 +62223,7 @@
 {
 "item": {
 "value": "Q27893914",
-"label": "N-acetyl-S-(\u03b2-hydroxyphenethyl)-L-cysteine"
+"label": "N-acetyl-S-(β-hydroxyphenethyl)-L-cysteine"
 },
 "super": "Q11173",
 "p233": "CC(=O)NC(CSCC(C1=CC=CC=C1)O)C(=O)O",
@@ -62241,7 +62241,7 @@
 {
 "item": {
 "value": "Q27893935",
-"label": "2-ethylhexyl \u03b1-D-glucopyranoside"
+"label": "2-ethylhexyl α-D-glucopyranoside"
 },
 "super": "Q11173",
 "p233": "CCCCC(CC)COC1C(C(C(C(O1)CO)O)O)O",
@@ -62277,7 +62277,7 @@
 {
 "item": {
 "value": "Q27896138",
-"label": "(8\u03b2)-\u03b1-cyano-9,10-didehydro-6-methyl-ergoline-8-propanamide"
+"label": "(8β)-α-cyano-9,10-didehydro-6-methyl-ergoline-8-propanamide"
 },
 "super": "Q11173",
 "p233": "CN1CC(C=C2C1CC3=CNC4=CC=CC2=C34)CC(C#N)C(=O)N",
@@ -62286,7 +62286,7 @@
 {
 "item": {
 "value": "Q27896139",
-"label": "DL-\u03b1-dipalmitoylphosphatidylserine"
+"label": "DL-α-dipalmitoylphosphatidylserine"
 },
 "super": "Q11173",
 "p233": "CCCCCCCCCCCCCCCC(=O)OCC(COP(=O)(O)OCC(C(=O)O)N)OC(=O)CCCCCCCCCCCCCCC",
@@ -62331,7 +62331,7 @@
 {
 "item": {
 "value": "Q27896344",
-"label": "(8\u03b2)-\u03b1-cyano-6-(2-propenyl)ergoline-8-propanamide"
+"label": "(8β)-α-cyano-6-(2-propenyl)ergoline-8-propanamide"
 },
 "super": "Q11173",
 "p233": "C=CCN1CC(CC2C1CC3=CNC4=C3C2=CC=C4)CC(C#N)C(=O)N",
@@ -62358,7 +62358,7 @@
 {
 "item": {
 "value": "Q27896540",
-"label": "2-((3\u03b2,5R,6\u03b2)-3-(acetyloxy)cholestano(5,6-b)azirin-1'(6H)-yl)-1H-isoindole-1,3(2H)-dione"
+"label": "2-((3β,5R,6β)-3-(acetyloxy)cholestano(5,6-b)azirin-1'(6H)-yl)-1H-isoindole-1,3(2H)-dione"
 },
 "super": "Q11173",
 "p233": "CC(C)CCCC(C)C1CCC2C1(CCC3C2CC4C5(C3(CCC(C5)OC(=O)C)C)N4N6C(=O)C7=CC=CC=C7C6=O)C",
@@ -62367,7 +62367,7 @@
 {
 "item": {
 "value": "Q27896557",
-"label": "5\u03b1)-(3\u03b23-chloro-5-cholestano(5,6-b)-N-phthalimidoaziridine"
+"label": "5α)-(3β3-chloro-5-cholestano(5,6-b)-N-phthalimidoaziridine"
 },
 "super": "Q11173",
 "p233": "CC(C)CCCC(C)C1CCC2C1(CCC3C2CC4C5(C3(CCC(C5)Cl)C)N4N6C(=O)C7=CC=CC=C7C6=O)C",
@@ -62487,7 +62487,7 @@
 {
 "item": {
 "value": "Q28209338",
-"label": "17\u03b2-aminoestrogen"
+"label": "17β-aminoestrogen"
 },
 "super": "Q277954"
 },
@@ -62529,7 +62529,7 @@
 {
 "item": {
 "value": "Q28209650",
-"label": "9\u03b1-bromo-11-ketoprogesterone"
+"label": "9α-bromo-11-ketoprogesterone"
 },
 "super": "Q11173"
 },
@@ -62623,7 +62623,7 @@
 {
 "item": {
 "value": "Q28487682",
-"label": "7\u03b1,26-dihydroxycholesterol"
+"label": "7α,26-dihydroxycholesterol"
 },
 "super": "Q11173",
 "p2017": "[H][C@@]1(CC[C@@]2([H])[C@]3([H])[C@H](O)C=C4C[C@@H](O)CC[C@]4(C)[C@@]3([H])CC[C@]12C)[C@H](C)CCCC(C)CO"
@@ -63057,7 +63057,7 @@
 {
 "item": {
 "value": "Q35664941",
-"label": "ceramide-1-phosphate(2\u2212)"
+"label": "ceramide-1-phosphate(2−)"
 },
 "super": "Q74173577",
 "p2017": "O[C@H]([*])[C@H](COP([O-])([O-])=O)NC([*])=O"
@@ -64109,7 +64109,7 @@
 {
 "item": {
 "value": "Q50318271",
-"label": "iPF2\u03b1-IV"
+"label": "iPF2α-IV"
 },
 "super": "Q11173",
 "p233": "CCCCCC1C(CC(C1C=CC(CC=CCCCC(=O)O)O)O)O",
@@ -64464,7 +64464,7 @@
 {
 "item": {
 "value": "Q55186498",
-"label": "(\u00b1)-thiopental"
+"label": "(±)-thiopental"
 },
 "super": "Q11173",
 "p233": "CCCC(C)C1(C(=O)NC(=S)NC1=O)CC"
@@ -64570,7 +64570,7 @@
 {
 "item": {
 "value": "Q55503036",
-"label": "citrate(2\u2212) anion"
+"label": "citrate(2−) anion"
 },
 "super": "Q55502846",
 "p233": "C(C(=O)O)C(CC(=O)[O-])(C(=O)[O-])O"
@@ -64578,7 +64578,7 @@
 {
 "item": {
 "value": "Q55503036",
-"label": "citrate(2\u2212) anion"
+"label": "citrate(2−) anion"
 },
 "super": "Q55524005",
 "p233": "C(C(=O)O)C(CC(=O)[O-])(C(=O)[O-])O"
@@ -65739,7 +65739,7 @@
 {
 "item": {
 "value": "Q56628399",
-"label": "7\u03b1-thiomethylspironolactone sulfoxide"
+"label": "7α-thiomethylspironolactone sulfoxide"
 },
 "super": "Q11173"
 },
@@ -66996,7 +66996,7 @@
 {
 "item": {
 "value": "Q59627745",
-"label": "(\u00b1)-norephedrine"
+"label": "(±)-norephedrine"
 },
 "super": "Q97786582",
 "p233": "CC(C(C1=CC=CC=C1)O)N"
@@ -67721,7 +67721,7 @@
 {
 "item": {
 "value": "Q63143581",
-"label": "3-oxo-fatty acyl-CoA(4\u2212)"
+"label": "3-oxo-fatty acyl-CoA(4−)"
 },
 "super": "Q74174417",
 "p2017": "CC(C)(COP([O-])(=O)OP([O-])(=O)OC[C@H]1O[C@H]([C@H](O)[C@@H]1OP([O-])([O-])=O)n1cnc2c(N)ncnc12)[C@@H](O)C(=O)NCCC(=O)NCCSC(=O)CC([*])=O"
@@ -67729,7 +67729,7 @@
 {
 "item": {
 "value": "Q63143581",
-"label": "3-oxo-fatty acyl-CoA(4\u2212)"
+"label": "3-oxo-fatty acyl-CoA(4−)"
 },
 "super": "Q74366064",
 "p2017": "CC(C)(COP([O-])(=O)OP([O-])(=O)OC[C@H]1O[C@H]([C@H](O)[C@@H]1OP([O-])([O-])=O)n1cnc2c(N)ncnc12)[C@@H](O)C(=O)NCCC(=O)NCCSC(=O)CC([*])=O"
@@ -74840,7 +74840,7 @@
 {
 "item": {
 "value": "Q72470661",
-"label": "\u03b2-elemene"
+"label": "β-elemene"
 },
 "super": "Q56009873",
 "p233": "CC(=C)C1CCC(C(C1)C(=C)C)(C)C=C"
@@ -75069,7 +75069,7 @@
 {
 "item": {
 "value": "Q72480435",
-"label": "D-(5,6-\u00b9\u00b3C\u2082)glucopyranose"
+"label": "D-(5,6-¹³C₂)glucopyranose"
 },
 "super": "Q23905964"
 },
@@ -93705,7 +93705,7 @@
 {
 "item": {
 "value": "Q81978315",
-"label": "(3-Sulfobenzoato-kappa O)sodium\u2014(11b)-9-fluoro-11,17,21-trihydroxy-16-methylpregna-1,4-diene-3,20-dione (1/1)"
+"label": "(3-Sulfobenzoato-kappa O)sodium—(11b)-9-fluoro-11,17,21-trihydroxy-16-methylpregna-1,4-diene-3,20-dione (1/1)"
 },
 "super": "Q11173"
 },
@@ -93854,7 +93854,7 @@
 {
 "item": {
 "value": "Q81981987",
-"label": "1-Ethylhexyl \u03b2-D-glucopyranoside"
+"label": "1-Ethylhexyl β-D-glucopyranoside"
 },
 "super": "Q11173"
 },
@@ -94166,7 +94166,7 @@
 {
 "item": {
 "value": "Q81987021",
-"label": "(2-Hydroxypropyl)-\u03b1-cyclodextrin structure representation"
+"label": "(2-Hydroxypropyl)-α-cyclodextrin structure representation"
 },
 "super": "Q11173"
 },
@@ -94303,7 +94303,7 @@
 {
 "item": {
 "value": "Q81988052",
-"label": "(3\u03b2,5\u03b1)-Cholestan-3-ol 2,3,3,4,4,5,5,6,6,7,7,8,8,8-tetradecafluorooctanoate"
+"label": "(3β,5α)-Cholestan-3-ol 2,3,3,4,4,5,5,6,6,7,7,8,8,8-tetradecafluorooctanoate"
 },
 "super": "Q11173"
 },
@@ -94967,7 +94967,7 @@
 {
 "item": {
 "value": "Q82031431",
-"label": "(17\u03b2)-3-[(tetrahydro-2H-pyran-2-yl)oxy]estra-1,3,5(10)-trien-17-ol"
+"label": "(17β)-3-[(tetrahydro-2H-pyran-2-yl)oxy]estra-1,3,5(10)-trien-17-ol"
 },
 "super": "Q11173",
 "p233": "CC12CCC3C(C1CCC2O)CCC4=C3C=CC(=C4)OC5CCCCO5",
@@ -97672,7 +97672,7 @@
 {
 "item": {
 "value": "Q82266489",
-"label": "D-(1-\u00b9\u00b3C)galactopyranose"
+"label": "D-(1-¹³C)galactopyranose"
 },
 "super": "Q27106307"
 },
@@ -98441,7 +98441,7 @@
 {
 "item": {
 "value": "Q82294011",
-"label": "D-(4-\u00b9\u00b3C)glucose"
+"label": "D-(4-¹³C)glucose"
 },
 "super": "Q75079224"
 },
@@ -98526,7 +98526,7 @@
 {
 "item": {
 "value": "Q82296121",
-"label": "D-(1,2-\u00b9\u00b3C\u2082)glucopyranose"
+"label": "D-(1,2-¹³C₂)glucopyranose"
 },
 "super": "Q23905964"
 },
@@ -98953,21 +98953,21 @@
 {
 "item": {
 "value": "Q82322845",
-"label": "D-(2-\u00b9\u00b3C)glucopyranose"
+"label": "D-(2-¹³C)glucopyranose"
 },
 "super": "Q23905964"
 },
 {
 "item": {
 "value": "Q82322848",
-"label": "D-(1-\u00b9\u00b3C)glucopyranose"
+"label": "D-(1-¹³C)glucopyranose"
 },
 "super": "Q23905964"
 },
 {
 "item": {
 "value": "Q82322850",
-"label": "D-(1-\u00b9\u00b3C)mannopyranose"
+"label": "D-(1-¹³C)mannopyranose"
 },
 "super": "Q335208"
 },
@@ -101842,7 +101842,7 @@
 {
 "item": {
 "value": "Q82586682",
-"label": "(3\u03b2)-3-(acetyloxy)-7-[(1-oxopentyl)oxy]-androst-5-en-17-one"
+"label": "(3β)-3-(acetyloxy)-7-[(1-oxopentyl)oxy]-androst-5-en-17-one"
 },
 "super": "Q11173"
 },
@@ -104631,7 +104631,7 @@
 {
 "item": {
 "value": "Q82651159",
-"label": "3,3\u2032-(1,2-hydrazinediylidene)bis[rifamycin]"
+"label": "3,3′-(1,2-hydrazinediylidene)bis[rifamycin]"
 },
 "super": "Q11173"
 },
@@ -116057,7 +116057,7 @@
 {
 "item": {
 "value": "Q82860474",
-"label": "11\u03b2-methoxyestradiol"
+"label": "11β-methoxyestradiol"
 },
 "super": "Q11173"
 },
@@ -116432,7 +116432,7 @@
 {
 "item": {
 "value": "Q82873432",
-"label": "Oleandrigenin \u03b2-neritrioside"
+"label": "Oleandrigenin β-neritrioside"
 },
 "super": "Q11173"
 },
@@ -118807,7 +118807,7 @@
 {
 "item": {
 "value": "Q82881663",
-"label": "aldehydo-(\u00b9\u00b3C\u2086)hexose"
+"label": "aldehydo-(¹³C₆)hexose"
 },
 "super": "Q105024342"
 },
@@ -149172,7 +149172,7 @@
 {
 "item": {
 "value": "Q84737693",
-"label": "N-alkyl-\u03b2-aminopropionic acid"
+"label": "N-alkyl-β-aminopropionic acid"
 },
 "super": "Q74026435"
 },
@@ -150086,7 +150086,7 @@
 {
 "item": {
 "value": "Q97819784",
-"label": "9-methoxy-4-methyl-11-oxa-4-azatetracyclo[8.6.1.0\u00b9,\u00b9\u00b2.0\u2076,\u00b9\u2077]heptadeca-6,8,10(17),15-tetraen-14-one"
+"label": "9-methoxy-4-methyl-11-oxa-4-azatetracyclo[8.6.1.0¹,¹².0⁶,¹⁷]heptadeca-6,8,10(17),15-tetraen-14-one"
 },
 "super": "Q18009516",
 "p233": "CN1CCC23C=CC(=O)CC2OC4=C(C=CC(=C34)C1)OC"
@@ -150423,7 +150423,7 @@
 {
 "item": {
 "value": "Q99982348",
-"label": "(2R,3R,4R,5R,6S,7S,8R,13S,16S,17R,18R)-8-(acetyloxy)-11-ethyl-5,7-dihydroxy-6,16,18-trimethoxy-13-(methoxymethyl)-11-azahexacyclo[7.7.2.1\u00b2,\u2075.0\u00b9,\u00b9\u2070.0\u00b3,\u2078.0\u00b9\u00b3,\u00b9\u2077]nonadecan-4-yl benzoate"
+"label": "(2R,3R,4R,5R,6S,7S,8R,13S,16S,17R,18R)-8-(acetyloxy)-11-ethyl-5,7-dihydroxy-6,16,18-trimethoxy-13-(methoxymethyl)-11-azahexacyclo[7.7.2.1²,⁵.0¹,¹⁰.0³,⁸.0¹³,¹⁷]nonadecan-4-yl benzoate"
 },
 "super": "Q11173",
 "p233": "O=C(OC1C2C3CC1(O)C(OC)C(O)C2(OC(=O)C)C4C(OC)C5C6(COC)CN(CC)C4C35C(OC)CC6)C=7C=CC=CC7",
@@ -150450,7 +150450,7 @@
 {
 "item": {
 "value": "Q100145887",
-"label": "[(5S,8R,11S,12S,13R,21R)-13,17,18-trihydroxy-2,10,14-trioxo-5,21-bis(3,4,5-trihydroxybenzoyloxy)-7-[(3,4,5-trihydroxybenzoyloxy)methyl]-3,6,9,15-tetraoxatetracyclo[10.7.1.1\u2074,\u2078.0\u00b9\u2076,\u00b2\u2070]henicosa-1(19),16(20),17-trien-11-yl]acetic acid"
+"label": "[(5S,8R,11S,12S,13R,21R)-13,17,18-trihydroxy-2,10,14-trioxo-5,21-bis(3,4,5-trihydroxybenzoyloxy)-7-[(3,4,5-trihydroxybenzoyloxy)methyl]-3,6,9,15-tetraoxatetracyclo[10.7.1.1⁴,⁸.0¹⁶,²⁰]henicosa-1(19),16(20),17-trien-11-yl]acetic acid"
 },
 "super": "Q11173",
 "p233": "O=C(O)CC1C(=O)OC2C(OC(OC(=O)C3=CC(O)=C(O)C(O)=C3)C(OC(=O)C4=CC(O)=C(O)C=5OC(=O)C(O)C1C54)C2OC(=O)C6=CC(O)=C(O)C(O)=C6)COC(=O)C7=CC(O)=C(O)C(O)=C7",
@@ -150504,7 +150504,7 @@
 {
 "item": {
 "value": "Q100146263",
-"label": "(1R,2R,19S,20S,39R)-8,9,9,13,14,25,26,27,30,31,32,35-dodecahydroxy-4,7,17,22-tetraoxo-3,18,21,36,38,40-hexaoxaoctacyclo[18.17.1.1\u00b2,\u00b9\u2079.1\u2078,\u00b9\u00b2.0\u2075,\u00b9\u2070.0\u00b9\u00b9,\u00b9\u2076.0\u00b2\u00b3,\u00b2\u2078.0\u00b2\u2079,\u00b3\u2074]tetraconta-5,11,13,15,23(28),24,26,29,31,33-decaen-39-yl 3,4,5-trihydroxybenzoate"
+"label": "(1R,2R,19S,20S,39R)-8,9,9,13,14,25,26,27,30,31,32,35-dodecahydroxy-4,7,17,22-tetraoxo-3,18,21,36,38,40-hexaoxaoctacyclo[18.17.1.1²,¹⁹.1⁸,¹².0⁵,¹⁰.0¹¹,¹⁶.0²³,²⁸.0²⁹,³⁴]tetraconta-5,11,13,15,23(28),24,26,29,31,33-decaen-39-yl 3,4,5-trihydroxybenzoate"
 },
 "super": "Q11173",
 "p233": "O=C(OC1C2OC(=O)C3=CC(O)=C(O)C=4OC5(O)C(=O)C=C(C(=O)OC1C6OC2OC(=O)C=7C=C(O)C(O)=C(O)C7C8=C(O)C(O)=C(O)C=C8C(O)OC6)C(C43)C5(O)O)C9=CC(O)=C(O)C(O)=C9",
@@ -151872,7 +151872,7 @@
 {
 "item": {
 "value": "Q105242087",
-"label": "(\u00b1)-plicatin A"
+"label": "(±)-plicatin A"
 },
 "super": "Q11173",
 "p233": "O=C(OC)C=CC1=CC=C(O)C(=C1)CC(O)C(=C)C"
@@ -151912,7 +151912,7 @@
 {
 "item": {
 "value": "Q105277512",
-"label": "(5Z)-5-ethylidene-12-hydroxy-8,13-dimethoxy-3,9-diazatricyclo[8.4.0.0\u00b3,\u2077]tetradeca-1(14),10,12-trien-2-one"
+"label": "(5Z)-5-ethylidene-12-hydroxy-8,13-dimethoxy-3,9-diazatricyclo[8.4.0.0³,⁷]tetradeca-1(14),10,12-trien-2-one"
 },
 "super": "Q72509349",
 "p233": "O=C1C2=CC(OC)=C(O)C=C2NC(OC)C3N1CC(=CC)C3"
@@ -152372,7 +152372,7 @@
 {
 "item": {
 "value": "Q106328339",
-"label": "N-acylsphingosine 1-phosphate(2\u2212)"
+"label": "N-acylsphingosine 1-phosphate(2−)"
 },
 "super": "Q11367",
 "p2017": "CCCCCCCCCCCCC\\C=C\\[C@@H](O)[C@H](COP([O-])([O-])=O)NC([*])=O"
@@ -153217,14 +153217,14 @@
 {
 "item": {
 "value": "Q107190693",
-"label": "\u03b1-ketoester"
+"label": "α-ketoester"
 },
 "super": "Q107179512"
 },
 {
 "item": {
 "value": "Q107190732",
-"label": "\u03b2-ketoester"
+"label": "β-ketoester"
 },
 "super": "Q107179512"
 },

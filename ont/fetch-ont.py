@@ -28,7 +28,7 @@ s = ff.read()
 jol = json.loads(s)
 with open('data.json', 'w+') as f:
     f.write(json.dumps(sorted(jol, key=lambda data: OFFSET*int(data.get('item').get('value')[1:]) +\
-            int(data.get('super')[3:])), indent=0))
+            int(data.get('super')[3:])), indent=0, ensure_ascii=False))
 
 
 exit()
