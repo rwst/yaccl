@@ -508,7 +508,7 @@
 },
 "super": "Q11367",
 "p233": "OC([*])=O",
-"goid": "GO:0006633"
+"goid": "GO:1902925"
 },
 {
 "item": {
@@ -517,7 +517,7 @@
 },
 "super": "Q11367",
 "p233": "OC([*])=O",
-"goid": "GO:1902925"
+"goid": "GO:0006633"
 },
 {
 "item": {
@@ -535,7 +535,7 @@
 },
 "super": "Q192596",
 "p233": "OC([*])=O",
-"goid": "GO:0006633"
+"goid": "GO:1902925"
 },
 {
 "item": {
@@ -544,7 +544,7 @@
 },
 "super": "Q192596",
 "p233": "OC([*])=O",
-"goid": "GO:1902925"
+"goid": "GO:0006633"
 },
 {
 "item": {
@@ -562,7 +562,7 @@
 },
 "super": "Q47147773",
 "p233": "OC([*])=O",
-"goid": "GO:0006633"
+"goid": "GO:1902925"
 },
 {
 "item": {
@@ -571,7 +571,7 @@
 },
 "super": "Q47147773",
 "p233": "OC([*])=O",
-"goid": "GO:1902925"
+"goid": "GO:0006633"
 },
 {
 "item": {
@@ -1116,7 +1116,7 @@
 "value": "Q143623",
 "label": "sterol"
 },
-"super": "Q177911",
+"super": "Q11367",
 "p233": "C12C(C3C(C(CC3)*)(C)CC1)CCC4C2(CCC(C4)O)C",
 "goid": "GO:0016126"
 },
@@ -1125,7 +1125,7 @@
 "value": "Q143623",
 "label": "sterol"
 },
-"super": "Q63434725",
+"super": "Q177911",
 "p233": "C12C(C3C(C(CC3)*)(C)CC1)CCC4C2(CCC(C4)O)C",
 "goid": "GO:0016126"
 },
@@ -1409,7 +1409,16 @@
 "value": "Q177911",
 "label": "steroid"
 },
-"super": "Q63434725",
+"super": "Q11367",
+"p233": "C12C(C3C(C(CC3)*)(C)CC1)CCC4C2(CCCC4)C",
+"goid": "GO:0006694"
+},
+{
+"item": {
+"value": "Q177911",
+"label": "steroid"
+},
+"super": "Q1674528",
 "p233": "C12C(C3C(C(CC3)*)(C)CC1)CCC4C2(CCCC4)C",
 "goid": "GO:0006694"
 },
@@ -1696,6 +1705,13 @@
 "value": "Q187607",
 "label": "tannin"
 },
+"super": "Q290439"
+},
+{
+"item": {
+"value": "Q187607",
+"label": "tannin"
+},
 "super": "Q872505"
 },
 {
@@ -1821,14 +1837,6 @@
 "label": "carotene"
 },
 "super": "Q910979",
-"goid": "GO:0016120"
-},
-{
-"item": {
-"value": "Q190156",
-"label": "carotene"
-},
-"super": "Q161179",
 "goid": "GO:0016120"
 },
 {
@@ -3381,7 +3389,7 @@
 {
 "item": {
 "value": "Q407635",
-"label": "coenzyme A"
+"label": "coenzyme A"
 },
 "super": "Q11173",
 "p233": "CC(C)(COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C2N=CN=C3N)O)OP(=O)(O)O)C(C(=O)NCCC(=O)NCCS)O",
@@ -3391,7 +3399,7 @@
 {
 "item": {
 "value": "Q407635",
-"label": "coenzyme A"
+"label": "coenzyme A"
 },
 "super": "Q11173",
 "p233": "CC(C)(COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C2N=CN=C3N)O)OP(=O)(O)O)C(C(=O)NCCC(=O)NCCS)O",
@@ -4439,6 +4447,13 @@
 "value": "Q413676",
 "label": "metallocene"
 },
+"super": "Q2642710"
+},
+{
+"item": {
+"value": "Q413676",
+"label": "metallocene"
+},
 "super": "Q2855060"
 },
 {
@@ -4635,14 +4650,7 @@
 "value": "Q414774",
 "label": "furanocoumarin"
 },
-"super": "Q71573538"
-},
-{
-"item": {
-"value": "Q414774",
-"label": "furanocoumarin"
-},
-"super": "Q72839852"
+"super": "Q107684571"
 },
 {
 "item": {
@@ -6962,7 +6970,7 @@
 "value": "Q424673",
 "label": "Autacoid"
 },
-"super": "Q11173"
+"super": "Q11364"
 },
 {
 "item": {
@@ -21534,6 +21542,13 @@
 },
 {
 "item": {
+"value": "Q16644123",
+"label": "dihydrochalcones"
+},
+"super": "Q222174"
+},
+{
+"item": {
 "value": "Q16652161",
 "label": "fatty aldehyde"
 },
@@ -21988,6 +22003,13 @@
 "label": "secalonic acid"
 },
 "super": "Q16007012"
+},
+{
+"item": {
+"value": "Q16992745",
+"label": "eudistomins"
+},
+"super": "Q11173"
 },
 {
 "item": {
@@ -23201,7 +23223,7 @@
 "value": "Q20986771",
 "label": "coumarin"
 },
-"super": "Q71244067",
+"super": "Q107684571",
 "goid": "GO:0009805"
 },
 {
@@ -23334,6 +23356,13 @@
 "label": "Ideain"
 },
 "super": "Q11173"
+},
+{
+"item": {
+"value": "Q21123666",
+"label": "batzelladine"
+},
+"super": "Q70702"
 },
 {
 "item": {
@@ -63496,22 +63525,6 @@
 },
 {
 "item": {
-"value": "Q45355603",
-"label": "aminoglycoside antibiotic"
-},
-"super": "Q12187",
-"goid": "GO:0030648"
-},
-{
-"item": {
-"value": "Q45355603",
-"label": "aminoglycoside antibiotic"
-},
-"super": "Q28742",
-"goid": "GO:0030648"
-},
-{
-"item": {
 "value": "Q45435581",
 "label": "5(6)-epoxy prostaglandin E1"
 },
@@ -69100,13 +69113,6 @@
 "label": "amino fatty acids"
 },
 "super": "Q63433687"
-},
-{
-"item": {
-"value": "Q63434725",
-"label": "sterol lipids"
-},
-"super": "Q11367"
 },
 {
 "item": {
@@ -77287,14 +77293,7 @@
 "value": "Q73354048",
 "label": "benzopyran"
 },
-"super": "Q71573538"
-},
-{
-"item": {
-"value": "Q73354048",
-"label": "benzopyran"
-},
-"super": "Q72841068"
+"super": "Q107684571"
 },
 {
 "item": {
@@ -77570,6 +77569,13 @@
 "label": "isocoumarins"
 },
 "super": "Q20986771"
+},
+{
+"item": {
+"value": "Q73606158",
+"label": "pyranocoumarins"
+},
+"super": "Q107684571"
 },
 {
 "item": {
@@ -93312,6 +93318,13 @@
 "label": "thiocyanate salt"
 },
 "super": "Q77747995"
+},
+{
+"item": {
+"value": "Q77818163",
+"label": "Benzophenones"
+},
+"super": "Q73232281"
 },
 {
 "item": {
@@ -151469,6 +151482,14 @@
 },
 {
 "item": {
+"value": "Q104196349",
+"label": "10,13-dimethyl-17-(6-methylheptan-2-yl)-2,3,4,5,6,7,8,9,11,12,14,15,16,17-tetradecahydro-1H-cyclopenta[a]phenanthren-3-ol"
+},
+"super": "Q143623",
+"p233": "OC1CCC2(C)C(CCC3C4CCC(C(C)CCCC(C)C)C4(C)CCC32)C1"
+},
+{
+"item": {
 "value": "Q104199006",
 "label": "borate chloride"
 },
@@ -151689,7 +151710,7 @@
 "label": "ketohexose (open form)"
 },
 "super": "Q1616877",
-"p233": "O=C(CO)C(O)C(O)C(O)CO"
+"p233": "C(C(C(C(C(=O)CO)O)O)O)O"
 },
 {
 "item": {
@@ -151697,7 +151718,7 @@
 "label": "ketohexose (open form)"
 },
 "super": "Q1616877",
-"p233": "C(C(C(C(C(=O)CO)O)O)O)O"
+"p233": "O=C(CO)C(O)C(O)C(O)CO"
 },
 {
 "item": {
@@ -152372,7 +152393,7 @@
 {
 "item": {
 "value": "Q106328339",
-"label": "N-acylsphingosine 1-phosphate(2−)"
+"label": "N-acylsphingosine 1-phosphate(2-)"
 },
 "super": "Q11367",
 "p2017": "CCCCCCCCCCCCC\\C=C\\[C@@H](O)[C@H](COP([O-])([O-])=O)NC([*])=O"
@@ -153491,6 +153512,20 @@
 },
 {
 "item": {
+"value": "Q107364251",
+"label": "acyl cyanide"
+},
+"super": "Q101487"
+},
+{
+"item": {
+"value": "Q107364251",
+"label": "acyl cyanide"
+},
+"super": "Q333936"
+},
+{
+"item": {
 "value": "Q107370112",
 "label": "cyclopropene"
 },
@@ -153985,5 +154020,110 @@
 "label": "acylphloroglucinol"
 },
 "super": "Q57842052"
+},
+{
+"item": {
+"value": "Q107655584",
+"label": "alkaloid glycoside"
+},
+"super": "Q70702"
+},
+{
+"item": {
+"value": "Q107655584",
+"label": "alkaloid glycoside"
+},
+"super": "Q192639"
+},
+{
+"item": {
+"value": "Q107655604",
+"label": "selenogallate"
+},
+"super": "Q11173"
+},
+{
+"item": {
+"value": "Q107655744",
+"label": "flyover complex"
+},
+"super": "Q11173"
+},
+{
+"item": {
+"value": "Q107673934",
+"label": "nitride chloride"
+},
+"super": "Q11173"
+},
+{
+"item": {
+"value": "Q107684571",
+"label": "benzopyranoid"
+},
+"super": "Q71573538"
+},
+{
+"item": {
+"value": "Q107684571",
+"label": "benzopyranoid"
+},
+"super": "Q72841068"
+},
+{
+"item": {
+"value": "Q107685380",
+"label": "9,10-anthraquinone derivative"
+},
+"super": "Q73232281"
+},
+{
+"item": {
+"value": "Q107685745",
+"label": "9,10-phenanthraquinone derivative"
+},
+"super": "Q73232281"
+},
+{
+"item": {
+"value": "Q107686840",
+"label": "benzoquinone derivative"
+},
+"super": "Q73232281"
+},
+{
+"item": {
+"value": "Q107687549",
+"label": "phenazine antibiotic"
+},
+"super": "Q12187"
+},
+{
+"item": {
+"value": "Q107687549",
+"label": "phenazine antibiotic"
+},
+"super": "Q72084374"
+},
+{
+"item": {
+"value": "Q107687549",
+"label": "phenazine antibiotic"
+},
+"super": "Q72839852"
+},
+{
+"item": {
+"value": "Q107693062",
+"label": "carbonate oxalate"
+},
+"super": "Q11173"
+},
+{
+"item": {
+"value": "Q107693132",
+"label": "phosphide chloride"
+},
+"super": "Q11173"
 }
 ]
