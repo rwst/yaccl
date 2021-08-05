@@ -232,6 +232,14 @@
 "value": "Q18225",
 "label": "vitamin A"
 },
+"super": "Q420418",
+"goid": "GO:0035238"
+},
+{
+"item": {
+"value": "Q18225",
+"label": "vitamin A"
+},
 "super": "Q34956",
 "goid": "GO:0035238"
 },
@@ -405,7 +413,6 @@
 "label": "alkane"
 },
 "super": "Q2700049",
-"p233": "C[*]",
 "goid": "GO:0043447"
 },
 {
@@ -414,7 +421,6 @@
 "label": "alkane"
 },
 "super": "Q344942",
-"p233": "C[*]",
 "goid": "GO:0043447"
 },
 {
@@ -423,7 +429,6 @@
 "label": "alkane"
 },
 "super": "Q47165582",
-"p233": "C[*]",
 "goid": "GO:0043447"
 },
 {
@@ -507,7 +512,6 @@
 "label": "fatty acid"
 },
 "super": "Q11367",
-"p233": "OC([*])=O",
 "goid": "GO:1902925"
 },
 {
@@ -516,7 +520,6 @@
 "label": "fatty acid"
 },
 "super": "Q11367",
-"p233": "OC([*])=O",
 "goid": "GO:0006633"
 },
 {
@@ -525,7 +528,6 @@
 "label": "fatty acid"
 },
 "super": "Q11367",
-"p233": "OC([*])=O",
 "goid": "GO:0030497"
 },
 {
@@ -534,7 +536,6 @@
 "label": "fatty acid"
 },
 "super": "Q192596",
-"p233": "OC([*])=O",
 "goid": "GO:1902925"
 },
 {
@@ -543,7 +544,6 @@
 "label": "fatty acid"
 },
 "super": "Q192596",
-"p233": "OC([*])=O",
 "goid": "GO:0006633"
 },
 {
@@ -552,7 +552,6 @@
 "label": "fatty acid"
 },
 "super": "Q192596",
-"p233": "OC([*])=O",
 "goid": "GO:0030497"
 },
 {
@@ -561,7 +560,6 @@
 "label": "fatty acid"
 },
 "super": "Q47147773",
-"p233": "OC([*])=O",
 "goid": "GO:1902925"
 },
 {
@@ -570,7 +568,6 @@
 "label": "fatty acid"
 },
 "super": "Q47147773",
-"p233": "OC([*])=O",
 "goid": "GO:0006633"
 },
 {
@@ -579,7 +576,6 @@
 "label": "fatty acid"
 },
 "super": "Q47147773",
-"p233": "OC([*])=O",
 "goid": "GO:0030497"
 },
 {
@@ -757,7 +753,7 @@
 "label": "ethers"
 },
 "super": "Q71574018",
-"p233": "[*]O[*]",
+"p8533": "[#6!$([#6]=[!#6])][OX2][#6!$([#6]=[!#6])]",
 "goid": "GO:1901503"
 },
 {
@@ -1060,7 +1056,7 @@
 "value": "Q139660",
 "label": "secosteroid"
 },
-"super": "Q63434725"
+"super": "Q143623"
 },
 {
 "item": {
@@ -1322,6 +1318,7 @@
 "label": "amine"
 },
 "super": "Q55739694",
+"p8533": "[NX3;H2,H1;!$(NC=O)]",
 "goid": "GO:0009309"
 },
 {
@@ -1507,8 +1504,7 @@
 "label": "camphor"
 },
 "super": "Q11173",
-"p233": "CC1(C2CCC1(C(=O)C2)C)C",
-"p2017": "CC12CCC(CC1=O)C2(C)C"
+"p233": "CC1(C2CCC1(C(=O)C2)C)C"
 },
 {
 "item": {
@@ -1516,8 +1512,7 @@
 "label": "camphor"
 },
 "super": "Q66385407",
-"p233": "CC1(C2CCC1(C(=O)C2)C)C",
-"p2017": "CC12CCC(CC1=O)C2(C)C"
+"p233": "CC1(C2CCC1(C(=O)C2)C)C"
 },
 {
 "item": {
@@ -1749,6 +1744,7 @@
 "label": "amide"
 },
 "super": "Q3685323",
+"p8533": "[NX3][CX3](=[OX1])[#6]",
 "goid": "GO:0043604"
 },
 {
@@ -1757,6 +1753,7 @@
 "label": "amide"
 },
 "super": "Q19885597",
+"p8533": "[NX3][CX3](=[OX1])[#6]",
 "goid": "GO:0043604"
 },
 {
@@ -3201,7 +3198,6 @@
 "label": "fatty alcohol"
 },
 "super": "Q156",
-"p233": "O[*]",
 "goid": "GO:1903175"
 },
 {
@@ -3210,7 +3206,6 @@
 "label": "fatty alcohol"
 },
 "super": "Q11367",
-"p233": "O[*]",
 "goid": "GO:1903175"
 },
 {
@@ -3219,7 +3214,6 @@
 "label": "fatty alcohol"
 },
 "super": "Q192596",
-"p233": "O[*]",
 "goid": "GO:1903175"
 },
 {
@@ -3228,7 +3222,6 @@
 "label": "fatty alcohol"
 },
 "super": "Q63433687",
-"p233": "O[*]",
 "goid": "GO:1903175"
 },
 {
@@ -3263,7 +3256,7 @@
 "label": "organohalogen compound"
 },
 "super": "Q174211",
-"p233": "**"
+"p8533": "[#6][F,Cl,Br,I]"
 },
 {
 "item": {
@@ -3271,7 +3264,7 @@
 "label": "organohalogen compound"
 },
 "super": "Q4531153",
-"p233": "**"
+"p8533": "[#6][F,Cl,Br,I]"
 },
 {
 "item": {
@@ -3279,7 +3272,7 @@
 "label": "organohalogen compound"
 },
 "super": "Q26492894",
-"p233": "**"
+"p8533": "[#6][F,Cl,Br,I]"
 },
 {
 "item": {
@@ -3384,7 +3377,8 @@
 "value": "Q407627",
 "label": "azide"
 },
-"super": "Q3685323"
+"super": "Q3685323",
+"p8533": "[$([$(*-[NX2-]-[NX2+]#[NX1]),$(*-[NX2]=[NX2+]=[NX1-])]),$([$([NX1-]=[NX2+]=[NX1-]),$([NX1]#[NX2+]-[NX1-2])])]"
 },
 {
 "item": {
@@ -4543,7 +4537,7 @@
 "label": "tetrose"
 },
 "super": "Q133516",
-"p8533": "[$([OX2H1][CX4H2][CX4H1]([OX2H1])X3](=O)[CX4H2][OX2H1]),$([CX4H2]([CX4H1]([CX4H1]([CX3H1]=O)[OX2H1])[OX2H1])[OX2H1])]",
+"p8533": "[$([OX2H1][CX4H2][CX4H1]([OX2H1])[CX3](=O)[CX4H2][OX2H1]),$([CX4H2]([CX4H1]([CX4H1]([CX3H1]=O)[OX2H1])[OX2H1])[OX2H1])]",
 "goid": "GO:0033348"
 },
 {
@@ -5023,14 +5017,8 @@
 "value": "Q416840",
 "label": "iridoid"
 },
-"super": "Q66194"
-},
-{
-"item": {
-"value": "Q416840",
-"label": "iridoid"
-},
-"super": "Q47006360"
+"super": "Q66385407",
+"p8533": "[$(C);!$(C(~[#6])~[#6])]~[$(C);!$(C(~C)(~C)(~C)~C)]1[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)(~C)~C)]2~[$(C);!$(C(~C)(~C)(~C)~C)]~1~[$(C);!$(C(~C)~C)]O[$(C);!$(C(~C)~C)]~C~2"
 },
 {
 "item": {
@@ -5246,7 +5234,7 @@
 "value": "Q417941",
 "label": "fenchol"
 },
-"super": "Q47006360",
+"super": "Q66385407",
 "p233": "CC1(C2CCC(C2)(C1O)C)C"
 },
 {
@@ -5419,7 +5407,9 @@
 "value": "Q418970",
 "label": "reboxetine"
 },
-"super": "Q11173"
+"super": "Q11173",
+"p233": "CCOc1ccccc1OC(c2ccccc2)C3CNCCO3",
+"p2017": "CCOC1=CC=CC=C1O[C@@H]([C@H]2CNCCO2)C3=CC=CC=C3"
 },
 {
 "item": {
@@ -7212,21 +7202,18 @@
 "value": "Q425517",
 "label": "retinoic acid"
 },
-"super": "Q11173"
+"super": "Q18225",
+"p233": "CC1=C(C(CCC1)(C)C)C=CC(=CC=CC(=CC(=O)O)C)C",
+"goid": "GO:0002138"
 },
 {
 "item": {
 "value": "Q425517",
 "label": "retinoic acid"
 },
-"super": "Q18225"
-},
-{
-"item": {
-"value": "Q425517",
-"label": "retinoic acid"
-},
-"super": "Q421948"
+"super": "Q421948",
+"p233": "CC1=C(C(CCC1)(C)C)C=CC(=CC=CC(=CC(=O)O)C)C",
+"goid": "GO:0002138"
 },
 {
 "item": {
@@ -7430,7 +7417,7 @@
 "label": "organochlorine compound"
 },
 "super": "Q387914",
-"p233": "*Cl"
+"p8533": "[#6][Cl]"
 },
 {
 "item": {
@@ -7438,7 +7425,7 @@
 "label": "organochlorine compound"
 },
 "super": "Q72695611",
-"p233": "*Cl"
+"p8533": "[#6][Cl]"
 },
 {
 "item": {
@@ -9432,7 +9419,8 @@
 "label": "anthocyanidins"
 },
 "super": "Q222174",
-"p233": "[*]c1c([*])c([*])c(c([*])c1[*])-c1[o+]c2c([*])c([*])c([*])c([*])c2c([*])c1[*]"
+"p233": "[*]c1c([*])c([*])c(c([*])c1[*])-c1[o+]c2c([*])c([*])c([*])c([*])c2c([*])c1[*]",
+"p8533": "[cX3]1([OX2H1,OX1-])[cX3;H0,H1][cH1][cX3]([cX3H1][cX3;H0,H1]1)[cX3]1[o&+&X2][cX3]2[cX3H1][cX3]([cX3;H0,H1][cX3]([cX3]2[cX3H1][cX3]([OX2H1,OX1-])1)O)O"
 },
 {
 "item": {
@@ -9440,7 +9428,8 @@
 "label": "anthocyanidins"
 },
 "super": "Q394316",
-"p233": "[*]c1c([*])c([*])c(c([*])c1[*])-c1[o+]c2c([*])c([*])c([*])c([*])c2c([*])c1[*]"
+"p233": "[*]c1c([*])c([*])c(c([*])c1[*])-c1[o+]c2c([*])c([*])c([*])c([*])c2c([*])c1[*]",
+"p8533": "[cX3]1([OX2H1,OX1-])[cX3;H0,H1][cH1][cX3]([cX3H1][cX3;H0,H1]1)[cX3]1[o&+&X2][cX3]2[cX3H1][cX3]([cX3;H0,H1][cX3]([cX3]2[cX3H1][cX3]([OX2H1,OX1-])1)O)O"
 },
 {
 "item": {
@@ -10433,7 +10422,8 @@
 "value": "Q1659847",
 "label": "imidazole"
 },
-"super": "Q1018754"
+"super": "Q1018754",
+"p8533": "c1c[nX3]c[nX2H0]1"
 },
 {
 "item": {
@@ -10641,7 +10631,6 @@
 "label": "very long chain fatty acid"
 },
 "super": "Q61476",
-"p233": "OC([*])=O",
 "goid": "GO:0042761"
 },
 {
@@ -12410,7 +12399,6 @@
 "label": "short-chain fatty acid"
 },
 "super": "Q61476",
-"p233": "OC([*])=O",
 "goid": "GO:0051790"
 },
 {
@@ -12775,6 +12763,7 @@
 },
 "super": "Q156",
 "p233": "*C(O)([H])[H]",
+"p8533": "[OX2H1][CX4H2]",
 "goid": "GO:0034309"
 },
 {
@@ -12783,7 +12772,7 @@
 "label": "secondary alcohol"
 },
 "super": "Q156",
-"p233": "*C(*)O",
+"p8533": "[CX4H1][OX2H1]",
 "goid": "GO:1902653"
 },
 {
@@ -13173,8 +13162,7 @@
 "value": "Q3010324",
 "label": "wax ester"
 },
-"super": "Q5438005",
-"p233": "[*]OC([*])=O"
+"super": "Q5438005"
 },
 {
 "item": {
@@ -14015,7 +14003,7 @@
 },
 "super": "Q11173",
 "p233": "CCCCCCCCCCCCCCCCC(=O)OCC(COP(=O)(O)OC1C(C(C(C(C1O)OP(=O)(O)O)O)O)O)OC(=O)CCCC=CCC=CCC=CCC=CCCCCC",
-"p2017": "CCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)(O)O[C@@H]1C([C@@H](C(C(C1O)OP(=O)(O)O)O)O)O)OC(=O)CCC/C=C\\C/C=C\\C/C=C\\C/C=C\\CCCCC"
+"p2017": "[H][C@@](COC([*])=O)(COP(O)(=O)O[C@@H]1[C@H](O)[C@H](O)[C@@H](O)[C@H](OP(O)(O)=O)[C@H]1O)OC([*])=O"
 },
 {
 "item": {
@@ -14024,7 +14012,7 @@
 },
 "super": "Q11173",
 "p233": "CCCCCCCCCCCCCCCCC(=O)OCC(COP(=O)(O)OC1C(C(C(C(C1O)OP(=O)(O)O)O)O)O)OC(=O)CCCC=CCC=CCC=CCC=CCCCCC",
-"p2017": "[H][C@@](COC([*])=O)(COP(O)(=O)O[C@@H]1[C@H](O)[C@H](O)[C@@H](O)[C@H](OP(O)(O)=O)[C@H]1O)OC([*])=O"
+"p2017": "CCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)(O)O[C@@H]1C([C@@H](C(C(C1O)OP(=O)(O)O)O)O)O)OC(=O)CCC/C=C\\C/C=C\\C/C=C\\C/C=C\\CCCCC"
 },
 {
 "item": {
@@ -16332,7 +16320,7 @@
 {
 "item": {
 "value": "Q5130692",
-"label": "butanes"
+"label": "butane"
 },
 "super": "Q41581"
 },
@@ -16752,8 +16740,7 @@
 "value": "Q5438005",
 "label": "fatty acid ester"
 },
-"super": "Q63433687",
-"p233": "[*]OC([*])=O"
+"super": "Q63433687"
 },
 {
 "item": {
@@ -18341,6 +18328,14 @@
 },
 {
 "item": {
+"value": "Q7263189",
+"label": "pyoverdine"
+},
+"super": "Q2157266",
+"goid": "GO:0002049"
+},
+{
+"item": {
 "value": "Q7263387",
 "label": "pyranoanthocyanin"
 },
@@ -19270,7 +19265,7 @@
 "label": "aromatic alcohol"
 },
 "super": "Q156",
-"p233": "*O"
+"p8533": "c[OX2H1]"
 },
 {
 "item": {
@@ -19278,7 +19273,7 @@
 "label": "aromatic alcohol"
 },
 "super": "Q19834818",
-"p233": "*O"
+"p8533": "c[OX2H1]"
 },
 {
 "item": {
@@ -19660,9 +19655,16 @@
 {
 "item": {
 "value": "Q11087111",
-"label": "Polychlorinated dibenzodioxin"
+"label": "polychlorinated dibenzodioxin"
 },
 "super": "Q55506079"
+},
+{
+"item": {
+"value": "Q11087111",
+"label": "polychlorinated dibenzodioxin"
+},
+"super": "Q65684240"
 },
 {
 "item": {
@@ -20077,6 +20079,14 @@
 },
 {
 "item": {
+"value": "Q12249107",
+"label": "DL-nopaline"
+},
+"super": "Q11173",
+"p233": "C(CC(C(=O)O)NC(CCC(=O)O)C(=O)O)CN=C(N)N"
+},
+{
+"item": {
 "value": "Q12270111",
 "label": "organic salt"
 },
@@ -20239,6 +20249,13 @@
 "label": "hydroxy ketone"
 },
 "super": "Q170744"
+},
+{
+"item": {
+"value": "Q12748271",
+"label": "ergot alkaloids"
+},
+"super": "Q422449"
 },
 {
 "item": {
@@ -21163,7 +21180,7 @@
 {
 "item": {
 "value": "Q15804892",
-"label": "Decane"
+"label": "decane"
 },
 "super": "Q41581"
 },
@@ -22954,6 +22971,14 @@
 },
 {
 "item": {
+"value": "Q20075802",
+"label": "secoiridoid monoterpenoid"
+},
+"super": "Q47006360",
+"p8533": "[$(C);!$(C(~[#6])~[#6])]~[$(C);!$(C(~C)(~C)(~C)~C)]1~[$(C);!$(C(~C)(~C)~C)]O[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)(~C)~C)](~[$(C);!$(C(~[#6])(~[#6])~[#6])]~[$(C);!$(C(~[#6])~[#6])])~[$(C);!$(C(~C)(~C)(~C)~C)]~1~[$(C);!$(C(~[#6])(~[#6])~[#6])]~[$(C);!$(C(~[#6])~[#6])]"
+},
+{
+"item": {
 "value": "Q20083668",
 "label": "Polychloro-2-aminodiphenylether"
 },
@@ -23885,7 +23910,6 @@
 "label": "long chain fatty acid"
 },
 "super": "Q61476",
-"p233": "OC([*])=O",
 "goid": "GO:0042759"
 },
 {
@@ -23894,7 +23918,6 @@
 "label": "medium-chain fatty acid"
 },
 "super": "Q61476",
-"p233": "OC([*])=O",
 "goid": "GO:0051792"
 },
 {
@@ -31227,6 +31250,14 @@
 "super": "Q11173",
 "p233": "CC(CCCC1C(CCC1=O)CC(=O)O)OC2C(C(C(C(O2)CO)O)O)O",
 "p2017": "CC(CCC[C@@H]1[C@H](CCC1=O)CC(=O)O)O[C@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CO)O)O)O"
+},
+{
+"item": {
+"value": "Q27109180",
+"label": "2-amino-3-carboxymuconic semialdehyde"
+},
+"super": "Q11173",
+"p233": "C(=CC(=C(C(=O)O)N)C(=O)O)C=O"
 },
 {
 "item": {
@@ -62894,7 +62925,7 @@
 "label": "halide anion"
 },
 "super": "Q55511397",
-"p233": "[*-]"
+"p8533": "[F-,Cl-,Br-,I-]"
 },
 {
 "item": {
@@ -62902,7 +62933,7 @@
 "label": "halide anion"
 },
 "super": "Q55523986",
-"p233": "[*-]"
+"p8533": "[F-,Cl-,Br-,I-]"
 },
 {
 "item": {
@@ -62939,6 +62970,14 @@
 "label": "dimethylxanthine"
 },
 "super": "Q4291748"
+},
+{
+"item": {
+"value": "Q32907954",
+"label": "glucosamine"
+},
+"super": "Q66589596",
+"goid": "GO:0006042"
 },
 {
 "item": {
@@ -63100,6 +63139,38 @@
 },
 {
 "item": {
+"value": "Q38132362",
+"label": "dolichyl diphosphate"
+},
+"super": "Q186915",
+"goid": "GO:0006489"
+},
+{
+"item": {
+"value": "Q38132362",
+"label": "dolichyl diphosphate"
+},
+"super": "Q1674528",
+"goid": "GO:0006489"
+},
+{
+"item": {
+"value": "Q38133763",
+"label": "dolichol (N)"
+},
+"super": "Q7226864",
+"goid": "GO:0019408"
+},
+{
+"item": {
+"value": "Q38133763",
+"label": "dolichol (N)"
+},
+"super": "Q1674528",
+"goid": "GO:0019408"
+},
+{
+"item": {
 "value": "Q38133997",
 "label": "N-acylsphingosine 1-phosphate"
 },
@@ -63224,6 +63295,15 @@
 "label": "AMPA receptor positive allosteric modulator"
 },
 "super": "Q2649417"
+},
+{
+"item": {
+"value": "Q39902949",
+"label": "SM(d18:1)"
+},
+"super": "Q423143",
+"p2017": "O=P(OCC[N+](C)(C)C)(OC[C@H](NC(*)=O)[C@@H](/C=C/CCCCCCCCCCCCC)O)[O-]",
+"goid": "GO:0006686"
 },
 {
 "item": {
@@ -63522,6 +63602,22 @@
 "label": "astatide"
 },
 "super": "Q193086"
+},
+{
+"item": {
+"value": "Q45355603",
+"label": "aminoglycoside antibiotic"
+},
+"super": "Q12187",
+"goid": "GO:0030648"
+},
+{
+"item": {
+"value": "Q45355603",
+"label": "aminoglycoside antibiotic"
+},
+"super": "Q28742",
+"goid": "GO:0030648"
 },
 {
 "item": {
@@ -63968,6 +64064,13 @@
 "label": "aminoxyl radical"
 },
 "super": "Q55739694"
+},
+{
+"item": {
+"value": "Q48999621",
+"label": "Stannylene"
+},
+"super": "Q20965030"
 },
 {
 "item": {
@@ -66930,7 +67033,7 @@
 {
 "item": {
 "value": "Q58623289",
-"label": "octanes"
+"label": "octane"
 },
 "super": "Q41581"
 },
@@ -67459,6 +67562,14 @@
 "label": "isoquinoline"
 },
 "super": "Q210385"
+},
+{
+"item": {
+"value": "Q61738075",
+"label": "fructose"
+},
+"super": "Q1616877",
+"goid": "GO:0046370"
 },
 {
 "item": {
@@ -70499,7 +70610,7 @@
 {
 "item": {
 "value": "Q66589596",
-"label": "glucosamine"
+"label": "glucosamine derivative"
 },
 "super": "Q202043",
 "goid": "GO:1901073"
@@ -71662,13 +71773,6 @@
 },
 {
 "item": {
-"value": "Q70828631",
-"label": "ergot alkaloids"
-},
-"super": "Q422449"
-},
-{
-"item": {
 "value": "Q71143075",
 "label": "UDP-sugar"
 },
@@ -72514,7 +72618,7 @@
 "label": "monoatomic monocation"
 },
 "super": "Q55511415",
-"p233": "[*+]"
+"p8533": "[*+1]"
 },
 {
 "item": {
@@ -72522,7 +72626,7 @@
 "label": "monoatomic monocation"
 },
 "super": "Q55523831",
-"p233": "[*+]"
+"p8533": "[*+1]"
 },
 {
 "item": {
@@ -72660,7 +72764,7 @@
 "label": "monoatomic tetracation"
 },
 "super": "Q55511415",
-"p233": "[*+4]"
+"p8533": "[*+4]"
 },
 {
 "item": {
@@ -72668,7 +72772,7 @@
 "label": "monoatomic tetracation"
 },
 "super": "Q55523896",
-"p233": "[*+4]"
+"p8533": "[*+4]"
 },
 {
 "item": {
@@ -72712,7 +72816,7 @@
 "label": "monoatomic trication"
 },
 "super": "Q55511415",
-"p233": "[*+3]"
+"p8533": "[*+3]"
 },
 {
 "item": {
@@ -72720,7 +72824,7 @@
 "label": "monoatomic trication"
 },
 "super": "Q55523862",
-"p233": "[*+3]"
+"p8533": "[*+3]"
 },
 {
 "item": {
@@ -72750,7 +72854,7 @@
 "label": "monoatomic dication"
 },
 "super": "Q5272330",
-"p233": "[*++]"
+"p8533": "[*+2]"
 },
 {
 "item": {
@@ -72758,7 +72862,7 @@
 "label": "monoatomic dication"
 },
 "super": "Q55511415",
-"p233": "[*++]"
+"p8533": "[*+2]"
 },
 {
 "item": {
@@ -76758,8 +76862,14 @@
 "value": "Q73035109",
 "label": "aliphatic alcohol"
 },
-"super": "Q156",
-"p233": "O*"
+"super": "Q156"
+},
+{
+"item": {
+"value": "Q73035109",
+"label": "aliphatic alcohol"
+},
+"super": "Q192596"
 },
 {
 "item": {
@@ -78034,6 +78144,7 @@
 "label": "glycerol ether"
 },
 "super": "Q103230",
+"p8533": "[C!$([#6]=[!#6])][OX2][CX4H2][CX4H1]([OX2])[CX4H2][OX2]",
 "goid": "GO:0046504"
 },
 {
@@ -78354,8 +78465,7 @@
 "value": "Q74505121",
 "label": "cis-alkene"
 },
-"super": "Q81406",
-"p233": "C(=C\\*)\\*"
+"super": "Q81406"
 },
 {
 "item": {
@@ -78443,7 +78553,7 @@
 {
 "item": {
 "value": "Q74505659",
-"label": "n-alkanal"
+"label": "alkanals"
 },
 "super": "Q74231086",
 "p233": "[H]C(CC*)=O"
@@ -79772,16 +79882,14 @@
 "value": "Q74565947",
 "label": "long-chain primary fatty alcohol"
 },
-"super": "Q378871",
-"p233": "OC[*]"
+"super": "Q378871"
 },
 {
 "item": {
 "value": "Q74565947",
 "label": "long-chain primary fatty alcohol"
 },
-"super": "Q2832210",
-"p233": "OC[*]"
+"super": "Q2832210"
 },
 {
 "item": {
@@ -81040,16 +81148,14 @@
 "value": "Q74650012",
 "label": "medium-chain primary fatty alcohol"
 },
-"super": "Q378871",
-"p233": "*CO"
+"super": "Q378871"
 },
 {
 "item": {
 "value": "Q74650012",
 "label": "medium-chain primary fatty alcohol"
 },
-"super": "Q2832210",
-"p233": "*CO"
+"super": "Q2832210"
 },
 {
 "item": {
@@ -82374,8 +82480,7 @@
 "value": "Q74694010",
 "label": "long-chain fatty alcohol"
 },
-"super": "Q378871",
-"p233": "O[*]"
+"super": "Q378871"
 },
 {
 "item": {
@@ -85642,7 +85747,7 @@
 "label": "4-hydroxynonenol"
 },
 "super": "Q421916",
-"p233": "*O"
+"p233": "CCCCCC(CC=CO)O"
 },
 {
 "item": {
@@ -85650,7 +85755,7 @@
 "label": "4-hydroxynonenol"
 },
 "super": "Q378871",
-"p233": "*O"
+"p233": "CCCCCC(CC=CO)O"
 },
 {
 "item": {
@@ -85658,7 +85763,7 @@
 "label": "4-hydroxynonenol"
 },
 "super": "Q73034936",
-"p233": "*O"
+"p233": "CCCCCC(CC=CO)O"
 },
 {
 "item": {
@@ -85689,8 +85794,7 @@
 "value": "Q75005475",
 "label": "iron(III) hydroxamate"
 },
-"super": "Q72176217",
-"p233": "[*]C1=[O][Fe]234(ON1)ONC([*])=[O]2.[*]C(NO3)=[O]4"
+"super": "Q72176217"
 },
 {
 "item": {
@@ -85861,8 +85965,7 @@
 "value": "Q75006787",
 "label": "1-haloalkane"
 },
-"super": "Q387914",
-"p233": "*C*"
+"super": "Q387914"
 },
 {
 "item": {
@@ -86338,8 +86441,7 @@
 "value": "Q75009142",
 "label": "dialkyl ketone"
 },
-"super": "Q170744",
-"p233": "[*]C([*])=O"
+"super": "Q170744"
 },
 {
 "item": {
@@ -86920,7 +87022,7 @@
 "label": "aromatic primary alcohol"
 },
 "super": "Q2832210",
-"p233": "*C(O)([H])[H]",
+"p8533": "[OX2H1][CX4H2][a]",
 "goid": "GO:1902655"
 },
 {
@@ -86929,7 +87031,7 @@
 "label": "aromatic primary alcohol"
 },
 "super": "Q9148474",
-"p233": "*C(O)([H])[H]",
+"p8533": "[OX2H1][CX4H2][a]",
 "goid": "GO:1902655"
 },
 {
@@ -88667,16 +88769,14 @@
 "value": "Q75033811",
 "label": "polyunsaturated hydroxylipid"
 },
-"super": "Q11367",
-"p233": "O*"
+"super": "Q11367"
 },
 {
 "item": {
 "value": "Q75033811",
 "label": "polyunsaturated hydroxylipid"
 },
-"super": "Q71419357",
-"p233": "O*"
+"super": "Q71419357"
 },
 {
 "item": {
@@ -89061,8 +89161,7 @@
 "value": "Q75035078",
 "label": "alkyl cinnamate"
 },
-"super": "Q72557197",
-"p233": "[*]OC(=O)C=Cc1ccccc1"
+"super": "Q72557197"
 },
 {
 "item": {
@@ -94384,6 +94483,14 @@
 "label": "N-tert-Butyl-3-cyanoandrosta-3,5-diene-17-carboximidic acid"
 },
 "super": "Q11173"
+},
+{
+"item": {
+"value": "Q81996120",
+"label": "3,7,9-trimethyl-2,6-decadien-1-al"
+},
+"super": "Q11173",
+"p233": "CC(C)CC(=CCCC(=CC=O)C)C"
 },
 {
 "item": {
@@ -150037,15 +150144,8 @@
 "value": "Q97483975",
 "label": "2-(1-formylvinyl)-5-methylcyclopentanecarbaldehyde"
 },
-"super": "Q97483978",
+"super": "Q416840",
 "p233": "CC1CCC(C1C=O)C(=C)C=O"
-},
-{
-"item": {
-"value": "Q97483978",
-"label": "iridoid monoterpenoid"
-},
-"super": "Q47006360"
 },
 {
 "item": {
@@ -151834,6 +151934,14 @@
 },
 "super": "Q1616877",
 "p233": "OCC1(O)OCC(O)C(O)C1O"
+},
+{
+"item": {
+"value": "Q105171504",
+"label": "glucosamine (pyranose form)"
+},
+"super": "Q32907954",
+"p233": "OCC1OC(O)C(N)C(O)C1O"
 },
 {
 "item": {
@@ -154117,12 +154225,63 @@
 "value": "Q107693062",
 "label": "carbonate oxalate"
 },
-"super": "Q11173"
+"super": "Q65548312"
+},
+{
+"item": {
+"value": "Q107693062",
+"label": "carbonate oxalate"
+},
+"super": "Q56810798"
 },
 {
 "item": {
 "value": "Q107693132",
 "label": "phosphide chloride"
+},
+"super": "Q11173"
+},
+{
+"item": {
+"value": "Q107708125",
+"label": "borate oxalate"
+},
+"super": "Q11173"
+},
+{
+"item": {
+"value": "Q107709810",
+"label": "3-ispropenyl-4a,5-dimethyl-2,3,4,5,6,7-hexahydro-1H-naphthalene"
+},
+"super": "Q80218",
+"p233": "CC1CCC=C2C1(CC(CC2)C(=C)C)C"
+},
+{
+"item": {
+"value": "Q107790707",
+"label": "tellurite fluoride"
+},
+"super": "Q11173"
+},
+{
+"item": {
+"value": "Q107856346",
+"label": "sulfinyl nitrene"
+},
+"super": "Q11173"
+},
+{
+"item": {
+"value": "Q107863299",
+"label": "camphan monoterpenoid"
+},
+"super": "Q47006360",
+"p8533": "[$([C]);!$([C]([C])[C])]C1(C2[$([C]);!$([C]([C])([C])[C])]~[$([C]);!$([C]([C])([C])[C])]C1([$([C]);!$([C]([C])([C])[C])]~[$([C]);!$([C]([C])([C])[C])]2)[$([C]);!$([C]([C])[C])])[$([C]);!$([C]([C])[C])]"
+},
+{
+"item": {
+"value": "Q107909622",
+"label": "furanone"
 },
 "super": "Q11173"
 }
