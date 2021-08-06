@@ -1,0 +1,13 @@
+SELECT DISTINCT ?item ?itemLabel ?p233 ?p2017 ?p8533 ?p8533 ?p235
+WHERE 
+{
+  VALUES ?class { wd:Q47154513 wd:Q72044356 wd:Q72070508 wd:Q56256086 wd:Q15711994 wd:Q59199015 wd:Q55640664 wd:Q55662747 wd:Q55663030 wd:Q55662548 }
+  ?item wdt:P31 ?class.
+  OPTIONAL { ?item wdt:P233 ?p233. }
+  OPTIONAL { ?item wdt:P235 ?p235. }
+  OPTIONAL { ?item wdt:P2017 ?p2017. }
+  OPTIONAL { ?item wdt:P8533 ?p8533. }
+  ?item rdfs:label ?itemLabel.
+  FILTER (LANG(?itemLabel) = 'en')
+}
+
