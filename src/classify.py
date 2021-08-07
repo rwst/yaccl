@@ -10,10 +10,8 @@ parser.add_argument("-d", "--data", help="data file",
         required=True)
 parser.add_argument("-m", "--molecule", help="molecule to classify (SMILES/InChi)",
         required=True)
-parser.add_argument("-g", "--go", help="Gene Ontology file",
-        required=True)
-parser.add_argument("-n", "--natural", help="file with root items of natural products",
-        required=True)
+#parser.add_argument("-n", "--natural", help="file with root items of natural products",
+#        required=True)
 
 # Read arguments from the command line
 args = parser.parse_args()
@@ -30,16 +28,24 @@ s = ff.read()
 jol = json.loads(s)
 
 print('reading data')
+iks = {}
+ik1s = {}
 sitems = {}
 labels = {}
 smiles = {}
 smarts = {}
+gos = {}
 for d in jol:
     dd = d.get('item')
     it = dd.get('value')
     lab = dd.get('label')
     sup = d.get('super')
     go = d.get('goid')
+    ik = d.get('p235')
+    if ik is not None:
+        iks[ik] = it
+        if ik[15:25] == 'UHFFFAOYSA':
+            ik1s[ik[:14]] = it
     sm = None
     p233 = None
     p2017 = None
@@ -61,6 +67,16 @@ for d in jol:
     else:
         sitems[it] = [sup]
     labels[it] = lab
+
+    g = gos.get(it)
+    gotup = (d.get('goid'), d.get('goLabel'))
+    if g is not None:
+        g.add(gotup)
+        continue
+    else:
+        gos[it] = set(gotup)
+
+"""
 sitems['Q2393187'] = 'Q43460564'
 labels['Q2393187'] = 'molecular entity'
 labels['Q43460564'] = 'chemical entity'
@@ -80,6 +96,25 @@ nplist = set()
 with open(args.natural, 'r') as nf:
     nl = nf.readlines()
     nplist = set([line.rstrip() for line in nl])
+"""
+
+# match the InChI keys
+ik = Chem.MolToInchiKey(mol)
+it = iks.get(ik)
+if it is not None:
+    go = ''
+    g = gos.get(it)
+    if g is not None:
+        go = g
+    print('{} {} {} {}'.format(it, labels.get(it), ik, go))
+else:
+    it = ik1s.get(ik[:14])
+    if it is not None:
+        go = ''
+        g = gos.get(it)
+        if g is not None:
+            go = g
+        print('{} {} {} {}'.format(it, labels.get(it), ik, go))
 
 ps = Chem.AdjustQueryParameters()
 ps.adjustDegreeFlags = Chem.AdjustQueryWhichFlags.ADJUST_IGNOREDUMMIES
@@ -100,8 +135,11 @@ for it,itsuplist in sitems.items():
     elif not sma is None:
     # this class has a wildcard SMILES or a SMARTS
         #print('---{} {} {}'.format(it, labels.get(it), sma))
-        pat = Chem.MolFromSmarts(sma)
-        sm = sma # for reporting
+        try:
+            pat = Chem.MolFromSmarts(sma)
+            sm = sma # for reporting
+        except Exception:
+            continue
     else:
         try:
             q = Chem.MolFromSmiles(sm)
@@ -110,6 +148,9 @@ for it,itsuplist in sitems.items():
             continue
     
     if mol.HasSubstructMatch(pat):
-        print('{} {} {}'.format(it, labels.get(it), sm))
+        go = ''
+        g = gos.get(it)
+        if g is not None:
+            go = g
+        print('{} {} {} {}'.format(it, labels.get(it), sm, go))
         
-#print('reading GO')
