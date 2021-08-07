@@ -3946,7 +3946,7 @@
 },
 "goid": "GO:0035384",
 "goLabel": "thioester biosynthetic process",
-"p8533": "[#6][#6](=OX1)[#16][#6]"
+"p8533": "[#6][#6](=[OX1])[#16][#6]"
 },
 {
 "item": {
