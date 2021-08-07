@@ -1,4 +1,4 @@
-SELECT DISTINCT ?item ?goid ?goLabel ?p233 ?p2017 ?p8533 ?p235
+SELECT DISTINCT ?item ?itemLabel ?goid ?goLabel ?p233 ?p2017 ?p8533 ?p235
 WHERE 
 {
   ?partof wdt:P31 wd:Q2996394.
@@ -12,5 +12,7 @@ WHERE
   OPTIONAL { ?item wdt:P8533 ?p8533. }
   ?partof rdfs:label ?goLabel.
   FILTER (LANG(?goLabel) = 'en')
+  ?item rdfs:label ?itemLabel.
+  FILTER (LANG(?itemLabel) = 'en')
 }
 
