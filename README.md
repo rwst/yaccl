@@ -69,7 +69,7 @@ $ python3 biosyn-class-stats.py
 ```
 
 ### class-pattern
-Output stats of `biosyn` dataset.
+Output stats of `class-pattern` dataset.
 
 ```
 $ python3 class-pattern.py 
