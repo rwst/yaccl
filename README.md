@@ -92,3 +92,4 @@ Of course, any comment or PR is highly appreciated.
 * remove redundant hits (depends on above)
 * output JSON
 * write toolserver client
+* handle iridoid + glycoside --> iridoid glycoside
