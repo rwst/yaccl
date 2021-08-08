@@ -114,7 +114,7 @@ else:
         g = gos.get(it)
         if g is not None:
             go = g
-        print('{} {} {} {}'.format(it, labels.get(it), ik, go))
+        print('{} {} {} {}'.format(it, labels.get(it), ik[:14], go))
 
 ps = Chem.AdjustQueryParameters()
 ps.adjustDegreeFlags = Chem.AdjustQueryWhichFlags.ADJUST_IGNOREDUMMIES
