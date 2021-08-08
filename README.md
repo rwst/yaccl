@@ -86,3 +86,9 @@ Yes, Wikidata has >110k compound classes, most of which (>81k) have unspecified 
 Most errors or inconsistencies are due to data, so please contribute to Wikidata. For example catalpol (Q105151716) should be renamed 2-[[5-hydroxy-2-(hydroxymethyl)-3,9-dioxatricyclo[4.4.0.02,4]dec-7-en-10-yl]oxy]-6-(hydroxymethyl)oxane-3,4,5-triol because the stereochemistry is unspecified. More involved and pressing is to add patterns to the items of the `biosyn` dataset, or even add missing classes to expand Wikidata's class ontology.
 
 Of course, any comment or PR is highly appreciated.
+
+### TODO
+* write class-subclass script
+* remove redundant hits (depends on above)
+* output JSON
+* write toolserver client
