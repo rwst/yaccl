@@ -25,7 +25,7 @@ Change into the repo `src` directory. There are three scripts. One is for classi
 
 ### classify
 
-Takes a SMILES/InChI and outputs a classification. Example:
+Takes a SMILES/InChI and outputs a classification. Examples for each dataset:
 
 ```
 $ python3 classify.py -d data-biosyn.json -m 'CCO'
@@ -50,5 +50,11 @@ Q75078202 pyranoside O1C(C(C(C(C1O*)O)O)O)CO {None}
 Q75082510 beta-D-galactoside OC[C@H]1O[C@@H](O[*])[C@H](O)[C@@H](O)[C@H]1O {None}
 Q105151716 catalpol OCC1OC(OC2OC=CC3C(O)C4OC4(CO)C23)C(O)C(O)C1O {None}
 ```
+### datasets
+
+The difference between the `biosyn` and the `class-pattern` datasets is that the former contains classes AND compounds that have associated GO processes in Wikidata (possibly lacking any pattern), while the latter contains all classes (no compounds) that have associated patterns (SMILES, SMARTS or InChI). Note that the catalpol (Q105151716) hit in the second example is actually a class (), not a compound.
+
+The design of datasets will be subject of change in future versions.
+
 ### biosyn-class-stats
 
