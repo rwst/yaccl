@@ -93,3 +93,4 @@ Of course, any comment or PR is highly appreciated.
 * output JSON
 * write toolserver client
 * handle iridoid + glycoside --> iridoid glycoside
+* if subclass has no GO association but superclass has, output that
