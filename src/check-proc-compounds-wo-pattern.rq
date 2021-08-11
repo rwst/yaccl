@@ -1,0 +1,18 @@
+SELECT DISTINCT ?item ?itemLabel ?goid ?goLabel
+WHERE 
+{
+  ?partof wdt:P31 wd:Q2996394.
+  ?partof wdt:P686 ?goid.
+  ?partof wdt:P279/wdt:P279* wd:Q14914008.
+  ?item wdt:P361 ?partof.
+  ?item wdt:P31 wd:Q11173.
+  ?partof rdfs:label ?goLabel.
+  MINUS { ?item wdt:P233 ?p233. }
+  MINUS { ?item wdt:P235 ?p235. }
+  MINUS { ?item wdt:P2017 ?p2017. }
+  MINUS { ?item wdt:P8533 ?p8533. }
+  FILTER (LANG(?goLabel) = 'en')
+  ?item rdfs:label ?itemLabel.
+  FILTER (LANG(?itemLabel) = 'en')
+}
+
