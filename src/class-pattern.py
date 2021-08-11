@@ -2,7 +2,7 @@
 import os, json, argparse, sys
 
 """
-Load chemclasses from Wikidata that link to biosynthetic processes, save in canonical form (Q numbers sorted numerically), output statistics
+Load chemclasses from Wikidata together with any pattern, save in canonical form (Q numbers sorted numerically), output statistics
 """
 # Initiate the parser
 parser = argparse.ArgumentParser()
