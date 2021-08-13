@@ -46,7 +46,7 @@
 },
 "goid": "GO:0046165",
 "goLabel": "alcohol biosynthetic process",
-"p233": "O[*]"
+"p8533": "[$([#6][OX2H1]);!$([#6]=O);!$([#6]=S);!$([#6]=[Se])]"
 },
 {
 "item": {
@@ -623,7 +623,8 @@
 "label": "lactone"
 },
 "goid": "GO:1901336",
-"goLabel": "lactone biosynthetic process"
+"goLabel": "lactone biosynthetic process",
+"p8533": "[CR1](=[OX1])[OR1]"
 },
 {
 "item": {
@@ -1933,7 +1934,8 @@
 "label": "aflatoxins"
 },
 "goid": "GO:0045122",
-"goLabel": "aflatoxin biosynthetic process"
+"goLabel": "aflatoxin biosynthetic process",
+"p8533": "O=[CR1]c1c([CR1][CR1])c2ccc3c(c2o=O)C1C~COC1O3"
 },
 {
 "item": {
@@ -3578,7 +3580,8 @@
 "label": "diol"
 },
 "goid": "GO:0034312",
-"goLabel": "diol biosynthetic process"
+"goLabel": "diol biosynthetic process",
+"p8533": "[$([#6]);!$([#6][OX2H1])][#6]([OX2H1])[#6]([OX2H1])[$([#6]);!$([#6][OX2H1])]"
 },
 {
 "item": {
@@ -5088,7 +5091,8 @@
 "label": "organomercury"
 },
 "goid": "GO:0046414",
-"goLabel": "organomercury biosynthetic process"
+"goLabel": "organomercury biosynthetic process",
+"p8533": "[#6][#80]"
 },
 {
 "item": {
@@ -5293,7 +5297,8 @@
 "label": "tropane alkaloids"
 },
 "goid": "GO:0009710",
-"goLabel": "tropane alkaloid biosynthetic process"
+"goLabel": "tropane alkaloid biosynthetic process",
+"p8533": "CN1C2CCCC1CC2"
 },
 {
 "item": {
@@ -5602,7 +5607,8 @@
 "label": "purines"
 },
 "goid": "GO:0043101",
-"goLabel": "purine-containing compound salvage"
+"goLabel": "purine-containing compound salvage",
+"p8533": "c1c2c(ncn1)ncn2"
 },
 {
 "item": {
@@ -5610,7 +5616,8 @@
 "label": "purines"
 },
 "goid": "GO:0072522",
-"goLabel": "purine-containing compound biosynthetic process"
+"goLabel": "purine-containing compound biosynthetic process",
+"p8533": "c1c2c(ncn1)ncn2"
 },
 {
 "item": {
@@ -6419,7 +6426,8 @@
 "label": "xanthones"
 },
 "goid": "GO:2001307",
-"goLabel": "xanthone-containing compound biosynthetic process"
+"goLabel": "xanthone-containing compound biosynthetic process",
+"p8533": "O=c1c2ccccc2oc2ccccc12"
 },
 {
 "item": {
@@ -6448,7 +6456,8 @@
 "label": "aromatic compound"
 },
 "goid": "GO:0019438",
-"goLabel": "aromatic compound biosynthetic process"
+"goLabel": "aromatic compound biosynthetic process",
+"p8533": "[a]"
 },
 {
 "item": {
@@ -6477,7 +6486,8 @@
 "label": "coumarin"
 },
 "goid": "GO:0009805",
-"goLabel": "coumarin biosynthetic process"
+"goLabel": "coumarin biosynthetic process",
+"p8533": "c1ccc2ccc(=O)oc2c1"
 },
 {
 "item": {
@@ -11034,7 +11044,8 @@
 "label": "pyrimidines"
 },
 "goid": "GO:0008655",
-"goLabel": "pyrimidine-containing compound salvage"
+"goLabel": "pyrimidine-containing compound salvage",
+"p8533": "c1ccncn1"
 },
 {
 "item": {
@@ -11042,7 +11053,8 @@
 "label": "pyrimidines"
 },
 "goid": "GO:0072528",
-"goLabel": "pyrimidine-containing compound biosynthetic process"
+"goLabel": "pyrimidine-containing compound biosynthetic process",
+"p8533": "c1ccncn1"
 },
 {
 "item": {
@@ -11171,7 +11183,8 @@
 "label": "organonitrogen compound"
 },
 "goid": "GO:1901566",
-"goLabel": "organonitrogen compound biosynthetic process"
+"goLabel": "organonitrogen compound biosynthetic process",
+"p8533": "[#6][#7]"
 },
 {
 "item": {
@@ -11520,7 +11533,8 @@
 "label": "pteridine"
 },
 "goid": "GO:0042559",
-"goLabel": "pteridine-containing compound biosynthetic process"
+"goLabel": "pteridine-containing compound biosynthetic process",
+"p8533": "c1cnc2c(n1)cncn2"
 },
 {
 "item": {
@@ -11561,7 +11575,8 @@
 "label": "organic hydroxy compound"
 },
 "goid": "GO:1901617",
-"goLabel": "organic hydroxy compound biosynthetic process"
+"goLabel": "organic hydroxy compound biosynthetic process",
+"p8533": "[OX2H1][#6]"
 },
 {
 "item": {
@@ -11693,7 +11708,8 @@
 "label": "organic phosphonate"
 },
 "goid": "GO:0032923",
-"goLabel": "organic phosphonate biosynthetic process"
+"goLabel": "organic phosphonate biosynthetic process",
+"p8533": "P(=[OX1])([#6])(O)O"
 },
 {
 "item": {
@@ -11709,7 +11725,8 @@
 "label": "primary amine"
 },
 "goid": "GO:1901162",
-"goLabel": "primary amino compound biosynthetic process"
+"goLabel": "primary amino compound biosynthetic process",
+"p8533": "[NX3;H2;!$(NC=[!#6]);!$(NC#[!#6])][#6]"
 },
 {
 "item": {
@@ -11781,7 +11798,8 @@
 "label": "cinnamate ester"
 },
 "goid": "GO:0009802",
-"goLabel": "cinnamic acid ester biosynthetic process"
+"goLabel": "cinnamic acid ester biosynthetic process",
+"p8533": "[$([cX3H1]),$([cX3H0]O)]1[$([cX3H),$([cX3H0]O)]cc([CR0]=[CR0]C(=O)[OX2H0])c[$([cX3H1]),$([cX3H0]O)]1"
 },
 {
 "item": {
@@ -11886,7 +11904,8 @@
 "label": "isoquinoline alkaloid"
 },
 "goid": "GO:0033075",
-"goLabel": "isoquinoline alkaloid biosynthetic process"
+"goLabel": "isoquinoline alkaloid biosynthetic process",
+"p8533": "[$(c1cccc2c1CCNC2),$(C1CC~CC2C1CCNC2)]"
 },
 {
 "item": {
@@ -12249,7 +12268,8 @@
 "label": "quinate"
 },
 "goid": "GO:0042194",
-"goLabel": "quinate biosynthetic process"
+"goLabel": "quinate biosynthetic process",
+"p8533": "O(C1CC(O)(CC(O)C1O)C(O)=O)"
 },
 {
 "item": {
@@ -12523,7 +12543,9 @@
 "label": "2-deoxyribose 1-phosphate"
 },
 "goid": "GO:0006016",
-"goLabel": "2-deoxyribose 1-phosphate biosynthetic process"
+"goLabel": "2-deoxyribose 1-phosphate biosynthetic process",
+"p233": "C1C(C(OC1OP(=O)(O)O)CO)O",
+"p235": "KBDKAJNTYKVSEK-UHFFFAOYSA-N"
 },
 {
 "item": {
@@ -12655,7 +12677,8 @@
 "label": "benzylisoquinoline alkaloid"
 },
 "goid": "GO:0009708",
-"goLabel": "benzyl isoquinoline alkaloid biosynthetic process"
+"goLabel": "benzyl isoquinoline alkaloid biosynthetic process",
+"p8533": "[$(c1cccc2c1CCNC(Cc3ccccc3)2),$(C1CC~CC2C1CCNC(Cc3ccccc3)2)]"
 },
 {
 "item": {
@@ -13105,7 +13128,8 @@
 "label": "pyrrolizidine alkaloid"
 },
 "goid": "GO:1901085",
-"goLabel": "pyrrolizidine alkaloid biosynthetic process"
+"goLabel": "pyrrolizidine alkaloid biosynthetic process",
+"p8533": "C1CC2C~CCN2C1"
 },
 {
 "item": {
@@ -13512,7 +13536,8 @@
 "label": "indoleacetic acid amide conjugate"
 },
 "goid": "GO:0033475",
-"goLabel": "indoleacetic acid amide conjugate biosynthetic process"
+"goLabel": "indoleacetic acid amide conjugate biosynthetic process",
+"p8533": "[OX2H1][CX3](=[OX1])[CX4H1]([#6])N~C(~O)Cc1cnc2ccccc21"
 },
 {
 "item": {
@@ -13750,14 +13775,6 @@
 },
 "goid": "GO:1901115",
 "goLabel": "erythromycin biosynthetic process"
-},
-{
-"item": {
-"value": "Q104243241",
-"label": "GPI anchor"
-},
-"goid": "GO:0006506",
-"goLabel": "GPI anchor biosynthetic process"
 },
 {
 "item": {
