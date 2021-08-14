@@ -12,6 +12,8 @@ parser.add_argument("-m", "--molecule", help="molecule to classify (SMILES/InChi
         required=True)
 #parser.add_argument("-n", "--natural", help="file with root items of natural products",
 #        required=True)
+parser.add_argument("-s", "--super", help="superclass database file default data-class-subclass.json",
+        default='data-class-subclass.json')
 
 # Read arguments from the command line
 args = parser.parse_args()
@@ -30,7 +32,6 @@ jol = json.loads(s)
 print('reading data')
 iks = {}
 ik1s = {}
-sitems = {}
 labels = {}
 smiles = {}
 smarts = {}
@@ -39,7 +40,6 @@ for d in jol:
     dd = d.get('item')
     it = dd.get('value')
     lab = dd.get('label')
-    sup = d.get('super')
     go = d.get('goid')
     ik = d.get('p235')
     if ik is not None:
@@ -60,14 +60,6 @@ for d in jol:
     p8533 = d.get('p8533')
     if p8533 is not None and len(p8533) > 0:
         smarts[it] = p8533
-
-    i = sitems.get(it)
-    if i is not None:
-        i.append(sup)
-    else:
-        sitems[it] = [sup]
-    labels[it] = lab
-
     g = gos.get(it)
     gotup = (d.get('goid'), d.get('goLabel'))
     if g is not None:
@@ -75,8 +67,22 @@ for d in jol:
         continue
     else:
         gos[it] = set(gotup)
+    labels[it] = lab
 
-"""
+sitems = {}
+with open(args.super, 'r') as f:
+    s = f.read()
+    jol = json.loads(s)
+
+for d in jol:
+    it = d.get('item')
+    sup = d.get('super')
+    i = sitems.get(it)
+    if i is not None:
+        i.append(sup)
+    else:
+        sitems[it] = [sup]
+
 sitems['Q2393187'] = 'Q43460564'
 labels['Q2393187'] = 'molecular entity'
 labels['Q43460564'] = 'chemical entity'
@@ -91,7 +97,7 @@ for it,itsuplist in sitems.items():
                 edges[sup] = set([it])
             else:
                 e.add(it)
-
+"""
 nplist = set()
 with open(args.natural, 'r') as nf:
     nl = nf.readlines()
@@ -147,6 +153,9 @@ for it,itsuplist in sitems.items():
         except Exception:
             continue
     
+    if pat is None:
+        print('========defect pattern: {} {}'.format(it, sma))
+        continue
     if mol.HasSubstructMatch(pat):
         go = ''
         g = gos.get(it)
