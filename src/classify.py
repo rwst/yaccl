@@ -122,20 +122,22 @@ else:
             go = g
         print('{} {} {} {}'.format(it, labels.get(it), ik[:14], go))
 
-ps = Chem.AdjustQueryParameters()
-ps.adjustDegreeFlags = Chem.AdjustQueryWhichFlags.ADJUST_IGNOREDUMMIES
+ps_default = Chem.AdjustQueryParameters()
+ps_default.adjustDegreeFlags = Chem.AdjustQueryWhichFlags.ADJUST_IGNOREDUMMIES | Chem.AdjustQueryWhichFlags.ADJUST_IGNORECHAINS
+ps_ignoreDummies = Chem.AdjustQueryParameters()
+ps_ignoreDummies.adjustDegreeFlags = Chem.AdjustQueryWhichFlags.ADJUST_IGNOREDUMMIES
 for it,itsuplist in sitems.items():
     sm = smiles.get(it)
     sma = smarts.get(it)
     if sm is None and sma is None:
         continue
-    if not sm is None and sm.find('*') < 0:
+    if (not (sm is None or len(sm) == 0)) and sm.find('*') < 0:
         if sm.find('@') >= 0:
             continue
     # this class has a non-wildcard SMILES
         try:
             q = Chem.MolFromSmiles(sm)
-            pat = Chem.AdjustQueryProperties(q, ps)
+            pat = Chem.AdjustQueryProperties(q, ps_ignoreDummies)
         except Exception:
             continue
     elif not sma is None:
@@ -143,13 +145,18 @@ for it,itsuplist in sitems.items():
         #print('---{} {} {}'.format(it, labels.get(it), sma))
         try:
             pat = Chem.MolFromSmarts(sma)
+            #pat = Chem.AdjustQueryProperties(pat, ps_default)
+            #if it == 'Q12748271':
+            #    print(mol.HasSubstructMatch(pat))
+            #    exit()
+            #print('====={} {}'.format(it, sma))
             sm = sma # for reporting
         except Exception:
             continue
     else:
         try:
             q = Chem.MolFromSmiles(sm)
-            pat = Chem.AdjustQueryProperties(q, ps)
+            pat = Chem.AdjustQueryProperties(q, ps_ignoreDummies)
         except Exception:
             continue
     
