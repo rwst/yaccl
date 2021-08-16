@@ -1935,7 +1935,7 @@
 },
 "goid": "GO:0045122",
 "goLabel": "aflatoxin biosynthetic process",
-"p8533": "O=[CR1]c1c([CR1][CR1])c2ccc3c(c2o=O)C1C~COC1O3"
+"p8533": "O=[CR1]c1c([CR1][CR1])c2ccc3c(c2oc1=O)C1C~COC1O3"
 },
 {
 "item": {
@@ -3837,7 +3837,7 @@
 },
 "goid": "GO:0006236",
 "goLabel": "cytidine salvage",
-"p233": "Nc1ccn(C2OC(CO)C(O)C2O)c(=O)n1",
+"p233": "C1=CN(C(=O)N=C1N)C2C(C(C(O2)CO)O)O",
 "p2017": "Nc1ccn([C@@H]2O[C@H](CO)[C@@H](O)[C@H]2O)c(=O)n1",
 "p235": "UHDGCWIWMRVCDJ-XVFCMESISA-N"
 },
@@ -3848,7 +3848,7 @@
 },
 "goid": "GO:0006236",
 "goLabel": "cytidine salvage",
-"p233": "C1=CN(C(=O)N=C1N)C2C(C(C(O2)CO)O)O",
+"p233": "Nc1ccn(C2OC(CO)C(O)C2O)c(=O)n1",
 "p2017": "Nc1ccn([C@@H]2O[C@H](CO)[C@@H](O)[C@H]2O)c(=O)n1",
 "p235": "UHDGCWIWMRVCDJ-XVFCMESISA-N"
 },
@@ -6415,7 +6415,7 @@
 {
 "item": {
 "value": "Q16002885",
-"label": "Aminoalkylindole"
+"label": "aminoalkylindole"
 },
 "goid": "GO:0046219",
 "goLabel": "indolalkylamine biosynthetic process"
@@ -11799,7 +11799,7 @@
 },
 "goid": "GO:0009802",
 "goLabel": "cinnamic acid ester biosynthetic process",
-"p8533": "[$([cX3H1]),$([cX3H0]O)]1[$([cX3H),$([cX3H0]O)]cc([CR0]=[CR0]C(=O)[OX2H0])c[$([cX3H1]),$([cX3H0]O)]1"
+"p8533": "[$([cX3H1]),$([cX3H0]O)]1[$([cX3H1]),$([cX3H0]O)]cc([CR0]=[CR0]C(=O)[OX2H0])c[$([cX3H1]),$([cX3H0]O)]1"
 },
 {
 "item": {
