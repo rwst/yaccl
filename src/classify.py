@@ -6,14 +6,10 @@ Load classes from file, classify given molecule
 """
 # Initiate the parser
 parser = argparse.ArgumentParser()
-parser.add_argument("-d", "--data", help="data file",
+parser.add_argument("-d", "--data", help="data directory",
         required=True)
 parser.add_argument("-m", "--molecule", help="molecule to classify (SMILES/InChi)",
         required=True)
-#parser.add_argument("-n", "--natural", help="file with root items of natural products",
-#        required=True)
-parser.add_argument("-s", "--super", help="superclass database file default data-class-subclass.json",
-        default='data-class-subclass.json')
 
 # Read arguments from the command line
 args = parser.parse_args()
@@ -25,11 +21,12 @@ else:
 # Check for --version or -V
 script = os.path.basename(sys.argv[0])[:-3]
 
-ff = open(args.data)
-s = ff.read()
-jol = json.loads(s)
+# read bio process data
+with open(args.data + 'data-biosyn.json', 'r') as f:
+    print('reading biosyn data')
+    s = f.read()
+    jol = json.loads(s)
 
-print('reading data')
 iks = {}
 ik1s = {}
 labels = {}
@@ -39,8 +36,6 @@ gos = {}
 for d in jol:
     dd = d.get('item')
     it = dd.get('value')
-    lab = dd.get('label')
-    go = d.get('goid')
     ik = d.get('p235')
     if ik is not None:
         iks[ik] = it
@@ -67,10 +62,46 @@ for d in jol:
         continue
     else:
         gos[it] = set(gotup)
+    lab = dd.get('label')
+    labels[it] = lab
+
+# read pattern data
+with open(args.data + 'data-class-pattern.json', 'r') as f:
+    print('reading class pattern data')
+    s = f.read()
+    jol = json.loads(s)
+
+for d in jol:
+    dd = d.get('item')
+    it = dd.get('value')
+    g = gos.get(it)
+    if g is not None:
+        continue
+    lab = dd.get('label')
+    ik = d.get('p235')
+    if ik is not None:
+        iks[ik] = it
+        if ik[15:25] == 'UHFFFAOYSA':
+            ik1s[ik[:14]] = it
+    sm = None
+    p233 = None
+    p2017 = None
+    p233 = d.get('p233')
+    p2017 = d.get('p2017')
+    if p2017 is not None and len(p2017) > 0:
+        sm = p2017
+    elif p233 is not None and len(p233) > 0:
+        sm = p233
+    if sm is not None:
+        smiles[it] = sm
+    p8533 = d.get('p8533')
+    if p8533 is not None and len(p8533) > 0:
+        smarts[it] = p8533
     labels[it] = lab
 
 sitems = {}
-with open(args.super, 'r') as f:
+with open(args.data + 'data-class-subclass.json', 'r') as f:
+    print('reading superclass data')
     s = f.read()
     jol = json.loads(s)
 
