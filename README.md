@@ -21,7 +21,7 @@ Clone the repo.
 
 ## Usage
 
-Change into the repo `src` directory. There are three scripts. One is for classification, and two are for updating / statistics of datasets.
+Change into the repo `src` directory. There are four scripts. One is for classification, and three are for updating / statistics of datasets.
 
 ### classify
 
