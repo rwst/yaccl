@@ -13,6 +13,26 @@ def walk_ont(sitems, hitemset, hitem, minors):
             minors.add(c)
         walk_ont(sitems, hitemset, c, minors)
 
+def walk_ont_go(sitems, node, gos):
+    visited = []    # List to keep track of visited nodes.
+    queue = []      #Initialize a queue
+    visited.append(node)
+    queue.append(node)
+
+    while queue:
+        s = queue.pop(0)
+        go = gos.get(s)
+        if go is not None:
+            return go
+        ch = sitems.get(s)
+        if ch is None:
+            continue
+        for c in ch:
+            if c not in visited:
+                visited.append(c)
+                queue.append(c)
+    return None
+
 
 # Initiate the parser
 parser = argparse.ArgumentParser()
@@ -211,7 +231,7 @@ for it,itsuplist in sitems.items():
         g = gos.get(it)
         if g is not None:
             go = g
-        hits[it] = (it, labels.get(it), sm, go)
+        hits[it] = (it, labels.get(it), sm)
         print('{} {} {} {}'.format(it, labels.get(it), sm, go))
 
 print('purging redundant hits')
@@ -222,6 +242,8 @@ for hit in hitemset:
 for m in minors:
     hits.pop(m)
 
-print('------remaining hits:')
+print('----------------------------------')
 for hit in hits.keys():
-    print(hits.get(hit))
+    #finding closest biosynthetic processes
+    cgo = walk_ont_go(sitems, hit, gos)
+    print('{} {}'.format(hits.get(hit), cgo))
