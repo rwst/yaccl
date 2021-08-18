@@ -15,6 +15,8 @@ def qnone2zero(s):
 parser = argparse.ArgumentParser()
 parser.add_argument("-q", "--query", help="perform SPARQL query",
         action="store_true")
+parser.add_argument("-m", "--missing", help="print superclasses that are not subclasses",
+        action="store_true")
 
 # Read arguments from the command line
 args = parser.parse_args()
@@ -57,4 +59,5 @@ print('#items with superclass: {}'.format(len(itsups.keys())))
 print('#superclasses: {}'.format(len(sups)))
 print('#superclasses not in items: {}'.format(len(sups.difference(set(itsups.keys())))))
 
-
+if args.missing:
+    print(' wd:'.join(sups.difference(set(itsups.keys()))))
