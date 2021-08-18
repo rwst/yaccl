@@ -2,8 +2,18 @@ import csv, os, json, argparse, sys, pronto
 from rdkit import Chem
 
 """
-Load classes from file, classify given molecule
+Load classes from directory, classify given molecule
 """
+def walk_ont(sitems, hitemset, hitem, minors):
+    ch = sitems.get(hitem)
+    if ch is None:
+        return
+    for c in ch:
+        if c in hitemset:
+            minors.add(c)
+        walk_ont(sitems, hitemset, c, minors)
+
+
 # Initiate the parser
 parser = argparse.ArgumentParser()
 parser.add_argument("-d", "--data", help="data directory",
@@ -117,7 +127,7 @@ for d in jol:
 sitems['Q2393187'] = 'Q43460564'
 labels['Q2393187'] = 'molecular entity'
 labels['Q43460564'] = 'chemical entity'
-
+"""
 # reverse links
 edges = {}
 for it,itsuplist in sitems.items():
@@ -128,7 +138,7 @@ for it,itsuplist in sitems.items():
                 edges[sup] = set([it])
             else:
                 e.add(it)
-"""
+
 nplist = set()
 with open(args.natural, 'r') as nf:
     nl = nf.readlines()
@@ -157,6 +167,8 @@ ps_default = Chem.AdjustQueryParameters()
 ps_default.adjustDegreeFlags = Chem.AdjustQueryWhichFlags.ADJUST_IGNOREDUMMIES | Chem.AdjustQueryWhichFlags.ADJUST_IGNORECHAINS
 ps_ignoreDummies = Chem.AdjustQueryParameters()
 ps_ignoreDummies.adjustDegreeFlags = Chem.AdjustQueryWhichFlags.ADJUST_IGNOREDUMMIES
+print('collecting hits...')
+hits = {}
 for it,itsuplist in sitems.items():
     sm = smiles.get(it)
     sma = smarts.get(it)
@@ -199,5 +211,17 @@ for it,itsuplist in sitems.items():
         g = gos.get(it)
         if g is not None:
             go = g
+        hits[it] = (it, labels.get(it), sm, go)
         print('{} {} {} {}'.format(it, labels.get(it), sm, go))
-        
+
+print('purging redundant hits')
+hitemset = set(hits.keys())
+minors = set()
+for hit in hitemset:
+    walk_ont(sitems, hitemset, hit, minors)
+for m in minors:
+    hits.pop(m)
+
+print('------remaining hits:')
+for hit in hits.keys():
+    print(hits.get(hit))
