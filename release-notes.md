@@ -11,3 +11,9 @@
 * unified dataset handling (all datasets are loaded from given directory)
 * data update
 
+===2104===
+* classify: remove redundant hits
+* classify: get nearest parent GO process if none on class
+* classify: add option to get redundant hits as before
+* superclass data: more class types, bigger ontology, dead-end diagnostic
+
