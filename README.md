@@ -5,7 +5,7 @@ This is a proof of the concept of a simple compound classifier that relies compl
 
 ## Version
 
-The current version is 2102.
+The current version is 2103.
 
 ## Prerequisites
 
@@ -21,7 +21,7 @@ Clone the repo.
 
 ## Usage
 
-Change into the repo `src` directory. There are three scripts. One is for classification, and two are for updating / statistics of datasets.
+Change into the repo `src` directory. There are four scripts. One is for classification, and three are for updating / statistics of datasets.
 
 ### classify
 
