@@ -40,6 +40,8 @@ parser.add_argument("-d", "--data", help="data directory",
         required=True)
 parser.add_argument("-m", "--molecule", help="molecule to classify (SMILES/InChi)",
         required=True)
+parser.add_argument("-a", "--rawhits", help="output all hits before hit processing starts",
+        action="store_true")
 
 # Read arguments from the command line
 args = parser.parse_args()
@@ -165,6 +167,8 @@ with open(args.natural, 'r') as nf:
     nplist = set([line.rstrip() for line in nl])
 """
 
+print('collecting hits...')
+hits = {}
 # match the InChI keys
 ik = Chem.MolToInchiKey(mol)
 it = iks.get(ik)
@@ -173,7 +177,9 @@ if it is not None:
     g = gos.get(it)
     if g is not None:
         go = g
-    print('{} {} {} {}'.format(it, labels.get(it), ik, go))
+    hits[it] = (it, labels.get(it), ik)
+    if args.rawhits:
+        print('{} {} {} {}'.format(it, labels.get(it), ik, go))
 else:
     it = ik1s.get(ik[:14])
     if it is not None:
@@ -181,14 +187,14 @@ else:
         g = gos.get(it)
         if g is not None:
             go = g
-        print('{} {} {} {}'.format(it, labels.get(it), ik[:14], go))
+        hits[it] = (it, labels.get(it), ik[:14])
+        if args.rawhits:
+            print('{} {} {} {}'.format(it, labels.get(it), ik[:14], go))
 
 ps_default = Chem.AdjustQueryParameters()
 ps_default.adjustDegreeFlags = Chem.AdjustQueryWhichFlags.ADJUST_IGNOREDUMMIES | Chem.AdjustQueryWhichFlags.ADJUST_IGNORECHAINS
 ps_ignoreDummies = Chem.AdjustQueryParameters()
 ps_ignoreDummies.adjustDegreeFlags = Chem.AdjustQueryWhichFlags.ADJUST_IGNOREDUMMIES
-print('collecting hits...')
-hits = {}
 for it,itsuplist in sitems.items():
     sm = smiles.get(it)
     sma = smarts.get(it)
@@ -232,7 +238,8 @@ for it,itsuplist in sitems.items():
         if g is not None:
             go = g
         hits[it] = (it, labels.get(it), sm)
-        print('{} {} {} {}'.format(it, labels.get(it), sm, go))
+        if args.rawhits:
+            print('{} {} {} {}'.format(it, labels.get(it), sm, go))
 
 print('purging redundant hits')
 hitemset = set(hits.keys())
@@ -242,8 +249,10 @@ for hit in hitemset:
 for m in minors:
     hits.pop(m)
 
-print('----------------------------------')
+if args.rawhits:
+    print('----------------------------------')
 for hit in hits.keys():
     #finding closest biosynthetic processes
     cgo = walk_ont_go(sitems, hit, gos)
     print('{} {}'.format(hits.get(hit), cgo))
+
