@@ -3859,7 +3859,7 @@
 },
 "goid": "GO:0046088",
 "goLabel": "cytidine biosynthetic process",
-"p233": "Nc1ccn(C2OC(CO)C(O)C2O)c(=O)n1",
+"p233": "C1=CN(C(=O)N=C1N)C2C(C(C(O2)CO)O)O",
 "p2017": "Nc1ccn([C@@H]2O[C@H](CO)[C@@H](O)[C@H]2O)c(=O)n1",
 "p235": "UHDGCWIWMRVCDJ-XVFCMESISA-N"
 },
@@ -3870,7 +3870,7 @@
 },
 "goid": "GO:0046088",
 "goLabel": "cytidine biosynthetic process",
-"p233": "C1=CN(C(=O)N=C1N)C2C(C(C(O2)CO)O)O",
+"p233": "Nc1ccn(C2OC(CO)C(O)C2O)c(=O)n1",
 "p2017": "Nc1ccn([C@@H]2O[C@H](CO)[C@@H](O)[C@H]2O)c(=O)n1",
 "p235": "UHDGCWIWMRVCDJ-XVFCMESISA-N"
 },
