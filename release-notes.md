@@ -17,3 +17,9 @@
 * classify: add option to get redundant hits as before
 * superclass data: more class types, bigger ontology, dead-end diagnostic
 
+===2105===
+* all data: monoterpenoids
+* test data: monoterpenoids, 14/197 FAIL
+* classify: test capability
+* multiple SMARTS (denoting sets of patterns) now handled
+

@@ -54,6 +54,19 @@ purging redundant hits
 ('Q75082510', 'beta-D-galactoside', 'OC[C@H]1O[C@@H](O[*])[C@H](O)[C@@H](O)[C@H]1O') {'GO:0016138', 'glycoside biosynthetic process'}
 ('Q105151716', '2-[[5-hydroxy-2-(hydroxymethyl)-3,9-dioxatricyclo[4.4.0.02,4]dec-7-en-10-yl]oxy]-6-(hydroxymethyl)oxane-3,4,5-triol', 'OCC1OC(OC2OC=CC3C(O)C4OC4(CO)C23)C(O)C(O)C1O') {'GO:0016138', 'glycoside biosynthetic process'}
 ```
+Given a file of InChI strings the `-t` option runs a test checking that at least one of the hits is a subclass of the test class item.
+```
+python3 classify.py -d ./ -t test/monoterpenoids.txt 2>/dev/null
+reading biosyn data
+reading class pattern data
+reading superclass data
+classifying testfile test/monoterpenoids.txt
+test class: Q47006360
+1 OK: {'Q103230': ('Q103230', 'ethers', None), 'Q66124573': ('Q66124573', 'menthane monoterpenoids', None)}
+2 OK: {'Q181559': ('Q181559', 'camphor', 'CC1(C2CCC1(C(=O)C2)C)C'), 'Q170744': ('Q170744', 'ketone', '[*]C([*])=O')}
+3 FAIL: InChI=1S/C10H14O/c1-7(2)9-5-4-8(3)10(11)6-9/h4-7,11H,1-3H3
+{'Q9148474': ('Q9148474', 'aromatic alcohol', None)}
+```
 
 ### datasets
 The difference between the `biosyn` and the `class-pattern` datasets is that the former contains classes AND compounds that have associated GO processes in Wikidata (possibly lacking any pattern), while the latter contains all classes (no compounds) that have associated patterns (SMILES, SMARTS or InChI).
@@ -95,6 +108,7 @@ If you want to tackle a specific superclass we recommend usage of `wdtaxonomy` t
 Of course, any comment or PR is highly appreciated.
 
 ### TODO
+* suppress Boost stderr output
 * output JSON
 * write toolserver client
 * handle iridoid + glycoside --> iridoid glycoside
