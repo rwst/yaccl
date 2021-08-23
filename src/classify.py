@@ -4,6 +4,7 @@ from rdkit import Chem
 """
 Load classes from directory, classify given molecule
 """
+
 def walk_ont(sitems, hitemset, hitem, minors):
     ch = sitems.get(hitem)
     if ch is None:
@@ -33,22 +34,127 @@ def walk_ont_go(sitems, node, gos):
                 queue.append(c)
     return None
 
+def walk_find(sitems, hitem, citem):
+    ch = sitems.get(hitem)
+    # print('{} {} {}'.format(hitem, citem, ch))
+    if ch is None:
+        return False
+    if citem in ch:
+        return True
+    for c in ch:
+        if walk_find(sitems, c, citem):
+            return True
+    return False
+
+def get_hits(mol, silent=False):
+    if not silent:
+        print('collecting hits...')
+    hits = {}
+    # match the InChI keys
+    ik = Chem.MolToInchiKey(mol)
+    it = iks.get(ik)
+    if it is not None:
+        go = ''
+        g = gos.get(it)
+        if g is not None:
+            go = g
+        hits[it] = (it, labels.get(it), ik)
+        if args.rawhits:
+            print('{} {} {} {}'.format(it, labels.get(it), ik, go))
+    else:
+        it = ik1s.get(ik[:14])
+        if it is not None:
+            go = ''
+            g = gos.get(it)
+            if g is not None:
+                go = g
+            hits[it] = (it, labels.get(it), ik[:14])
+            if args.rawhits:
+                print('{} {} {} {}'.format(it, labels.get(it), ik[:14], go))
+
+    ps_default = Chem.AdjustQueryParameters()
+    ps_default.adjustDegreeFlags = Chem.AdjustQueryWhichFlags.ADJUST_IGNOREDUMMIES | Chem.AdjustQueryWhichFlags.ADJUST_IGNORECHAINS
+    ps_ignoreDummies = Chem.AdjustQueryParameters()
+    ps_ignoreDummies.adjustDegreeFlags = Chem.AdjustQueryWhichFlags.ADJUST_IGNOREDUMMIES
+    for it,itsuplist in sitems.items():
+        sm = smiles.get(it)
+        smas = smarts.get(it)
+        if sm is None and smas is None:
+            continue
+        if (not (sm is None or len(sm) == 0)) and sm.find('*') < 0:
+            if sm.find('@') >= 0:
+                continue
+        # this class has a non-wildcard SMILES
+            try:
+                q = Chem.MolFromSmiles(sm)
+                pats = [Chem.AdjustQueryProperties(q, ps_ignoreDummies)]
+            except Exception:
+                continue
+        elif not smas is None:
+        # this class has a wildcard SMILES or a SMARTS
+            #print('---{} {} {}'.format(it, labels.get(it), sma))
+            try:
+                pats = [Chem.MolFromSmarts(sma) for sma in smas]
+                #pat = Chem.AdjustQueryProperties(pat, ps_default)
+                #if it == 'Q12748271':
+                #    print(mol.HasSubstructMatch(pat))
+                #    exit()
+                #print('====={} {}'.format(it, sma))
+            except Exception:
+                continue
+        else:
+            try:
+                q = Chem.MolFromSmiles(sm)
+                pats = [Chem.AdjustQueryProperties(q, ps_ignoreDummies)]
+            except Exception:
+                continue
+        
+        if pats is None:
+            print('========defect pattern: {} {}'.format(it, sma))
+            continue
+        for p in pats:
+            if mol.HasSubstructMatch(p):
+                go = ''
+                g = gos.get(it)
+                if g is not None:
+                    go = g
+                hits[it] = (it, labels.get(it), sm)
+                if args.rawhits:
+                    print('{} {} {} {}'.format(it, labels.get(it), sm, go))
+                break
+
+    if not silent:
+        print('purging redundant hits')
+    hitemset = set(hits.keys())
+    minors = set()
+    for hit in hitemset:
+        walk_ont(sitems, hitemset, hit, minors)
+    for m in minors:
+        hits.pop(m)
+
+    return hits
+
 
 # Initiate the parser
 parser = argparse.ArgumentParser()
-parser.add_argument("-d", "--data", help="data directory",
-        required=True)
-parser.add_argument("-m", "--molecule", help="molecule to classify (SMILES/InChi)",
-        required=True)
+parser.add_argument("-d", "--data", help="data directory", required=True)
+parser.add_argument("-m", "--molecule", help="molecule to classify (SMILES/InChi)")
 parser.add_argument("-a", "--rawhits", help="output all hits before hit processing starts",
         action="store_true")
+parser.add_argument("-t", "--testfile", help="classify all InChis from file, first line may contain check item", type=str)
 
 # Read arguments from the command line
 args = parser.parse_args()
-if args.molecule.find('InChI=') >= 0:
-    mol = Chem.MolFromInchi(args.molecule)
-else:
-    mol = Chem.MolFromSmiles(args.molecule)
+if args.molecule is None and args.testfile is None:
+    print('One of -m or -t is needed')
+    parser.print_usage()
+    exit()
+
+if args.testfile is None:
+    if args.molecule.find('InChI=') >= 0:
+        mol = Chem.MolFromInchi(args.molecule)
+    else:
+        mol = Chem.MolFromSmiles(args.molecule)
 
 # Check for --version or -V
 script = os.path.basename(sys.argv[0])[:-3]
@@ -86,7 +192,11 @@ for d in jol:
         smiles[it] = sm
     p8533 = d.get('p8533')
     if p8533 is not None and len(p8533) > 0:
-        smarts[it] = p8533
+        t = smarts.get(it)
+        if t is None:
+            smarts[it] = [p8533]
+        else:
+            t.append(p8533)
     g = gos.get(it)
     gotup = (d.get('goid'), d.get('goLabel'))
     if g is not None:
@@ -128,7 +238,11 @@ for d in jol:
         smiles[it] = sm
     p8533 = d.get('p8533')
     if p8533 is not None and len(p8533) > 0:
-        smarts[it] = p8533
+        t = smarts.get(it)
+        if t is None:
+            smarts[it] = [p8533]
+        else:
+            t.append(p8533)
     labels[it] = lab
 
 sitems = {}
@@ -146,7 +260,7 @@ for d in jol:
     else:
         sitems[it] = [sup]
 
-sitems['Q2393187'] = 'Q43460564'
+sitems['Q2393187'] = ['Q43460564']
 labels['Q2393187'] = 'molecular entity'
 labels['Q43460564'] = 'chemical entity'
 """
@@ -167,92 +281,34 @@ with open(args.natural, 'r') as nf:
     nplist = set([line.rstrip() for line in nl])
 """
 
-print('collecting hits...')
-hits = {}
-# match the InChI keys
-ik = Chem.MolToInchiKey(mol)
-it = iks.get(ik)
-if it is not None:
-    go = ''
-    g = gos.get(it)
-    if g is not None:
-        go = g
-    hits[it] = (it, labels.get(it), ik)
-    if args.rawhits:
-        print('{} {} {} {}'.format(it, labels.get(it), ik, go))
+if args.testfile is not None:
+    print('classifying testfile {}'.format(args.testfile))
+    with open(args.testfile, 'r') as tf:
+        tfs = [line.strip() for line in tf.readlines()]
+    count = 0
+    fcount = 0
+    for t_inchi in tfs:
+        if t_inchi.startswith('Q'):
+            check_item = t_inchi
+            print('test class: {}'.format(check_item))
+            continue
+        mol = Chem.MolFromInchi(t_inchi)
+        hits = get_hits(mol, silent=True)
+        count = count + 1
+        if hits.get(check_item) is None and all([walk_find(sitems, hit, check_item) == False for hit in hits.keys()]):
+            print('{} FAIL: {}'.format(count, t_inchi))
+            print(hits)
+            fcount = fcount + 1
+        else:
+            print('{} OK: {}'.format(count, hits))
+    print('FAIL: {}/{}'.format(fcount, count))
 else:
-    it = ik1s.get(ik[:14])
-    if it is not None:
-        go = ''
-        g = gos.get(it)
-        if g is not None:
-            go = g
-        hits[it] = (it, labels.get(it), ik[:14])
-        if args.rawhits:
-            print('{} {} {} {}'.format(it, labels.get(it), ik[:14], go))
+    hits = get_hits(mol)
+    if args.rawhits:
+        print('----------------------------------')
+    for hit in hits.keys():
+        #finding closest biosynthetic processes
+        cgo = walk_ont_go(sitems, hit, gos)
+        print('{} {}'.format(hits.get(hit), cgo))
 
-ps_default = Chem.AdjustQueryParameters()
-ps_default.adjustDegreeFlags = Chem.AdjustQueryWhichFlags.ADJUST_IGNOREDUMMIES | Chem.AdjustQueryWhichFlags.ADJUST_IGNORECHAINS
-ps_ignoreDummies = Chem.AdjustQueryParameters()
-ps_ignoreDummies.adjustDegreeFlags = Chem.AdjustQueryWhichFlags.ADJUST_IGNOREDUMMIES
-for it,itsuplist in sitems.items():
-    sm = smiles.get(it)
-    sma = smarts.get(it)
-    if sm is None and sma is None:
-        continue
-    if (not (sm is None or len(sm) == 0)) and sm.find('*') < 0:
-        if sm.find('@') >= 0:
-            continue
-    # this class has a non-wildcard SMILES
-        try:
-            q = Chem.MolFromSmiles(sm)
-            pat = Chem.AdjustQueryProperties(q, ps_ignoreDummies)
-        except Exception:
-            continue
-    elif not sma is None:
-    # this class has a wildcard SMILES or a SMARTS
-        #print('---{} {} {}'.format(it, labels.get(it), sma))
-        try:
-            pat = Chem.MolFromSmarts(sma)
-            #pat = Chem.AdjustQueryProperties(pat, ps_default)
-            #if it == 'Q12748271':
-            #    print(mol.HasSubstructMatch(pat))
-            #    exit()
-            #print('====={} {}'.format(it, sma))
-            sm = sma # for reporting
-        except Exception:
-            continue
-    else:
-        try:
-            q = Chem.MolFromSmiles(sm)
-            pat = Chem.AdjustQueryProperties(q, ps_ignoreDummies)
-        except Exception:
-            continue
-    
-    if pat is None:
-        print('========defect pattern: {} {}'.format(it, sma))
-        continue
-    if mol.HasSubstructMatch(pat):
-        go = ''
-        g = gos.get(it)
-        if g is not None:
-            go = g
-        hits[it] = (it, labels.get(it), sm)
-        if args.rawhits:
-            print('{} {} {} {}'.format(it, labels.get(it), sm, go))
-
-print('purging redundant hits')
-hitemset = set(hits.keys())
-minors = set()
-for hit in hitemset:
-    walk_ont(sitems, hitemset, hit, minors)
-for m in minors:
-    hits.pop(m)
-
-if args.rawhits:
-    print('----------------------------------')
-for hit in hits.keys():
-    #finding closest biosynthetic processes
-    cgo = walk_ont_go(sitems, hit, gos)
-    print('{} {}'.format(hits.get(hit), cgo))
 
