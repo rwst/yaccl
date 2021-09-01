@@ -23,3 +23,7 @@
 * classify: test capability
 * multiple SMARTS (denoting sets of patterns) now handled
 
+===2106===
+* all data: sesquiterpenoids
+* test data: sesquiterpenoids, 7/240 FAIL
+
