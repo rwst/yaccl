@@ -293,6 +293,9 @@ if args.testfile is not None:
             print('test class: {}'.format(check_item))
             continue
         mol = Chem.MolFromInchi(t_inchi)
+        if mol is None:
+            print('{} {}'.format(count, t_inchi))
+            exit()
         hits = get_hits(mol, silent=True)
         count = count + 1
         if hits.get(check_item) is None and all([walk_find(sitems, hit, check_item) == False for hit in hits.keys()]):
