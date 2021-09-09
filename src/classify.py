@@ -1,10 +1,13 @@
-import csv, os, json, argparse, sys, pronto
+import csv, os, json, argparse, sys
 from rdkit import Chem
 
 """
-Load classes from directory, classify given molecule
+Load data from directory, classify given molecule or test file
 """
 
+# Walk reverse ontology subgraph (root = hitem) upwards, depth first. If any member of hitemset
+# is encountered, add it to minor set. These are later discarded, leaving only the most
+# specialized hits
 def walk_ont(sitems, hitemset, hitem, minors):
     ch = sitems.get(hitem)
     if ch is None:
@@ -14,6 +17,8 @@ def walk_ont(sitems, hitemset, hitem, minors):
             minors.add(c)
         walk_ont(sitems, hitemset, c, minors)
 
+# Walk reverse ontology subgraph (root = node) upwards, breadth first. The first encountered
+# GO process is returned.
 def walk_ont_go(sitems, node, gos):
     visited = []    # List to keep track of visited nodes.
     queue = []      #Initialize a queue
@@ -34,6 +39,8 @@ def walk_ont_go(sitems, node, gos):
                 queue.append(c)
     return None
 
+# Walk reverse ontology subgraph (root = hitem) upwards, depth first.
+# Return True if citem is encountered (i.e. citem is superclass of hitem)
 def walk_find(sitems, hitem, citem):
     ch = sitems.get(hitem)
     # print('{} {} {}'.format(hitem, citem, ch))
@@ -46,6 +53,7 @@ def walk_find(sitems, hitem, citem):
             return True
     return False
 
+# Try to match ALL patterns. Remove redundant. Return remaining.
 def get_hits(mol, silent=False):
     if not silent:
         print('collecting hits...')
@@ -156,8 +164,12 @@ if args.testfile is None:
     else:
         mol = Chem.MolFromSmiles(args.molecule)
 
-# Check for --version or -V
-script = os.path.basename(sys.argv[0])[:-3]
+
+iks = {}
+ik1s = {}
+labels = {}
+smiles = {}
+smarts = {}
 
 # read bio process data
 with open(args.data + 'data-biosyn.json', 'r') as f:
@@ -165,11 +177,6 @@ with open(args.data + 'data-biosyn.json', 'r') as f:
     s = f.read()
     jol = json.loads(s)
 
-iks = {}
-ik1s = {}
-labels = {}
-smiles = {}
-smarts = {}
 gos = {}
 for d in jol:
     dd = d.get('item')
@@ -245,6 +252,7 @@ for d in jol:
             t.append(p8533)
     labels[it] = lab
 
+# filling subclass structure
 sitems = {}
 with open(args.data + 'data-class-subclass.json', 'r') as f:
     print('reading superclass data')
@@ -260,6 +268,7 @@ for d in jol:
     else:
         sitems[it] = [sup]
 
+# root items missing from query data
 sitems['Q2393187'] = ['Q43460564']
 labels['Q2393187'] = 'molecular entity'
 labels['Q43460564'] = 'chemical entity'
