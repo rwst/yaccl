@@ -27,3 +27,8 @@
 * all data: sesquiterpenoids
 * test data: sesquiterpenoids, 7/240 FAIL
 
+===2107==
+* all data: diterpenoids
+* test data: diterpenoids, 0/177 FAIL
+* don't load SMILES/SMARTS if InChI present, 10x speed up of classification
+
