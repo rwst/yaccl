@@ -5,7 +5,7 @@ This is a proof of the concept of a simple compound classifier that relies compl
 
 ## Version
 
-The current version is 2106.
+The current version is 2107.
 
 ## Prerequisites
 
