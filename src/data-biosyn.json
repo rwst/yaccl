@@ -1281,7 +1281,6 @@
 },
 "goid": "GO:0042181",
 "goLabel": "ketone biosynthetic process",
-"p233": "[*]C([*])=O",
 "p8533": "[#6][CX3](=O)[#6]"
 },
 {
@@ -5086,7 +5085,7 @@
 {
 "item": {
 "value": "Q2640914",
-"label": "Propionyl-CoA"
+"label": "propionyl-CoA"
 },
 "goid": "GO:1902860",
 "goLabel": "propionyl-CoA biosynthetic process",
