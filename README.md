@@ -91,12 +91,12 @@ Output stats of `class-pattern` dataset.
 
 ```
 $ python3 class-pattern.py 
-#items: 113658
-#InChI keys: 112421
+#items: 113728
+#InChI keys: 112420
 #InChI1 keys: 81112
-#smarts: 244
-#smiles: 104041
-#wildcard smiles: 988
+#smarts: 327
+#smiles: 104039
+#wildcard smiles: 987
 ```
 Yes, Wikidata has >110k compound classes, most of which (>81k) have unspecified stereochemistry, i.e. they are groups of stereoisomers.
 
@@ -108,6 +108,8 @@ If you want to tackle a specific superclass we recommend usage of `wdtaxonomy` t
 Of course, any comment or PR is highly appreciated.
 
 ### TODO
+* option to work with NP subgraph only (should be much faster)
+* optimize match order
 * suppress Boost stderr output
 * output JSON
 * write toolserver client
