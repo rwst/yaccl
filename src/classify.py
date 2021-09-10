@@ -186,24 +186,25 @@ for d in jol:
         iks[ik] = it
         if ik[15:25] == 'UHFFFAOYSA':
             ik1s[ik[:14]] = it
-    sm = None
-    p233 = None
-    p2017 = None
-    p233 = d.get('p233')
-    p2017 = d.get('p2017')
-    if p2017 is not None and len(p2017) > 0:
-        sm = p2017
-    elif p233 is not None and len(p233) > 0:
-        sm = p233
-    if sm is not None:
-        smiles[it] = sm
-    p8533 = d.get('p8533')
-    if p8533 is not None and len(p8533) > 0:
-        t = smarts.get(it)
-        if t is None:
-            smarts[it] = [p8533]
-        else:
-            t.append(p8533)
+    else:
+        sm = None
+        p233 = None
+        p2017 = None
+        p233 = d.get('p233')
+        p2017 = d.get('p2017')
+        if p2017 is not None and len(p2017) > 0:
+            sm = p2017
+        elif p233 is not None and len(p233) > 0:
+            sm = p233
+        if sm is not None:
+            smiles[it] = sm
+        p8533 = d.get('p8533')
+        if p8533 is not None and len(p8533) > 0:
+            t = smarts.get(it)
+            if t is None:
+                smarts[it] = [p8533]
+            else:
+                t.append(p8533)
     g = gos.get(it)
     gotup = (d.get('goid'), d.get('goLabel'))
     if g is not None:
@@ -232,24 +233,25 @@ for d in jol:
         iks[ik] = it
         if ik[15:25] == 'UHFFFAOYSA':
             ik1s[ik[:14]] = it
-    sm = None
-    p233 = None
-    p2017 = None
-    p233 = d.get('p233')
-    p2017 = d.get('p2017')
-    if p2017 is not None and len(p2017) > 0:
-        sm = p2017
-    elif p233 is not None and len(p233) > 0:
-        sm = p233
-    if sm is not None:
-        smiles[it] = sm
-    p8533 = d.get('p8533')
-    if p8533 is not None and len(p8533) > 0:
-        t = smarts.get(it)
-        if t is None:
-            smarts[it] = [p8533]
-        else:
-            t.append(p8533)
+    else:
+        sm = None
+        p233 = None
+        p2017 = None
+        p233 = d.get('p233')
+        p2017 = d.get('p2017')
+        if p2017 is not None and len(p2017) > 0:
+            sm = p2017
+        elif p233 is not None and len(p233) > 0:
+            sm = p233
+        if sm is not None:
+            smiles[it] = sm
+        p8533 = d.get('p8533')
+        if p8533 is not None and len(p8533) > 0:
+            t = smarts.get(it)
+            if t is None:
+                smarts[it] = [p8533]
+            else:
+                t.append(p8533)
     labels[it] = lab
 
 # filling subclass structure
