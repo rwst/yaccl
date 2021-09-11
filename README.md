@@ -5,7 +5,7 @@ This is a proof of the concept of a simple compound classifier that relies compl
 
 ## Version
 
-The current version is 2107.
+The current version is 2108.
 
 ## Prerequisites
 
@@ -109,8 +109,6 @@ Of course, any comment or PR is highly appreciated.
 
 ### TODO
 * option to work with NP subgraph only (should be much faster)
-* optimize match order
-* suppress Boost stderr output
 * output JSON
 * write toolserver client
 * handle iridoid + glycoside --> iridoid glycoside

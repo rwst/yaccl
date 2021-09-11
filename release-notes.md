@@ -27,8 +27,16 @@
 * all data: sesquiterpenoids
 * test data: sesquiterpenoids, 7/240 FAIL
 
-===2107==
+===2107===
 * all data: diterpenoids
 * test data: diterpenoids, 0/177 FAIL
 * don't load SMILES/SMARTS if InChI present, 10x speed up of classification
+
+===2108===
+* remove bogus pattern leading to Boost warnings
+* revised/added to acyclic monoterpenoids, FAIL: 0/197
+* all data: sesterterpenoids
+* test data: sesterterpenoids, 1/14 FAIL
+* split pattern query, makes it faster, more resilient, one third reduction in pattern db size
+
 
