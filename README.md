@@ -56,16 +56,22 @@ purging redundant hits
 ```
 Given a file of InChI strings the `-t` option runs a test checking that at least one of the hits is a subclass of the test class item.
 ```
-python3 classify.py -d ./ -t test/monoterpenoids.txt 2>/dev/null
+ralf@ark:~/wikidata/yaccl/src> python3 classify.py -t test/sesterterpenoids.txt -d ./ 
 reading biosyn data
 reading class pattern data
 reading superclass data
-classifying testfile test/monoterpenoids.txt
-test class: Q47006360
-1 OK: {'Q103230': ('Q103230', 'ethers', None), 'Q66124573': ('Q66124573', 'menthane monoterpenoids', None)}
-2 OK: {'Q181559': ('Q181559', 'camphor', 'CC1(C2CCC1(C(=O)C2)C)C'), 'Q170744': ('Q170744', 'ketone', '[*]C([*])=O')}
-3 FAIL: InChI=1S/C10H14O/c1-7(2)9-5-4-8(3)10(11)6-9/h4-7,11H,1-3H3
-{'Q9148474': ('Q9148474', 'aromatic alcohol', None)}
+classifying testfile test/sesterterpenoids.txt
+test class: Q107363222
+1 OK
+2 OK
+3 OK
+4 OK
+5 OK
+6 OK
+7 OK
+8 OK
+9 FAIL: InChI=1S/C25H44/c1-9-21(6)13-11-17-25(8,16-10-12-19(2)3)24-18-22(7)14-15-23(24)20(4)5/h9,18-19,21,23-24H,1,4,10-17H2,2-3,5-8H3
+...
 ```
 
 ### datasets

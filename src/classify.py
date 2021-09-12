@@ -311,10 +311,9 @@ if args.testfile is not None:
         count = count + 1
         if hits.get(check_item) is None and all([walk_find(sitems, hit, check_item) == False for hit in hits.keys()]):
             print('{} FAIL: {}'.format(count, t_inchi))
-            print(hits)
             fcount = fcount + 1
         else:
-            print('{} OK: {}'.format(count, hits))
+            print('{} OK'.format(count, hits))
     print('FAIL: {}/{}'.format(fcount, count))
 else:
     hits = get_hits(mol)
