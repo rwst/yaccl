@@ -39,4 +39,9 @@
 * test data: sesterterpenoids, 1/14 FAIL
 * split pattern query, makes it faster, more resilient, one third reduction in pattern db size
 
+===2109===
+* some new files were missing in last release
+* reduce test run output
+* all data: triterpenoids
+* test data: triterpenoids, 1/85 FAIL
 

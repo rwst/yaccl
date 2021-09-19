@@ -5,7 +5,7 @@ This is a proof of the concept of a simple compound classifier that relies compl
 
 ## Version
 
-The current version is 2108.
+The current version is 2109.
 
 ## Prerequisites
 
@@ -97,12 +97,12 @@ Output stats of `class-pattern` dataset.
 
 ```
 $ python3 class-pattern.py 
-#items: 113728
-#InChI keys: 112420
-#InChI1 keys: 81112
-#smarts: 327
-#smiles: 104039
-#wildcard smiles: 987
+#items: 113788
+#InChI keys: 112432
+#InChI1 keys: 81120
+#smarts: 374
+#smiles: 1024
+#wildcard smiles: 979
 ```
 Yes, Wikidata has >110k compound classes, most of which (>81k) have unspecified stereochemistry, i.e. they are groups of stereoisomers.
 
