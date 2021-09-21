@@ -45,3 +45,9 @@
 * all data: triterpenoids
 * test data: triterpenoids, 1/85 FAIL
 
+===2110===
+* pattern fixes (not all possible double bonds were allowed)
+* all data: tetraterpenoids
+* test data: tetraterpenoids, 7/199 FAIL
+
+
