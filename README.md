@@ -3,9 +3,11 @@ yet another ChemClassifier (Python based on wikibase-cli and rdk)
 
 This is a proof of the concept of a simple compound classifier that relies completely on knowledge from Wikidata. At this stage it uses InChI keys, SMILES and SMARTS strings, downloaded from Wikidata, to get hits on compounds or classes. About 650 biosynthetic processes from Gene Ontology are directly associated with classes and compounds, so they are potential hits. Matching is done by going through the list of classes---fast enough to find all hits in the dataset with >110k classes within a few seconds.
 
+While yaccl is, in principle, a general classifier, development of patterns focuses on biomolecules.
+
 ## Version
 
-The current version is 2110.
+The current version is 2111.
 
 ## Prerequisites
 
@@ -116,5 +118,6 @@ Of course, any comment or PR is highly appreciated.
 ### TODO
 * option to work with NP subgraph only (should be much faster)
 * output JSON
+* if there are superclass patterns match them first, narrowing following matches
 * write toolserver client
 * handle iridoid + glycoside --> iridoid glycoside

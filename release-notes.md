@@ -50,4 +50,8 @@
 * all data: tetraterpenoids
 * test data: tetraterpenoids, 7/199 FAIL
 
+===2111===
+* all data: steroids
+* test data: steroids, 3/1561 FAIL
+
 
