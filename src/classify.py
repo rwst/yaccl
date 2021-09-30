@@ -1,8 +1,8 @@
-import csv, os, json, argparse, sys
+import csv, os, json, argparse, sys, random
 from rdkit import Chem
 
 """
-Load data from directory, classify given molecule or test file
+Load data from directory, classify given molecule or test file 
 """
 
 # Walk reverse ontology subgraph (root = hitem) upwards, depth first. If any member of hitemset
@@ -150,15 +150,17 @@ parser.add_argument("-m", "--molecule", help="molecule to classify (SMILES/InChi
 parser.add_argument("-a", "--rawhits", help="output all hits before hit processing starts",
         action="store_true")
 parser.add_argument("-t", "--testfile", help="classify all InChis from file, first line may contain check item", type=str)
+parser.add_argument("-n", "--nptest", help="Load N random NP Inchis from WD and classify", action="store_true")
 
 # Read arguments from the command line
 args = parser.parse_args()
-if args.molecule is None and args.testfile is None:
-    print('One of -m or -t is needed')
+if args.molecule is None and args.testfile is None and args.nptest is False:
+    print('One of -m or -t or -n is needed')
     parser.print_usage()
     exit()
+print(args)
 
-if args.testfile is None:
+if args.testfile is None and args.testfile is None and args.nptest is False:
     if args.molecule.find('InChI=') >= 0:
         mol = Chem.MolFromInchi(args.molecule)
     else:
@@ -314,6 +316,49 @@ if args.testfile is not None:
             fcount = fcount + 1
         else:
             print('{} OK'.format(count, hits))
+    print('FAIL: {}/{}'.format(fcount, count))
+elif args.nptest:
+    N = 100
+    print('classifying {} random small biomolecules'.format(N))
+    with open(args.data + 'test/npitems.txt', 'r') as npf:
+        qs = [line.strip() for line in npf.readlines()]
+    sample = random.choices(qs, k=N)
+    query="""
+    SELECT ?inchi
+    WHERE
+    {{
+      VALUES ?item {{ {} }}
+      ?item wdt:P234 ?inchi.
+    }}
+    """.format('wd:' + ' wd:'.join(sample))
+    f = open('npsample.rq', 'w')
+    f.write(query)
+    f.close()
+    ret = os.popen('wd sparql npsample.rq >npsample.json')
+    if ret.close() is not None:
+        print('query failed')
+        exit()
+    with open('npsample.json', 'r') as tf:
+        tfs = [line.strip() for line in tf.readlines()]
+    count = 0
+    fcount = 0
+    check_item = 'Q206229'
+    for t_inchi in tfs:
+        mol = Chem.MolFromInchi(t_inchi)
+        if mol is None:
+            print('{} {}'.format(count, t_inchi))
+            exit()
+        hits = get_hits(mol, silent=True)
+        count = count + 1
+        found = False
+        for hit in hits.keys():
+            if walk_find(sitems, hit, check_item):
+                print('{} OK {}'.format(count, hits.get(hit)))
+                found = True
+                break
+        if not found:
+            print('{} FAIL: {}'.format(count, t_inchi))
+            fcount = fcount + 1
     print('FAIL: {}/{}'.format(fcount, count))
 else:
     hits = get_hits(mol)
