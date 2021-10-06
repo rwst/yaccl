@@ -54,4 +54,8 @@
 * all data: steroids
 * test data: steroids, 3/1561 FAIL
 
+===2112===
+* add -n option to classify small sample of WD natural products
+* all data: flavonoids pt. 1 (est. 60% of all)
+* test data: flavonoids
 
