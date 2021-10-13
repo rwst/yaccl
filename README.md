@@ -7,7 +7,7 @@ While yaccl is, in principle, a general classifier, development of patterns focu
 
 ## Version
 
-The current version is 2112.
+The current version is 2113.
 
 ## Prerequisites
 
@@ -119,6 +119,7 @@ Of course, any comment or PR is highly appreciated.
 * option to work with NP subgraph only (should be much faster)
 * output JSON
 * if there are superclass patterns match them first, narrowing following matches
+* optimize ontology in WD, remove or deprecate redundant P31/P279 stmts
 * write toolserver client
 * use RHEA to list enzymatic reactions
 * handle iridoid + glycoside --> iridoid glycoside
