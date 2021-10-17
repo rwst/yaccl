@@ -53,6 +53,36 @@ def walk_find(sitems, hitem, citem):
             return True
     return False
 
+# Walk reverse ontology subgraph (root = hitem) upwards, depth first.
+# If one of items in list is encountered return full path to it 
+path = []
+def walk_find_list(sitems, hitem, item_set):
+    global path
+    ch = sitems.get(hitem)
+    # print('{} {} {}'.format(hitem, citem, ch))
+    if ch is None:
+        return False
+    for c in ch:
+        if c is None:
+            continue
+        if c in item_set:
+            path.append(str(c))
+            return True
+        if walk_find_list(sitems, c, item_set):
+            path.append(c)
+            return True
+    return False
+
+# Find path to topmost natural product, return as array of names
+def path_to_nproot(hit, nplist):
+    global path
+    path = []
+    success = walk_find_list(sitems, hit, set(nplist))
+    if not success:
+        return []
+    path.append(hit)
+    return path
+
 # Try to match ALL patterns. Remove redundant. Return remaining.
 def get_hits(mol, silent=False):
     if not silent:
@@ -151,6 +181,7 @@ parser.add_argument("-a", "--rawhits", help="output all hits before hit processi
         action="store_true")
 parser.add_argument("-t", "--testfile", help="classify all InChis from file, first line may contain check item", type=str)
 parser.add_argument("-n", "--nptest", help="Load N random NP Inchis from WD and classify", action="store_true")
+parser.add_argument("-j", "--json", help="together with -m outputs JSON formatted result", action="store_true")
 
 # Read arguments from the command line
 args = parser.parse_args()
@@ -158,7 +189,11 @@ if args.molecule is None and args.testfile is None and args.nptest is False:
     print('One of -m or -t or -n is needed')
     parser.print_usage()
     exit()
-print(args)
+
+silent = args.json
+
+if not silent:
+    print(args)
 
 if args.testfile is None and args.testfile is None and args.nptest is False:
     if args.molecule.find('InChI=') >= 0:
@@ -175,7 +210,8 @@ smarts = {}
 
 # read bio process data
 with open(args.data + 'data-biosyn.json', 'r') as f:
-    print('reading biosyn data')
+    if not silent:
+        print('reading biosyn data')
     s = f.read()
     jol = json.loads(s)
 
@@ -219,7 +255,8 @@ for d in jol:
 
 # read pattern data
 with open(args.data + 'data-class-pattern.json', 'r') as f:
-    print('reading class pattern data')
+    if not silent:
+        print('reading class pattern data')
     s = f.read()
     jol = json.loads(s)
 
@@ -259,7 +296,8 @@ for d in jol:
 # filling subclass structure
 sitems = {}
 with open(args.data + 'data-class-subclass.json', 'r') as f:
-    print('reading superclass data')
+    if not silent:
+        print('reading superclass data')
     s = f.read()
     jol = json.loads(s)
 
@@ -272,27 +310,26 @@ for d in jol:
     else:
         sitems[it] = [sup]
 
+with open(args.data + 'data-class-subclass-names.json', 'r') as ff:
+    s = ff.read()
+    jol = json.loads(s)
+
+for d in jol:
+    it = d.get('item')
+    lab = d.get('lab')
+    if lab is None:
+        continue
+    labels[it] = lab
+
 # root items missing from query data
 sitems['Q2393187'] = ['Q43460564']
 labels['Q2393187'] = 'molecular entity'
 labels['Q43460564'] = 'chemical entity'
-"""
-# reverse links
-edges = {}
-for it,itsuplist in sitems.items():
-    for sup in itsuplist:
-        if sup in set(sitems.keys()).union(set(['Q43460564'])):
-            e = edges.get(sup)
-            if e is None:
-                edges[sup] = set([it])
-            else:
-                e.add(it)
 
 nplist = set()
-with open(args.natural, 'r') as nf:
+with open('natural.txt', 'r') as nf:
     nl = nf.readlines()
     nplist = set([line.rstrip() for line in nl])
-"""
 
 if args.testfile is not None:
     print('classifying testfile {}'.format(args.testfile))
@@ -361,12 +398,29 @@ elif args.nptest:
             fcount = fcount + 1
     print('FAIL: {}/{}'.format(fcount, count))
 else:
-    hits = get_hits(mol)
+    silent = False
+    if args.json:
+        silent = True
+    hits = get_hits(mol, silent)
     if args.rawhits:
         print('----------------------------------')
+    j = []
     for hit in hits.keys():
+        if args.json:
+            p = path_to_nproot(hit, nplist)
+            if len(p) == 0:
+                continue
+            d = {}
+            d['classification_names'] = [labels.get(it) for it in p]
         #finding closest biosynthetic processes
         cgo = walk_ont_go(sitems, hit, gos)
-        print('{} {}'.format(hits.get(hit), cgo))
+        if args.json:
+            if cgo is not None:
+                d['biological_process'] = list(cgo)
+            j.append(d)
+        else:
+            print('{} {}'.format(hits.get(hit), cgo))
+    if args.json:
+        print(json.dumps(j))
 
 
