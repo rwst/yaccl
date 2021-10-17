@@ -55,6 +55,40 @@ for d in jol:
     else:
         i.add(sup)
 
+if dontquery is False:
+    query="""
+    SELECT DISTINCT ?item ?lab
+    WHERE
+    {{
+      VALUES ?item {{ {} }}
+      ?item rdfs:label ?lab.
+      FILTER (LANG(?lab) = 'en')
+    }}
+    """.format("wd:" + " wd:".join(sups))
+    f = open('{}-1.rq'.format(script), 'w')
+    f.write(query)
+    f.close()
+
+    print('querying names for {} items...'.format(len(sups)))
+    ret = os.popen('wd sparql {}-1.rq >{}.names'.format(script, script))
+    if ret.close() is not None:
+        exit()
+
+with open('{}.names'.format(script), 'r') as ff:
+    s = ff.read()
+    jol = json.loads(s)
+
+names = {}
+for d in jol:
+    it = d.get('item')
+    lab = d.get('lab')
+    if lab is None:
+        exit()
+    names[it] = lab
+
+with open('data-class-subclass-names.json', 'w+') as f:
+    f.write(json.dumps(sorted(jol, key=lambda data: OFFSET*(int(data.get('item')[1:]))), indent=0, ensure_ascii=False))
+
 print('#items with superclass: {}'.format(len(itsups.keys())))
 print('#superclasses: {}'.format(len(sups)))
 print('#superclasses not in items: {}'.format(len(sups.difference(set(itsups.keys())))))
