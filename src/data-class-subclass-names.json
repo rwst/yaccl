@@ -1,0 +1,8454 @@
+[
+{
+"item": "Q156",
+"lab": "alcohols"
+},
+{
+"item": "Q2522",
+"lab": "dioxins and dioxin-like compounds"
+},
+{
+"item": "Q7430",
+"lab": "DNA"
+},
+{
+"item": "Q8054",
+"lab": "protein"
+},
+{
+"item": "Q8066",
+"lab": "amino acid"
+},
+{
+"item": "Q8386",
+"lab": "drug"
+},
+{
+"item": "Q11053",
+"lab": "RNA"
+},
+{
+"item": "Q11158",
+"lab": "acid"
+},
+{
+"item": "Q11173",
+"lab": "chemical compound"
+},
+{
+"item": "Q11193",
+"lab": "base"
+},
+{
+"item": "Q11358",
+"lab": "carbohydrate"
+},
+{
+"item": "Q11364",
+"lab": "hormone"
+},
+{
+"item": "Q11367",
+"lab": "lipid"
+},
+{
+"item": "Q11369",
+"lab": "molecule"
+},
+{
+"item": "Q11432",
+"lab": "gas"
+},
+{
+"item": "Q12140",
+"lab": "medication"
+},
+{
+"item": "Q12187",
+"lab": "antibiotic"
+},
+{
+"item": "Q12190",
+"lab": "penicillin"
+},
+{
+"item": "Q12370",
+"lab": "salt"
+},
+{
+"item": "Q18225",
+"lab": "vitamin A"
+},
+{
+"item": "Q25790",
+"lab": "glycation"
+},
+{
+"item": "Q28351",
+"lab": "deoxyribonucleoside"
+},
+{
+"item": "Q28734",
+"lab": "nucleoside"
+},
+{
+"item": "Q28742",
+"lab": "aminoglycoside"
+},
+{
+"item": "Q28745",
+"lab": "nucleotides"
+},
+{
+"item": "Q28751",
+"lab": "deoxyribonucleotide"
+},
+{
+"item": "Q32418",
+"lab": "sugar ester"
+},
+{
+"item": "Q32528",
+"lab": "monoterpene"
+},
+{
+"item": "Q34396",
+"lab": "soap"
+},
+{
+"item": "Q34402",
+"lab": "ribonucleoside"
+},
+{
+"item": "Q34956",
+"lab": "vitamin"
+},
+{
+"item": "Q35456",
+"lab": "essential medicine"
+},
+{
+"item": "Q36496",
+"lab": "ion"
+},
+{
+"item": "Q37525",
+"lab": "glucose"
+},
+{
+"item": "Q40867",
+"lab": "poison"
+},
+{
+"item": "Q41534",
+"lab": "starch"
+},
+{
+"item": "Q41581",
+"lab": "alkane"
+},
+{
+"item": "Q41873",
+"lab": "β-lactam"
+},
+{
+"item": "Q43177",
+"lab": "chlorophyll"
+},
+{
+"item": "Q43648",
+"lab": "hydrocarbon"
+},
+{
+"item": "Q50690",
+"lab": "oxide"
+},
+{
+"item": "Q53844",
+"lab": "glycol ethers"
+},
+{
+"item": "Q59078",
+"lab": "lactone"
+},
+{
+"item": "Q59447",
+"lab": "diterpene"
+},
+{
+"item": "Q61476",
+"lab": "fatty acid"
+},
+{
+"item": "Q66194",
+"lab": "cyclic compound"
+},
+{
+"item": "Q66392",
+"lab": "binary compound"
+},
+{
+"item": "Q70702",
+"lab": "alkaloid"
+},
+{
+"item": "Q76626",
+"lab": "plant sap"
+},
+{
+"item": "Q79529",
+"lab": "chemical substance"
+},
+{
+"item": "Q80218",
+"lab": "sesquiterpene"
+},
+{
+"item": "Q80756",
+"lab": "polynucleotide"
+},
+{
+"item": "Q81163",
+"lab": "polymer"
+},
+{
+"item": "Q81406",
+"lab": "alkene"
+},
+{
+"item": "Q101487",
+"lab": "ester"
+},
+{
+"item": "Q101497",
+"lab": "aldehydes"
+},
+{
+"item": "Q103230",
+"lab": "ethers"
+},
+{
+"item": "Q103537",
+"lab": "antigen"
+},
+{
+"item": "Q106520",
+"lab": "hydride"
+},
+{
+"item": "Q107429",
+"lab": "peroxide"
+},
+{
+"item": "Q107968",
+"lab": "anion"
+},
+{
+"item": "Q117973",
+"lab": "nucleotide sugar"
+},
+{
+"item": "Q123619",
+"lab": "nucleic acids"
+},
+{
+"item": "Q127950",
+"lab": "isomer"
+},
+{
+"item": "Q131656",
+"lab": "pesticide"
+},
+{
+"item": "Q131790",
+"lab": "adhesive"
+},
+{
+"item": "Q133516",
+"lab": "monosaccharide"
+},
+{
+"item": "Q134219",
+"lab": "polysaccharides"
+},
+{
+"item": "Q134856",
+"lab": "carboxylic acid"
+},
+{
+"item": "Q137154",
+"lab": "galactoside"
+},
+{
+"item": "Q137173",
+"lab": "glucoside"
+},
+{
+"item": "Q138983",
+"lab": "ecdysteroids"
+},
+{
+"item": "Q139660",
+"lab": "secosteroid"
+},
+{
+"item": "Q141180",
+"lab": "vitamin E"
+},
+{
+"item": "Q143623",
+"lab": "sterol"
+},
+{
+"item": "Q145205",
+"lab": "resin"
+},
+{
+"item": "Q145273",
+"lab": "polyamide"
+},
+{
+"item": "Q146505",
+"lab": "solvent"
+},
+{
+"item": "Q151335",
+"lab": "butene"
+},
+{
+"item": "Q151353",
+"lab": "pentene"
+},
+{
+"item": "Q151375",
+"lab": "Heptene"
+},
+{
+"item": "Q151382",
+"lab": "octene"
+},
+{
+"item": "Q159226",
+"lab": "alkyne"
+},
+{
+"item": "Q161179",
+"lab": "pigment"
+},
+{
+"item": "Q161466",
+"lab": "diglyceride"
+},
+{
+"item": "Q162657",
+"lab": "neurotransmitter"
+},
+{
+"item": "Q166774",
+"lab": "protease inhibitor"
+},
+{
+"item": "Q167198",
+"lab": "amine"
+},
+{
+"item": "Q167377",
+"lab": "pheromone"
+},
+{
+"item": "Q167676",
+"lab": "sensor"
+},
+{
+"item": "Q168453",
+"lab": "tetrahydrofolic acid"
+},
+{
+"item": "Q169336",
+"lab": "mixture"
+},
+{
+"item": "Q170744",
+"lab": "ketone"
+},
+{
+"item": "Q172847",
+"lab": "peptide"
+},
+{
+"item": "Q173600",
+"lab": "disaccharide"
+},
+{
+"item": "Q174211",
+"lab": "organic compound"
+},
+{
+"item": "Q175621",
+"lab": "vitamin D"
+},
+{
+"item": "Q177911",
+"lab": "steroid"
+},
+{
+"item": "Q178266",
+"lab": "herbicide"
+},
+{
+"item": "Q178593",
+"lab": "macromolecule"
+},
+{
+"item": "Q178859",
+"lab": "antimicrobial drug"
+},
+{
+"item": "Q181322",
+"lab": "insecticide"
+},
+{
+"item": "Q181394",
+"lab": "nutrient"
+},
+{
+"item": "Q181466",
+"lab": "amine oxide"
+},
+{
+"item": "Q181699",
+"lab": "carbonate"
+},
+{
+"item": "Q182338",
+"lab": "vitamin K"
+},
+{
+"item": "Q182738",
+"lab": "oxime"
+},
+{
+"item": "Q182808",
+"lab": "galactans"
+},
+{
+"item": "Q183119",
+"lab": "bacteriocin"
+},
+{
+"item": "Q183206",
+"lab": "vitamin B"
+},
+{
+"item": "Q184651",
+"lab": "toxin"
+},
+{
+"item": "Q184817",
+"lab": "lignin"
+},
+{
+"item": "Q185056",
+"lab": "radical"
+},
+{
+"item": "Q186319",
+"lab": "triglyceride"
+},
+{
+"item": "Q186915",
+"lab": "phospholipids"
+},
+{
+"item": "Q187126",
+"lab": "glycoprotein"
+},
+{
+"item": "Q187607",
+"lab": "tannin"
+},
+{
+"item": "Q187661",
+"lab": "carcinogen"
+},
+{
+"item": "Q188152",
+"lab": "ginkgolide"
+},
+{
+"item": "Q188245",
+"lab": "polyester"
+},
+{
+"item": "Q188724",
+"lab": "non-steroidal anti-inflammatory drug"
+},
+{
+"item": "Q188777",
+"lab": "amide"
+},
+{
+"item": "Q188862",
+"lab": "cycloalkane"
+},
+{
+"item": "Q189567",
+"lab": "food additive"
+},
+{
+"item": "Q189621",
+"lab": "heme"
+},
+{
+"item": "Q189720",
+"lab": "dye"
+},
+{
+"item": "Q190016",
+"lab": "heparin"
+},
+{
+"item": "Q190065",
+"lab": "inorganic compound"
+},
+{
+"item": "Q190156",
+"lab": "carotene"
+},
+{
+"item": "Q191154",
+"lab": "surfactant"
+},
+{
+"item": "Q191756",
+"lab": "omega-3 fatty acid"
+},
+{
+"item": "Q191907",
+"lab": "carotenoid"
+},
+{
+"item": "Q191978",
+"lab": "dextrin"
+},
+{
+"item": "Q192596",
+"lab": "aliphatic compound"
+},
+{
+"item": "Q192639",
+"lab": "glycoside"
+},
+{
+"item": "Q192678",
+"lab": "diene"
+},
+{
+"item": "Q192795",
+"lab": "coke"
+},
+{
+"item": "Q192949",
+"lab": "plant hormone"
+},
+{
+"item": "Q193086",
+"lab": "halide"
+},
+{
+"item": "Q193161",
+"lab": "ligand"
+},
+{
+"item": "Q193237",
+"lab": "fungicide"
+},
+{
+"item": "Q193430",
+"lab": "heterocyclic compound"
+},
+{
+"item": "Q194270",
+"lab": "hallucinogen"
+},
+{
+"item": "Q194322",
+"lab": "tartaric acid"
+},
+{
+"item": "Q202043",
+"lab": "hexosamines"
+},
+{
+"item": "Q205654",
+"lab": "pentose"
+},
+{
+"item": "Q205944",
+"lab": "polybrominated diphenyl ether"
+},
+{
+"item": "Q206229",
+"lab": "biomolecule"
+},
+{
+"item": "Q206920",
+"lab": "peptidoglycan"
+},
+{
+"item": "Q207653",
+"lab": "saponin"
+},
+{
+"item": "Q209717",
+"lab": "prostaglandins"
+},
+{
+"item": "Q210420",
+"lab": "corticosteroid"
+},
+{
+"item": "Q212270",
+"lab": "carbocation"
+},
+{
+"item": "Q212364",
+"lab": "terpene"
+},
+{
+"item": "Q212527",
+"lab": "acetate"
+},
+{
+"item": "Q214609",
+"lab": "material"
+},
+{
+"item": "Q216208",
+"lab": "xanthophylls"
+},
+{
+"item": "Q220410",
+"lab": "thiol"
+},
+{
+"item": "Q221205",
+"lab": "sulfide"
+},
+{
+"item": "Q222174",
+"lab": "2-phenylchromane flavonoid"
+},
+{
+"item": "Q225972",
+"lab": "bicyclic compound"
+},
+{
+"item": "Q228106",
+"lab": "sugar acid"
+},
+{
+"item": "Q230731",
+"lab": "aromatic hydrocarbon"
+},
+{
+"item": "Q238156",
+"lab": "coordination complex"
+},
+{
+"item": "Q241906",
+"lab": "carbide"
+},
+{
+"item": "Q245115",
+"lab": "zwitterion"
+},
+{
+"item": "Q245204",
+"lab": "antagonist"
+},
+{
+"item": "Q245282",
+"lab": "essential amino acid"
+},
+{
+"item": "Q248797",
+"lab": "amyl alcohol"
+},
+{
+"item": "Q250437",
+"lab": "sulfonic acid"
+},
+{
+"item": "Q251124",
+"lab": "lactam"
+},
+{
+"item": "Q252266",
+"lab": "elastomer"
+},
+{
+"item": "Q253817",
+"lab": "organic peroxide"
+},
+{
+"item": "Q257954",
+"lab": "trichothecenes"
+},
+{
+"item": "Q261310",
+"lab": "inclusion compound"
+},
+{
+"item": "Q262183",
+"lab": "leucoanthocyanidin"
+},
+{
+"item": "Q262547",
+"lab": "anthocyanins"
+},
+{
+"item": "Q264492",
+"lab": "furanose"
+},
+{
+"item": "Q266595",
+"lab": "diamino acid"
+},
+{
+"item": "Q271021",
+"lab": "cephalosporin antibiotic"
+},
+{
+"item": "Q271663",
+"lab": "catecholamine"
+},
+{
+"item": "Q276843",
+"lab": "nitroso compound"
+},
+{
+"item": "Q277629",
+"lab": "double salt"
+},
+{
+"item": "Q277954",
+"lab": "estrogen"
+},
+{
+"item": "Q278540",
+"lab": "alkoxide"
+},
+{
+"item": "Q282970",
+"lab": "pyrethrin"
+},
+{
+"item": "Q288407",
+"lab": "bisabolene"
+},
+{
+"item": "Q290439",
+"lab": "polyphenol"
+},
+{
+"item": "Q306156",
+"lab": "Enone"
+},
+{
+"item": "Q306264",
+"lab": "β-lactam antibiotic"
+},
+{
+"item": "Q312085",
+"lab": "Iron-sulfur cluster"
+},
+{
+"item": "Q319997",
+"lab": "endotoxins"
+},
+{
+"item": "Q320607",
+"lab": "oligosaccharide"
+},
+{
+"item": "Q322251",
+"lab": "azo compound"
+},
+{
+"item": "Q326277",
+"lab": "cation"
+},
+{
+"item": "Q331818",
+"lab": "gibberellins"
+},
+{
+"item": "Q333936",
+"lab": "nitrile"
+},
+{
+"item": "Q334477",
+"lab": "selective serotonin reuptake inhibitor"
+},
+{
+"item": "Q335208",
+"lab": "D-mannopyranose"
+},
+{
+"item": "Q339725",
+"lab": "hexose"
+},
+{
+"item": "Q341409",
+"lab": "onium ion"
+},
+{
+"item": "Q343016",
+"lab": "acrylate"
+},
+{
+"item": "Q344942",
+"lab": "acyclic compound"
+},
+{
+"item": "Q345003",
+"lab": "acyl"
+},
+{
+"item": "Q345024",
+"lab": "acyloin"
+},
+{
+"item": "Q349735",
+"lab": "lactate"
+},
+{
+"item": "Q350176",
+"lab": "additive"
+},
+{
+"item": "Q355518",
+"lab": "carboxylate ester"
+},
+{
+"item": "Q355679",
+"lab": "carboxamides"
+},
+{
+"item": "Q378871",
+"lab": "fatty alcohol"
+},
+{
+"item": "Q385413",
+"lab": "endohedral fullerene"
+},
+{
+"item": "Q387914",
+"lab": "organohalogen compound"
+},
+{
+"item": "Q389172",
+"lab": "cyclic peptide"
+},
+{
+"item": "Q389934",
+"lab": "agonist"
+},
+{
+"item": "Q394316",
+"lab": "aglycone"
+},
+{
+"item": "Q407142",
+"lab": "phenols"
+},
+{
+"item": "Q407212",
+"lab": "polycyclic aromatic hydrocarbons"
+},
+{
+"item": "Q407280",
+"lab": "cofactor"
+},
+{
+"item": "Q407553",
+"lab": "glycosaminoglycan"
+},
+{
+"item": "Q407595",
+"lab": "metabolite"
+},
+{
+"item": "Q407627",
+"lab": "azide"
+},
+{
+"item": "Q407650",
+"lab": "phthalate"
+},
+{
+"item": "Q407680",
+"lab": "icosanoid"
+},
+{
+"item": "Q407752",
+"lab": "neurotoxin"
+},
+{
+"item": "Q407758",
+"lab": "glyceride"
+},
+{
+"item": "Q407944",
+"lab": "imide"
+},
+{
+"item": "Q407976",
+"lab": "proteoglycans"
+},
+{
+"item": "Q408014",
+"lab": "chondroitin sulfate"
+},
+{
+"item": "Q408028",
+"lab": "epoxide"
+},
+{
+"item": "Q408053",
+"lab": "enol"
+},
+{
+"item": "Q408057",
+"lab": "imine"
+},
+{
+"item": "Q408126",
+"lab": "nitrophenol"
+},
+{
+"item": "Q408365",
+"lab": "isocyanate"
+},
+{
+"item": "Q408395",
+"lab": "sulfoxide"
+},
+{
+"item": "Q408452",
+"lab": "indole alkaloid"
+},
+{
+"item": "Q408584",
+"lab": "sulfatide"
+},
+{
+"item": "Q408683",
+"lab": "mineral acid"
+},
+{
+"item": "Q408688",
+"lab": "acyl halide"
+},
+{
+"item": "Q408699",
+"lab": "triose"
+},
+{
+"item": "Q409079",
+"lab": "aldose"
+},
+{
+"item": "Q409108",
+"lab": "ketose"
+},
+{
+"item": "Q410125",
+"lab": "crown ether"
+},
+{
+"item": "Q410395",
+"lab": "sphingolipids"
+},
+{
+"item": "Q410548",
+"lab": "lysophosphatidylcholine"
+},
+{
+"item": "Q410943",
+"lab": "antagonist"
+},
+{
+"item": "Q411097",
+"lab": "organophosphate"
+},
+{
+"item": "Q411193",
+"lab": "sulfone"
+},
+{
+"item": "Q411237",
+"lab": "(4RS)-4-hydroxy-DL-proline"
+},
+{
+"item": "Q411398",
+"lab": "sulfonamide drug"
+},
+{
+"item": "Q412056",
+"lab": "uronic acid"
+},
+{
+"item": "Q412074",
+"lab": "keto acid"
+},
+{
+"item": "Q412251",
+"lab": "Integrase inhibitor"
+},
+{
+"item": "Q412382",
+"lab": "quinone"
+},
+{
+"item": "Q412468",
+"lab": "cerebrosides"
+},
+{
+"item": "Q412519",
+"lab": "isoflavone"
+},
+{
+"item": "Q412598",
+"lab": "amatoxin"
+},
+{
+"item": "Q413248",
+"lab": "depsipeptide"
+},
+{
+"item": "Q413288",
+"lab": "bile acids"
+},
+{
+"item": "Q413302",
+"lab": "alpha hydroxy acid"
+},
+{
+"item": "Q413343",
+"lab": "cycloalkene"
+},
+{
+"item": "Q413524",
+"lab": "cresols"
+},
+{
+"item": "Q413676",
+"lab": "metallocene"
+},
+{
+"item": "Q414083",
+"lab": "amino sugar"
+},
+{
+"item": "Q414128",
+"lab": "tetrose"
+},
+{
+"item": "Q414774",
+"lab": "furanocoumarin"
+},
+{
+"item": "Q414794",
+"lab": "phellandrene"
+},
+{
+"item": "Q414939",
+"lab": "hemiacetal"
+},
+{
+"item": "Q415168",
+"lab": "ionophore"
+},
+{
+"item": "Q415265",
+"lab": "proanthocyanidins"
+},
+{
+"item": "Q415766",
+"lab": "modified starch"
+},
+{
+"item": "Q415812",
+"lab": "polyol"
+},
+{
+"item": "Q415828",
+"lab": "diazine"
+},
+{
+"item": "Q416007",
+"lab": "hydrazones"
+},
+{
+"item": "Q416014",
+"lab": "acaricide"
+},
+{
+"item": "Q416019",
+"lab": "glycoconjugate"
+},
+{
+"item": "Q416049",
+"lab": "isothiocyanate"
+},
+{
+"item": "Q416523",
+"lab": "metal carbonyl"
+},
+{
+"item": "Q416730",
+"lab": "pyrone"
+},
+{
+"item": "Q416796",
+"lab": "glucan"
+},
+{
+"item": "Q416814",
+"lab": "cyanohydrin"
+},
+{
+"item": "Q416840",
+"lab": "iridoid"
+},
+{
+"item": "Q416883",
+"lab": "glucosinolate"
+},
+{
+"item": "Q416937",
+"lab": "sandwich compound"
+},
+{
+"item": "Q416997",
+"lab": "peptide hormone"
+},
+{
+"item": "Q417181",
+"lab": "phenylpropanoid"
+},
+{
+"item": "Q417351",
+"lab": "oxalate compound"
+},
+{
+"item": "Q417632",
+"lab": "chlorinated paraffins"
+},
+{
+"item": "Q418153",
+"lab": "2,5-diketopiperazines"
+},
+{
+"item": "Q418533",
+"lab": "nucleoside triphosphate"
+},
+{
+"item": "Q418602",
+"lab": "dipeptide"
+},
+{
+"item": "Q418643",
+"lab": "organocopper compound"
+},
+{
+"item": "Q418727",
+"lab": "thiazine"
+},
+{
+"item": "Q418776",
+"lab": "sulfonylurea"
+},
+{
+"item": "Q418892",
+"lab": "glycosphingolipid"
+},
+{
+"item": "Q419024",
+"lab": "cyclophane"
+},
+{
+"item": "Q419178",
+"lab": "macrocycle"
+},
+{
+"item": "Q419235",
+"lab": "Polyyne"
+},
+{
+"item": "Q419257",
+"lab": "carbene"
+},
+{
+"item": "Q419287",
+"lab": "gangliosides"
+},
+{
+"item": "Q419411",
+"lab": "cumulene"
+},
+{
+"item": "Q419547",
+"lab": "xylan"
+},
+{
+"item": "Q419563",
+"lab": "triazine"
+},
+{
+"item": "Q419637",
+"lab": "hydrazide"
+},
+{
+"item": "Q419639",
+"lab": "azole"
+},
+{
+"item": "Q419968",
+"lab": "neuropeptides"
+},
+{
+"item": "Q420004",
+"lab": "glycerophospholipids"
+},
+{
+"item": "Q420018",
+"lab": "chlorophenol"
+},
+{
+"item": "Q420060",
+"lab": "hydrochloride"
+},
+{
+"item": "Q420168",
+"lab": "chemical messenger"
+},
+{
+"item": "Q420217",
+"lab": "enol ether"
+},
+{
+"item": "Q420225",
+"lab": "monoamine molecular messenger"
+},
+{
+"item": "Q420244",
+"lab": "thioketone"
+},
+{
+"item": "Q420304",
+"lab": "sulfinic acid"
+},
+{
+"item": "Q420327",
+"lab": "hydroxamic acid"
+},
+{
+"item": "Q420401",
+"lab": "quaternary ammonium cation"
+},
+{
+"item": "Q420418",
+"lab": "retinoid"
+},
+{
+"item": "Q420686",
+"lab": "ylide"
+},
+{
+"item": "Q420726",
+"lab": "branched-chain amino acid"
+},
+{
+"item": "Q420783",
+"lab": "polyphosphate"
+},
+{
+"item": "Q421086",
+"lab": "halohydrin"
+},
+{
+"item": "Q421103",
+"lab": "acetals"
+},
+{
+"item": "Q421158",
+"lab": "organoboron compound"
+},
+{
+"item": "Q421360",
+"lab": "trisaccharide"
+},
+{
+"item": "Q421559",
+"lab": "reverse-transcriptase inhibitor"
+},
+{
+"item": "Q421700",
+"lab": "calcium channel blocker"
+},
+{
+"item": "Q421726",
+"lab": "borate"
+},
+{
+"item": "Q421916",
+"lab": "diol"
+},
+{
+"item": "Q421948",
+"lab": "organic acid"
+},
+{
+"item": "Q421959",
+"lab": "polyamines"
+},
+{
+"item": "Q421976",
+"lab": "brassinosteroid"
+},
+{
+"item": "Q422050",
+"lab": "dicarboxylic acid"
+},
+{
+"item": "Q422137",
+"lab": "steroid hormone"
+},
+{
+"item": "Q422235",
+"lab": "lincosamides"
+},
+{
+"item": "Q422248",
+"lab": "monoclonal antibody"
+},
+{
+"item": "Q422399",
+"lab": "tetrapyrrole"
+},
+{
+"item": "Q422423",
+"lab": "bromide"
+},
+{
+"item": "Q422449",
+"lab": "mycotoxins"
+},
+{
+"item": "Q422484",
+"lab": "ribonucleotide"
+},
+{
+"item": "Q422649",
+"lab": "biopolymer"
+},
+{
+"item": "Q422687",
+"lab": "macrolides"
+},
+{
+"item": "Q422693",
+"lab": "phenethylamine"
+},
+{
+"item": "Q422733",
+"lab": "phosphonate"
+},
+{
+"item": "Q422772",
+"lab": "nitro compound"
+},
+{
+"item": "Q422785",
+"lab": "organosulfur compound"
+},
+{
+"item": "Q422789",
+"lab": "organosilicon compound"
+},
+{
+"item": "Q422794",
+"lab": "thioester"
+},
+{
+"item": "Q422812",
+"lab": "sex steroid"
+},
+{
+"item": "Q422882",
+"lab": "glycolipid"
+},
+{
+"item": "Q422899",
+"lab": "carbamate"
+},
+{
+"item": "Q422926",
+"lab": "porphyrins"
+},
+{
+"item": "Q422936",
+"lab": "cannabinoids"
+},
+{
+"item": "Q422960",
+"lab": "nucleobase"
+},
+{
+"item": "Q423088",
+"lab": "amidines"
+},
+{
+"item": "Q423118",
+"lab": "organic acid anhydride"
+},
+{
+"item": "Q423143",
+"lab": "sphingomyelin"
+},
+{
+"item": "Q423350",
+"lab": "metalloprotein"
+},
+{
+"item": "Q423666",
+"lab": "lactol"
+},
+{
+"item": "Q423717",
+"lab": "betalain"
+},
+{
+"item": "Q423937",
+"lab": "enolate ion"
+},
+{
+"item": "Q423964",
+"lab": "xenoestrogen"
+},
+{
+"item": "Q424180",
+"lab": "spiro compound"
+},
+{
+"item": "Q424182",
+"lab": "heptose"
+},
+{
+"item": "Q424213",
+"lab": "ceramide"
+},
+{
+"item": "Q424248",
+"lab": "pyranose"
+},
+{
+"item": "Q424361",
+"lab": "reactive oxygen species"
+},
+{
+"item": "Q424424",
+"lab": "diazo compound"
+},
+{
+"item": "Q424525",
+"lab": "flavone"
+},
+{
+"item": "Q424634",
+"lab": "lignan"
+},
+{
+"item": "Q424689",
+"lab": "gene product"
+},
+{
+"item": "Q424747",
+"lab": "siderophore"
+},
+{
+"item": "Q424855",
+"lab": "alkylbenzenes"
+},
+{
+"item": "Q424874",
+"lab": "2,3,5,6-Tetrafluoro-4-(methoxymethyl)benzyl 2,2-dimethyl-3-(1-propen-1-yl)cyclopropanecarboxylate"
+},
+{
+"item": "Q425046",
+"lab": "tartrate"
+},
+{
+"item": "Q425061",
+"lab": "dihydroxybenzene"
+},
+{
+"item": "Q425079",
+"lab": "polyhydroxyalkanoate"
+},
+{
+"item": "Q425083",
+"lab": "annulene"
+},
+{
+"item": "Q425125",
+"lab": "fatty acid methyl ester"
+},
+{
+"item": "Q425597",
+"lab": "hydroxide salts"
+},
+{
+"item": "Q426095",
+"lab": "phosphatidylethanolamines"
+},
+{
+"item": "Q426145",
+"lab": "polycyclic compound"
+},
+{
+"item": "Q426296",
+"lab": "diketone"
+},
+{
+"item": "Q426549",
+"lab": "quinolone"
+},
+{
+"item": "Q426680",
+"lab": "siloxane"
+},
+{
+"item": "Q426694",
+"lab": "terpenoid"
+},
+{
+"item": "Q426809",
+"lab": "organochlorine compound"
+},
+{
+"item": "Q427087",
+"lab": "non-coding RNA"
+},
+{
+"item": "Q427161",
+"lab": "cyanoacrylate"
+},
+{
+"item": "Q427419",
+"lab": "tocotrienol"
+},
+{
+"item": "Q427492",
+"lab": "enzyme inhibitor"
+},
+{
+"item": "Q428069",
+"lab": "intermetallic"
+},
+{
+"item": "Q462174",
+"lab": "hydrate"
+},
+{
+"item": "Q485014",
+"lab": "structural analog"
+},
+{
+"item": "Q497173",
+"lab": "oxoacid"
+},
+{
+"item": "Q502327",
+"lab": "senna glycoside"
+},
+{
+"item": "Q516751",
+"lab": "polyketide"
+},
+{
+"item": "Q526360",
+"lab": "stilbenoid"
+},
+{
+"item": "Q531306",
+"lab": "dimer"
+},
+{
+"item": "Q531507",
+"lab": "micronutrients"
+},
+{
+"item": "Q541769",
+"lab": "deoxy sugar"
+},
+{
+"item": "Q548631",
+"lab": "anionic surfactant"
+},
+{
+"item": "Q568476",
+"lab": "Leucines"
+},
+{
+"item": "Q574302",
+"lab": "anthraquinones"
+},
+{
+"item": "Q574820",
+"lab": "antiandrogen"
+},
+{
+"item": "Q578726",
+"lab": "antifungal"
+},
+{
+"item": "Q584276",
+"lab": "aromatic amine"
+},
+{
+"item": "Q587553",
+"lab": "charged particle"
+},
+{
+"item": "Q619698",
+"lab": "molybdopterin"
+},
+{
+"item": "Q620072",
+"lab": "Heme A"
+},
+{
+"item": "Q622311",
+"lab": "acid salt"
+},
+{
+"item": "Q648037",
+"lab": "per- and polyfluoroalkyl substances"
+},
+{
+"item": "Q650187",
+"lab": "phosphatidylcholines"
+},
+{
+"item": "Q652555",
+"lab": "unsaturated fat"
+},
+{
+"item": "Q662225",
+"lab": "monoglyceride"
+},
+{
+"item": "Q662959",
+"lab": "blister agent"
+},
+{
+"item": "Q663902",
+"lab": "butanol"
+},
+{
+"item": "Q669514",
+"lab": "limonoid"
+},
+{
+"item": "Q671779",
+"lab": "tetrazole"
+},
+{
+"item": "Q705605",
+"lab": "aromatic amino acid"
+},
+{
+"item": "Q722568",
+"lab": "perfluorinated compound"
+},
+{
+"item": "Q726004",
+"lab": "oligomer"
+},
+{
+"item": "Q727732",
+"lab": "thioether"
+},
+{
+"item": "Q736232",
+"lab": "methacrylate"
+},
+{
+"item": "Q739867",
+"lab": "streptogramins"
+},
+{
+"item": "Q745766",
+"lab": "pyrethroid"
+},
+{
+"item": "Q753009",
+"lab": "food coloring"
+},
+{
+"item": "Q757138",
+"lab": "hazardous substances"
+},
+{
+"item": "Q804539",
+"lab": "bactericide"
+},
+{
+"item": "Q816759",
+"lab": "beta blocker"
+},
+{
+"item": "Q843438",
+"lab": "cyanate"
+},
+{
+"item": "Q846227",
+"lab": "antiviral drug"
+},
+{
+"item": "Q872505",
+"lab": "tanning agents"
+},
+{
+"item": "Q879954",
+"lab": "sugar phosphates"
+},
+{
+"item": "Q886862",
+"lab": "diethyl tartrate"
+},
+{
+"item": "Q898452",
+"lab": "noble gas compound"
+},
+{
+"item": "Q898753",
+"lab": "Acidity regulator"
+},
+{
+"item": "Q898866",
+"lab": "Substance of very high concern"
+},
+{
+"item": "Q898920",
+"lab": "chalcogenide"
+},
+{
+"item": "Q899707",
+"lab": "pyrroline"
+},
+{
+"item": "Q899834",
+"lab": "teichoic acid"
+},
+{
+"item": "Q899851",
+"lab": "unsaturated compound"
+},
+{
+"item": "Q901227",
+"lab": "natural product"
+},
+{
+"item": "Q901544",
+"lab": "Glycophosphatidylinositol"
+},
+{
+"item": "Q903341",
+"lab": "triazoles"
+},
+{
+"item": "Q903441",
+"lab": "mesylate"
+},
+{
+"item": "Q904092",
+"lab": "homopolysaccharide"
+},
+{
+"item": "Q905978",
+"lab": "dipolar compound"
+},
+{
+"item": "Q906663",
+"lab": "plant secondary metabolite"
+},
+{
+"item": "Q907001",
+"lab": "thiolactone"
+},
+{
+"item": "Q907017",
+"lab": "withanolides"
+},
+{
+"item": "Q907447",
+"lab": "heteroarene"
+},
+{
+"item": "Q909712",
+"lab": "Copper proteins"
+},
+{
+"item": "Q909901",
+"lab": "thioacetal"
+},
+{
+"item": "Q910277",
+"lab": "tocopherol"
+},
+{
+"item": "Q910979",
+"lab": "biological pigment"
+},
+{
+"item": "Q911138",
+"lab": "thickener"
+},
+{
+"item": "Q911752",
+"lab": "nitrosyl compound"
+},
+{
+"item": "Q912951",
+"lab": "persistent organic pollutant"
+},
+{
+"item": "Q922718",
+"lab": "sulfonate"
+},
+{
+"item": "Q926882",
+"lab": "bromopropanoic acid"
+},
+{
+"item": "Q962217",
+"lab": "prostanoids"
+},
+{
+"item": "Q965478",
+"lab": "unsaturated hydrocarbon"
+},
+{
+"item": "Q967433",
+"lab": "cyclic nucleotide"
+},
+{
+"item": "Q977420",
+"lab": "metal hydroxide"
+},
+{
+"item": "Q1018145",
+"lab": "butyrate"
+},
+{
+"item": "Q1018754",
+"lab": "diazoles"
+},
+{
+"item": "Q1022646",
+"lab": "C3-Benzenes"
+},
+{
+"item": "Q1035540",
+"lab": "carboxylic acid derivative"
+},
+{
+"item": "Q1035584",
+"lab": "acyl chloride"
+},
+{
+"item": "Q1053113",
+"lab": "cellulose derivative"
+},
+{
+"item": "Q1059843",
+"lab": "petroleum product"
+},
+{
+"item": "Q1064242",
+"lab": "polyatomic ion"
+},
+{
+"item": "Q1072576",
+"lab": "sulfate ester"
+},
+{
+"item": "Q1073242",
+"lab": "anthocyanidins"
+},
+{
+"item": "Q1075329",
+"lab": "chlorobenzene"
+},
+{
+"item": "Q1077067",
+"lab": "aldohexose"
+},
+{
+"item": "Q1087229",
+"lab": "acyl carrier protein"
+},
+{
+"item": "Q1138899",
+"lab": "endocrine disruptor"
+},
+{
+"item": "Q1146640",
+"lab": "citrate"
+},
+{
+"item": "Q1151249",
+"lab": "D-amino acid"
+},
+{
+"item": "Q1181702",
+"lab": "decahydroquinoline"
+},
+{
+"item": "Q1201508",
+"lab": "antimicrobial peptide"
+},
+{
+"item": "Q1227097",
+"lab": "dioxazine dye"
+},
+{
+"item": "Q1227206",
+"lab": "oxadiazole"
+},
+{
+"item": "Q1230226",
+"lab": "disulfide"
+},
+{
+"item": "Q1263750",
+"lab": "pterine"
+},
+{
+"item": "Q1291047",
+"lab": "nitroalkane"
+},
+{
+"item": "Q1327815",
+"lab": "hydrogen compound"
+},
+{
+"item": "Q1364904",
+"lab": "petrochemical product"
+},
+{
+"item": "Q1434219",
+"lab": "flourinated benzene"
+},
+{
+"item": "Q1444355",
+"lab": "hepatotoxin"
+},
+{
+"item": "Q1479544",
+"lab": "nanoelectronics"
+},
+{
+"item": "Q1491636",
+"lab": "Galactolipid"
+},
+{
+"item": "Q1508568",
+"lab": "sodium salt"
+},
+{
+"item": "Q1532394",
+"lab": "glutamate"
+},
+{
+"item": "Q1547612",
+"lab": "hydrohalide"
+},
+{
+"item": "Q1588896",
+"lab": "monatomic ion"
+},
+{
+"item": "Q1616877",
+"lab": "ketohexose"
+},
+{
+"item": "Q1639139",
+"lab": "phytochemicals"
+},
+{
+"item": "Q1659847",
+"lab": "imidazole"
+},
+{
+"item": "Q1660194",
+"lab": "immunomodulator"
+},
+{
+"item": "Q1674528",
+"lab": "isoprenoid"
+},
+{
+"item": "Q1726215",
+"lab": "process material"
+},
+{
+"item": "Q1728148",
+"lab": "milbemycin"
+},
+{
+"item": "Q1756183",
+"lab": "pyrazole"
+},
+{
+"item": "Q1757710",
+"lab": "cluster"
+},
+{
+"item": "Q1851694",
+"lab": "allethrin"
+},
+{
+"item": "Q1872710",
+"lab": "phytotoxin"
+},
+{
+"item": "Q1886461",
+"lab": "macrolide antibiotic"
+},
+{
+"item": "Q1905684",
+"lab": "stearates"
+},
+{
+"item": "Q1907417",
+"lab": "vinyl sulfone"
+},
+{
+"item": "Q1988322",
+"lab": "small molecule"
+},
+{
+"item": "Q2001841",
+"lab": "formate"
+},
+{
+"item": "Q2005087",
+"lab": "polyunsaturated fatty acid"
+},
+{
+"item": "Q2076617",
+"lab": "beta-glucan"
+},
+{
+"item": "Q2088746",
+"lab": "phosphoglyceric acid"
+},
+{
+"item": "Q2088783",
+"lab": "phosphite ester"
+},
+{
+"item": "Q2095373",
+"lab": "pinane"
+},
+{
+"item": "Q2095629",
+"lab": "(+)-α-pinene"
+},
+{
+"item": "Q2115726",
+"lab": "pseudoelement"
+},
+{
+"item": "Q2134627",
+"lab": "reactive intermediate"
+},
+{
+"item": "Q2148694",
+"lab": "organotellurium compound"
+},
+{
+"item": "Q2157080",
+"lab": "Hydroxysteroid"
+},
+{
+"item": "Q2157266",
+"lab": "oligopeptides"
+},
+{
+"item": "Q2182492",
+"lab": "organic compound, having C-P covalent bound"
+},
+{
+"item": "Q2200141",
+"lab": "organofluorine"
+},
+{
+"item": "Q2200407",
+"lab": "chemical indicator"
+},
+{
+"item": "Q2250497",
+"lab": "unsaturated fatty acids"
+},
+{
+"item": "Q2272566",
+"lab": "aldonic acid"
+},
+{
+"item": "Q2273248",
+"lab": "phosphatidylinositols"
+},
+{
+"item": "Q2315231",
+"lab": "Galactooligosaccharide"
+},
+{
+"item": "Q2356542",
+"lab": "reagent"
+},
+{
+"item": "Q2365017",
+"lab": "aldaric acid"
+},
+{
+"item": "Q2366155",
+"lab": "ionic compound"
+},
+{
+"item": "Q2393187",
+"lab": "molecular entity"
+},
+{
+"item": "Q2405371",
+"lab": "10-formyltetrahydropteroyl-ξ-glutamic acid"
+},
+{
+"item": "Q2415654",
+"lab": "alkanolamine"
+},
+{
+"item": "Q2420555",
+"lab": "thiazoles"
+},
+{
+"item": "Q2425020",
+"lab": "glycopeptides"
+},
+{
+"item": "Q2445303",
+"lab": "amphetamines"
+},
+{
+"item": "Q2448456",
+"lab": "fluorophore"
+},
+{
+"item": "Q2453240",
+"lab": "triglycidyl isocyanurate"
+},
+{
+"item": "Q2456623",
+"lab": "organobromine compound"
+},
+{
+"item": "Q2457767",
+"lab": "Keratan sulfate"
+},
+{
+"item": "Q2468248",
+"lab": "inorganic polymer"
+},
+{
+"item": "Q2477421",
+"lab": "organoarsenic compound"
+},
+{
+"item": "Q2500485",
+"lab": "diamine"
+},
+{
+"item": "Q2519471",
+"lab": "polyenes"
+},
+{
+"item": "Q2531708",
+"lab": "polychlorinated dibenzofurans"
+},
+{
+"item": "Q2553138",
+"lab": "glycan"
+},
+{
+"item": "Q2562896",
+"lab": "organomercury"
+},
+{
+"item": "Q2600234",
+"lab": "organoiodine compound"
+},
+{
+"item": "Q2602701",
+"lab": "Schiff base"
+},
+{
+"item": "Q2612896",
+"lab": "nerve agent"
+},
+{
+"item": "Q2613674",
+"lab": "ascorbate"
+},
+{
+"item": "Q2618336",
+"lab": "corrinoid"
+},
+{
+"item": "Q2621150",
+"lab": "conjugated protein"
+},
+{
+"item": "Q2642710",
+"lab": "organometallic compound"
+},
+{
+"item": "Q2660666",
+"lab": "hexavalent chromium"
+},
+{
+"item": "Q2689559",
+"lab": "nucleoside analogue"
+},
+{
+"item": "Q2698455",
+"lab": "short-chain fatty acid"
+},
+{
+"item": "Q2699537",
+"lab": "acyl-CoA"
+},
+{
+"item": "Q2700049",
+"lab": "saturated compound"
+},
+{
+"item": "Q2718713",
+"lab": "(5E)-5-[(3aS,5R,6aS)-5-Hydroxy-4-[(1E,3S)-3-hydroxy-4-methyl-1-octen-6-yn-1-yl]hexahydro-2(1H)-pentalenylidene]pentanoic acid"
+},
+{
+"item": "Q2746231",
+"lab": "chloroformate"
+},
+{
+"item": "Q2753252",
+"lab": "resolvin"
+},
+{
+"item": "Q2756638",
+"lab": "galactocerebroside"
+},
+{
+"item": "Q2758348",
+"lab": "nitrogen heterocycle"
+},
+{
+"item": "Q2760354",
+"lab": "zinc dithiophosphate"
+},
+{
+"item": "Q2823314",
+"lab": "tricarboxylic acid"
+},
+{
+"item": "Q2832080",
+"lab": "tropane alkaloids"
+},
+{
+"item": "Q2832210",
+"lab": "primary alcohol"
+},
+{
+"item": "Q2832211",
+"lab": "secondary alcohol"
+},
+{
+"item": "Q2832212",
+"lab": "tertiary alcohol"
+},
+{
+"item": "Q2836809",
+"lab": "nitrogenous base"
+},
+{
+"item": "Q2853144",
+"lab": "antineoplastic"
+},
+{
+"item": "Q2855060",
+"lab": "cyclopentadienyl complex"
+},
+{
+"item": "Q2855177",
+"lab": "glycosyl group"
+},
+{
+"item": "Q2875193",
+"lab": "pyrrolidine"
+},
+{
+"item": "Q2878809",
+"lab": "inositol phosphate"
+},
+{
+"item": "Q2896788",
+"lab": "benzoate"
+},
+{
+"item": "Q2896816",
+"lab": "benzylidene compound"
+},
+{
+"item": "Q2896817",
+"lab": "N-benzoylurea"
+},
+{
+"item": "Q2901852",
+"lab": "compound of carbon"
+},
+{
+"item": "Q2903964",
+"lab": "lipopeptide"
+},
+{
+"item": "Q2918932",
+"lab": "enose"
+},
+{
+"item": "Q2920205",
+"lab": "carveol"
+},
+{
+"item": "Q2966731",
+"lab": "chromone"
+},
+{
+"item": "Q2974090",
+"lab": "organoantimony compound"
+},
+{
+"item": "Q2984395",
+"lab": "azo dye"
+},
+{
+"item": "Q3008453",
+"lab": "cyclitol"
+},
+{
+"item": "Q3010262",
+"lab": "cephem antibiotic"
+},
+{
+"item": "Q3010324",
+"lab": "wax ester"
+},
+{
+"item": "Q3028705",
+"lab": "Geminal diol"
+},
+{
+"item": "Q3040305",
+"lab": "aromatase inhibitors"
+},
+{
+"item": "Q3055087",
+"lab": "condensed tannin"
+},
+{
+"item": "Q3058925",
+"lab": "sulfite ester"
+},
+{
+"item": "Q3073451",
+"lab": "flavanone"
+},
+{
+"item": "Q3074508",
+"lab": "Fluorotelomer"
+},
+{
+"item": "Q3077338",
+"lab": "Lipid A"
+},
+{
+"item": "Q3083505",
+"lab": "polyether"
+},
+{
+"item": "Q3084232",
+"lab": "polypeptide"
+},
+{
+"item": "Q3095007",
+"lab": "γ-lactone"
+},
+{
+"item": "Q3109359",
+"lab": "glycosylamine"
+},
+{
+"item": "Q3109391",
+"lab": "mannans"
+},
+{
+"item": "Q3111295",
+"lab": "hydroxycinnamic acid"
+},
+{
+"item": "Q3124671",
+"lab": "H-phosphonate"
+},
+{
+"item": "Q3130623",
+"lab": "organobismuth compound"
+},
+{
+"item": "Q3208529",
+"lab": "sulfonamide"
+},
+{
+"item": "Q3234924",
+"lab": "isoflavonoid"
+},
+{
+"item": "Q3243177",
+"lab": "antimonide"
+},
+{
+"item": "Q3268331",
+"lab": "fumonisin"
+},
+{
+"item": "Q3269344",
+"lab": "oxyanion"
+},
+{
+"item": "Q3271540",
+"lab": "mechanism of action"
+},
+{
+"item": "Q3359062",
+"lab": "oxolane"
+},
+{
+"item": "Q3359078",
+"lab": "oxycation"
+},
+{
+"item": "Q3360898",
+"lab": "purines"
+},
+{
+"item": "Q3361209",
+"lab": "inorganic substance"
+},
+{
+"item": "Q3498942",
+"lab": "carboxylate"
+},
+{
+"item": "Q3502267",
+"lab": "sterol ester"
+},
+{
+"item": "Q3503468",
+"lab": "sulfolipid"
+},
+{
+"item": "Q3523992",
+"lab": "thiazepine"
+},
+{
+"item": "Q3539074",
+"lab": "tricyclic compound"
+},
+{
+"item": "Q3539455",
+"lab": "triol"
+},
+{
+"item": "Q3685323",
+"lab": "nitrogen compound"
+},
+{
+"item": "Q3819788",
+"lab": "adipate"
+},
+{
+"item": "Q3827885",
+"lab": "functional analog"
+},
+{
+"item": "Q3874670",
+"lab": "neoflavonoid"
+},
+{
+"item": "Q3955012",
+"lab": "semiquinone"
+},
+{
+"item": "Q4004659",
+"lab": "ointment"
+},
+{
+"item": "Q4030651",
+"lab": "3-hydroxyproline"
+},
+{
+"item": "Q4064648",
+"lab": "amphoteric compound"
+},
+{
+"item": "Q4066270",
+"lab": "anilides"
+},
+{
+"item": "Q4138039",
+"lab": "hydrazines"
+},
+{
+"item": "Q4152088",
+"lab": "humic substances"
+},
+{
+"item": "Q4214615",
+"lab": "carbocyclic compound"
+},
+{
+"item": "Q4291748",
+"lab": "methylxanthine"
+},
+{
+"item": "Q4314639",
+"lab": "naphthylamine"
+},
+{
+"item": "Q4321635",
+"lab": "nitronaphthalene"
+},
+{
+"item": "Q4321642",
+"lab": "nitrate ester"
+},
+{
+"item": "Q4338158",
+"lab": "alkali salt"
+},
+{
+"item": "Q4386156",
+"lab": "organoselenium compound"
+},
+{
+"item": "Q4427704",
+"lab": "calcium salt"
+},
+{
+"item": "Q4427706",
+"lab": "ammonium salt"
+},
+{
+"item": "Q4476839",
+"lab": "urate"
+},
+{
+"item": "Q4482660",
+"lab": "fenchane monoterpene"
+},
+{
+"item": "Q4489785",
+"lab": "apocarotenoid"
+},
+{
+"item": "Q4531153",
+"lab": "organo-main group compound"
+},
+{
+"item": "Q4625944",
+"lab": "alditol"
+},
+{
+"item": "Q4796467",
+"lab": "arsenic compound"
+},
+{
+"item": "Q4890789",
+"lab": "benzocycloheptenes"
+},
+{
+"item": "Q4913883",
+"lab": "binary compound of hydrogen"
+},
+{
+"item": "Q4971815",
+"lab": "broad-spectrum antibiotic"
+},
+{
+"item": "Q5002501",
+"lab": "butenolide"
+},
+{
+"item": "Q5072487",
+"lab": "channel blocker"
+},
+{
+"item": "Q5072504",
+"lab": "Channel opener"
+},
+{
+"item": "Q5156939",
+"lab": "compound of lead"
+},
+{
+"item": "Q5156940",
+"lab": "oxygen compound"
+},
+{
+"item": "Q5159421",
+"lab": "conduritol"
+},
+{
+"item": "Q5217682",
+"lab": "dithiocarbamate"
+},
+{
+"item": "Q5272330",
+"lab": "dication"
+},
+{
+"item": "Q5276451",
+"lab": "dihydrostilbenoid"
+},
+{
+"item": "Q5287251",
+"lab": "docosanoid"
+},
+{
+"item": "Q5381547",
+"lab": "Enzyme mimic"
+},
+{
+"item": "Q5420648",
+"lab": "exopolysaccharide"
+},
+{
+"item": "Q5438003",
+"lab": "fatty acid amide"
+},
+{
+"item": "Q5438005",
+"lab": "fatty acid ester"
+},
+{
+"item": "Q5643463",
+"lab": "organolanthanide compound"
+},
+{
+"item": "Q5723218",
+"lab": "Amphiphile"
+},
+{
+"item": "Q5780264",
+"lab": "mercury compound"
+},
+{
+"item": "Q5951249",
+"lab": "polysiloxanes"
+},
+{
+"item": "Q5955135",
+"lab": "hydrolysable tannin"
+},
+{
+"item": "Q5955525",
+"lab": "anthracenol"
+},
+{
+"item": "Q5968009",
+"lab": "Polyene antimycotic"
+},
+{
+"item": "Q5999892",
+"lab": "metalloporphyrins"
+},
+{
+"item": "Q6036601",
+"lab": "inorganic ion"
+},
+{
+"item": "Q6048561",
+"lab": "octanol"
+},
+{
+"item": "Q6395439",
+"lab": "ketosamine"
+},
+{
+"item": "Q6741352",
+"lab": "malaria prophylaxis"
+},
+{
+"item": "Q6823656",
+"lab": "methionine S-oxide"
+},
+{
+"item": "Q6823902",
+"lab": "DL-methorphan"
+},
+{
+"item": "Q6824016",
+"lab": "Methylhydrazines"
+},
+{
+"item": "Q6881918",
+"lab": "mitotic inhibitor"
+},
+{
+"item": "Q6951350",
+"lab": "N-acylethanolamine"
+},
+{
+"item": "Q6985085",
+"lab": "glycol"
+},
+{
+"item": "Q7048995",
+"lab": "non-proteinogenic amino acids"
+},
+{
+"item": "Q7049212",
+"lab": "nonclassic eicosanoid"
+},
+{
+"item": "Q7072038",
+"lab": "O-methylated flavonoid"
+},
+{
+"item": "Q7102101",
+"lab": "Organothiophosphate"
+},
+{
+"item": "Q7115046",
+"lab": "oxacephem"
+},
+{
+"item": "Q7116159",
+"lab": "oxysterols"
+},
+{
+"item": "Q7130787",
+"lab": "silicates"
+},
+{
+"item": "Q7226489",
+"lab": "Polyhalogen ions"
+},
+{
+"item": "Q7226493",
+"lab": "Polyhalogenated compound"
+},
+{
+"item": "Q7226864",
+"lab": "Polyprenol"
+},
+{
+"item": "Q7240580",
+"lab": "prenylflavonoid"
+},
+{
+"item": "Q7251487",
+"lab": "protein kinase inhibitors"
+},
+{
+"item": "Q7256727",
+"lab": "pterocarpan"
+},
+{
+"item": "Q7261260",
+"lab": "purinone"
+},
+{
+"item": "Q7263387",
+"lab": "pyranoanthocyanin"
+},
+{
+"item": "Q7263606",
+"lab": "pyrimidone"
+},
+{
+"item": "Q7277281",
+"lab": "ribonucleoside triphosphate"
+},
+{
+"item": "Q7370371",
+"lab": "rotenoid"
+},
+{
+"item": "Q7396596",
+"lab": "Saccharolipid"
+},
+{
+"item": "Q7455047",
+"lab": "serotonin antagonist"
+},
+{
+"item": "Q7458208",
+"lab": "reaction intermediate"
+},
+{
+"item": "Q7458527",
+"lab": "sex pheromone"
+},
+{
+"item": "Q7515021",
+"lab": "silicon-hydrogen compound"
+},
+{
+"item": "Q7623370",
+"lab": "Streptogramin group A"
+},
+{
+"item": "Q7632116",
+"lab": "cathinone"
+},
+{
+"item": "Q7689669",
+"lab": "taxoids"
+},
+{
+"item": "Q7706284",
+"lab": "tetracyclic compound"
+},
+{
+"item": "Q7706535",
+"lab": "tetrahydrate"
+},
+{
+"item": "Q7706557",
+"lab": "tetrahydroxyanthraquinone"
+},
+{
+"item": "Q7706623",
+"lab": "tetranortriterpenoid"
+},
+{
+"item": "Q7706759",
+"lab": "tetraterpene"
+},
+{
+"item": "Q7844276",
+"lab": "triterpenoid"
+},
+{
+"item": "Q7911118",
+"lab": "valerate"
+},
+{
+"item": "Q8204875",
+"lab": "mechanically interlocked molecular architectures"
+},
+{
+"item": "Q8485944",
+"lab": "1,2,3,4-tetrabromobutane"
+},
+{
+"item": "Q8964351",
+"lab": "cyanogenic glycoside"
+},
+{
+"item": "Q9138795",
+"lab": "acetylene"
+},
+{
+"item": "Q9148474",
+"lab": "aromatic alcohol"
+},
+{
+"item": "Q9168929",
+"lab": "benzodiazepine"
+},
+{
+"item": "Q9178218",
+"lab": "radiopharmaceutical"
+},
+{
+"item": "Q9189959",
+"lab": "carboxylic acid chloride"
+},
+{
+"item": "Q9255129",
+"lab": "ethyl ester"
+},
+{
+"item": "Q9392635",
+"lab": "carbonyl compound"
+},
+{
+"item": "Q10528967",
+"lab": "hydroxy acid"
+},
+{
+"item": "Q10705510",
+"lab": "tryptamines"
+},
+{
+"item": "Q10749005",
+"lab": "compound of zinc"
+},
+{
+"item": "Q10809118",
+"lab": "mannose"
+},
+{
+"item": "Q10861296",
+"lab": "zoocide"
+},
+{
+"item": "Q10862682",
+"lab": "Naphthoquinone"
+},
+{
+"item": "Q10893823",
+"lab": "conjugated diene"
+},
+{
+"item": "Q11685431",
+"lab": "alkanol"
+},
+{
+"item": "Q11724961",
+"lab": "chlorinated hydrocarbon"
+},
+{
+"item": "Q11751655",
+"lab": "polycarboxylic acid"
+},
+{
+"item": "Q11789887",
+"lab": "saturated fatty acid"
+},
+{
+"item": "Q11797724",
+"lab": "olefin"
+},
+{
+"item": "Q11867365",
+"lab": "polyphosphate"
+},
+{
+"item": "Q11996855",
+"lab": "radioactive matter"
+},
+{
+"item": "Q12270111",
+"lab": "organic salt"
+},
+{
+"item": "Q12326784",
+"lab": "metal salt"
+},
+{
+"item": "Q12385831",
+"lab": "catalyst"
+},
+{
+"item": "Q12439816",
+"lab": "phosphite"
+},
+{
+"item": "Q12548019",
+"lab": "calcium compounds"
+},
+{
+"item": "Q12550003",
+"lab": "silicon compound"
+},
+{
+"item": "Q12554725",
+"lab": "copper compound"
+},
+{
+"item": "Q12555933",
+"lab": "sodium compound"
+},
+{
+"item": "Q12597599",
+"lab": "aromatic carboxylic acid"
+},
+{
+"item": "Q12748271",
+"lab": "ergot alkaloids"
+},
+{
+"item": "Q13576540",
+"lab": "diazanaphthalene"
+},
+{
+"item": "Q14333920",
+"lab": "halogenated hydrocarbon"
+},
+{
+"item": "Q15075719",
+"lab": "aromatic acid"
+},
+{
+"item": "Q15149231",
+"lab": "azine"
+},
+{
+"item": "Q15438649",
+"lab": "quassinoid"
+},
+{
+"item": "Q15628529",
+"lab": "bergamotene"
+},
+{
+"item": "Q15710532",
+"lab": "vitamer"
+},
+{
+"item": "Q15727447",
+"lab": "germanium compound"
+},
+{
+"item": "Q15731574",
+"lab": "uranium compound"
+},
+{
+"item": "Q15794107",
+"lab": "chloroacrylic acid"
+},
+{
+"item": "Q15820200",
+"lab": "insect pheromone"
+},
+{
+"item": "Q15847215",
+"lab": "semiochemical"
+},
+{
+"item": "Q16002885",
+"lab": "aminoalkylindole"
+},
+{
+"item": "Q16007010",
+"lab": "vertebrate pheromone"
+},
+{
+"item": "Q16007012",
+"lab": "xanthones"
+},
+{
+"item": "Q16605146",
+"lab": "potassium salt"
+},
+{
+"item": "Q16643995",
+"lab": "iodotyrosine"
+},
+{
+"item": "Q16644123",
+"lab": "dihydrochalcones"
+},
+{
+"item": "Q16652161",
+"lab": "fatty aldehyde"
+},
+{
+"item": "Q16679921",
+"lab": "thiolane"
+},
+{
+"item": "Q16683253",
+"lab": "nitrite ester"
+},
+{
+"item": "Q16875676",
+"lab": "hormone antagonist"
+},
+{
+"item": "Q16963326",
+"lab": "non-methane volatile organic compound"
+},
+{
+"item": "Q16965132",
+"lab": "monoprotic acid"
+},
+{
+"item": "Q16976956",
+"lab": "isoflavene"
+},
+{
+"item": "Q17118718",
+"lab": "diketopiperazine"
+},
+{
+"item": "Q17127593",
+"lab": "sulfobetaine"
+},
+{
+"item": "Q17141738",
+"lab": "tripodal ligand"
+},
+{
+"item": "Q17154357",
+"lab": "metallacycle"
+},
+{
+"item": "Q17325708",
+"lab": "piperidine alkaloids"
+},
+{
+"item": "Q17326428",
+"lab": "steroid alkaloid"
+},
+{
+"item": "Q17763005",
+"lab": "D-mannose"
+},
+{
+"item": "Q17992308",
+"lab": "acid anhydride"
+},
+{
+"item": "Q18009516",
+"lab": "benzazepine"
+},
+{
+"item": "Q18379010",
+"lab": "bridged compound"
+},
+{
+"item": "Q18390589",
+"lab": "Benzyloxycarbonylphenylalanyl-alanine fluoromethyl ketone"
+},
+{
+"item": "Q18458631",
+"lab": "gold compound"
+},
+{
+"item": "Q19388114",
+"lab": "secretion or excretion"
+},
+{
+"item": "Q19790488",
+"lab": "monohydric alcohol"
+},
+{
+"item": "Q19829510",
+"lab": "pollutant"
+},
+{
+"item": "Q19834818",
+"lab": "aromatic compound"
+},
+{
+"item": "Q19885597",
+"lab": "oxo compound"
+},
+{
+"item": "Q20054553",
+"lab": "thiuram"
+},
+{
+"item": "Q20064627",
+"lab": "biguanide"
+},
+{
+"item": "Q20075802",
+"lab": "secoiridoid monoterpenoid"
+},
+{
+"item": "Q20829260",
+"lab": "organoactinide compound"
+},
+{
+"item": "Q20898120",
+"lab": "flavan-3-ol"
+},
+{
+"item": "Q20901727",
+"lab": "alkynols"
+},
+{
+"item": "Q20965030",
+"lab": "organic tin compounds"
+},
+{
+"item": "Q20974920",
+"lab": "hydrobromide"
+},
+{
+"item": "Q20986104",
+"lab": "inorganic hydroperoxide"
+},
+{
+"item": "Q20986117",
+"lab": "organic peroxide"
+},
+{
+"item": "Q20986771",
+"lab": "coumarin"
+},
+{
+"item": "Q21009058",
+"lab": "Class IIIA combustible liquid"
+},
+{
+"item": "Q21009059",
+"lab": "Class IIIB combustible liquid"
+},
+{
+"item": "Q21044676",
+"lab": "gallate"
+},
+{
+"item": "Q21060412",
+"lab": "organic arsenic compounds"
+},
+{
+"item": "Q21073024",
+"lab": "flammable solid"
+},
+{
+"item": "Q21074597",
+"lab": "occupational carcinogen"
+},
+{
+"item": "Q21198401",
+"lab": "allotrope"
+},
+{
+"item": "Q22082904",
+"lab": "1,2-diacyl-sn-glycerol"
+},
+{
+"item": "Q22082951",
+"lab": "1,2-diacyl-sn-glycero-3-phosphocholine"
+},
+{
+"item": "Q22133399",
+"lab": "beryllium compound"
+},
+{
+"item": "Q22137013",
+"lab": "cadmium compound"
+},
+{
+"item": "Q22157957",
+"lab": "organophosphorus pesticide"
+},
+{
+"item": "Q22158401",
+"lab": "polycyclic aromatic compound"
+},
+{
+"item": "Q22325163",
+"lab": "protein-containing complex"
+},
+{
+"item": "Q22332141",
+"lab": "isotopic compound"
+},
+{
+"item": "Q22668706",
+"lab": "cannabitriol (unspec.)"
+},
+{
+"item": "Q22909074",
+"lab": "Human milk oligosaccharide"
+},
+{
+"item": "Q22965501",
+"lab": "glycerolipid"
+},
+{
+"item": "Q23005640",
+"lab": "moiety"
+},
+{
+"item": "Q23015676",
+"lab": "ketopentose"
+},
+{
+"item": "Q23015685",
+"lab": "aldopentose"
+},
+{
+"item": "Q23905960",
+"lab": "glucopyranose"
+},
+{
+"item": "Q23905964",
+"lab": "D-glucopyranose"
+},
+{
+"item": "Q24067397",
+"lab": "long chain fatty acid"
+},
+{
+"item": "Q24301658",
+"lab": "L-amino acid"
+},
+{
+"item": "Q24577828",
+"lab": "organic cyclic compound"
+},
+{
+"item": "Q24644552",
+"lab": "amino-acid betaine"
+},
+{
+"item": "Q24778361",
+"lab": "thionin"
+},
+{
+"item": "Q24780345",
+"lab": "Spider toxin"
+},
+{
+"item": "Q24883081",
+"lab": "steroid ester"
+},
+{
+"item": "Q24901874",
+"lab": "branched chain fatty acids"
+},
+{
+"item": "Q25111100",
+"lab": "dithiol"
+},
+{
+"item": "Q25111998",
+"lab": "f-block metallocene"
+},
+{
+"item": "Q25323814",
+"lab": "heteroborane"
+},
+{
+"item": "Q25323982",
+"lab": "benzofurans"
+},
+{
+"item": "Q25383529",
+"lab": "aluminum compound"
+},
+{
+"item": "Q25385534",
+"lab": "hydrogen chalcogenide"
+},
+{
+"item": "Q25403325",
+"lab": "benzodiazine"
+},
+{
+"item": "Q25403900",
+"lab": "food ingredient"
+},
+{
+"item": "Q25416091",
+"lab": "substance"
+},
+{
+"item": "Q25906049",
+"lab": "isoxazoline"
+},
+{
+"item": "Q25997675",
+"lab": "sulfate"
+},
+{
+"item": "Q26492894",
+"lab": "halogen compound"
+},
+{
+"item": "Q26933712",
+"lab": "chromate"
+},
+{
+"item": "Q26998377",
+"lab": "2-monoacylglycerol"
+},
+{
+"item": "Q27077804",
+"lab": "ginkgolide B (CID 441294)"
+},
+{
+"item": "Q27094532",
+"lab": "3,4,5,6,7,8,9,10,11,12-decahydro-7,14,16-trihydroxy-3-methyl-1H-2-benzoxacyclotetradecin-1-one"
+},
+{
+"item": "Q27104381",
+"lab": "p-menthan-3-one"
+},
+{
+"item": "Q27104599",
+"lab": "3-oxo Delta(4)-steroid"
+},
+{
+"item": "Q27105484",
+"lab": "3-Oxo-delta1-steroid"
+},
+{
+"item": "Q27106307",
+"lab": "D-galactopyranose"
+},
+{
+"item": "Q27109097",
+"lab": "cyclohexa-3,5-diene-1,2-diol"
+},
+{
+"item": "Q27109870",
+"lab": "p-menthan-3-ol"
+},
+{
+"item": "Q27117234",
+"lab": "D-fructopyranose"
+},
+{
+"item": "Q27117238",
+"lab": "D-fructofuranose"
+},
+{
+"item": "Q27119833",
+"lab": "[cyano-(4-fluoro-3-phenoxyphenyl)methyl] 3-[2-chloro-2-(4-chlorophenyl)ethenyl]-2,2-dimethylcyclopropane-1-carboxylate"
+},
+{
+"item": "Q27120664",
+"lab": "naphthol"
+},
+{
+"item": "Q27144414",
+"lab": "aldono-1,5-lactone"
+},
+{
+"item": "Q27155747",
+"lab": "5-(bromomethyl)-1,2,3,4,7,7-hexachlorobicyclo[2.2.1]hept-2-ene"
+},
+{
+"item": "Q27157362",
+"lab": "3-hydroxyaspartic acid"
+},
+{
+"item": "Q27163227",
+"lab": "(RS)-rapamycin"
+},
+{
+"item": "Q27163696",
+"lab": "LSM-1835"
+},
+{
+"item": "Q27163713",
+"lab": "1H-indole-3-carboxylic acid (8-methyl-8-azabicyclo[3.2.1]octan-3-yl) ester"
+},
+{
+"item": "Q27165475",
+"lab": "1,2-diaminocyclohexane"
+},
+{
+"item": "Q27166227",
+"lab": "5-[(3aS,4R,5R,6aS)-5-hydroxy-4-[(3S)-3-hydroxy-4-methyl-1-octen-6-yn-1-yl]hexahydro-2(1H)-pentalenylidene]pentanoic acid"
+},
+{
+"item": "Q27181620",
+"lab": "3-hydroxy-2-phenylpropanoic acid (8-methyl-8-azabicyclo[3.2.1]octan-3-yl) ester"
+},
+{
+"item": "Q27215890",
+"lab": "hexane-1,2,3,4,5,6-hexol"
+},
+{
+"item": "Q27291634",
+"lab": "2-ethylhexyl DL-lactate"
+},
+{
+"item": "Q28370569",
+"lab": "sulfur heterocycle"
+},
+{
+"item": "Q28417815",
+"lab": "acetate ester"
+},
+{
+"item": "Q28453754",
+"lab": "thorium compound"
+},
+{
+"item": "Q29652967",
+"lab": "alkyl ether"
+},
+{
+"item": "Q30688752",
+"lab": "pyridine alkaloids"
+},
+{
+"item": "Q32904830",
+"lab": "pentose phosphate"
+},
+{
+"item": "Q32907316",
+"lab": "GDP-glucose"
+},
+{
+"item": "Q32907954",
+"lab": "glucosamine"
+},
+{
+"item": "Q33127260",
+"lab": "oxazolidinone"
+},
+{
+"item": "Q33607073",
+"lab": "1-Alkenyl-2-acylglycerophosphocholine"
+},
+{
+"item": "Q33609566",
+"lab": "1-alkyl-sn-glycerol"
+},
+{
+"item": "Q33616143",
+"lab": "fatty acyl-CoA"
+},
+{
+"item": "Q34669510",
+"lab": "malleable material"
+},
+{
+"item": "Q35662896",
+"lab": "glucosylceramide"
+},
+{
+"item": "Q35664941",
+"lab": "ceramide-1-phosphate(2−)"
+},
+{
+"item": "Q37931493",
+"lab": "film former"
+},
+{
+"item": "Q38134329",
+"lab": "2'-deoxyribonucleoside triphosphate"
+},
+{
+"item": "Q38135257",
+"lab": "nucleoside diphosphate"
+},
+{
+"item": "Q38176423",
+"lab": "D-ribose"
+},
+{
+"item": "Q38881342",
+"lab": "unsymmetrical ether"
+},
+{
+"item": "Q39906024",
+"lab": "Ribonucleoside 5'-triphosphate"
+},
+{
+"item": "Q40203884",
+"lab": "galactosylceramide sulfate"
+},
+{
+"item": "Q40205789",
+"lab": "D-glucosyl-N-acylsphingosine"
+},
+{
+"item": "Q40206202",
+"lab": "N-acyl-β-D-galactosylsphingosine (R1)"
+},
+{
+"item": "Q40207471",
+"lab": "N-acetyl-D-galactosaminyl group"
+},
+{
+"item": "Q40208401",
+"lab": "chalconoid"
+},
+{
+"item": "Q40209313",
+"lab": "glucosaminylphosphatidylinositol"
+},
+{
+"item": "Q40211011",
+"lab": "heparins"
+},
+{
+"item": "Q40211102",
+"lab": "hydroxy fatty acid"
+},
+{
+"item": "Q43305851",
+"lab": "phenol ether"
+},
+{
+"item": "Q43456933",
+"lab": "organic ion"
+},
+{
+"item": "Q43457632",
+"lab": "organic anion"
+},
+{
+"item": "Q43457636",
+"lab": "organic cation"
+},
+{
+"item": "Q43457637",
+"lab": "inorganic anion"
+},
+{
+"item": "Q43457640",
+"lab": "inorganic cation"
+},
+{
+"item": "Q43993964",
+"lab": "deuterated compound"
+},
+{
+"item": "Q44068921",
+"lab": "heteropolysaccharide"
+},
+{
+"item": "Q44791900",
+"lab": "chloride"
+},
+{
+"item": "Q44793182",
+"lab": "fluoride"
+},
+{
+"item": "Q44794658",
+"lab": "iodide"
+},
+{
+"item": "Q45355603",
+"lab": "aminoglycoside antibiotic"
+},
+{
+"item": "Q46218311",
+"lab": "molybdopterin cofactor"
+},
+{
+"item": "Q46219052",
+"lab": "nicotinamide nucleotide"
+},
+{
+"item": "Q46220103",
+"lab": "phosphates"
+},
+{
+"item": "Q46326783",
+"lab": "L-1-phosphatidyl-sn-glycerol(1-)"
+},
+{
+"item": "Q47006360",
+"lab": "monoterpenoid"
+},
+{
+"item": "Q47006367",
+"lab": "diterpenoid"
+},
+{
+"item": "Q47006373",
+"lab": "sesquiterpenoid"
+},
+{
+"item": "Q47006386",
+"lab": "tetraterpenoid"
+},
+{
+"item": "Q47009129",
+"lab": "furans"
+},
+{
+"item": "Q47069735",
+"lab": "pyrimidines"
+},
+{
+"item": "Q47147773",
+"lab": "monocarboxylic acid"
+},
+{
+"item": "Q47148592",
+"lab": "tetracarboxylic acid"
+},
+{
+"item": "Q47165582",
+"lab": "aliphatic hydrocarbon"
+},
+{
+"item": "Q47294933",
+"lab": "benzoic acid ester"
+},
+{
+"item": "Q47317020",
+"lab": "pyridines"
+},
+{
+"item": "Q47317306",
+"lab": "bipyridine"
+},
+{
+"item": "Q47457841",
+"lab": "homocyclic compound"
+},
+{
+"item": "Q47457972",
+"lab": "saturated silicon hydride"
+},
+{
+"item": "Q47463389",
+"lab": "pyrazine"
+},
+{
+"item": "Q47465258",
+"lab": "thiophene"
+},
+{
+"item": "Q48836115",
+"lab": "piperazines"
+},
+{
+"item": "Q49000291",
+"lab": "bromophenol"
+},
+{
+"item": "Q49847565",
+"lab": "androstane steroid"
+},
+{
+"item": "Q49851249",
+"lab": "boron compound"
+},
+{
+"item": "Q49856656",
+"lab": "quinoline"
+},
+{
+"item": "Q49858617",
+"lab": "dihydropyridine"
+},
+{
+"item": "Q49873234",
+"lab": "ergoline"
+},
+{
+"item": "Q49890112",
+"lab": "estradiol congeners"
+},
+{
+"item": "Q49916468",
+"lab": "nitrate"
+},
+{
+"item": "Q49922434",
+"lab": "xanthines"
+},
+{
+"item": "Q50228868",
+"lab": "Prostaglandins I"
+},
+{
+"item": "Q50315890",
+"lab": "chelating agent"
+},
+{
+"item": "Q50316261",
+"lab": "adrenergic beta-agonists"
+},
+{
+"item": "Q50349216",
+"lab": "iron chelating agent"
+},
+{
+"item": "Q50377137",
+"lab": "benzoxazole"
+},
+{
+"item": "Q50377146",
+"lab": "cardenolides"
+},
+{
+"item": "Q50377175",
+"lab": "indicators and reagents"
+},
+{
+"item": "Q50377176",
+"lab": "anti-infective agent"
+},
+{
+"item": "Q50377208",
+"lab": "anti-HIV agents"
+},
+{
+"item": "Q50379878",
+"lab": "diagnostic use of chemicals"
+},
+{
+"item": "Q50379880",
+"lab": "noxae"
+},
+{
+"item": "Q50380088",
+"lab": "protective agent"
+},
+{
+"item": "Q50429847",
+"lab": "anticholesteremic agents"
+},
+{
+"item": "Q50429907",
+"lab": "cardiovascular agent"
+},
+{
+"item": "Q50429932",
+"lab": "female contraceptive agents"
+},
+{
+"item": "Q50429983",
+"lab": "estrogen antagonist"
+},
+{
+"item": "Q50430203",
+"lab": "DNA probes"
+},
+{
+"item": "Q50430226",
+"lab": "serotonergic agent"
+},
+{
+"item": "Q50430231",
+"lab": "cholinergic agent"
+},
+{
+"item": "Q50430239",
+"lab": "GABA agents"
+},
+{
+"item": "Q50430320",
+"lab": "luminescent agents"
+},
+{
+"item": "Q50430321",
+"lab": "membrane transport modulator"
+},
+{
+"item": "Q50430472",
+"lab": "steroid synthesis inhibitor"
+},
+{
+"item": "Q50823377",
+"lab": "benzaldehyde"
+},
+{
+"item": "Q51831414",
+"lab": "labdanes"
+},
+{
+"item": "Q51978332",
+"lab": "thiazolidine"
+},
+{
+"item": "Q52086929",
+"lab": "pyridone"
+},
+{
+"item": "Q54875001",
+"lab": "dioxane"
+},
+{
+"item": "Q55261298",
+"lab": "benzalkonium chloride C8-18"
+},
+{
+"item": "Q55427774",
+"lab": "male reproductive toxicant"
+},
+{
+"item": "Q55427776",
+"lab": "female reproductive toxicant"
+},
+{
+"item": "Q55488252",
+"lab": "organic azide"
+},
+{
+"item": "Q55499606",
+"lab": "benzamide"
+},
+{
+"item": "Q55499703",
+"lab": "benzimidazole"
+},
+{
+"item": "Q55503275",
+"lab": "citrate salt"
+},
+{
+"item": "Q55506079",
+"lab": "dibenzo-1,4-dioxin"
+},
+{
+"item": "Q55511397",
+"lab": "monoatomic anion"
+},
+{
+"item": "Q55511415",
+"lab": "monoatomic cation"
+},
+{
+"item": "Q55511438",
+"lab": "polyatomic anion"
+},
+{
+"item": "Q55511472",
+"lab": "polyatomic cation"
+},
+{
+"item": "Q55523831",
+"lab": "monocation"
+},
+{
+"item": "Q55523862",
+"lab": "trication"
+},
+{
+"item": "Q55523896",
+"lab": "tetracation"
+},
+{
+"item": "Q55523986",
+"lab": "monoanion"
+},
+{
+"item": "Q55524005",
+"lab": "dianion"
+},
+{
+"item": "Q55524036",
+"lab": "trianion"
+},
+{
+"item": "Q55524312",
+"lab": "polyion"
+},
+{
+"item": "Q55524651",
+"lab": "carboxylate salt"
+},
+{
+"item": "Q55525180",
+"lab": "carboxylate anion"
+},
+{
+"item": "Q55582657",
+"lab": "butyrate ester"
+},
+{
+"item": "Q55608732",
+"lab": "cyclopropane fatty acid"
+},
+{
+"item": "Q55665770",
+"lab": "isoindole"
+},
+{
+"item": "Q55692896",
+"lab": "monocyclic compound"
+},
+{
+"item": "Q55698578",
+"lab": "indoles"
+},
+{
+"item": "Q55739694",
+"lab": "organonitrogen compound"
+},
+{
+"item": "Q56009873",
+"lab": "elemenes"
+},
+{
+"item": "Q56071880",
+"lab": "hexanediol"
+},
+{
+"item": "Q56085456",
+"lab": "benzoic acid"
+},
+{
+"item": "Q56088779",
+"lab": "pyran-2-one"
+},
+{
+"item": "Q56099970",
+"lab": "azocine"
+},
+{
+"item": "Q56249615",
+"lab": "selenium sulfide"
+},
+{
+"item": "Q56250590",
+"lab": "inorganic sulfide"
+},
+{
+"item": "Q56250626",
+"lab": "sulfide salt"
+},
+{
+"item": "Q56250684",
+"lab": "organic disulfide"
+},
+{
+"item": "Q56283350",
+"lab": "iron compounds"
+},
+{
+"item": "Q56296684",
+"lab": "malate"
+},
+{
+"item": "Q56297782",
+"lab": "cembrane"
+},
+{
+"item": "Q56380605",
+"lab": "sulfonyl compound"
+},
+{
+"item": "Q56380915",
+"lab": "palladium compound"
+},
+{
+"item": "Q56398233",
+"lab": "magnesium compound"
+},
+{
+"item": "Q56398342",
+"lab": "benzyl compound"
+},
+{
+"item": "Q56404029",
+"lab": "nitrate salt"
+},
+{
+"item": "Q56422995",
+"lab": "organomagnesium compound"
+},
+{
+"item": "Q56427411",
+"lab": "methanesulfonate salt"
+},
+{
+"item": "Q56427531",
+"lab": "organosulfonate anion"
+},
+{
+"item": "Q56438608",
+"lab": "indoline"
+},
+{
+"item": "Q56440222",
+"lab": "carbamide"
+},
+{
+"item": "Q56637027",
+"lab": "onium compound"
+},
+{
+"item": "Q56683182",
+"lab": "taxines"
+},
+{
+"item": "Q56696697",
+"lab": "carboxylic anhydride"
+},
+{
+"item": "Q56697523",
+"lab": "trihydroxybenzene"
+},
+{
+"item": "Q56702196",
+"lab": "oxazolidine"
+},
+{
+"item": "Q56702513",
+"lab": "tartrate ester"
+},
+{
+"item": "Q56702530",
+"lab": "tartrate salt"
+},
+{
+"item": "Q56702552",
+"lab": "dithiolane"
+},
+{
+"item": "Q56702563",
+"lab": "1,2-dithiolane"
+},
+{
+"item": "Q56702727",
+"lab": "dithiane"
+},
+{
+"item": "Q56702777",
+"lab": "dihydronaphthalene"
+},
+{
+"item": "Q56702995",
+"lab": "dihydronaphthalene"
+},
+{
+"item": "Q56703794",
+"lab": "oxazine"
+},
+{
+"item": "Q56709411",
+"lab": "hydroperoxide"
+},
+{
+"item": "Q56709989",
+"lab": "inorganic peroxide"
+},
+{
+"item": "Q56713250",
+"lab": "chlorate"
+},
+{
+"item": "Q56793712",
+"lab": "dihydroazine"
+},
+{
+"item": "Q56794124",
+"lab": "pyridinecarboxamide"
+},
+{
+"item": "Q56794602",
+"lab": "azepine"
+},
+{
+"item": "Q56809516",
+"lab": "hydantoin"
+},
+{
+"item": "Q56809526",
+"lab": "imidazolidine"
+},
+{
+"item": "Q56809586",
+"lab": "flavan"
+},
+{
+"item": "Q56809604",
+"lab": "dihydropyran"
+},
+{
+"item": "Q56809679",
+"lab": "hydroxyflavan"
+},
+{
+"item": "Q56809828",
+"lab": "flavanol"
+},
+{
+"item": "Q56809873",
+"lab": "flavan-4-ol"
+},
+{
+"item": "Q56810456",
+"lab": "pyridazine"
+},
+{
+"item": "Q56810798",
+"lab": "carbonate salt"
+},
+{
+"item": "Q56822671",
+"lab": "triflate"
+},
+{
+"item": "Q56822887",
+"lab": "trifluoromethyl compound"
+},
+{
+"item": "Q56861923",
+"lab": "(3S,8R,9S,10S,13R,14S,17R)-17-[(2R)-5-ethyl-6-methylheptan-2-yl]-10,13-dimethyl-2,3,4,5,6,7,8,9,11,12,14,15,16,17-tetradecahydro-1H-cyclopenta[a]phenanthren-3-ol"
+},
+{
+"item": "Q57246030",
+"lab": "oxazole"
+},
+{
+"item": "Q57246122",
+"lab": "1,3-oxazole"
+},
+{
+"item": "Q57246302",
+"lab": "isoxazole"
+},
+{
+"item": "Q57246885",
+"lab": "benzisoxazole"
+},
+{
+"item": "Q57263546",
+"lab": "quinazoline"
+},
+{
+"item": "Q57698981",
+"lab": "phosphoramide"
+},
+{
+"item": "Q57700917",
+"lab": "salicylate"
+},
+{
+"item": "Q57741744",
+"lab": "DL-alliin"
+},
+{
+"item": "Q57826603",
+"lab": "dihydroflavonols"
+},
+{
+"item": "Q57841385",
+"lab": "benzodioxoles"
+},
+{
+"item": "Q57842052",
+"lab": "substituted benzene"
+},
+{
+"item": "Q57893334",
+"lab": "dioxole"
+},
+{
+"item": "Q58623289",
+"lab": "octane"
+},
+{
+"item": "Q58879461",
+"lab": "DL-homocystine"
+},
+{
+"item": "Q59348943",
+"lab": "piperidine"
+},
+{
+"item": "Q59817493",
+"lab": "ribose"
+},
+{
+"item": "Q60029459",
+"lab": "Acyl-CoA (4-)"
+},
+{
+"item": "Q60199671",
+"lab": "propionate"
+},
+{
+"item": "Q60199930",
+"lab": "propionate ester"
+},
+{
+"item": "Q60499617",
+"lab": "primary arylamine"
+},
+{
+"item": "Q60560163",
+"lab": "dihydroceramides"
+},
+{
+"item": "Q60710915",
+"lab": "Lewis acid"
+},
+{
+"item": "Q61056718",
+"lab": "yttrium compound"
+},
+{
+"item": "Q61647507",
+"lab": "nitrogen hydride"
+},
+{
+"item": "Q61716319",
+"lab": "octadecanoids"
+},
+{
+"item": "Q61728796",
+"lab": "isoquinoline"
+},
+{
+"item": "Q61739186",
+"lab": "polyunsaturated fatty acid anion"
+},
+{
+"item": "Q61954499",
+"lab": "S-substituted L-cysteine"
+},
+{
+"item": "Q62007784",
+"lab": "flavan-4-ol"
+},
+{
+"item": "Q62010421",
+"lab": "penams"
+},
+{
+"item": "Q63143581",
+"lab": "3-oxo-fatty acyl-CoA(4−)"
+},
+{
+"item": "Q63433687",
+"lab": "fatty acyl"
+},
+{
+"item": "Q63434663",
+"lab": "amino fatty acids"
+},
+{
+"item": "Q63435564",
+"lab": "oxo fatty acids"
+},
+{
+"item": "Q63436497",
+"lab": "glycerophosphocholine"
+},
+{
+"item": "Q63436556",
+"lab": "glycerophosphoglycerols"
+},
+{
+"item": "Q63446172",
+"lab": "wax monoester"
+},
+{
+"item": "Q64692893",
+"lab": "phosphorus compound"
+},
+{
+"item": "Q64692900",
+"lab": "organic phosphorus compound"
+},
+{
+"item": "Q64694492",
+"lab": "organophosphorus ester"
+},
+{
+"item": "Q64698788",
+"lab": "carbohydrate derivative"
+},
+{
+"item": "Q64699467",
+"lab": "phosphonic acid"
+},
+{
+"item": "Q64745910",
+"lab": "pyran"
+},
+{
+"item": "Q64746723",
+"lab": "tetrahydropyran"
+},
+{
+"item": "Q64746792",
+"lab": "oxindole"
+},
+{
+"item": "Q64778409",
+"lab": "lactate salt"
+},
+{
+"item": "Q64778441",
+"lab": "lactate ester"
+},
+{
+"item": "Q64995433",
+"lab": "sulfate salt"
+},
+{
+"item": "Q65240645",
+"lab": "lupane"
+},
+{
+"item": "Q65548312",
+"lab": "oxalate salt"
+},
+{
+"item": "Q65548313",
+"lab": "oxalate ester"
+},
+{
+"item": "Q65658032",
+"lab": "manganese compound"
+},
+{
+"item": "Q65684228",
+"lab": "xanthene derivatives"
+},
+{
+"item": "Q65684240",
+"lab": "heterotricyclic compound"
+},
+{
+"item": "Q65777814",
+"lab": "elaiomycins"
+},
+{
+"item": "Q65963752",
+"lab": "cyclohexanetetrol"
+},
+{
+"item": "Q65966165",
+"lab": "folic acids"
+},
+{
+"item": "Q65982999",
+"lab": "glycerophosphoglycerophosphoglycerols"
+},
+{
+"item": "Q65984555",
+"lab": "glycerophosphate"
+},
+{
+"item": "Q65984863",
+"lab": "monoacylglycerophosphates"
+},
+{
+"item": "Q65986321",
+"lab": "glycerophosphoserines"
+},
+{
+"item": "Q65987188",
+"lab": "glycerophosphoethanolamine"
+},
+{
+"item": "Q65988187",
+"lab": "oxygenated hydrocarbons"
+},
+{
+"item": "Q65995595",
+"lab": "diradylglycerol"
+},
+{
+"item": "Q65998794",
+"lab": "triradylglycerol"
+},
+{
+"item": "Q66000256",
+"lab": "phosphatidic acid"
+},
+{
+"item": "Q66023194",
+"lab": "acylaminosugar"
+},
+{
+"item": "Q66107492",
+"lab": "naphthalene"
+},
+{
+"item": "Q66124525",
+"lab": "aromatic polyketide"
+},
+{
+"item": "Q66124546",
+"lab": "benzofuranoid"
+},
+{
+"item": "Q66124573",
+"lab": "menthane monoterpenoids"
+},
+{
+"item": "Q66134884",
+"lab": "aminopentanes"
+},
+{
+"item": "Q66250704",
+"lab": "adipate ester"
+},
+{
+"item": "Q66312131",
+"lab": "sorbate"
+},
+{
+"item": "Q66385378",
+"lab": "acyclic monoterpenoid"
+},
+{
+"item": "Q66385407",
+"lab": "bicyclic monoterpenoids"
+},
+{
+"item": "Q66560214",
+"lab": "biological macromolecule"
+},
+{
+"item": "Q66587127",
+"lab": "oxidoreductase inhibitor"
+},
+{
+"item": "Q66589589",
+"lab": "fucose"
+},
+{
+"item": "Q66589591",
+"lab": "galactosamine"
+},
+{
+"item": "Q66589593",
+"lab": "galactose"
+},
+{
+"item": "Q66589596",
+"lab": "glucosamine derivative"
+},
+{
+"item": "Q66589603",
+"lab": "xylose"
+},
+{
+"item": "Q66589604",
+"lab": "glycoglycerolipid"
+},
+{
+"item": "Q66589607",
+"lab": "monoglycosylceramide"
+},
+{
+"item": "Q66589614",
+"lab": "acidic glycosphingolipid"
+},
+{
+"item": "Q66590056",
+"lab": "biogenic peptide"
+},
+{
+"item": "Q66732478",
+"lab": "synthetic dye"
+},
+{
+"item": "Q66735349",
+"lab": "protein modification"
+},
+{
+"item": "Q66736045",
+"lab": "glycoconjugated residue"
+},
+{
+"item": "Q67172040",
+"lab": "azolidine"
+},
+{
+"item": "Q67172457",
+"lab": "diazolidine"
+},
+{
+"item": "Q67206073",
+"lab": "secologanin tryptamine alkaloids"
+},
+{
+"item": "Q67206106",
+"lab": "carbazoles"
+},
+{
+"item": "Q67206812",
+"lab": "methyl ether"
+},
+{
+"item": "Q67383506",
+"lab": "tin compound"
+},
+{
+"item": "Q67390548",
+"lab": "tropane"
+},
+{
+"item": "Q67390836",
+"lab": "bridged-ring heterocyclic compound"
+},
+{
+"item": "Q67457558",
+"lab": "selenium compounds"
+},
+{
+"item": "Q67593658",
+"lab": "nitrobenzene"
+},
+{
+"item": "Q67710711",
+"lab": "purine nucleosides"
+},
+{
+"item": "Q67717431",
+"lab": "purine nucleotides"
+},
+{
+"item": "Q67912651",
+"lab": "azetidines"
+},
+{
+"item": "Q67954132",
+"lab": "pyrrole"
+},
+{
+"item": "Q68061095",
+"lab": "hematoporphyrins"
+},
+{
+"item": "Q68075242",
+"lab": "sulfanilamides"
+},
+{
+"item": "Q68541106",
+"lab": "antimicrobial agent"
+},
+{
+"item": "Q70484053",
+"lab": "glutamate salt"
+},
+{
+"item": "Q70485755",
+"lab": "selinenes"
+},
+{
+"item": "Q71143350",
+"lab": "pyrimidine nucleotide-sugar"
+},
+{
+"item": "Q71145161",
+"lab": "nucleotide-carbohydrate"
+},
+{
+"item": "Q71145617",
+"lab": "D-aldohexose 6-phosphate"
+},
+{
+"item": "Q71145876",
+"lab": "aldohexose 6-phosphate"
+},
+{
+"item": "Q71146000",
+"lab": "hexose 6-phosphate"
+},
+{
+"item": "Q71146210",
+"lab": "hexose phosphate"
+},
+{
+"item": "Q71146517",
+"lab": "phosphosugar"
+},
+{
+"item": "Q71148018",
+"lab": "D-hexose 6-phosphate"
+},
+{
+"item": "Q71148244",
+"lab": "D-hexose phosphate"
+},
+{
+"item": "Q71148618",
+"lab": "D-aldohexose"
+},
+{
+"item": "Q71149042",
+"lab": "D-hexose"
+},
+{
+"item": "Q71149370",
+"lab": "C19-gibberellin"
+},
+{
+"item": "Q71150030",
+"lab": "D-glucose monophosphate"
+},
+{
+"item": "Q71150191",
+"lab": "glucose phosphate"
+},
+{
+"item": "Q71150343",
+"lab": "aldohexose phosphate"
+},
+{
+"item": "Q71150501",
+"lab": "aldose phosphate"
+},
+{
+"item": "Q71150792",
+"lab": "GDP-hexose"
+},
+{
+"item": "Q71150936",
+"lab": "GDP-sugar"
+},
+{
+"item": "Q71151106",
+"lab": "purine nucleotide-sugar"
+},
+{
+"item": "Q71151414",
+"lab": "N-acylglucosamine"
+},
+{
+"item": "Q71151917",
+"lab": "N-acyl-hexosamine"
+},
+{
+"item": "Q71152062",
+"lab": "N-acylgalactosamine"
+},
+{
+"item": "Q71152995",
+"lab": "glycosyl compound"
+},
+{
+"item": "Q71153807",
+"lab": "adenosine phosphate"
+},
+{
+"item": "Q71236605",
+"lab": "adenyl ribonucleotide"
+},
+{
+"item": "Q71236852",
+"lab": "purine ribonucleotide"
+},
+{
+"item": "Q71237508",
+"lab": "adenyl nucleotide"
+},
+{
+"item": "Q71238293",
+"lab": "purine nucleoside bisphosphate"
+},
+{
+"item": "Q71238550",
+"lab": "nucleoside bisphosphate"
+},
+{
+"item": "Q71238850",
+"lab": "nucleoside phosphate"
+},
+{
+"item": "Q71239519",
+"lab": "ribonucleoside bisphosphate"
+},
+{
+"item": "Q71240623",
+"lab": "arabinose"
+},
+{
+"item": "Q71243424",
+"lab": "pteridine"
+},
+{
+"item": "Q71244067",
+"lab": "heterobicyclic compound"
+},
+{
+"item": "Q71252738",
+"lab": "cinnamic acids"
+},
+{
+"item": "Q71253118",
+"lab": "alpha,beta-unsaturated monocarboxylic acid"
+},
+{
+"item": "Q71271159",
+"lab": "olefinic compound"
+},
+{
+"item": "Q71272629",
+"lab": "cobalamins"
+},
+{
+"item": "Q71272904",
+"lab": "cobalt corrinoid"
+},
+{
+"item": "Q71273451",
+"lab": "cyclic tetrapyrrole"
+},
+{
+"item": "Q71273880",
+"lab": "metallotetrapyrrole"
+},
+{
+"item": "Q71276026",
+"lab": "deoxygalactose"
+},
+{
+"item": "Q71276188",
+"lab": "deoxyhexose"
+},
+{
+"item": "Q71277224",
+"lab": "deoxyaldopentose phosphate"
+},
+{
+"item": "Q71277368",
+"lab": "aldopentose phosphate"
+},
+{
+"item": "Q71294429",
+"lab": "glycerates"
+},
+{
+"item": "Q71294861",
+"lab": "monocarboxylic acid anion"
+},
+{
+"item": "Q71376028",
+"lab": "sulfur oxoanion"
+},
+{
+"item": "Q71377943",
+"lab": "sulfur molecular entity"
+},
+{
+"item": "Q71379339",
+"lab": "glycosylglycerol"
+},
+{
+"item": "Q71381535",
+"lab": "heterodetic cyclic peptide"
+},
+{
+"item": "Q71381967",
+"lab": "hexitol"
+},
+{
+"item": "Q71417597",
+"lab": "5beta-cholanic acid"
+},
+{
+"item": "Q71417867",
+"lab": "5beta steroid"
+},
+{
+"item": "Q71418231",
+"lab": "cholanic acid"
+},
+{
+"item": "Q71418447",
+"lab": "cholanoid"
+},
+{
+"item": "Q71418770",
+"lab": "steroid acid"
+},
+{
+"item": "Q71419357",
+"lab": "organic hydroxy compound"
+},
+{
+"item": "Q71421787",
+"lab": "hydroxy compound"
+},
+{
+"item": "Q71427626",
+"lab": "cyclitol phosphate"
+},
+{
+"item": "Q71427927",
+"lab": "phosphate ester"
+},
+{
+"item": "Q71429918",
+"lab": "iron ionophore"
+},
+{
+"item": "Q71431250",
+"lab": "mannoside"
+},
+{
+"item": "Q71431365",
+"lab": "hexoside"
+},
+{
+"item": "Q71431776",
+"lab": "metal cation"
+},
+{
+"item": "Q71432165",
+"lab": "metal-sulfur cluster"
+},
+{
+"item": "Q71432326",
+"lab": "heteronuclear cluster"
+},
+{
+"item": "Q71523607",
+"lab": "methyl glycoside"
+},
+{
+"item": "Q71524411",
+"lab": "monoatomic monocation"
+},
+{
+"item": "Q71525602",
+"lab": "neutral glycosphingolipid"
+},
+{
+"item": "Q71525833",
+"lab": "NAD(P)"
+},
+{
+"item": "Q71528975",
+"lab": "nicotinamide dinucleotide"
+},
+{
+"item": "Q71529252",
+"lab": "dinucleotide"
+},
+{
+"item": "Q71563137",
+"lab": "peptide antibiotic"
+},
+{
+"item": "Q71572255",
+"lab": "glycerol phosphate"
+},
+{
+"item": "Q71572484",
+"lab": "alditol phosphate"
+},
+{
+"item": "Q71573087",
+"lab": "sulfur-containing amino acid"
+},
+{
+"item": "Q71573538",
+"lab": "oxacycle"
+},
+{
+"item": "Q71573704",
+"lab": "organic heterocyclic compound"
+},
+{
+"item": "Q71574018",
+"lab": "organooxygen compound"
+},
+{
+"item": "Q71575356",
+"lab": "tricarboxylic acid trianion"
+},
+{
+"item": "Q71575539",
+"lab": "tricarboxylic acid anion"
+},
+{
+"item": "Q71577209",
+"lab": "carbohydrate acid"
+},
+{
+"item": "Q71653081",
+"lab": "fatty acid anion"
+},
+{
+"item": "Q71653729",
+"lab": "dicarboxylic acid dianion"
+},
+{
+"item": "Q71655527",
+"lab": "flavin"
+},
+{
+"item": "Q71655701",
+"lab": "benzopteridine"
+},
+{
+"item": "Q71782942",
+"lab": "pnictogen compound"
+},
+{
+"item": "Q71938993",
+"lab": "phosphorus oxoanion"
+},
+{
+"item": "Q71946636",
+"lab": "transition element cation"
+},
+{
+"item": "Q71955074",
+"lab": "uronate"
+},
+{
+"item": "Q71955447",
+"lab": "amino-acid anion"
+},
+{
+"item": "Q71955876",
+"lab": "alpha amino-acid anion"
+},
+{
+"item": "Q71956349",
+"lab": "catechol"
+},
+{
+"item": "Q72022629",
+"lab": "dihydroxybenzene"
+},
+{
+"item": "Q72044652",
+"lab": "organic aromatic compound"
+},
+{
+"item": "Q72045739",
+"lab": "alpha-amino acid"
+},
+{
+"item": "Q72046082",
+"lab": "carbohydrate acid anion"
+},
+{
+"item": "Q72046638",
+"lab": "hexonate"
+},
+{
+"item": "Q72046746",
+"lab": "aldonate"
+},
+{
+"item": "Q72047190",
+"lab": "hexuronate"
+},
+{
+"item": "Q72049816",
+"lab": "ammonium compound"
+},
+{
+"item": "Q72052841",
+"lab": "onium betaine"
+},
+{
+"item": "Q72073013",
+"lab": "sulfur compound"
+},
+{
+"item": "Q72077521",
+"lab": "dicarboxylic acid anion"
+},
+{
+"item": "Q72078616",
+"lab": "liposaccharide"
+},
+{
+"item": "Q72079328",
+"lab": "glycophospholipid"
+},
+{
+"item": "Q72079909",
+"lab": "arsenic molecular entity"
+},
+{
+"item": "Q72083530",
+"lab": "phosphosphingolipid"
+},
+{
+"item": "Q72083965",
+"lab": "imidazopyrimidine"
+},
+{
+"item": "Q72084185",
+"lab": "organic heterobicyclic compound"
+},
+{
+"item": "Q72084374",
+"lab": "organonitrogen heterocyclic compound"
+},
+{
+"item": "Q72085779",
+"lab": "peroxol"
+},
+{
+"item": "Q72086308",
+"lab": "hydroxy monocarboxylic acid anion"
+},
+{
+"item": "Q72086569",
+"lab": "amino dicarboxylic acid"
+},
+{
+"item": "Q72086919",
+"lab": "phosphocholine"
+},
+{
+"item": "Q72087177",
+"lab": "choline"
+},
+{
+"item": "Q72087444",
+"lab": "quaternary ammonium salt"
+},
+{
+"item": "Q72088717",
+"lab": "phosphoethanolamine"
+},
+{
+"item": "Q72091636",
+"lab": "farnesane sesquiterpenoid"
+},
+{
+"item": "Q72091680",
+"lab": "3-hydroxy steroid"
+},
+{
+"item": "Q72091757",
+"lab": "20-oxo steroid"
+},
+{
+"item": "Q72091828",
+"lab": "oxosteroid"
+},
+{
+"item": "Q72099490",
+"lab": "bufanolides"
+},
+{
+"item": "Q72135525",
+"lab": "bromine compound"
+},
+{
+"item": "Q72146415",
+"lab": "flavin nucleotide"
+},
+{
+"item": "Q72146895",
+"lab": "purine ribonucleoside triphosphate"
+},
+{
+"item": "Q72148384",
+"lab": "purine nucleoside triphosphate"
+},
+{
+"item": "Q72152108",
+"lab": "organic phosphonate"
+},
+{
+"item": "Q72152628",
+"lab": "allose"
+},
+{
+"item": "Q72153681",
+"lab": "gibberellin monocarboxylic acid"
+},
+{
+"item": "Q72153824",
+"lab": "aminopyrimidine"
+},
+{
+"item": "Q72154309",
+"lab": "1,3-thiazole"
+},
+{
+"item": "Q72155051",
+"lab": "non-covalently-bound molecular entity"
+},
+{
+"item": "Q72157355",
+"lab": "nitrite"
+},
+{
+"item": "Q72173428",
+"lab": "silicon oxoanion"
+},
+{
+"item": "Q72174340",
+"lab": "organic amino compound"
+},
+{
+"item": "Q72174651",
+"lab": "steroid acid anion"
+},
+{
+"item": "Q72175414",
+"lab": "primary amine"
+},
+{
+"item": "Q72175677",
+"lab": "dialkyl phosphate anion"
+},
+{
+"item": "Q72175851",
+"lab": "organophosphate oxoanion"
+},
+{
+"item": "Q72176217",
+"lab": "iron chelate"
+},
+{
+"item": "Q72176380",
+"lab": "iron coordination entity"
+},
+{
+"item": "Q72180630",
+"lab": "fatty acid derivative"
+},
+{
+"item": "Q72181100",
+"lab": "glucooligosaccharide"
+},
+{
+"item": "Q72181734",
+"lab": "icosanoid anion"
+},
+{
+"item": "Q72182395",
+"lab": "prostanoid anion"
+},
+{
+"item": "Q72182580",
+"lab": "unsaturated fatty acid anion"
+},
+{
+"item": "Q72183438",
+"lab": "C-glycosyl compound"
+},
+{
+"item": "Q72183598",
+"lab": "S-glycosyl compound"
+},
+{
+"item": "Q72183752",
+"lab": "thiosugar"
+},
+{
+"item": "Q72184532",
+"lab": "aralkylamino compound"
+},
+{
+"item": "Q72184754",
+"lab": "alkylamine"
+},
+{
+"item": "Q72185287",
+"lab": "flavonoid"
+},
+{
+"item": "Q72189084",
+"lab": "amino acid derivative"
+},
+{
+"item": "Q72189306",
+"lab": "non-proteinogenic alpha-amino acid"
+},
+{
+"item": "Q72189814",
+"lab": "aminoglycan"
+},
+{
+"item": "Q72190469",
+"lab": "C21-steroid"
+},
+{
+"item": "Q72190697",
+"lab": "17alpha-hydroxy steroid"
+},
+{
+"item": "Q72190915",
+"lab": "17-hydroxy steroid"
+},
+{
+"item": "Q72191493",
+"lab": "alpha-hydroxy ketone"
+},
+{
+"item": "Q72191667",
+"lab": "alpha-oxyketone"
+},
+{
+"item": "Q72191810",
+"lab": "oxyketone"
+},
+{
+"item": "Q72192270",
+"lab": "N-substituted primary carboxamide"
+},
+{
+"item": "Q72262742",
+"lab": "p-menthane monoterpenoid"
+},
+{
+"item": "Q72296281",
+"lab": "gentamycin"
+},
+{
+"item": "Q72363464",
+"lab": "pentahydroxyflavan"
+},
+{
+"item": "Q72399266",
+"lab": "antimony coordination compound"
+},
+{
+"item": "Q72399431",
+"lab": "antimony compound"
+},
+{
+"item": "Q72400550",
+"lab": "N,N-disubstituted primary carboxamide"
+},
+{
+"item": "Q72400740",
+"lab": "enamide"
+},
+{
+"item": "Q72406844",
+"lab": "titanium compound"
+},
+{
+"item": "Q72445001",
+"lab": "Benzalkonium chloride (general)"
+},
+{
+"item": "Q72460895",
+"lab": "(RS)-citronellyl (EZ)-cinnamate"
+},
+{
+"item": "Q72461014",
+"lab": "(RS)-citronellyl but-2-enoate"
+},
+{
+"item": "Q72461571",
+"lab": "decahydroisoquinoline"
+},
+{
+"item": "Q72462756",
+"lab": "1,3-diaminocyclohexane"
+},
+{
+"item": "Q72465044",
+"lab": "2,3-dibromosuccinic acid"
+},
+{
+"item": "Q72488438",
+"lab": "5-methyl-2-isopropylcyclohexyl formate"
+},
+{
+"item": "Q72494054",
+"lab": "Nerolidol"
+},
+{
+"item": "Q72509349",
+"lab": "2-ethylidene-1,2,3,10,11,11a-hexahydro-8-hydroxy-7,11-dimethoxy-5H-pyrrolo[2,1-c][1,4]benzodiazepin-5-one"
+},
+{
+"item": "Q72547623",
+"lab": "Hydroxy-octadecadienoic acid"
+},
+{
+"item": "Q72547812",
+"lab": "olefinic fatty acid"
+},
+{
+"item": "Q72557197",
+"lab": "cinnamate ester"
+},
+{
+"item": "Q72557385",
+"lab": "enoate ester"
+},
+{
+"item": "Q72557598",
+"lab": "alpha,beta-unsaturated carboxylic ester"
+},
+{
+"item": "Q72577641",
+"lab": "aldoxime"
+},
+{
+"item": "Q72580140",
+"lab": "aromatic ether"
+},
+{
+"item": "Q72580449",
+"lab": "monochlorobenzene"
+},
+{
+"item": "Q72587959",
+"lab": "cyclopropane"
+},
+{
+"item": "Q72590134",
+"lab": "organic sodium salt"
+},
+{
+"item": "Q72591894",
+"lab": "acetamides"
+},
+{
+"item": "Q72592200",
+"lab": "acetyl-amino acid"
+},
+{
+"item": "Q72592750",
+"lab": "ketoxime"
+},
+{
+"item": "Q72694863",
+"lab": "lithium compound"
+},
+{
+"item": "Q72695611",
+"lab": "chlorine compound"
+},
+{
+"item": "Q72697380",
+"lab": "chlorobenzene"
+},
+{
+"item": "Q72701465",
+"lab": "dichlorobenzene"
+},
+{
+"item": "Q72801119",
+"lab": "tertiary amine"
+},
+{
+"item": "Q72835909",
+"lab": "methyl-branched fatty acid"
+},
+{
+"item": "Q72839852",
+"lab": "organic heterotricyclic compound"
+},
+{
+"item": "Q72840024",
+"lab": "organic tricyclic compound"
+},
+{
+"item": "Q72840159",
+"lab": "organic polycyclic compound"
+},
+{
+"item": "Q72840867",
+"lab": "heteropolycyclic compound"
+},
+{
+"item": "Q72841068",
+"lab": "organic heteropolycyclic compound"
+},
+{
+"item": "Q72841324",
+"lab": "epsilon-lactone"
+},
+{
+"item": "Q72941151",
+"lab": "developmental toxicant"
+},
+{
+"item": "Q73019888",
+"lab": "azobenzene"
+},
+{
+"item": "Q73034936",
+"lab": "alkenyl alcohol"
+},
+{
+"item": "Q73035109",
+"lab": "aliphatic alcohol"
+},
+{
+"item": "Q73101762",
+"lab": "pyrimidine nucleoside"
+},
+{
+"item": "Q73103738",
+"lab": "alpha,beta-unsaturated ketone"
+},
+{
+"item": "Q73112927",
+"lab": "neurotransmitter agent"
+},
+{
+"item": "Q73146729",
+"lab": "ribose monophosphate"
+},
+{
+"item": "Q73146965",
+"lab": "ribose phosphate"
+},
+{
+"item": "Q73148865",
+"lab": "carbohydrate acid derivative"
+},
+{
+"item": "Q73149001",
+"lab": "carbohydrate acid derivative anion"
+},
+{
+"item": "Q73223321",
+"lab": "pantothenic acid"
+},
+{
+"item": "Q73225012",
+"lab": "glycosylphosphatidylinositol"
+},
+{
+"item": "Q73227255",
+"lab": "nucleoside-5'-monophosphate"
+},
+{
+"item": "Q73227944",
+"lab": "phosphatidylinositol phosphate"
+},
+{
+"item": "Q73228356",
+"lab": "phosphoinositide"
+},
+{
+"item": "Q73231422",
+"lab": "polycyclic heteroarene"
+},
+{
+"item": "Q73232281",
+"lab": "cyclic ketone"
+},
+{
+"item": "Q73257328",
+"lab": "benzoquinone"
+},
+{
+"item": "Q73257737",
+"lab": "1,4-benzoquinone"
+},
+{
+"item": "Q73261544",
+"lab": "primary carboxamide"
+},
+{
+"item": "Q73262924",
+"lab": "amino oligosaccharide"
+},
+{
+"item": "Q73263157",
+"lab": "oligosaccharide derivative"
+},
+{
+"item": "Q73264038",
+"lab": "cysteine derivative"
+},
+{
+"item": "Q73264231",
+"lab": "dTDP-sugar"
+},
+{
+"item": "Q73265027",
+"lab": "galacturonan"
+},
+{
+"item": "Q73265743",
+"lab": "inorganic oxide"
+},
+{
+"item": "Q73266145",
+"lab": "isoquinoline alkaloid"
+},
+{
+"item": "Q73268905",
+"lab": "organochlorine insecticide"
+},
+{
+"item": "Q73269109",
+"lab": "organochlorine pesticide"
+},
+{
+"item": "Q73304699",
+"lab": "secondary amine"
+},
+{
+"item": "Q73349546",
+"lab": "dolichyl diphosphooligosaccharide"
+},
+{
+"item": "Q73349748",
+"lab": "polyprenyl phospho oligosaccharide"
+},
+{
+"item": "Q73349950",
+"lab": "polyprenyl phospho carbohydrate"
+},
+{
+"item": "Q73350245",
+"lab": "polyprenol phosphate"
+},
+{
+"item": "Q73350355",
+"lab": "prenol phosphate"
+},
+{
+"item": "Q73350523",
+"lab": "isoprenoid phosphate"
+},
+{
+"item": "Q73350875",
+"lab": "terpenyl phosphate"
+},
+{
+"item": "Q73351241",
+"lab": "oligosaccharide phosphate"
+},
+{
+"item": "Q73352452",
+"lab": "aldaric acid anion"
+},
+{
+"item": "Q73354048",
+"lab": "benzopyran"
+},
+{
+"item": "Q73356527",
+"lab": "cyclic hydrocarbon"
+},
+{
+"item": "Q73356757",
+"lab": "polycyclic hydrocarbon"
+},
+{
+"item": "Q73357838",
+"lab": "ketohexose phosphate"
+},
+{
+"item": "Q73357898",
+"lab": "ketose phosphate"
+},
+{
+"item": "Q73359265",
+"lab": "organoammonium salt"
+},
+{
+"item": "Q73359989",
+"lab": "chloroolefin"
+},
+{
+"item": "Q73386791",
+"lab": "bromocarboxylic acid"
+},
+{
+"item": "Q73387146",
+"lab": "prenylquinone"
+},
+{
+"item": "Q73404405",
+"lab": "acyl-CoA oxoanion"
+},
+{
+"item": "Q73508186",
+"lab": "monophosphoglyceric acid"
+},
+{
+"item": "Q73508503",
+"lab": "aldonic acid phosphate"
+},
+{
+"item": "Q73509787",
+"lab": "dihydroxyflavanone"
+},
+{
+"item": "Q73510196",
+"lab": "hydroxyflavanone"
+},
+{
+"item": "Q73517169",
+"lab": "glycosylceramide"
+},
+{
+"item": "Q73518146",
+"lab": "sulfoglycolipid"
+},
+{
+"item": "Q73587357",
+"lab": "dioxolane"
+},
+{
+"item": "Q73594096",
+"lab": "heterocyclic acid"
+},
+{
+"item": "Q73653572",
+"lab": "ribonucleoside monophosphate"
+},
+{
+"item": "Q73727502",
+"lab": "organosulfur heterocyclic compound"
+},
+{
+"item": "Q73902731",
+"lab": "ethanolamines"
+},
+{
+"item": "Q73905130",
+"lab": "tocol"
+},
+{
+"item": "Q73905163",
+"lab": "chromanol"
+},
+{
+"item": "Q73905244",
+"lab": "chromane"
+},
+{
+"item": "Q73999592",
+"lab": "hydroxyflavone"
+},
+{
+"item": "Q74026435",
+"lab": "beta-amino acid"
+},
+{
+"item": "Q74034622",
+"lab": "gamma-amino acid"
+},
+{
+"item": "Q74167605",
+"lab": "N-acylneuraminate"
+},
+{
+"item": "Q74168069",
+"lab": "neuraminate"
+},
+{
+"item": "Q74168768",
+"lab": "aldonolactone"
+},
+{
+"item": "Q74169098",
+"lab": "carbohydrate lactone"
+},
+{
+"item": "Q74169483",
+"lab": "aminopurine"
+},
+{
+"item": "Q74170026",
+"lab": "proteinogenic amino acid derivative"
+},
+{
+"item": "Q74170415",
+"lab": "glycotetraosylceramide"
+},
+{
+"item": "Q74170811",
+"lab": "oligoglucosylceramide"
+},
+{
+"item": "Q74172408",
+"lab": "amino acid zwitterion"
+},
+{
+"item": "Q74173050",
+"lab": "D-glucoside"
+},
+{
+"item": "Q74173577",
+"lab": "anionic phospholipid"
+},
+{
+"item": "Q74174083",
+"lab": "anionic ganglioside"
+},
+{
+"item": "Q74174417",
+"lab": "fatty acyl-CoA(4-)"
+},
+{
+"item": "Q74175330",
+"lab": "phosphatidylethanolamine zwitterion"
+},
+{
+"item": "Q74175707",
+"lab": "monosubstituted glycerol"
+},
+{
+"item": "Q74175939",
+"lab": "aromatic ketone"
+},
+{
+"item": "Q74176129",
+"lab": "beta-glucoside"
+},
+{
+"item": "Q74231086",
+"lab": "aliphatic aldehyde"
+},
+{
+"item": "Q74232496",
+"lab": "tetrahydropterin"
+},
+{
+"item": "Q74235318",
+"lab": "thioglucoside"
+},
+{
+"item": "Q74236253",
+"lab": "oxo dicarboxylate"
+},
+{
+"item": "Q74236711",
+"lab": "3-oxo steroid"
+},
+{
+"item": "Q74237672",
+"lab": "long-chain fatty acid anion"
+},
+{
+"item": "Q74239844",
+"lab": "alkylglycerol"
+},
+{
+"item": "Q74240047",
+"lab": "glycerol ether"
+},
+{
+"item": "Q74240795",
+"lab": "cholestane steroid"
+},
+{
+"item": "Q74243635",
+"lab": "nucleotide-sugar oxoanion"
+},
+{
+"item": "Q74244141",
+"lab": "ammonium ion derivative"
+},
+{
+"item": "Q74349465",
+"lab": "haloalkene"
+},
+{
+"item": "Q74353508",
+"lab": "homodetic cyclic peptide"
+},
+{
+"item": "Q74361069",
+"lab": "anthracycline"
+},
+{
+"item": "Q74366064",
+"lab": "3-oxoacyl-CoA(4-)"
+},
+{
+"item": "Q74427292",
+"lab": "(2R)-2-hydroxy monocarboxylic acid anion"
+},
+{
+"item": "Q74428458",
+"lab": "D3 vitamins"
+},
+{
+"item": "Q74505658",
+"lab": "N-glycan"
+},
+{
+"item": "Q74505683",
+"lab": "decanoate ester"
+},
+{
+"item": "Q74505694",
+"lab": "alpha-D-galactosyl-(1->4)-N-acetyl-beta-D-galactosaminyl-(1->3)-alpha-D-galactosyl-(1->4)-beta-D-galactosyl-(1->4)-beta-D-glucosyl-(1<->1')-Ceramide"
+},
+{
+"item": "Q74507823",
+"lab": "fatty acyl-AMP(1-)"
+},
+{
+"item": "Q74507828",
+"lab": "pyridine nucleotide"
+},
+{
+"item": "Q74507830",
+"lab": "3-sn-phosphatidyl-L-serine(1-)"
+},
+{
+"item": "Q74508800",
+"lab": "alpha-Neu5Ac-(2->8)-alpha-Neu5Ac-(2->3)-beta-D-Gal-(1<->1')-ceramide(2-)"
+},
+{
+"item": "Q74509618",
+"lab": "silver ion"
+},
+{
+"item": "Q74509624",
+"lab": "4-unsubstituted 3-hydroxyanthocyanidin betaine"
+},
+{
+"item": "Q74512578",
+"lab": "mucopolysaccharide"
+},
+{
+"item": "Q74512974",
+"lab": "sulfated glycosaminoglycan"
+},
+{
+"item": "Q74513437",
+"lab": "carbohydrate sulfate"
+},
+{
+"item": "Q74514644",
+"lab": "alpha-L-fucosyl-(1->2)-beta-D-galactosyl-(1->4)-N-acetyl-beta-D-glucosaminyl-(1->3)-beta-D-galactosyl-(1->4)-beta-D-glucosyl-(1<->1')-ceramide"
+},
+{
+"item": "Q74514664",
+"lab": "purine nucleoside monophosphate"
+},
+{
+"item": "Q74548483",
+"lab": "Pyranopterin"
+},
+{
+"item": "Q74552323",
+"lab": "2-acyl-1-alkyl-sn-glycero-3-phosphocholine"
+},
+{
+"item": "Q74562064",
+"lab": "aromatic amide"
+},
+{
+"item": "Q74562400",
+"lab": "N-acetyl-beta-D-galactosaminyl-(1->4)-[alpha-N-acetylneuraminyl-(2->3)]-beta-D-galactosyl-(1->4)-beta-D-glucosyl-(1<->1)-ceramide(1-)"
+},
+{
+"item": "Q74563185",
+"lab": "amanitins"
+},
+{
+"item": "Q74563374",
+"lab": "inositol phosphoceramide(1-)"
+},
+{
+"item": "Q74564689",
+"lab": "beta-D-Gal-(1->3)-beta-D-GalNAc-(1->3)-alpha-D-Gal-(1->4)-beta-D-Gal-(1->4)-beta-D-Glc-(1<->1')-Cer"
+},
+{
+"item": "Q74564695",
+"lab": "2'-deoxyribonucleoside diphosphate"
+},
+{
+"item": "Q74564703",
+"lab": "2-hydroxy carboxylate"
+},
+{
+"item": "Q74564714",
+"lab": "3beta-hydroxy-Delta(5)-steroid"
+},
+{
+"item": "Q74565929",
+"lab": "N-(2-hydroxyacyl)sphinganine"
+},
+{
+"item": "Q74565935",
+"lab": "organic molecular entity"
+},
+{
+"item": "Q74565948",
+"lab": "O-acylcarnitine"
+},
+{
+"item": "Q74566543",
+"lab": "purine 2'-deoxyribonucleotide"
+},
+{
+"item": "Q74566548",
+"lab": "alpha-Neu5Ac-(2->3)-beta-D-Gal-(1->3)-[alpha-Neu5Ac-(2->6)]-beta-D-GalNAc-(1->4)-beta-D-Gal-(1->4)-beta-D-Glc-Cer(2-)"
+},
+{
+"item": "Q74568388",
+"lab": "N-acylphosphatidylethanolamine(1-)"
+},
+{
+"item": "Q74568394",
+"lab": "guaiacols"
+},
+{
+"item": "Q74568396",
+"lab": "guanyl nucleotide"
+},
+{
+"item": "Q74569148",
+"lab": "3-hydroxy fatty acyl-CoA(4-)"
+},
+{
+"item": "Q74569155",
+"lab": "methanopterins"
+},
+{
+"item": "Q74634720",
+"lab": "polysaccharide derivative"
+},
+{
+"item": "Q74647038",
+"lab": "D-galactose"
+},
+{
+"item": "Q74647041",
+"lab": "monoamine"
+},
+{
+"item": "Q74650012",
+"lab": "medium-chain primary fatty alcohol"
+},
+{
+"item": "Q74652581",
+"lab": "primary fatty amide"
+},
+{
+"item": "Q74652587",
+"lab": "benzylisoquinoline alkaloid"
+},
+{
+"item": "Q74655224",
+"lab": "L-arabinose"
+},
+{
+"item": "Q74655660",
+"lab": "menaquinones"
+},
+{
+"item": "Q74689445",
+"lab": "cyanidine derivative cation"
+},
+{
+"item": "Q74690275",
+"lab": "arenecarbaldehyde"
+},
+{
+"item": "Q74691712",
+"lab": "1-monoglyceride"
+},
+{
+"item": "Q74692533",
+"lab": "prenol"
+},
+{
+"item": "Q74694010",
+"lab": "long-chain fatty alcohol"
+},
+{
+"item": "Q74701513",
+"lab": "monodecanoylglycerol"
+},
+{
+"item": "Q74702938",
+"lab": "1,2-diglyceride"
+},
+{
+"item": "Q74703935",
+"lab": "amino disaccharide"
+},
+{
+"item": "Q74705696",
+"lab": "propanediol"
+},
+{
+"item": "Q74705706",
+"lab": "pentitol"
+},
+{
+"item": "Q74707337",
+"lab": "4-oxanone"
+},
+{
+"item": "Q74708011",
+"lab": "1-(Z)-alk-1-enyl-2-acylglycerol"
+},
+{
+"item": "Q74708359",
+"lab": "1,3-diglyceride"
+},
+{
+"item": "Q74711354",
+"lab": "alpha-D-glucan"
+},
+{
+"item": "Q74713223",
+"lab": "D-arabinose"
+},
+{
+"item": "Q74796924",
+"lab": "inorganic carbon compound"
+},
+{
+"item": "Q74798533",
+"lab": "magnesium porphyrin"
+},
+{
+"item": "Q74800011",
+"lab": "magnesium coordination compound"
+},
+{
+"item": "Q74802525",
+"lab": "nitrohydrocarbon"
+},
+{
+"item": "Q74802810",
+"lab": "D-allose"
+},
+{
+"item": "Q74805037",
+"lab": "dibenzopyrrole"
+},
+{
+"item": "Q74809581",
+"lab": "chromium compound"
+},
+{
+"item": "Q74809964",
+"lab": "nonheme iron proteins"
+},
+{
+"item": "Q74832966",
+"lab": "silver compound"
+},
+{
+"item": "Q74833647",
+"lab": "ruthenium compound"
+},
+{
+"item": "Q74835190",
+"lab": "osmium compound"
+},
+{
+"item": "Q74891064",
+"lab": "tungsten compound"
+},
+{
+"item": "Q74896917",
+"lab": "platinum compound"
+},
+{
+"item": "Q74898472",
+"lab": "technetium compound"
+},
+{
+"item": "Q75004920",
+"lab": "indoleacetic acid conjugate"
+},
+{
+"item": "Q75005794",
+"lab": "pyrrolizidine alkaloid"
+},
+{
+"item": "Q75005797",
+"lab": "cyclic ether"
+},
+{
+"item": "Q75007611",
+"lab": "glucosiduronic acid"
+},
+{
+"item": "Q75007686",
+"lab": "benzylammonium compound"
+},
+{
+"item": "Q75011544",
+"lab": "morphinans"
+},
+{
+"item": "Q75015137",
+"lab": "trichlorobenzene"
+},
+{
+"item": "Q75019975",
+"lab": "butyl ester"
+},
+{
+"item": "Q75028201",
+"lab": "2,3-diacyl-sn-glycerol"
+},
+{
+"item": "Q75030883",
+"lab": "caprolactams"
+},
+{
+"item": "Q75079224",
+"lab": "D-glucose"
+},
+{
+"item": "Q75080069",
+"lab": "1-alkyl-3-acylglycerol"
+},
+{
+"item": "Q75082498",
+"lab": "D-xylose"
+},
+{
+"item": "Q75082910",
+"lab": "sorbose"
+},
+{
+"item": "Q75082914",
+"lab": "3-hydroxyanthocyanidin betaine"
+},
+{
+"item": "Q75109294",
+"lab": "zirconium compound"
+},
+{
+"item": "Q75109774",
+"lab": "hafnium compound"
+},
+{
+"item": "Q75110159",
+"lab": "niobium compound"
+},
+{
+"item": "Q75110844",
+"lab": "tantalum compound"
+},
+{
+"item": "Q75176671",
+"lab": "xanthosine 5'-phosphate"
+},
+{
+"item": "Q75179767",
+"lab": "L-fucose"
+},
+{
+"item": "Q75619347",
+"lab": "decanoate"
+},
+{
+"item": "Q75712837",
+"lab": "cresol"
+},
+{
+"item": "Q75837448",
+"lab": "dihydrofuran"
+},
+{
+"item": "Q75837466",
+"lab": "2,5-dihydrofuran"
+},
+{
+"item": "Q75843001",
+"lab": "benzodihydrofuran"
+},
+{
+"item": "Q76014098",
+"lab": "sulfite"
+},
+{
+"item": "Q76015101",
+"lab": "sulfite salt"
+},
+{
+"item": "Q76272846",
+"lab": "oxygen molecular entity"
+},
+{
+"item": "Q76389918",
+"lab": "pregnane steroid"
+},
+{
+"item": "Q76514613",
+"lab": "rhamnosylglucoside"
+},
+{
+"item": "Q76515995",
+"lab": "quinolizidine alkaloid"
+},
+{
+"item": "Q76516005",
+"lab": "quinolizidine"
+},
+{
+"item": "Q76547151",
+"lab": "benzenesulfonic acid"
+},
+{
+"item": "Q76559025",
+"lab": "phosphate salt"
+},
+{
+"item": "Q76610654",
+"lab": "human pheromones"
+},
+{
+"item": "Q76636048",
+"lab": "organophosphonate"
+},
+{
+"item": "Q76641823",
+"lab": "D-fructose 1-phosphate"
+},
+{
+"item": "Q76641989",
+"lab": "fructose 1-phosphate"
+},
+{
+"item": "Q76643285",
+"lab": "quinuclidine"
+},
+{
+"item": "Q76644541",
+"lab": "estrane steroid"
+},
+{
+"item": "Q76656941",
+"lab": "isolated diene"
+},
+{
+"item": "Q76825007",
+"lab": "dibenzofurans"
+},
+{
+"item": "Q76852173",
+"lab": "indolizidine"
+},
+{
+"item": "Q76877353",
+"lab": "phthalimide"
+},
+{
+"item": "Q77016498",
+"lab": "hydroxyanthraquinone"
+},
+{
+"item": "Q77740213",
+"lab": "tropone"
+},
+{
+"item": "Q77747995",
+"lab": "thiocyanate"
+},
+{
+"item": "Q77806815",
+"lab": "spirostans"
+},
+{
+"item": "Q77899525",
+"lab": "organic nitrogen compound"
+},
+{
+"item": "Q77940926",
+"lab": "phosphorus oxoacid"
+},
+{
+"item": "Q78050120",
+"lab": "molybdenum compound"
+},
+{
+"item": "Q78089576",
+"lab": "tetrahydropyridine"
+},
+{
+"item": "Q78169312",
+"lab": "carene"
+},
+{
+"item": "Q78445543",
+"lab": "protein degradation end products"
+},
+{
+"item": "Q81976561",
+"lab": "2,3-dichloro-1,4-dioxane"
+},
+{
+"item": "Q81976744",
+"lab": "1,2,3-hexanetriol"
+},
+{
+"item": "Q81977359",
+"lab": "Diclopentezol"
+},
+{
+"item": "Q81977867",
+"lab": "pentane-1,2,3,4,5-pentol"
+},
+{
+"item": "Q82025930",
+"lab": "heptopyranose"
+},
+{
+"item": "Q82245293",
+"lab": "1,2,5-hexanetriol"
+},
+{
+"item": "Q82247480",
+"lab": "1,2,4-hexanetriol"
+},
+{
+"item": "Q82900337",
+"lab": "trichlorotetrafluoropropane"
+},
+{
+"item": "Q82945122",
+"lab": "truxinic acid"
+},
+{
+"item": "Q82945991",
+"lab": "corlumine"
+},
+{
+"item": "Q85210139",
+"lab": "polyribonucleotide"
+},
+{
+"item": "Q85553776",
+"lab": "L-ribose"
+},
+{
+"item": "Q85559732",
+"lab": "L-xylose"
+},
+{
+"item": "Q85561302",
+"lab": "lyxose"
+},
+{
+"item": "Q85561458",
+"lab": "D-lyxose"
+},
+{
+"item": "Q85561504",
+"lab": "L-lyxose"
+},
+{
+"item": "Q92079055",
+"lab": "B9 vitamin"
+},
+{
+"item": "Q92177948",
+"lab": "Organic pigment"
+},
+{
+"item": "Q92346337",
+"lab": "inorganic hydride"
+},
+{
+"item": "Q93965541",
+"lab": "tricyclodecanedimethanol"
+},
+{
+"item": "Q96631662",
+"lab": "residue"
+},
+{
+"item": "Q96631984",
+"lab": "6,7-dimethoxy-3-(4-methoxy-6-methyl-7,8-dihydro-5H-[1,3]dioxolo[4,5-g]isoquinolin-5-yl)-3H-isobenzofuran-1-one"
+},
+{
+"item": "Q96982677",
+"lab": "asparagine residue"
+},
+{
+"item": "Q96983700",
+"lab": "N4-glycosylated L-asparagine residue"
+},
+{
+"item": "Q96984150",
+"lab": "modified L-asparagine residue"
+},
+{
+"item": "Q96987486",
+"lab": "complex glycosylation"
+},
+{
+"item": "Q96987911",
+"lab": "glycosylated residue"
+},
+{
+"item": "Q97037904",
+"lab": "paucimannose N-glycan"
+},
+{
+"item": "Q97367263",
+"lab": "himachalene"
+},
+{
+"item": "Q97500908",
+"lab": "cinnamaldehydes"
+},
+{
+"item": "Q97501728",
+"lab": "diphenylethanes"
+},
+{
+"item": "Q97501733",
+"lab": "benzenoid aromatic compound"
+},
+{
+"item": "Q97590974",
+"lab": "chloroalkene"
+},
+{
+"item": "Q97786582",
+"lab": "phenylpropanolamine"
+},
+{
+"item": "Q97819784",
+"lab": "9-methoxy-4-methyl-11-oxa-4-azatetracyclo[8.6.1.0¹,¹².0⁶,¹⁷]heptadeca-6,8,10(17),15-tetraen-14-one"
+},
+{
+"item": "Q97952841",
+"lab": "phenylacetic acids"
+},
+{
+"item": "Q97973219",
+"lab": "beta-hydroxy ketone"
+},
+{
+"item": "Q98162981",
+"lab": "pyridoindole"
+},
+{
+"item": "Q98557120",
+"lab": "lysophosphatidylserine"
+},
+{
+"item": "Q98709260",
+"lab": "cyclopentane monoterpenoid"
+},
+{
+"item": "Q98709363",
+"lab": "cyclopentanes"
+},
+{
+"item": "Q98831411",
+"lab": "releasing agent"
+},
+{
+"item": "Q99052508",
+"lab": "aureolic acid"
+},
+{
+"item": "Q99390198",
+"lab": "PEGylated compound"
+},
+{
+"item": "Q99542706",
+"lab": "monosaccharide sulfate"
+},
+{
+"item": "Q99600509",
+"lab": "organic polymer"
+},
+{
+"item": "Q99603944",
+"lab": "enolate"
+},
+{
+"item": "Q99646897",
+"lab": "inositol phosphate oxoanion"
+},
+{
+"item": "Q99755748",
+"lab": "steroid lactone"
+},
+{
+"item": "Q100388742",
+"lab": "L-allose"
+},
+{
+"item": "Q100388938",
+"lab": "L-hexose"
+},
+{
+"item": "Q100388965",
+"lab": "L-aldohexose"
+},
+{
+"item": "Q100415437",
+"lab": "altrose"
+},
+{
+"item": "Q100415743",
+"lab": "L-altrose"
+},
+{
+"item": "Q100415812",
+"lab": "D-altrose"
+},
+{
+"item": "Q100417711",
+"lab": "altrofuranose"
+},
+{
+"item": "Q100417800",
+"lab": "altropyranose"
+},
+{
+"item": "Q100417906",
+"lab": "allofuranose"
+},
+{
+"item": "Q100417942",
+"lab": "allopyranose"
+},
+{
+"item": "Q100423358",
+"lab": "2-phenylcyclopropan-1-amine"
+},
+{
+"item": "Q100602281",
+"lab": "galactopyranose"
+},
+{
+"item": "Q100602474",
+"lab": "galactofuranose"
+},
+{
+"item": "Q100602876",
+"lab": "L-galactose"
+},
+{
+"item": "Q100609981",
+"lab": "glycerol derivative"
+},
+{
+"item": "Q100705011",
+"lab": "lactide"
+},
+{
+"item": "Q100980887",
+"lab": "ornaline"
+},
+{
+"item": "Q100992704",
+"lab": "epoxy compounds"
+},
+{
+"item": "Q101094597",
+"lab": "receptor inhibitor"
+},
+{
+"item": "Q101095953",
+"lab": "gulose"
+},
+{
+"item": "Q101095968",
+"lab": "D-gulose"
+},
+{
+"item": "Q101095975",
+"lab": "L-gulose"
+},
+{
+"item": "Q101095980",
+"lab": "gulopyranose"
+},
+{
+"item": "Q101095988",
+"lab": "gulofuranose"
+},
+{
+"item": "Q101208434",
+"lab": "hydroxybutyric acid"
+},
+{
+"item": "Q101232287",
+"lab": "1,3-butylene glycol monomyristate"
+},
+{
+"item": "Q101842055",
+"lab": "spinosyn"
+},
+{
+"item": "Q102015395",
+"lab": "sesamin"
+},
+{
+"item": "Q102228219",
+"lab": "tricyclo[5.2.1.0<sup>2,6</sup>]decanedimethanol"
+},
+{
+"item": "Q102338072",
+"lab": "humulone"
+},
+{
+"item": "Q102349190",
+"lab": "7-decen-4-olide"
+},
+{
+"item": "Q103601090",
+"lab": "octadecanol"
+},
+{
+"item": "Q103856106",
+"lab": "carboxamidine"
+},
+{
+"item": "Q104102588",
+"lab": "farnesene"
+},
+{
+"item": "Q104167739",
+"lab": "hexopyranosyl hexopyranoside"
+},
+{
+"item": "Q104373630",
+"lab": "tellurium compound"
+},
+{
+"item": "Q104601680",
+"lab": "allelochemical"
+},
+{
+"item": "Q104631433",
+"lab": "synthetic peptide"
+},
+{
+"item": "Q104972312",
+"lab": "tropin"
+},
+{
+"item": "Q105019941",
+"lab": "hexopyranosyl-(1->4)-hexopyranose"
+},
+{
+"item": "Q105024342",
+"lab": "aldehydo-hexose"
+},
+{
+"item": "Q105029610",
+"lab": "1,5-anhydro-1-[7-hydroxy-3-(4-hydroxyphenyl)-4-oxo-4H-chromen-8-yl]hexitol"
+},
+{
+"item": "Q105146923",
+"lab": "2-(methylamine)-1-phenyl-1-propanol"
+},
+{
+"item": "Q105153013",
+"lab": "hex-2-ulopyranose"
+},
+{
+"item": "Q105193245",
+"lab": "hydroxybenzoic acid"
+},
+{
+"item": "Q105258872",
+"lab": "pentopyranose"
+},
+{
+"item": "Q106030574",
+"lab": "fertaric acid"
+},
+{
+"item": "Q106041342",
+"lab": "6-(3-hexenyl)tetrahydro-2H-pyran-2-one"
+},
+{
+"item": "Q106055949",
+"lab": "5-(hydroxymethyl)oxolane-2,3,4-triol"
+},
+{
+"item": "Q106377581",
+"lab": "aurone"
+},
+{
+"item": "Q106378043",
+"lab": "phosphatidylinositol 4-phosphate"
+},
+{
+"item": "Q106548301",
+"lab": "thujenes"
+},
+{
+"item": "Q106549312",
+"lab": "air-sensitive substance"
+},
+{
+"item": "Q106576915",
+"lab": "diaminocyclohexane"
+},
+{
+"item": "Q106627928",
+"lab": "tetradecene"
+},
+{
+"item": "Q106637801",
+"lab": "zaragozic acid"
+},
+{
+"item": "Q106640793",
+"lab": "glutarimide"
+},
+{
+"item": "Q106651000",
+"lab": "butanediamine"
+},
+{
+"item": "Q106656537",
+"lab": "actaplanin"
+},
+{
+"item": "Q106675734",
+"lab": "hexanetriol"
+},
+{
+"item": "Q106941693",
+"lab": "L-glucose"
+},
+{
+"item": "Q106941936",
+"lab": "glucofuranose"
+},
+{
+"item": "Q106947483",
+"lab": "idose"
+},
+{
+"item": "Q106947563",
+"lab": "D-idose"
+},
+{
+"item": "Q106947656",
+"lab": "L-idose"
+},
+{
+"item": "Q106947815",
+"lab": "idofuranose"
+},
+{
+"item": "Q106947824",
+"lab": "idopyranose"
+},
+{
+"item": "Q106948862",
+"lab": "mildiomycin"
+},
+{
+"item": "Q106964000",
+"lab": "mannopyranose"
+},
+{
+"item": "Q106964008",
+"lab": "mannofuranose"
+},
+{
+"item": "Q106964015",
+"lab": "L-mannose"
+},
+{
+"item": "Q107080260",
+"lab": "talose"
+},
+{
+"item": "Q107080678",
+"lab": "D-talose"
+},
+{
+"item": "Q107080813",
+"lab": "L-talose"
+},
+{
+"item": "Q107080876",
+"lab": "talopyranose"
+},
+{
+"item": "Q107080883",
+"lab": "talofuranose"
+},
+{
+"item": "Q107124490",
+"lab": "chiral compound"
+},
+{
+"item": "Q107138936",
+"lab": "bromate"
+},
+{
+"item": "Q107179512",
+"lab": "ketoester"
+},
+{
+"item": "Q107186791",
+"lab": "secondary amino acid"
+},
+{
+"item": "Q107327795",
+"lab": "organic hydroxylamine"
+},
+{
+"item": "Q107328895",
+"lab": "hexol"
+},
+{
+"item": "Q107337970",
+"lab": "dinitrophenol"
+},
+{
+"item": "Q107344349",
+"lab": "organic oxygen compound"
+},
+{
+"item": "Q107344364",
+"lab": "gallium compound"
+},
+{
+"item": "Q107363222",
+"lab": "sesterterpenoid"
+},
+{
+"item": "Q107370485",
+"lab": "cycloheptatriene"
+},
+{
+"item": "Q107370950",
+"lab": "benzodioxan"
+},
+{
+"item": "Q107371042",
+"lab": "tert-butyl compound"
+},
+{
+"item": "Q107383055",
+"lab": "trioxolane"
+},
+{
+"item": "Q107392144",
+"lab": "organic sulfur compound"
+},
+{
+"item": "Q107434516",
+"lab": "complex"
+},
+{
+"item": "Q107474892",
+"lab": "cinerin"
+},
+{
+"item": "Q107474898",
+"lab": "neolignan"
+},
+{
+"item": "Q107541986",
+"lab": "hex-2-ulofuranose"
+},
+{
+"item": "Q107542613",
+"lab": "monosaccharide derivative"
+},
+{
+"item": "Q107550586",
+"lab": "apiofuranose"
+},
+{
+"item": "Q107550720",
+"lab": "2-(hydroxymethyl)oxolane-2,3,4-triol"
+},
+{
+"item": "Q107550992",
+"lab": "deoxypentose"
+},
+{
+"item": "Q107558356",
+"lab": "ketoaldaric acid"
+},
+{
+"item": "Q107559775",
+"lab": "pawhuskin"
+},
+{
+"item": "Q107566905",
+"lab": "epoxy fatty acid"
+},
+{
+"item": "Q107634376",
+"lab": "ketoaldonic acid"
+},
+{
+"item": "Q107636678",
+"lab": "manzamine"
+},
+{
+"item": "Q107684571",
+"lab": "benzopyranoid"
+},
+{
+"item": "Q107863299",
+"lab": "camphan monoterpenoid"
+},
+{
+"item": "Q107965299",
+"lab": "2-methyl-6-undecylpiperidine"
+},
+{
+"item": "Q107987184",
+"lab": "benzotriazine"
+},
+{
+"item": "Q107987197",
+"lab": "organothiophosphate insecticide"
+},
+{
+"item": "Q108105178",
+"lab": "p-menthane monoterpene"
+},
+{
+"item": "Q108126289",
+"lab": "1,2-diacyl-3-β-D-galactosyl-sn-glycerol"
+},
+{
+"item": "Q108137961",
+"lab": "phytane diterpene"
+},
+{
+"item": "Q108159756",
+"lab": "fenchane monoterpenoid"
+},
+{
+"item": "Q108160069",
+"lab": "acyclic monoterpene"
+},
+{
+"item": "Q108167900",
+"lab": "ochtodane monoterpenoids"
+},
+{
+"item": "Q108178698",
+"lab": "1-ethyl-1,3-dimethylcyclohexane monoterpenoids"
+},
+{
+"item": "Q108179008",
+"lab": "1-ethyl-2,4-dimethylcyclohexane monoterpenoids"
+},
+{
+"item": "Q108184580",
+"lab": "1,1,2,5-tetramethylcyclohexane monoterpenoid"
+},
+{
+"item": "Q108184679",
+"lab": "1,1,2,2-tetramethylcyclohexane monoterpenoid"
+},
+{
+"item": "Q108185634",
+"lab": "pinane monoterpenoid"
+},
+{
+"item": "Q108195307",
+"lab": "thujane monoterpenoid"
+},
+{
+"item": "Q108195636",
+"lab": "cyclopropane monoterpenoid"
+},
+{
+"item": "Q108195962",
+"lab": "cycloheptane monoterpenoid"
+},
+{
+"item": "Q108195983",
+"lab": "cyclobutane monoterpenoid"
+},
+{
+"item": "Q108196233",
+"lab": "carane monoterpenoid"
+},
+{
+"item": "Q108196373",
+"lab": "bicyclo[2.2.1]heptane monoterpenoid"
+},
+{
+"item": "Q108197948",
+"lab": "tricyclic monoterpenoid"
+},
+{
+"item": "Q108210867",
+"lab": "1-ethyl-1,4-dimethylcyclohexane monoterpenoids"
+},
+{
+"item": "Q108217443",
+"lab": "menthofurans"
+},
+{
+"item": "Q108218600",
+"lab": "cyclopentane sesquiterpenoid"
+},
+{
+"item": "Q108219087",
+"lab": "cyclofarnesoid"
+},
+{
+"item": "Q108219536",
+"lab": "bisabolanes"
+},
+{
+"item": "Q108237318",
+"lab": "cyclobisabolane"
+},
+{
+"item": "Q108243163",
+"lab": "germacrane sesquiterpenoid"
+},
+{
+"item": "Q108255975",
+"lab": "bicyclogermacrane sesquiterpenoid"
+},
+{
+"item": "Q108256257",
+"lab": "humulane-type sesquiterpenoid"
+},
+{
+"item": "Q108257122",
+"lab": "caryophyllane sesquiterpenoid"
+},
+{
+"item": "Q108257273",
+"lab": "bicyclohumulane sesquiterpenoid"
+},
+{
+"item": "Q108257530",
+"lab": "cuparane sesquiterpenoid"
+},
+{
+"item": "Q108257812",
+"lab": "cyclolaurane"
+},
+{
+"item": "Q108265930",
+"lab": "herbertane sesquiterpenoid"
+},
+{
+"item": "Q108266025",
+"lab": "laurane sesquiterpenoid"
+},
+{
+"item": "Q108266224",
+"lab": "trichothecane sesquiterpenoid"
+},
+{
+"item": "Q108266420",
+"lab": "eudesmane sesquiterpenoid"
+},
+{
+"item": "Q108266584",
+"lab": "emmotin sesquiterpenoid"
+},
+{
+"item": "Q108270249",
+"lab": "oppositane sesquiterpenoid"
+},
+{
+"item": "Q108270539",
+"lab": "cycloeudesmane sesquiterpenoid"
+},
+{
+"item": "Q108271257",
+"lab": "eremophilane sesquiterpenoid"
+},
+{
+"item": "Q108271720",
+"lab": "aristolane-type sesquiterpenoid"
+},
+{
+"item": "Q108272097",
+"lab": "nardosinane sesquiterpenoid"
+},
+{
+"item": "Q108272452",
+"lab": "brasilane sesquiterpenoid"
+},
+{
+"item": "Q108272821",
+"lab": "cacalol sesquiterpenoid"
+},
+{
+"item": "Q108273052",
+"lab": "cadinane sesquiterpenoid"
+},
+{
+"item": "Q108280997",
+"lab": "oplopane sesquiterpenoid"
+},
+{
+"item": "Q108281075",
+"lab": "drimane sesquiterpenoid"
+},
+{
+"item": "Q108281236",
+"lab": "colorane sesquiterpenoid"
+},
+{
+"item": "Q108281464",
+"lab": "xanthane sesquiterpenoid"
+},
+{
+"item": "Q108281588",
+"lab": "guaiane sesquiterpenoid"
+},
+{
+"item": "Q108281925",
+"lab": "pseudoguaiane sesquiterpenoid"
+},
+{
+"item": "Q108285675",
+"lab": "aromadrendrane sesquiterpenoid"
+},
+{
+"item": "Q108285784",
+"lab": "cycloguaiane sesquiterpenoid"
+},
+{
+"item": "Q108286205",
+"lab": "valerenane sesquiterpenoid"
+},
+{
+"item": "Q108286398",
+"lab": "africanane sesquiterpenoid"
+},
+{
+"item": "Q108286567",
+"lab": "himachalane sesquiterpenoid"
+},
+{
+"item": "Q108286923",
+"lab": "cyclohimachalane sesquiterpenoid"
+},
+{
+"item": "Q108293246",
+"lab": "pinguisane sesquiterpenoid"
+},
+{
+"item": "Q108293382",
+"lab": "thapsane"
+},
+{
+"item": "Q108293460",
+"lab": "picrotoxanes"
+},
+{
+"item": "Q108293563",
+"lab": "daucane sesquiterpenoid"
+},
+{
+"item": "Q108293694",
+"lab": "illudane sesquiterpenoid"
+},
+{
+"item": "Q108293817",
+"lab": "sterpurane sesquiterpenoid"
+},
+{
+"item": "Q108293958",
+"lab": "illudalane sesquiterpenoid"
+},
+{
+"item": "Q108294141",
+"lab": "lactarane sesquiterpenoids"
+},
+{
+"item": "Q108294205",
+"lab": "furodysin sesquiterpenoid"
+},
+{
+"item": "Q108294307",
+"lab": "botrydial sesquiterpene"
+},
+{
+"item": "Q108294391",
+"lab": "spirovetivanes"
+},
+{
+"item": "Q108296333",
+"lab": "acoranes"
+},
+{
+"item": "Q108296419",
+"lab": "chamigranes"
+},
+{
+"item": "Q108296529",
+"lab": "2,6-dimethyl-9-(1-methylethyl)spiro[4.5]decane sesquiterpenoid"
+},
+{
+"item": "Q108296774",
+"lab": "cedranes"
+},
+{
+"item": "Q108296796",
+"lab": "isocedranes"
+},
+{
+"item": "Q108296866",
+"lab": "zizaanes"
+},
+{
+"item": "Q108296959",
+"lab": "capnellanes"
+},
+{
+"item": "Q108297064",
+"lab": "hirsutanes"
+},
+{
+"item": "Q108303153",
+"lab": "pentalenes"
+},
+{
+"item": "Q108303424",
+"lab": "silphinanes"
+},
+{
+"item": "Q108303581",
+"lab": "isocomanes"
+},
+{
+"item": "Q108303665",
+"lab": "panasinsanes"
+},
+{
+"item": "Q108303939",
+"lab": "modhephanes"
+},
+{
+"item": "Q108304497",
+"lab": "quadranes"
+},
+{
+"item": "Q108304572",
+"lab": "campherenanes"
+},
+{
+"item": "Q108304682",
+"lab": "santalanes"
+},
+{
+"item": "Q108307196",
+"lab": "ishwaranes"
+},
+{
+"item": "Q108307367",
+"lab": "bourbonanes"
+},
+{
+"item": "Q108307679",
+"lab": "carabranes"
+},
+{
+"item": "Q108307968",
+"lab": "presilphiperfolianes"
+},
+{
+"item": "Q108318774",
+"lab": "cyclocopacamphanes"
+},
+{
+"item": "Q108319171",
+"lab": "gymnomitrane sesquiterpenoids"
+},
+{
+"item": "Q108319332",
+"lab": "megastigmane"
+},
+{
+"item": "Q108325662",
+"lab": "isolongifolenes"
+},
+{
+"item": "Q108325703",
+"lab": "valeranes"
+},
+{
+"item": "Q108325859",
+"lab": "asteriscanes"
+},
+{
+"item": "Q108326169",
+"lab": "1,6-dimethyl-9-isopropyl-spiro[4.5]decane sesquiterpenoid"
+},
+{
+"item": "Q108328990",
+"lab": "Tetrylenes"
+},
+{
+"item": "Q108329980",
+"lab": "gorgonanes"
+},
+{
+"item": "Q108330186",
+"lab": "1,4-dimethyl-2-butyl-3-isopropylcyclohexan sesquiterpenoid"
+},
+{
+"item": "Q108330308",
+"lab": "elemane sesquiterpenoid"
+},
+{
+"item": "Q108330676",
+"lab": "thujopsane sesquiterpenoid"
+},
+{
+"item": "Q108336731",
+"lab": "longipinanes"
+},
+{
+"item": "Q108336846",
+"lab": "4-isopropyl-1,5-dimethyldecahydronaphthalene sesquiterpenoid"
+},
+{
+"item": "Q108346895",
+"lab": "chiloscyphanes"
+},
+{
+"item": "Q108348587",
+"lab": "noreudesmanes"
+},
+{
+"item": "Q108364104",
+"lab": "brasilanes"
+},
+{
+"item": "Q108366079",
+"lab": "helminthosporane sesquiterpenoid"
+},
+{
+"item": "Q108366288",
+"lab": "silphiperfolianes"
+},
+{
+"item": "Q108369623",
+"lab": "3-propyl-4a,8-dimethyldecahydronaphthalene sesquiterpenoid"
+},
+{
+"item": "Q108370089",
+"lab": "phytane diterpenoid"
+},
+{
+"item": "Q108370321",
+"lab": "prenylbisabolane diterpenoid"
+},
+{
+"item": "Q108377177",
+"lab": "10,15-cyclophytane diterpenoid"
+},
+{
+"item": "Q108377975",
+"lab": "halimane diterpenoid"
+},
+{
+"item": "Q108378632",
+"lab": "secolabdane diterpenoid"
+},
+{
+"item": "Q108381958",
+"lab": "clerodane diterpenoid"
+},
+{
+"item": "Q108382224",
+"lab": "abietane diterpenoid"
+},
+{
+"item": "Q108383577",
+"lab": "6,7-secoabietane diterpenoid"
+},
+{
+"item": "Q108383665",
+"lab": "norabietanes"
+},
+{
+"item": "Q108383986",
+"lab": "13,16-cycloabietanes"
+},
+{
+"item": "Q108384329",
+"lab": "17(15→16)-abeoabietanes"
+},
+{
+"item": "Q108392190",
+"lab": "totarane diterpenoid"
+},
+{
+"item": "Q108392352",
+"lab": "nagilactone diterpenoid"
+},
+{
+"item": "Q108392521",
+"lab": "pimarane diterpenoid"
+},
+{
+"item": "Q108392666",
+"lab": "rosane diterpenoid"
+},
+{
+"item": "Q108392810",
+"lab": "erythroxylane diterpenoid"
+},
+{
+"item": "Q108403477",
+"lab": "cassane diterpenoid"
+},
+{
+"item": "Q108403505",
+"lab": "cyclopimarane diterpenoid"
+},
+{
+"item": "Q108404077",
+"lab": "cleistanthane diterpenoid"
+},
+{
+"item": "Q108404124",
+"lab": "isocopalane diterpenoid"
+},
+{
+"item": "Q108404205",
+"lab": "podocarpane diterpenoid"
+},
+{
+"item": "Q108407223",
+"lab": "kaurane diterpenoid"
+},
+{
+"item": "Q108407522",
+"lab": "beyerane diterpenoid"
+},
+{
+"item": "Q108408641",
+"lab": "villanovane diterpenoid"
+},
+{
+"item": "Q108408677",
+"lab": "atisane diterpenoid"
+},
+{
+"item": "Q108408911",
+"lab": "aphidicolane diterpenoid"
+},
+{
+"item": "Q108409073",
+"lab": "C20-gibberellin"
+},
+{
+"item": "Q108415688",
+"lab": "leucothol diterpenoid"
+},
+{
+"item": "Q108416334",
+"lab": "eunicellane diterpenoid"
+},
+{
+"item": "Q108416419",
+"lab": "briarane diterpenoid"
+},
+{
+"item": "Q108418717",
+"lab": "diazetidine"
+},
+{
+"item": "Q108419184",
+"lab": "dolabellane diterpenoid"
+},
+{
+"item": "Q108419556",
+"lab": "dolastane diterpenoid"
+},
+{
+"item": "Q108427442",
+"lab": "cyathane diterpenoid"
+},
+{
+"item": "Q108427610",
+"lab": "sphaeroane diterpenoid"
+},
+{
+"item": "Q108427949",
+"lab": "verrucosane diterpenoid"
+},
+{
+"item": "Q108428029",
+"lab": "casbane diterpenoid"
+},
+{
+"item": "Q108428161",
+"lab": "jatrophane diterpenoid"
+},
+{
+"item": "Q108428468",
+"lab": "lathyrane diterpenoid"
+},
+{
+"item": "Q108430123",
+"lab": "rhamnofolane diterpenoid"
+},
+{
+"item": "Q108430166",
+"lab": "daphnane diterpenoid"
+},
+{
+"item": "Q108430426",
+"lab": "tigliane diterpenoid"
+},
+{
+"item": "Q108430466",
+"lab": "ingenane diterpenoid"
+},
+{
+"item": "Q108430583",
+"lab": "fusicoccane diterpenoid"
+},
+{
+"item": "Q108430680",
+"lab": "spatane diterpenoid"
+},
+{
+"item": "Q108440207",
+"lab": "trinervitane diterpenoid"
+},
+{
+"item": "Q108440412",
+"lab": "amphilectane diterpenoid"
+},
+{
+"item": "Q108440478",
+"lab": "xenicane diterpenoid"
+},
+{
+"item": "Q108440601",
+"lab": "xeniaphyllane diterpenoid"
+},
+{
+"item": "Q108440886",
+"lab": "prenylgermacrane diterpenoid"
+},
+{
+"item": "Q108443420",
+"lab": "lobane diterpenoid"
+},
+{
+"item": "Q108443604",
+"lab": "prenylguaiane diterpenoid"
+},
+{
+"item": "Q108444076",
+"lab": "serrulatane diterpenoid"
+},
+{
+"item": "Q108444310",
+"lab": "sacculatane diterpenoid"
+},
+{
+"item": "Q108444466",
+"lab": "sphenolobane diterpenoid"
+},
+{
+"item": "Q108445085",
+"lab": "grayanotoxane diterpenoid"
+},
+{
+"item": "Q108445284",
+"lab": "verticillane diterpenoid"
+},
+{
+"item": "Q108456879",
+"lab": "eremane diterpenoid"
+},
+{
+"item": "Q108457141",
+"lab": "1,6-dimethyl-2-isopropyl-7-tert-butyl-6-ethylspiro[4.4]nonane diterpenoid"
+},
+{
+"item": "Q108457560",
+"lab": "trimethyltricyclo[9.3.0.0(2,7)]tetradecane diterpenoid"
+},
+{
+"item": "Q108460598",
+"lab": "jatropholane diterpenoid"
+},
+{
+"item": "Q108474957",
+"lab": "ireol diterpenoid"
+},
+{
+"item": "Q108475157",
+"lab": "obtusane diterpenoid"
+},
+{
+"item": "Q108475239",
+"lab": "dodecahydro-3a,5,9-trimethyl-3-(1-methylethyl)-benz[e]azulene diterpenoid"
+},
+{
+"item": "Q108485826",
+"lab": "2,6-dimethyloctane monoterpenoid"
+},
+{
+"item": "Q108488583",
+"lab": "2,7-dimethyloctane monoterpenoid"
+},
+{
+"item": "Q108488680",
+"lab": "2,5,5-trimethylheptane monoterpenoid"
+},
+{
+"item": "Q108488816",
+"lab": "2,3,6-trimethylheptane monoterpenoid"
+},
+{
+"item": "Q108488996",
+"lab": "2,5-dimethyl-3-ethylhexane monoterpenoid"
+},
+{
+"item": "Q108490193",
+"lab": "2,6,10,14,18-pentamethylicosane sesterterpenoid"
+},
+{
+"item": "Q108490374",
+"lab": "3,7,11,15-tetramethylheptadecane sesterterpenoid"
+},
+{
+"item": "Q108490739",
+"lab": "cyclohexane sesterterpenoid"
+},
+{
+"item": "Q108491404",
+"lab": "cericerane sesterterpenoid"
+},
+{
+"item": "Q108491779",
+"lab": "prenyllabdane sesterterpenoid"
+},
+{
+"item": "Q108509525",
+"lab": "cheilanthane sesterterpenoid"
+},
+{
+"item": "Q108509719",
+"lab": "ophiobolane sesterterpenoid"
+},
+{
+"item": "Q108509915",
+"lab": "scalarane sesterterpenoid"
+},
+{
+"item": "Q108510187",
+"lab": "24-methylscalarane sesterterpenoid"
+},
+{
+"item": "Q108510257",
+"lab": "20,24-dimethylscalarane sesterterpenoid"
+},
+{
+"item": "Q108511077",
+"lab": "24-methyl-25-norscalarane sesterterpenoid"
+},
+{
+"item": "Q108526154",
+"lab": "squalane triterpenoid"
+},
+{
+"item": "Q108526292",
+"lab": "protostane/dammarane triterpenoid"
+},
+{
+"item": "Q108526474",
+"lab": "fusidane triterpenoid"
+},
+{
+"item": "Q108527275",
+"lab": "lanostane triterpenoid"
+},
+{
+"item": "Q108527322",
+"lab": "cycloartane triterpenoid"
+},
+{
+"item": "Q108527499",
+"lab": "cucurbitane triterpenoid"
+},
+{
+"item": "Q108535621",
+"lab": "apotirucallane triterpenoid"
+},
+{
+"item": "Q108537103",
+"lab": "C25-quassinoid"
+},
+{
+"item": "Q108544487",
+"lab": "picrasane"
+},
+{
+"item": "Q108544514",
+"lab": "baccharane triterpenoid"
+},
+{
+"item": "Q108544891",
+"lab": "oleanane triterpenoid"
+},
+{
+"item": "Q108554308",
+"lab": "taraxerane triterpenoid"
+},
+{
+"item": "Q108562956",
+"lab": "multiflorane triterpenoid"
+},
+{
+"item": "Q108563940",
+"lab": "glutinane triterpenoid"
+},
+{
+"item": "Q108564656",
+"lab": "friedelane triterpenoid"
+},
+{
+"item": "Q108565075",
+"lab": "taraxastane / ursane triterpenoid"
+},
+{
+"item": "Q108573025",
+"lab": "bauerane triterpenoid"
+},
+{
+"item": "Q108573225",
+"lab": "hopane triterpenoid"
+},
+{
+"item": "Q108573478",
+"lab": "neohopane triterpenoid"
+},
+{
+"item": "Q108574174",
+"lab": "gammacerane triterpenoid"
+},
+{
+"item": "Q108574294",
+"lab": "serratane triterpenoid"
+},
+{
+"item": "Q108574359",
+"lab": "onocerane triterpenoid"
+},
+{
+"item": "Q108574567",
+"lab": "malabaricane triterpenoid"
+},
+{
+"item": "Q108574687",
+"lab": "iridal triterpenoid"
+},
+{
+"item": "Q108575060",
+"lab": "fernane triterpenoid"
+},
+{
+"item": "Q108575155",
+"lab": "presqualene triterpenoid"
+},
+{
+"item": "Q108586650",
+"lab": "ring-cleaved tetranortriterpenoid"
+},
+{
+"item": "Q108586984",
+"lab": "botryococcane triterpenoid"
+},
+{
+"item": "Q108587334",
+"lab": "1-farnesyl-2,5,5,8a-tetramethyl-1,2,3,4,4a,6,7,8-octahydronaphthalene triterpenoid"
+},
+{
+"item": "Q108587897",
+"lab": "pfaffane-type nortriterpenoid"
+},
+{
+"item": "Q108650539",
+"lab": "cardanolides"
+},
+{
+"item": "Q108654423",
+"lab": "furostan steroid"
+},
+{
+"item": "Q108654505",
+"lab": "ergostane steroid"
+},
+{
+"item": "Q108673224",
+"lab": "stigmastan-type steroid"
+},
+{
+"item": "Q108673478",
+"lab": "gorgostane steroid"
+},
+{
+"item": "Q108673692",
+"lab": "9,10-secocholestane steroid"
+},
+{
+"item": "Q108673901",
+"lab": "9,10-secoergostane steroid"
+},
+{
+"item": "Q108677127",
+"lab": "spirosolane alkaloid"
+},
+{
+"item": "Q108677338",
+"lab": "4-methylcholestane steroid"
+},
+{
+"item": "Q108677572",
+"lab": "4-methylergostane steroid"
+},
+{
+"item": "Q108677761",
+"lab": "4,4-dimethylcholestane steroid"
+},
+{
+"item": "Q108678377",
+"lab": "solanidine alkaloid"
+},
+{
+"item": "Q108678734",
+"lab": "24-norgorgostane steroid"
+},
+{
+"item": "Q108678923",
+"lab": "4,14-dimethylergostane steroid"
+},
+{
+"item": "Q108678978",
+"lab": "19-norcholestane steroid"
+},
+{
+"item": "Q108686311",
+"lab": "9,11-secocholestane steroid"
+},
+{
+"item": "Q108688304",
+"lab": "19-norergostane steroid"
+},
+{
+"item": "Q108688755",
+"lab": "4-methylstigmastane steroid"
+},
+{
+"item": "Q108689004",
+"lab": "23-methylergostane steroid"
+},
+{
+"item": "Q108689077",
+"lab": "14-methylstigmastane steroid"
+},
+{
+"item": "Q108689170",
+"lab": "24-methylcycloartane steroid"
+},
+{
+"item": "Q108689238",
+"lab": "9,11-secoergostane steroid"
+},
+{
+"item": "Q108690086",
+"lab": "19-norstigmastane steroid"
+},
+{
+"item": "Q108699443",
+"lab": "24,26-dimethyl-26,27-cyclocholestane steroid"
+},
+{
+"item": "Q108699646",
+"lab": "4,14-dimethyl-9,19-cycloergostane steroid"
+},
+{
+"item": "Q108700235",
+"lab": "24-norcholestane steroid"
+},
+{
+"item": "Q108700348",
+"lab": "27-norcholestane steroid"
+},
+{
+"item": "Q108700514",
+"lab": "18-norcholestane steroid"
+},
+{
+"item": "Q108700578",
+"lab": "4,23-dimethylergostane steroid"
+},
+{
+"item": "Q108700841",
+"lab": "27-norlanostane triterpenoid"
+},
+{
+"item": "Q108711939",
+"lab": "9,10-secoandrostane steroid"
+},
+{
+"item": "Q108713211",
+"lab": "2,3-secoandrostane steroid"
+},
+{
+"item": "Q108733507",
+"lab": "22-methyl-9,10-secocholestane steroid"
+},
+{
+"item": "Q108740239",
+"lab": "24-nor-9,11-secocholestane steroid"
+},
+{
+"item": "Q108741125",
+"lab": "24-dinorcholane steroid"
+},
+{
+"item": "Q108743467",
+"lab": "24-norcholane steroid"
+},
+{
+"item": "Q108743753",
+"lab": "25-methylergostane steroid"
+},
+{
+"item": "Q108743802",
+"lab": "25-ethylergostane steroid"
+},
+{
+"item": "Q108744055",
+"lab": "28-methylstigmastan steroid"
+},
+{
+"item": "Q108756161",
+"lab": "24-methyllanostane triterpenoid"
+},
+{
+"item": "Q108756497",
+"lab": "neolemnane-type sesquiterpenoid"
+},
+{
+"item": "Q108764538",
+"lab": "prenylflavone"
+},
+{
+"item": "Q108764843",
+"lab": "6C-prenylflavone"
+},
+{
+"item": "Q108770563",
+"lab": "8C-prenylflavone"
+},
+{
+"item": "Q108770728",
+"lab": "3'C-prenylflavone"
+},
+{
+"item": "Q108770879",
+"lab": "3',6C-diprenylflavone"
+},
+{
+"item": "Q108771086",
+"lab": "prenylflavanone"
+},
+{
+"item": "Q108771331",
+"lab": "6C-prenylflavanone"
+},
+{
+"item": "Q108771459",
+"lab": "8C-prenylflavanone"
+},
+{
+"item": "Q108773770",
+"lab": "6,8C-diprenylflavanone"
+},
+{
+"item": "Q108774011",
+"lab": "3'C-prenylflavanone"
+},
+{
+"item": "Q108774056",
+"lab": "3',6C-diprenylflavanone"
+},
+{
+"item": "Q108774169",
+"lab": "3',8C-diprenylflavanone"
+},
+{
+"item": "Q108774269",
+"lab": "3',5'C-diprenylflavanone"
+},
+{
+"item": "Q108774439",
+"lab": "3',6,8C-triprenylflavanone"
+},
+{
+"item": "Q108774723",
+"lab": "6C-lavandulylflavanone"
+},
+{
+"item": "Q108774851",
+"lab": "8C-lavandulylflavanone"
+},
+{
+"item": "Q108784324",
+"lab": "6C-prenyl-8C-lavandulylflavanone"
+},
+{
+"item": "Q108784486",
+"lab": "6C-lavandulyl-8C-prenylflavanone"
+},
+{
+"item": "Q108800179",
+"lab": "prenylisoflavonoid"
+},
+{
+"item": "Q108800197",
+"lab": "6C-prenylisoflavone"
+},
+{
+"item": "Q108800269",
+"lab": "8C-prenylisoflavone"
+},
+{
+"item": "Q108800317",
+"lab": "3'C-prenylisoflavone"
+},
+{
+"item": "Q108800372",
+"lab": "3',6C-diprenylisoflavone"
+},
+{
+"item": "Q108800405",
+"lab": "3',8C-diprenylisoflavone"
+},
+{
+"item": "Q108800494",
+"lab": "isoflavanone"
+},
+{
+"item": "Q108804295",
+"lab": "8C-prenylisoflavanone"
+},
+{
+"item": "Q108804306",
+"lab": "6C-prenylisoflavanone"
+},
+{
+"item": "Q108804341",
+"lab": "3'C-prenylisoflavanone"
+},
+{
+"item": "Q108804590",
+"lab": "3',6C-diprenylisoflavanone"
+},
+{
+"item": "Q108805782",
+"lab": "3',8C-diprenylisoflavanone"
+},
+{
+"item": "Q108805881",
+"lab": "isoflavane"
+},
+{
+"item": "Q108806003",
+"lab": "8C-prenylisoflavane"
+},
+{
+"item": "Q108806026",
+"lab": "6C-prenylisoflavane"
+},
+{
+"item": "Q108806128",
+"lab": "3'C-prenylisoflavane"
+},
+{
+"item": "Q108806153",
+"lab": "3',8C-diprenylisoflavane"
+},
+{
+"item": "Q108815514",
+"lab": "licocoumarone"
+},
+{
+"item": "Q108816005",
+"lab": "arylnaphthalene-type lignan"
+},
+{
+"item": "Q108824628",
+"lab": "coumestan"
+},
+{
+"item": "Q108824676",
+"lab": "3-phenylcoumarin flavonoid"
+},
+{
+"item": "Q108825818",
+"lab": "prenylcoumestan"
+},
+{
+"item": "Q108825976",
+"lab": "2C-prenylcoumestan"
+},
+{
+"item": "Q108827219",
+"lab": "prenylarylcoumarin"
+},
+{
+"item": "Q108827608",
+"lab": "6C-prenylarylcoumarin"
+},
+{
+"item": "Q108829074",
+"lab": "biotin sulfoxide"
+},
+{
+"item": "Q108837815",
+"lab": "chalcone"
+},
+{
+"item": "Q108837888",
+"lab": "3'C-prenylchalcone"
+},
+{
+"item": "Q108837915",
+"lab": "3C-prenylchalcone"
+},
+{
+"item": "Q108838003",
+"lab": "3'C-substituted chalcone"
+},
+{
+"item": "Q108838038",
+"lab": "3'C-lavandulylchalcone"
+},
+{
+"item": "Q108838252",
+"lab": "dibenzylmethane flavonoid"
+},
+{
+"item": "Q108849841",
+"lab": "dihydrophenantrene"
+},
+{
+"item": "Q108857997",
+"lab": "6C-glycosylated flavone"
+},
+{
+"item": "Q108858998",
+"lab": "C-substituted flavonoid"
+},
+{
+"item": "Q108859397",
+"lab": "flavylium compound"
+},
+{
+"item": "Q108861240",
+"lab": "(4->8)-proanthocyanidin"
+},
+{
+"item": "Q108861260",
+"lab": "(4->6)-proanthocyanidin"
+},
+{
+"item": "Q108867117",
+"lab": "3',5'-C-substituted chalcone"
+},
+{
+"item": "Q108867640",
+"lab": "8C-substituted flavone"
+},
+{
+"item": "Q108867718",
+"lab": "6C-substituted flavone"
+},
+{
+"item": "Q108867866",
+"lab": "3C-substituted flavone"
+},
+{
+"item": "Q108875383",
+"lab": "3'C-substituted flavone"
+},
+{
+"item": "Q108875493",
+"lab": "3,6,8C-substituted flavone"
+},
+{
+"item": "Q108875578",
+"lab": "3,8C-substituted flavone"
+},
+{
+"item": "Q108876569",
+"lab": "6C-substituted flavanone"
+},
+{
+"item": "Q108876684",
+"lab": "8C-substituted flavanone"
+},
+{
+"item": "Q108876786",
+"lab": "6,8C-substituted flavanone"
+},
+{
+"item": "Q108876808",
+"lab": "2',6C-substituted flavanone"
+},
+{
+"item": "Q108876886",
+"lab": "8C-substituted flavan"
+},
+{
+"item": "Q108876892",
+"lab": "6,8C-substituted flavan"
+},
+{
+"item": "Q108876902",
+"lab": "2'C-substituted flavan"
+},
+{
+"item": "Q108876950",
+"lab": "8C-substituted isoflavan"
+},
+{
+"item": "Q108877061",
+"lab": "6C-substituted isoflavone"
+},
+{
+"item": "Q108877081",
+"lab": "2,8C-substituted isoflavone"
+},
+{
+"item": "Q108882358",
+"lab": "4-phenylcoumarin flavonoid"
+},
+{
+"item": "Q108882410",
+"lab": "6,8C-substituted 3-phenylcoumarin"
+},
+{
+"item": "Q108883160",
+"lab": "dalbergione flavonoid"
+},
+{
+"item": "Q108894698",
+"lab": "3',6C-substituted isoflavan"
+},
+{
+"item": "Q108902661",
+"lab": "6,6a,7,11b-tetrahydroindeno[2,1-c]chromene flavonoid"
+},
+{
+"item": "Q108903010",
+"lab": "6,8C-substituted flavone"
+},
+{
+"item": "Q108903080",
+"lab": "2',5'C-substituted flavanone"
+},
+{
+"item": "Q108903123",
+"lab": "3,6C-substituted flavone"
+},
+{
+"item": "Q108907583",
+"lab": "2'C-substituted chalcone"
+},
+{
+"item": "Q108907646",
+"lab": "3,3-diphenylpropene flavonoid"
+},
+{
+"item": "Q108907672",
+"lab": "3C-substituted chalcone"
+},
+{
+"item": "Q108907730",
+"lab": "isoflavane quinonoid"
+},
+{
+"item": "Q108907754",
+"lab": "3,3'C-substituted chalcone"
+},
+{
+"item": "Q108907772",
+"lab": "2-arylbenzofuran flavonoid"
+},
+{
+"item": "Q108908948",
+"lab": "6,8C-substituted isoflavone"
+},
+{
+"item": "Q108908965",
+"lab": "8C-substituted isoflavone"
+},
+{
+"item": "Q108909056",
+"lab": "2C-substituted isoflavone"
+},
+{
+"item": "Q108909111",
+"lab": "2',5'C-substituted flavan"
+},
+{
+"item": "Q108909243",
+"lab": "6C-substituted 3-phenylcoumarin"
+},
+{
+"item": "Q108910534",
+"lab": "aniline"
+},
+{
+"item": "Q108910666",
+"lab": "nitroaniline"
+},
+{
+"item": "Q108915861",
+"lab": "3'C-substituted isoflavone"
+},
+{
+"item": "Q108923283",
+"lab": "3',5'C-substituted flavone"
+},
+{
+"item": "Q108923394",
+"lab": "4C-substituted flavan"
+},
+{
+"item": "Q108923448",
+"lab": "3C-substituted flavanone"
+},
+{
+"item": "Q108923466",
+"lab": "3'C-substituted flavanone"
+},
+{
+"item": "Q108923491",
+"lab": "3,5C-substituted chalcone"
+},
+{
+"item": "Q108923567",
+"lab": "3'C-substituted isoflavan"
+},
+{
+"item": "Q108934397",
+"lab": "2',3C-substituted flavone"
+},
+{
+"item": "Q108934431",
+"lab": "3',6,8C-substituted flavanone"
+},
+{
+"item": "Q108934454",
+"lab": "3'C-substituted 3-phenylcoumarin"
+}
+]
