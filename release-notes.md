@@ -62,3 +62,8 @@
 ===2113===
 * all data: flavonoids pt. 2 (est. 85% of all)
 
+===2114===
+* add -j option for JSON output (NP only)
+* all data: flavonoids pt. 3 (est. 95% of all)
+
+

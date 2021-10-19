@@ -7,7 +7,7 @@ While yaccl is, in principle, a general classifier, development of patterns focu
 
 ## Version
 
-The current version is 2113.
+The current version is 2114.
 
 ## Prerequisites
 
@@ -56,6 +56,13 @@ purging redundant hits
 ('Q75082510', 'beta-D-galactoside', 'OC[C@H]1O[C@@H](O[*])[C@H](O)[C@@H](O)[C@H]1O') {'GO:0016138', 'glycoside biosynthetic process'}
 ('Q105151716', '2-[[5-hydroxy-2-(hydroxymethyl)-3,9-dioxatricyclo[4.4.0.02,4]dec-7-en-10-yl]oxy]-6-(hydroxymethyl)oxane-3,4,5-triol', 'OCC1OC(OC2OC=CC3C(O)C4OC4(CO)C23)C(O)C(O)C1O') {'GO:0016138', 'glycoside biosynthetic process'}
 ```
+
+The `-j` option provides JSON format. This does only work if a natural product is recognized. Then, it gives the full path to root in the ontology:
+```
+$ python3 classify.py -d ./ -m 'InChI=1S/C28H32O15/c1-39-14-7-15-18(12(32)6-13(40-15)10-2-4-11(31)5-3-10)22(35)19(14)26-27(24(37)21(34)16(8-29)41-26)43-28-25(38)23(36)20(33)17(9-30)42-28/h2-7,16-17,20-21,23-31,33-38H,8-9H2,1H3/t16-,17-,20-,21-,23+,24+,25-,26+,27-,28+/m1/s1' -j 
+[{"classification_names": ["flavonoid", "2-phenylchromane flavonoid", "flavone", "6C-substituted flavone", "6C-glycosylated flavone", "spinosin"], "biological_process": ["flavone biosynthetic process", "GO:0051553"]}]
+```
+ 
 Given a file of InChI strings the `-t` option runs a test checking that at least one of the hits is a subclass of the test class item.
 ```
 ralf@ark:~/wikidata/yaccl/src> python3 classify.py -t test/sesterterpenoids.txt -d ./ 
@@ -106,7 +113,7 @@ $ python3 class-pattern.py
 #smiles: 1024
 #wildcard smiles: 979
 ```
-Yes, Wikidata has >110k compound classes, most of which (>81k) have unspecified stereochemistry, i.e. they are groups of stereoisomers.
+Yes, Wikidata has >110k compound classes, most of which (>81k) are compounds with unspecified stereochemistry, i.e. they are groups of stereoisomers.
 
 ### Contribute
 Most errors or inconsistencies are due to data, so please contribute to Wikidata. More involved and pressing is to add patterns to the items of the `biosyn` dataset, or even add missing classes to expand Wikidata's class ontology.
@@ -117,7 +124,6 @@ Of course, any comment or PR is highly appreciated.
 
 ### TODO
 * option to work with NP subgraph only (should be much faster)
-* output JSON
 * if there are superclass patterns match them first, narrowing following matches
 * optimize ontology in WD, remove or deprecate redundant P31/P279 stmts
 * write toolserver client
