@@ -6,3 +6,13 @@ This page can be considered an extension of such introductory pages by Daylight 
 
 The patterns are all working in `rdkit`.
 
+SMILES | comment
+--- | ---
+´C´ | aliphatic C
+`c` | aromatic C
+`[#6]` | any C
+`[CR0]` | aliphatic C not in ring
+`[CR1]` | aliphatic C in exactly one ring
+`[cr5]` | aromatic C in 5-member ring
+`[Cr;!r3;!r4;!r5;!r6;!r7]` | aliphatic C in macrocycle (>7)
+
