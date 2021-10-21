@@ -19,4 +19,4 @@ SMILES | comment
 --- | ---
 `[$(C);$(CO)]` | C bound to O---this only describes and matches the C!
 `[$(C);$([CX4H1](C)(C)O),$([CX4H2](C)C)]` | C bound either to C,C,O,H or to C,C,H,H
-
+`[$(C);!$(C(~C)(~C)(~C)~C)]` | C not bound to 4 other C
