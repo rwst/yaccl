@@ -70,7 +70,7 @@ $ python3 classify.py -d ./ -m 'InChI=1S/C28H32O15/c1-39-14-7-15-18(12(32)6-13(4
  
 Given a file of InChI strings the `-t` option runs a test checking that at least one of the hits is a subclass of the test class item.
 ```
-ralf@ark:~/wikidata/yaccl/src> python3 classify.py -t test/sesterterpenoids.txt -d ./ 
+$ python3 classify.py -t test/sesterterpenoids.txt -d ./ 
 reading biosyn data
 reading class pattern data
 reading superclass data
