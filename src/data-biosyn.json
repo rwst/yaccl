@@ -5325,7 +5325,25 @@
 },
 "goid": "GO:0009710",
 "goLabel": "tropane alkaloid biosynthetic process",
+"p8533": "CN1C2[$(C);$([CX4H1](C)(C)[#6]),$([CX4H1](C)(C)O),$([CX4H2](C)C)][$(C);$([CX4H1](C)(C)O),$([CX4H2](C)C)][$(C);$([CX4H1](C)(C)O),$([CX4H2](C)C)]C1[$(C);$([CX4H1](C)(C)O),$([CX4H2](C)C)][$(C);$([CX4H1](C)(C)O),$([CX4H2](C)C)]2"
+},
+{
+"item": {
+"value": "Q2832080",
+"label": "tropane alkaloids"
+},
+"goid": "GO:0009710",
+"goLabel": "tropane alkaloid biosynthetic process",
 "p8533": "CN1C2CCCC1CC2"
+},
+{
+"item": {
+"value": "Q2832080",
+"label": "tropane alkaloids"
+},
+"goid": "GO:0009710",
+"goLabel": "tropane alkaloid biosynthetic process",
+"p8533": "[NX3H1]1C2[$(C);$([CX4H1](C)(C)[#6]),$([CX4H1](C)(C)O),$([CX4H2](C)C)][$(C);$([CX4H1](C)(C)O),$([CX4H2](C)C)][$(C);$([CX4H1](C)(C)O),$([CX4H2](C)C)]C1[$(C);$([CX4H1](C)(C)O),$([CX4H2](C)C)][$(C);$([CX4H1](C)(C)O),$([CX4H2](C)C)]2"
 },
 {
 "item": {
@@ -11933,7 +11951,16 @@
 },
 "goid": "GO:0033075",
 "goLabel": "isoquinoline alkaloid biosynthetic process",
-"p8533": "[$(c1cccc2c1CCNC2),$(C1CC~CC2C1CCNC2)]"
+"p8533": "[#6R1]1~[#6R1]~[#6R1]~[#6R1]~[#6R2]2~[#6R1]~[#6R1]~[#7R1]~[#6R1]~[#6R2]~2~1"
+},
+{
+"item": {
+"value": "Q73266145",
+"label": "isoquinoline alkaloid"
+},
+"goid": "GO:0033075",
+"goLabel": "isoquinoline alkaloid biosynthetic process",
+"p8533": "[#6]1~[#6]~[#6R1]~[#6R1]~[#6R2]2~[#6R1]~[#6R1]~[#7R1]~[#6](~[r;!r3;!r4;!r5;!r6;!r7])~[#6]~2~1"
 },
 {
 "item": {
@@ -12069,8 +12096,7 @@
 "label": "long-chain fatty acid anion"
 },
 "goid": "GO:0042759",
-"goLabel": "long-chain fatty acid biosynthetic process",
-"p233": "[O-]C([*])=O"
+"goLabel": "long-chain fatty acid biosynthetic process"
 },
 {
 "item": {
@@ -12182,8 +12208,7 @@
 "label": "very long-chain fatty acid anion"
 },
 "goid": "GO:0042761",
-"goLabel": "very long-chain fatty acid biosynthetic process",
-"p233": "[O-]C([*])=O"
+"goLabel": "very long-chain fatty acid biosynthetic process"
 },
 {
 "item": {
@@ -12377,8 +12402,7 @@
 "label": "short-chain fatty acid anion"
 },
 "goid": "GO:0051790",
-"goLabel": "short-chain fatty acid biosynthetic process",
-"p233": "[O-]C([*])=O"
+"goLabel": "short-chain fatty acid biosynthetic process"
 },
 {
 "item": {
@@ -13157,7 +13181,7 @@
 },
 "goid": "GO:1901085",
 "goLabel": "pyrrolizidine alkaloid biosynthetic process",
-"p8533": "C1CC2C~CCN2C1"
+"p8533": "OCC1~[CR1]CN2C[CR1]C(O)C12"
 },
 {
 "item": {
@@ -13473,8 +13497,7 @@
 "label": "medium-chain fatty acid anion"
 },
 "goid": "GO:0051792",
-"goLabel": "medium-chain fatty acid biosynthetic process",
-"p233": "[O-]C([*])=O"
+"goLabel": "medium-chain fatty acid biosynthetic process"
 },
 {
 "item": {
