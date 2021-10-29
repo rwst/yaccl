@@ -21,17 +21,17 @@ OFFSET = 1000000000
 
 if dontquery is False:
     print('performing query...', file=sys.stderr)
-    ret = os.popen('wd sparql biosyn-items.rq >biosyn-items.json'.format(script, script))
+    ret = os.popen('wd sparql biosyn-items1.rq >biosyn-items1.json'.format(script, script))
     if ret.close() is not None:
         raise
-    ff = open('biosyn-items.json'.format(script))
+    ff = open('biosyn-items1.json'.format(script))
     s = ff.read()
     jol = json.loads(s)
-    with open('data-biosyn.json', 'w+') as f:
+    with open('data-biosyn-classes.json', 'w+') as f:
         f.write(json.dumps(sorted(jol, key=lambda data: OFFSET*int(data.get('item').get('value')[1:]) +\
             int(data.get('goid')[3:])), indent=0, ensure_ascii=False))
 else:
-    ff = open('data-biosyn.json'.format(script))
+    ff = open('data-biosyn-classes.json'.format(script))
     s = ff.read()
     jol = json.loads(s)
 

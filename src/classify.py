@@ -209,7 +209,7 @@ smiles = {}
 smarts = {}
 
 # read bio process data
-with open(args.data + 'data-biosyn.json', 'r') as f:
+with open(args.data + 'data-biosyn-classes.json', 'r') as f:
     if not silent:
         print('reading biosyn data')
     s = f.read()

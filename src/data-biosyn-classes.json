@@ -1,0 +1,6442 @@
+[
+{
+"item": {
+"value": "Q156",
+"label": "alcohols"
+},
+"goid": "GO:0046165",
+"goLabel": "alcohol biosynthetic process",
+"p8533": "[$([#6][OX2H1]);!$([#6]=O);!$([#6]=S);!$([#6]=[Se])]"
+},
+{
+"item": {
+"value": "Q7430",
+"label": "DNA"
+},
+"goid": "GO:0071897",
+"goLabel": "DNA biosynthetic process"
+},
+{
+"item": {
+"value": "Q11053",
+"label": "RNA"
+},
+"goid": "GO:0032774",
+"goLabel": "RNA biosynthetic process"
+},
+{
+"item": {
+"value": "Q11358",
+"label": "carbohydrate"
+},
+"goid": "GO:0016051",
+"goLabel": "carbohydrate biosynthetic process"
+},
+{
+"item": {
+"value": "Q11367",
+"label": "lipid"
+},
+"goid": "GO:0008610",
+"goLabel": "lipid biosynthetic process"
+},
+{
+"item": {
+"value": "Q12190",
+"label": "penicillin"
+},
+"goid": "GO:0042318",
+"goLabel": "penicillin biosynthetic process",
+"p2017": "[H][C@]12SC(C)(C)[C@@H](N1C(=O)[C@H]2NC([*])=O)C(O)=O"
+},
+{
+"item": {
+"value": "Q18225",
+"label": "vitamin A"
+},
+"goid": "GO:0035238",
+"goLabel": "vitamin A biosynthetic process"
+},
+{
+"item": {
+"value": "Q26272",
+"label": "atropine"
+},
+"goid": "GO:1901051",
+"goLabel": "atropine biosynthetic process"
+},
+{
+"item": {
+"value": "Q28350",
+"label": "lipoprotein"
+},
+"goid": "GO:0042158",
+"goLabel": "lipoprotein biosynthetic process"
+},
+{
+"item": {
+"value": "Q28351",
+"label": "deoxyribonucleoside"
+},
+"goid": "GO:0046120",
+"goLabel": "deoxyribonucleoside biosynthetic process"
+},
+{
+"item": {
+"value": "Q28734",
+"label": "nucleoside"
+},
+"goid": "GO:0009163",
+"goLabel": "nucleoside biosynthetic process",
+"p2017": "[C@H]1([C@H]([C@@H](*)[C@@H](O1)*)O)CO"
+},
+{
+"item": {
+"value": "Q28734",
+"label": "nucleoside"
+},
+"goid": "GO:0043174",
+"goLabel": "nucleoside salvage",
+"p2017": "[C@H]1([C@H]([C@@H](*)[C@@H](O1)*)O)CO"
+},
+{
+"item": {
+"value": "Q28745",
+"label": "nucleotides"
+},
+"goid": "GO:0009165",
+"goLabel": "nucleotide biosynthetic process"
+},
+{
+"item": {
+"value": "Q28745",
+"label": "nucleotides"
+},
+"goid": "GO:0043173",
+"goLabel": "nucleotide salvage"
+},
+{
+"item": {
+"value": "Q28747",
+"label": "Nicotinamide adenine dinucleotide phosphate"
+},
+"goid": "GO:0006741",
+"goLabel": "NADP biosynthetic process"
+},
+{
+"item": {
+"value": "Q28751",
+"label": "deoxyribonucleotide"
+},
+"goid": "GO:0009263",
+"goLabel": "deoxyribonucleotide biosynthetic process"
+},
+{
+"item": {
+"value": "Q32528",
+"label": "monoterpene"
+},
+"goid": "GO:0043693",
+"goLabel": "monoterpene biosynthetic process"
+},
+{
+"item": {
+"value": "Q34402",
+"label": "ribonucleoside"
+},
+"goid": "GO:0042455",
+"goLabel": "ribonucleoside biosynthetic process",
+"p2017": "OC[C@H]1O[C@@H]([*])[C@H](O)[C@@H]1O"
+},
+{
+"item": {
+"value": "Q37525",
+"label": "glucose"
+},
+"goid": "GO:0006094",
+"goLabel": "gluconeogenesis"
+},
+{
+"item": {
+"value": "Q37525",
+"label": "glucose"
+},
+"goid": "GO:1902924",
+"goLabel": "poly(hydroxyalkanoate) biosynthetic process from glucose"
+},
+{
+"item": {
+"value": "Q41534",
+"label": "starch"
+},
+"goid": "GO:0019252",
+"goLabel": "starch biosynthetic process"
+},
+{
+"item": {
+"value": "Q41581",
+"label": "alkane"
+},
+"goid": "GO:0043447",
+"goLabel": "alkane biosynthetic process"
+},
+{
+"item": {
+"value": "Q43041",
+"label": "hemoglobin"
+},
+"goid": "GO:0042541",
+"goLabel": "hemoglobin biosynthetic process"
+},
+{
+"item": {
+"value": "Q43177",
+"label": "chlorophyll"
+},
+"goid": "GO:0015995",
+"goLabel": "chlorophyll biosynthetic process",
+"p2017": "C1=2N3C(C=C4[N+]5=C(C=C6N7C8=C(C9=[N+](C(=C1)[C@H]([C@@H]9CCC(OC/C=C(/CCC[C@@H](CCC[C@@H](CCCC(C)C)C)C)\\C)=O)C)[Mg-2]735)[C@H](C(C8=C6C)=O)C(=O)OC)C(=C4*)*)=C(C2*)*"
+},
+{
+"item": {
+"value": "Q59078",
+"label": "lactone"
+},
+"goid": "GO:1901336",
+"goLabel": "lactone biosynthetic process",
+"p8533": "[CR1](=[OX1])[OR1]"
+},
+{
+"item": {
+"value": "Q61476",
+"label": "fatty acid"
+},
+"goid": "GO:0006633",
+"goLabel": "fatty acid biosynthetic process"
+},
+{
+"item": {
+"value": "Q61476",
+"label": "fatty acid"
+},
+"goid": "GO:0030497",
+"goLabel": "fatty acid elongation"
+},
+{
+"item": {
+"value": "Q61476",
+"label": "fatty acid"
+},
+"goid": "GO:1902925",
+"goLabel": "poly(hydroxyalkanoate) biosynthetic process from fatty acid"
+},
+{
+"item": {
+"value": "Q62614",
+"label": "androgens"
+},
+"goid": "GO:0006702",
+"goLabel": "androgen biosynthetic process"
+},
+{
+"item": {
+"value": "Q70702",
+"label": "alkaloid"
+},
+"goid": "GO:0009821",
+"goLabel": "alkaloid biosynthetic process"
+},
+{
+"item": {
+"value": "Q80218",
+"label": "sesquiterpene"
+},
+"goid": "GO:0051762",
+"goLabel": "sesquiterpene biosynthetic process"
+},
+{
+"item": {
+"value": "Q80294",
+"label": "celluloseperronation"
+},
+"goid": "GO:0030244",
+"goLabel": "cellulose biosynthetic process"
+},
+{
+"item": {
+"value": "Q80863",
+"label": "adenosine triphosphate"
+},
+"goid": "GO:0006754",
+"goLabel": "ATP biosynthetic process",
+"p233": "C1=NC2=C(C(=N1)N)N=CN2C3C(C(C(O3)COP(=O)(O)OP(=O)(O)OP(=O)(O)O)O)O",
+"p2017": "C1=NC2=C(C(=N1)N)N=CN2[C@H]3[C@@H]([C@@H]([C@H](O3)COP(=O)(O)OP(=O)(O)OP(=O)(O)O)O)O",
+"p235": "ZKHQWZAMYRWXGA-KQYNXXCUSA-N"
+},
+{
+"item": {
+"value": "Q81406",
+"label": "alkene"
+},
+"goid": "GO:0043450",
+"goLabel": "alkene biosynthetic process"
+},
+{
+"item": {
+"value": "Q101497",
+"label": "aldehydes"
+},
+"goid": "GO:0046184",
+"goLabel": "aldehyde biosynthetic process",
+"p233": "[H]C([*])=O",
+"p8533": "[CX3H1](=O)[#6]"
+},
+{
+"item": {
+"value": "Q103230",
+"label": "ethers"
+},
+"goid": "GO:1901503",
+"goLabel": "ether biosynthetic process",
+"p8533": "[#6!$([#6]=[!#6])][OX2][#6!$([#6]=[!#6])]"
+},
+{
+"item": {
+"value": "Q117973",
+"label": "nucleotide sugar"
+},
+"goid": "GO:0009226",
+"goLabel": "nucleotide-sugar biosynthetic process"
+},
+{
+"item": {
+"value": "Q124695",
+"label": "wax"
+},
+"goid": "GO:0010025",
+"goLabel": "wax biosynthetic process"
+},
+{
+"item": {
+"value": "Q133516",
+"label": "monosaccharide"
+},
+"goid": "GO:0046364",
+"goLabel": "monosaccharide biosynthetic process"
+},
+{
+"item": {
+"value": "Q133878",
+"label": "chlorophyll a"
+},
+"goid": "GO:0033305",
+"goLabel": "chlorophyll a biosynthetic process",
+"p233": "CCC1=C(C2=NC1=CC3=C(C4=C([N-]3)C(=C5C(C(C(=N5)C=C6C(=C(C(=C2)[N-]6)C=C)C)C)CCC(=O)OCC=C(C)CCCC(C)CCCC(C)CCCC(C)C)C(C4=O)C(=O)OC)C)C.[Mg+2]",
+"p235": "ATNHDLDRLWWWCB-AENOIHSZSA-M"
+},
+{
+"item": {
+"value": "Q133878",
+"label": "chlorophyll a"
+},
+"goid": "GO:0033311",
+"goLabel": "chlorophyll a biosynthetic process via phytyl diphosphate",
+"p233": "CCC1=C(C2=NC1=CC3=C(C4=C([N-]3)C(=C5C(C(C(=N5)C=C6C(=C(C(=C2)[N-]6)C=C)C)C)CCC(=O)OCC=C(C)CCCC(C)CCCC(C)CCCC(C)C)C(C4=O)C(=O)OC)C)C.[Mg+2]",
+"p235": "ATNHDLDRLWWWCB-AENOIHSZSA-M"
+},
+{
+"item": {
+"value": "Q133878",
+"label": "chlorophyll a"
+},
+"goid": "GO:0033312",
+"goLabel": "chlorophyll a biosynthetic process via geranylgeranyl-chlorophyll a",
+"p233": "CCC1=C(C2=NC1=CC3=C(C4=C([N-]3)C(=C5C(C(C(=N5)C=C6C(=C(C(=C2)[N-]6)C=C)C)C)CCC(=O)OCC=C(C)CCCC(C)CCCC(C)CCCC(C)C)C(C4=O)C(=O)OC)C)C.[Mg+2]",
+"p235": "ATNHDLDRLWWWCB-AENOIHSZSA-M"
+},
+{
+"item": {
+"value": "Q134219",
+"label": "polysaccharides"
+},
+"goid": "GO:0000271",
+"goLabel": "polysaccharide biosynthetic process"
+},
+{
+"item": {
+"value": "Q137786",
+"label": "glucuronide"
+},
+"goid": "GO:0019390",
+"goLabel": "glucuronoside biosynthetic process"
+},
+{
+"item": {
+"value": "Q138983",
+"label": "ecdysteroids"
+},
+"goid": "GO:0045456",
+"goLabel": "ecdysteroid biosynthetic process"
+},
+{
+"item": {
+"value": "Q141180",
+"label": "vitamin E"
+},
+"goid": "GO:0010189",
+"goLabel": "vitamin E biosynthetic process"
+},
+{
+"item": {
+"value": "Q143623",
+"label": "sterol"
+},
+"goid": "GO:0016126",
+"goLabel": "sterol biosynthetic process",
+"p233": "C12C(C3C(C(CC3)*)(C)CC1)CCC4C2(CCC(C4)O)C"
+},
+{
+"item": {
+"value": "Q159226",
+"label": "alkyne"
+},
+"goid": "GO:0043453",
+"goLabel": "alkyne biosynthetic process"
+},
+{
+"item": {
+"value": "Q161219",
+"label": "chitin"
+},
+"goid": "GO:0006031",
+"goLabel": "chitin biosynthetic process"
+},
+{
+"item": {
+"value": "Q161466",
+"label": "diglyceride"
+},
+"goid": "GO:0006651",
+"goLabel": "diacylglycerol biosynthetic process",
+"p233": "[*]OCC(CO[*])O[*]"
+},
+{
+"item": {
+"value": "Q167198",
+"label": "amine"
+},
+"goid": "GO:0009309",
+"goLabel": "amine biosynthetic process",
+"p8533": "[NX3;H2,H1;!$(NC=O)]"
+},
+{
+"item": {
+"value": "Q167377",
+"label": "pheromone"
+},
+"goid": "GO:0042811",
+"goLabel": "pheromone biosynthetic process"
+},
+{
+"item": {
+"value": "Q170002",
+"label": "maltose"
+},
+"goid": "GO:0000024",
+"goLabel": "maltose biosynthetic process",
+"p233": "C(C1C(C(C(C(O1)OC2C(OC(C(C2O)O)O)CO)O)O)O)O",
+"p2017": "C([C@@H]1[C@H]([C@@H]([C@H]([C@H](O1)O[C@@H]2[C@H](OC([C@@H]([C@H]2O)O)O)CO)O)O)O)O",
+"p235": "GUBGYTABKSRVRQ-NVKTZKGVNA-N"
+},
+{
+"item": {
+"value": "Q170002",
+"label": "maltose"
+},
+"goid": "GO:0000024",
+"goLabel": "maltose biosynthetic process",
+"p233": "C(C1C(C(C(C(O1)OC2C(OC(C(C2O)O)O)CO)O)O)O)O",
+"p2017": "C([C@@H]1[C@H]([C@@H]([C@H]([C@H](O1)O[C@@H]2[C@H](OC([C@@H]([C@H]2O)O)O)CO)O)O)O)O",
+"p235": "GUBGYTABKSRVRQ-PICCSMPSSA-N"
+},
+{
+"item": {
+"value": "Q170744",
+"label": "ketone"
+},
+"goid": "GO:0042181",
+"goLabel": "ketone biosynthetic process",
+"p8533": "[#6][CX3](=O)[#6]"
+},
+{
+"item": {
+"value": "Q172847",
+"label": "peptide"
+},
+"goid": "GO:0043043",
+"goLabel": "peptide biosynthetic process"
+},
+{
+"item": {
+"value": "Q173600",
+"label": "disaccharide"
+},
+"goid": "GO:0046351",
+"goLabel": "disaccharide biosynthetic process"
+},
+{
+"item": {
+"value": "Q174936",
+"label": "glycogen"
+},
+"goid": "GO:0005978",
+"goLabel": "glycogen biosynthetic process",
+"p233": "C(C1C(C(C(C(O1)OCC2C(C(C(C(O2)OC3C(OC(C(C3O)O)O)CO)O)O)OC4C(C(C(C(O4)CO)O)O)O)O)O)O)O",
+"p2017": "C([C@@H]1[C@H]([C@@H]([C@H]([C@H](O1)OC[C@@H]2[C@H]([C@@H]([C@H]([C@H](O2)O[C@@H]3[C@H](O[C@@H]([C@@H]([C@H]3O)O)O)CO)O)O)O[C@@H]4[C@@H]([C@H]([C@@H]([C@H](O4)CO)O)O)O)O)O)O)O",
+"p235": "BYSGBSNPRWKUQH-UJDJLXLFSA-N"
+},
+{
+"item": {
+"value": "Q175621",
+"label": "vitamin D"
+},
+"goid": "GO:0042368",
+"goLabel": "vitamin D biosynthetic process"
+},
+{
+"item": {
+"value": "Q177911",
+"label": "steroid"
+},
+"goid": "GO:0006694",
+"goLabel": "steroid biosynthetic process",
+"p233": "C12C(C3C(C(CC3)*)(C)CC1)CCC4C2(CCCC4)C"
+},
+{
+"item": {
+"value": "Q180623",
+"label": "acetylcholine"
+},
+"goid": "GO:0008292",
+"goLabel": "acetylcholine biosynthetic process",
+"p233": "CC(=O)OCC[N+](C)(C)C",
+"p235": "OIPILFWXSMYKGL-UHFFFAOYSA-N"
+},
+{
+"item": {
+"value": "Q182338",
+"label": "vitamin K"
+},
+"goid": "GO:0042371",
+"goLabel": "vitamin K biosynthetic process"
+},
+{
+"item": {
+"value": "Q183119",
+"label": "bacteriocin"
+},
+"goid": "GO:0030152",
+"goLabel": "bacteriocin biosynthetic process"
+},
+{
+"item": {
+"value": "Q183453",
+"label": "cardiolipins"
+},
+"goid": "GO:0032049",
+"goLabel": "cardiolipin biosynthetic process",
+"p2017": "OC(COP(O)(=O)OC[C@@H](COC([*])=O)OC([*])=O)COP(O)(=O)OC[C@@H](COC([*])=O)OC([*])=O"
+},
+{
+"item": {
+"value": "Q184817",
+"label": "lignin"
+},
+"goid": "GO:0009809",
+"goLabel": "lignin biosynthetic process"
+},
+{
+"item": {
+"value": "Q185076",
+"label": "cyanide anion"
+},
+"goid": "GO:0046202",
+"goLabel": "cyanide biosynthetic process",
+"p233": "[C-]#N",
+"p2017": "[C-]#N",
+"p235": "XFXPMWWXUTWYJX-UHFFFAOYSA-N"
+},
+{
+"item": {
+"value": "Q186319",
+"label": "triglyceride"
+},
+"goid": "GO:0019432",
+"goLabel": "triglyceride biosynthetic process",
+"p233": "[*]C(=O)OCC(COC([*])=O)OC([*])=O"
+},
+{
+"item": {
+"value": "Q186915",
+"label": "phospholipids"
+},
+"goid": "GO:0008654",
+"goLabel": "phospholipid biosynthetic process"
+},
+{
+"item": {
+"value": "Q187126",
+"label": "glycoprotein"
+},
+"goid": "GO:0009101",
+"goLabel": "glycoprotein biosynthetic process"
+},
+{
+"item": {
+"value": "Q187526",
+"label": "melanin"
+},
+"goid": "GO:0006583",
+"goLabel": "melanin biosynthetic process from tyrosine"
+},
+{
+"item": {
+"value": "Q187526",
+"label": "melanin"
+},
+"goid": "GO:0042438",
+"goLabel": "melanin biosynthetic process"
+},
+{
+"item": {
+"value": "Q188154",
+"label": "pectin"
+},
+"goid": "GO:0045489",
+"goLabel": "pectin biosynthetic process"
+},
+{
+"item": {
+"value": "Q188777",
+"label": "amide"
+},
+"goid": "GO:0043604",
+"goLabel": "amide biosynthetic process",
+"p8533": "[NX3][CX3](=[OX1])[#6]"
+},
+{
+"item": {
+"value": "Q189621",
+"label": "heme"
+},
+"goid": "GO:0006783",
+"goLabel": "heme biosynthetic process"
+},
+{
+"item": {
+"value": "Q190156",
+"label": "carotene"
+},
+"goid": "GO:0016120",
+"goLabel": "carotene biosynthetic process"
+},
+{
+"item": {
+"value": "Q190875",
+"label": "cortisol"
+},
+"goid": "GO:0034651",
+"goLabel": "cortisol biosynthetic process",
+"p233": "CC12CCC(=O)C=C1CCC3C2C(CC4(C3CCC4(C(=O)CO)O)C)O",
+"p2017": "C[C@]12CCC(=O)C=C1CC[C@@H]3[C@@H]2[C@H](C[C@]4([C@H]3CC[C@@]4(C(=O)CO)O)C)O",
+"p235": "JYGXADMDTFJGBT-VWUMJDOOSA-N"
+},
+{
+"item": {
+"value": "Q191907",
+"label": "carotenoid"
+},
+"goid": "GO:0016117",
+"goLabel": "carotenoid biosynthetic process",
+"p8533": "[$(C);!$(C(~C)~C)]~[$(C);!$(C(~C)(~C)(~C)~C)](~[$(C);!$(C(~C)~C)])~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)(~C)~C)](~[$(C);!$(C(~C)~C)])~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)(~C)~C)](~[$(C);!$(C(~C)~C)])~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)(~C)~C)](~[$(C);!$(C(~C)~C)])~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)(~C)~C)](~[$(C);!$(C(~C)~C)])~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)(~C)~C)](~[$(C);!$(C(~C)~C)])~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)(~C)~C)](~[$(C);!$(C(~C)~C)])~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)(~C)~C)](~[$(C);!$(C(~C)~C)])~[$(C);!$(C(~C)~C)]"
+},
+{
+"item": {
+"value": "Q191907",
+"label": "carotenoid"
+},
+"goid": "GO:0016117",
+"goLabel": "carotenoid biosynthetic process",
+"p8533": "[$(c);!$(c(c)(c)(C)C)]1([$(C);!$(C(~C)~C)])[$(c);!$(c(c)(c)C)][$(c);!$(c(c)(c)C)][$(c);!$(c(c)(c)(C)C)]([$(C);!$(C(~C)~C)])[$(c);!$(c(c)(c)(C)C)]([$(C);!$(C(~C)~C)])[$(c);!$(c(c)(c)(C)C)]1[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)(~C)~C)](~[$(C);!$(C(~C)~C)])~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)(~C)~C)](~[$(C);!$(C(~C)~C)])~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)(~C)~C)](~[$(C);!$(C(~C)~C)])~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)(~C)~C)](~[$(C);!$(C(~C)~C)])~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)(~C)~C)](~[$(C);!$(C(~C)~C)])~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)(~C)~C)](~[$(C);!$(C(~C)~C)])~[$(C);!$(C(~C)~C)]"
+},
+{
+"item": {
+"value": "Q191907",
+"label": "carotenoid"
+},
+"goid": "GO:0016117",
+"goLabel": "carotenoid biosynthetic process",
+"p8533": "[$(C);!$(C(~C)~C)]C1([$(C);!$(C(~C)~C)])[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)(~C)~C)](~[$(C);!$(C(~C)~C)])~[$(C);!$(C(~C)(~C)(~C)~C)]1~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)(~C)~C)](~[$(C);!$(C(~C)~C)])~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)(~C)~C)](~[$(C);!$(C(~C)~C)])~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)(~C)~C)](~[$(C);!$(C(~C)~C)])~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)(~C)~C)](~[$(C);!$(C(~C)~C)])~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)(~C)~C)]1~[$(C);!$(C(~C)(~C)(~C)~C)](~[$(C);!$(C(~C)~C)])~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]C([$(C);!$(C(~C)~C)])([$(C);!$(C(~C)~C)])1"
+},
+{
+"item": {
+"value": "Q191907",
+"label": "carotenoid"
+},
+"goid": "GO:0016117",
+"goLabel": "carotenoid biosynthetic process",
+"p8533": "[$(C);!$(C(~C)~C)]C1([$(C);!$(C(~C)~C)])[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~C([$(C);!$(C(~C)~C)])1[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)(~C)~C)](~[$(C);!$(C(~C)~C)])~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)(~C)~C)](~[$(C);!$(C(~C)~C)])~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)(~C)~C)](~[$(C);!$(C(~C)~C)])~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)(~C)~C)](~[$(C);!$(C(~C)~C)])~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]C1([$(C);!$(C(~C)~C)])C([$(C);!$(C(~C)~C)])([$(C);!$(C(~C)~C)])[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]1"
+},
+{
+"item": {
+"value": "Q191907",
+"label": "carotenoid"
+},
+"goid": "GO:0016117",
+"goLabel": "carotenoid biosynthetic process",
+"p8533": "[$(c);!$(c(c)(c)(C)C)]1([$(C);!$(C(c)~C)])[$(c);!$(c(c)(c)C)][$(c);!$(c(c)(c)C)][$(c);!$(c(c)(c)(C)C)]([$(C);!$(C(c)~C)])[$(c);!$(c(c)(c)(C)C)]([$(C);!$(C(c)~C)])[$(c);!$(c(c)(c)(C)C)]1[$(C);!$(C(~C)(c)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)(~C)~C)](~[$(C);!$(C(~C)~C)])~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)(~C)~C)](~[$(C);!$(C(~C)~C)])~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)(~C)~C)](~[$(C);!$(C(~C)~C)])~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)(~C)~C)](~[$(C);!$(C(~C)~C)])~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(c)(~C)~C)][$(c);!$(c(c)(c)(C)C)]1[$(c);!$(c(c)(c)(C)C)]([$(C);!$(C(c)~C)])[$(c);!$(c(c)(c)(C)C)]([$(C);!$(C(c)~C)])[$(c);!$(c(c)(c)C)][$(c);!$(c(c)(c)C)][$(c);!$(c(c)(c)(C)C)]([$(C);!$(C(c)~C)])1"
+},
+{
+"item": {
+"value": "Q191907",
+"label": "carotenoid"
+},
+"goid": "GO:0016117",
+"goLabel": "carotenoid biosynthetic process",
+"p8533": "[$(C);!$(C(~C)~C)]C1([$(C);!$(C(~C)~C)])[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)(~C)~C)](~[$(C);!$(C(~C)~C)])~[$(C);!$(C(~C)(~C)(~C)~C)]1~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)(~C)~C)](~[$(C);!$(C(~C)~C)])~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)(~C)~C)](~[$(C);!$(C(~C)~C)])~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)(~C)~C)](~[$(C);!$(C(~C)~C)])~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)(~C)~C)](~[$(C);!$(C(~C)~C)])~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(c)~C)]~[$(c);!$(c(c)(c)(C)C)]1[$(c);!$(c(c)(c)(C)C)]([$(C);!$(C(c)~C)])[$(c);!$(c(c)(c)(C)C)]([$(C);!$(C(c)~C)])[$(c);!$(c(c)(c)C)][$(c);!$(c(c)(c)C)][$(c);!$(c(c)(c)(C)C)]([$(C);!$(C(c)~C)])1"
+},
+{
+"item": {
+"value": "Q191907",
+"label": "carotenoid"
+},
+"goid": "GO:0016117",
+"goLabel": "carotenoid biosynthetic process",
+"p8533": "[$(C);!$(C(~C)~C)]C1([$(C);!$(C(~C)~C)])[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)(~C)~C)](~[$(C);!$(C(~C)~C)])~[$(C);!$(C(~C)(~C)(~C)~C)]1~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)(~C)~C)](~[$(C);!$(C(~C)~C)])~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)(~C)~C)](~[$(C);!$(C(~C)~C)])~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)(~C)~C)](~[$(C);!$(C(~C)~C)])~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)(~C)~C)](~[$(C);!$(C(~C)~C)])~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]C1([$(C);!$(C(~C)~C)])C([$(C);!$(C(~C)~C)])([$(C);!$(C(~C)~C)])[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]1"
+},
+{
+"item": {
+"value": "Q191907",
+"label": "carotenoid"
+},
+"goid": "GO:0016117",
+"goLabel": "carotenoid biosynthetic process",
+"p8533": "[$(C);!$(C(~C)~C)]C1([$(C);!$(C(~C)~C)])[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)(~C)~C)](~[$(C);!$(C(~C)~C)])~[$(C);!$(C(~C)(~C)(~C)~C)]1~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)(~C)~C)](~[$(C);!$(C(~C)~C)])~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)(~C)~C)](~[$(C);!$(C(~C)~C)])~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)(~C)~C)](~[$(C);!$(C(~C)~C)])~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)(~C)~C)](~[$(C);!$(C(~C)~C)])~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)(~C)~C)](~[$(C);!$(C(~C)~C)])~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)(~C)~C)](~[$(C);!$(C(~C)~C)])~[$(C);!$(C(~C)~C)]"
+},
+{
+"item": {
+"value": "Q192466",
+"label": "DL-homocysteine"
+},
+"goid": "GO:0071268",
+"goLabel": "homocysteine biosynthetic process",
+"p233": "C(CS)C(C(=O)O)N",
+"p235": "FFFHZYDWPBMWHY-UHFFFAOYSA-N"
+},
+{
+"item": {
+"value": "Q192639",
+"label": "glycoside"
+},
+"goid": "GO:0016138",
+"goLabel": "glycoside biosynthetic process"
+},
+{
+"item": {
+"value": "Q193430",
+"label": "heterocyclic compound"
+},
+"goid": "GO:0018130",
+"goLabel": "heterocycle biosynthetic process"
+},
+{
+"item": {
+"value": "Q205130",
+"label": "vitamin B6"
+},
+"goid": "GO:0042819",
+"goLabel": "vitamin B6 biosynthetic process"
+},
+{
+"item": {
+"value": "Q205654",
+"label": "pentose"
+},
+"goid": "GO:0019322",
+"goLabel": "pentose biosynthetic process"
+},
+{
+"item": {
+"value": "Q205654",
+"label": "pentose"
+},
+"goid": "GO:0044576",
+"goLabel": "pentose catabolic process to ethanol"
+},
+{
+"item": {
+"value": "Q206920",
+"label": "peptidoglycan"
+},
+"goid": "GO:0009252",
+"goLabel": "peptidoglycan biosynthetic process"
+},
+{
+"item": {
+"value": "Q207653",
+"label": "saponin"
+},
+"goid": "GO:0016135",
+"goLabel": "saponin biosynthetic process"
+},
+{
+"item": {
+"value": "Q209157",
+"label": "butane-2,3-diol"
+},
+"goid": "GO:0034079",
+"goLabel": "butanediol biosynthetic process",
+"p233": "CC(C(C)O)O",
+"p235": "OWBTYPJTUOEWEK-UHFFFAOYSA-N"
+},
+{
+"item": {
+"value": "Q212364",
+"label": "terpene"
+},
+"goid": "GO:0046246",
+"goLabel": "terpene biosynthetic process"
+},
+{
+"item": {
+"value": "Q212936",
+"label": "aflatoxins"
+},
+"goid": "GO:0045122",
+"goLabel": "aflatoxin biosynthetic process",
+"p8533": "O=[CR1]c1c([CR1][CR1])c2ccc3c(c2oc1=O)C1C~COC1O3"
+},
+{
+"item": {
+"value": "Q216208",
+"label": "xanthophylls"
+},
+"goid": "GO:0016123",
+"goLabel": "xanthophyll biosynthetic process"
+},
+{
+"item": {
+"value": "Q223083",
+"label": "(+/-)-acetoin"
+},
+"goid": "GO:0045151",
+"goLabel": "acetoin biosynthetic process",
+"p233": "CC(C(=O)C)O",
+"p235": "ROWKJAVDOGWPAT-UHFFFAOYSA-N"
+},
+{
+"item": {
+"value": "Q262183",
+"label": "leucoanthocyanidin"
+},
+"goid": "GO:0051557",
+"goLabel": "leucoanthocyanidin biosynthetic process",
+"p233": "OC1C(O)c2c([*])c([*])c([*])c([*])c2OC1c1c([*])c([*])c([*])c([*])c1[*]"
+},
+{
+"item": {
+"value": "Q262547",
+"label": "anthocyanins"
+},
+"goid": "GO:0009718",
+"goLabel": "anthocyanin-containing compound biosynthetic process"
+},
+{
+"item": {
+"value": "Q271021",
+"label": "cephalosporin antibiotic"
+},
+"goid": "GO:0043646",
+"goLabel": "cephalosporin biosynthetic process",
+"p2017": "[H][C@]12SCC([*])=C(N1C(=O)[C@H]2[*])C(O)=O"
+},
+{
+"item": {
+"value": "Q271643",
+"label": "amylopectin"
+},
+"goid": "GO:0010021",
+"goLabel": "amylopectin biosynthetic process",
+"p233": "C(C1C(C(C(C(O1)OC2C(OC(C(C2O)O)OCC3C(C(C(C(O3)OC4C(OC(C(C4O)O)O)CO)O)O)OC5C(C(C(C(O5)CO)O)O)O)CO)O)O)O)O",
+"p2017": "C([C@@H]1[C@H]([C@@H]([C@H]([C@H](O1)O[C@@H]2[C@H](O[C@@H]([C@@H]([C@H]2O)O)OC[C@@H]3[C@H]([C@@H]([C@H]([C@H](O3)O[C@@H]4[C@H](O[C@@H]([C@@H]([C@H]4O)O)O)CO)O)O)O[C@@H]5[C@@H]([C@H]([C@@H]([C@H](O5)CO)O)O)O)CO)O)O)O)O",
+"p235": "WMGFVAGNIYUEEP-WUYNJSITSA-N"
+},
+{
+"item": {
+"value": "Q271663",
+"label": "catecholamine"
+},
+"goid": "GO:0042423",
+"goLabel": "catecholamine biosynthetic process"
+},
+{
+"item": {
+"value": "Q277954",
+"label": "estrogen"
+},
+"goid": "GO:0006703",
+"goLabel": "estrogen biosynthetic process"
+},
+{
+"item": {
+"value": "Q278809",
+"label": "(±)-limonene"
+},
+"goid": "GO:0046250",
+"goLabel": "limonene biosynthetic process",
+"p233": "CC1=CCC(CC1)C(=C)C",
+"p235": "XMGQYMWWDOXHJM-UHFFFAOYSA-N"
+},
+{
+"item": {
+"value": "Q302204",
+"label": "glufosin"
+},
+"goid": "GO:1901766",
+"goLabel": "phosphinothricin biosynthetic process",
+"p233": "CP(=O)(CCC(C(=O)O)N)O",
+"p235": "IAJOBQBIJHVGMQ-UHFFFAOYSA-N"
+},
+{
+"item": {
+"value": "Q306264",
+"label": "β-lactam antibiotic"
+},
+"goid": "GO:0030654",
+"goLabel": "beta-lactam antibiotic biosynthetic process"
+},
+{
+"item": {
+"value": "Q312085",
+"label": "Iron-sulfur cluster"
+},
+"goid": "GO:0016226",
+"goLabel": "iron-sulfur cluster assembly"
+},
+{
+"item": {
+"value": "Q320607",
+"label": "oligosaccharide"
+},
+"goid": "GO:0009312",
+"goLabel": "oligosaccharide biosynthetic process"
+},
+{
+"item": {
+"value": "Q331818",
+"label": "gibberellins"
+},
+"goid": "GO:0009686",
+"goLabel": "gibberellin biosynthetic process"
+},
+{
+"item": {
+"value": "Q333936",
+"label": "nitrile"
+},
+"goid": "GO:0080028",
+"goLabel": "nitrile biosynthetic process",
+"p233": "[*]C#N",
+"p8533": "[NX1]#[CX2]"
+},
+{
+"item": {
+"value": "Q337231",
+"label": "hyaluronic acid"
+},
+"goid": "GO:0030213",
+"goLabel": "hyaluronan biosynthetic process",
+"p2017": "O=C(N[C@H]4[C@H](O)O[C@H](CO)[C@@H](O)[C@@H]4O[C@@H]3O[C@H](C(=O)O)[C@@H](O[C@@H]2O[C@@H]([C@@H](O)[C@H](O[C@@H]1O[C@H](C(=O)O)[C@@H](O)[C@H](O)[C@H]1O)[C@H]2NC(=O)C)CO)[C@H](O)[C@H]3O)C",
+"p235": "KIUKXJAPPMFGSW-MNSSHETKSA-N"
+},
+{
+"item": {
+"value": "Q339725",
+"label": "hexose"
+},
+"goid": "GO:0019319",
+"goLabel": "hexose biosynthetic process"
+},
+{
+"item": {
+"value": "Q376061",
+"label": "flavin mononucleotide"
+},
+"goid": "GO:0009398",
+"goLabel": "FMN biosynthetic process",
+"p233": "CC1=CC2=C(C=C1C)N(C3=NC(=O)NC(=O)C3=N2)CC(C(C(COP(=O)(O)O)O)O)O",
+"p2017": "CC1=CC2=C(C=C1C)N(C[C@H](O)[C@H](O)[C@H](O)COP(O)(O)=O)C3=NC(=O)NC(=O)C3=N2",
+"p235": "FVTCRASFADXXNN-SCRDCRAPSA-N"
+},
+{
+"item": {
+"value": "Q378871",
+"label": "fatty alcohol"
+},
+"goid": "GO:1903175",
+"goLabel": "fatty alcohol biosynthetic process"
+},
+{
+"item": {
+"value": "Q385858",
+"label": "Ajmaline"
+},
+"goid": "GO:1900988",
+"goLabel": "ajmaline biosynthetic process",
+"p233": "CCC1C2CC3C4C5(CC(C2C5O)N3C1O)C6=CC=CC=C6N4C",
+"p2017": "CC[C@H]1[C@@H]2C[C@H]3[C@H]4[C@@]5(C[C@@H](C2[C@H]5O)N3[C@@H]1O)C6=CC=CC=C6N4C",
+"p235": "CJDRUOGAGYHKKD-HEFSZTOGSA-N"
+},
+{
+"item": {
+"value": "Q392227",
+"label": "guanosine triphosphate"
+},
+"goid": "GO:0006183",
+"goLabel": "GTP biosynthetic process",
+"p233": "C1=NC2=C(N1C3C(C(C(O3)COP(=O)(O)OP(=O)(O)OP(=O)(O)O)O)O)NC(=NC2=O)N",
+"p2017": "C1=NC2=C(N1[C@H]3[C@@H]([C@@H]([C@H](O3)COP(=O)(O)OP(=O)(O)OP(=O)(O)O)O)O)NC(=NC2=O)N",
+"p235": "XKMLYUALXHKNFT-UUOKFMHZSA-N"
+},
+{
+"item": {
+"value": "Q392227",
+"label": "guanosine triphosphate"
+},
+"goid": "GO:0032324",
+"goLabel": "molybdopterin cofactor biosynthetic process",
+"p233": "C1=NC2=C(N1C3C(C(C(O3)COP(=O)(O)OP(=O)(O)OP(=O)(O)O)O)O)NC(=NC2=O)N",
+"p2017": "C1=NC2=C(N1[C@H]3[C@@H]([C@@H]([C@H](O3)COP(=O)(O)OP(=O)(O)OP(=O)(O)O)O)O)NC(=NC2=O)N",
+"p235": "XKMLYUALXHKNFT-UUOKFMHZSA-N"
+},
+{
+"item": {
+"value": "Q407142",
+"label": "phenols"
+},
+"goid": "GO:0046189",
+"goLabel": "phenol-containing compound biosynthetic process",
+"p233": "C1(=C(C(=C(C(=C1*)*)*)*)*)O"
+},
+{
+"item": {
+"value": "Q407553",
+"label": "glycosaminoglycan"
+},
+"goid": "GO:0006024",
+"goLabel": "glycosaminoglycan biosynthetic process"
+},
+{
+"item": {
+"value": "Q407635",
+"label": "coenzyme A"
+},
+"goid": "GO:0015937",
+"goLabel": "coenzyme A biosynthetic process",
+"p233": "CC(C)(COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C2N=CN=C3N)O)OP(=O)(O)O)C(C(=O)NCCC(=O)NCCS)O",
+"p2017": "CC(C)(COP(=O)(O)OP(=O)(O)OC[C@@H]1[C@H]([C@H]([C@@H](O1)N2C=NC3=C2N=CN=C3N)O)OP(=O)(O)O)C(C(=O)NCCC(=O)NCCS)O",
+"p235": "RGJOEKWQDUBAIZ-DRCCLKDXSA-N"
+},
+{
+"item": {
+"value": "Q407635",
+"label": "coenzyme A"
+},
+"goid": "GO:0015937",
+"goLabel": "coenzyme A biosynthetic process",
+"p233": "CC(C)(COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C2N=CN=C3N)O)OP(=O)(O)O)C(C(=O)NCCC(=O)NCCS)O",
+"p2017": "CC(C)(COP(=O)(O)OP(=O)(O)OC[C@@H]1[C@H]([C@H]([C@@H](O1)N2C=NC3=C2N=CN=C3N)O)OP(=O)(O)O)C(C(=O)NCCC(=O)NCCS)O",
+"p235": "RGJOEKWQDUBAIZ-IBOSZNHHSA-N"
+},
+{
+"item": {
+"value": "Q407680",
+"label": "icosanoid"
+},
+"goid": "GO:0046456",
+"goLabel": "icosanoid biosynthetic process"
+},
+{
+"item": {
+"value": "Q407758",
+"label": "glyceride"
+},
+"goid": "GO:0046463",
+"goLabel": "acylglycerol biosynthetic process"
+},
+{
+"item": {
+"value": "Q407976",
+"label": "proteoglycans"
+},
+"goid": "GO:0030166",
+"goLabel": "proteoglycan biosynthetic process"
+},
+{
+"item": {
+"value": "Q407997",
+"label": "inositol"
+},
+"goid": "GO:0006021",
+"goLabel": "inositol biosynthetic process",
+"p233": "C1(C(C(C(C(C1O)O)O)O)O)O",
+"p2017": "OC1C(O)C(O)C(O)C(O)C1O",
+"p235": "CDAISMWEOUEBRE-UHFFFAOYSA-N"
+},
+{
+"item": {
+"value": "Q408014",
+"label": "chondroitin sulfate"
+},
+"goid": "GO:0030206",
+"goLabel": "chondroitin sulfate biosynthetic process"
+},
+{
+"item": {
+"value": "Q408068",
+"label": "cytochromes"
+},
+"goid": "GO:1903605",
+"goLabel": "cytochrome biosynthetic process"
+},
+{
+"item": {
+"value": "Q408201",
+"label": "epothilones"
+},
+"goid": "GO:0050814",
+"goLabel": "epothilone biosynthetic process"
+},
+{
+"item": {
+"value": "Q408452",
+"label": "indole alkaloid"
+},
+"goid": "GO:0035835",
+"goLabel": "indole alkaloid biosynthetic process"
+},
+{
+"item": {
+"value": "Q408737",
+"label": "phytochelatin"
+},
+"goid": "GO:0046938",
+"goLabel": "phytochelatin biosynthetic process"
+},
+{
+"item": {
+"value": "Q409049",
+"label": "hypochlorite ion"
+},
+"goid": "GO:0002149",
+"goLabel": "hypochlorous acid biosynthetic process",
+"p233": "[O-]Cl",
+"p235": "WQYVRQLZKVEZGA-UHFFFAOYSA-N"
+},
+{
+"item": {
+"value": "Q409747",
+"label": "Elastin"
+},
+"goid": "GO:0051542",
+"goLabel": "elastin biosynthetic process"
+},
+{
+"item": {
+"value": "Q410395",
+"label": "sphingolipids"
+},
+"goid": "GO:0030148",
+"goLabel": "sphingolipid biosynthetic process"
+},
+{
+"item": {
+"value": "Q411237",
+"label": "(4RS)-4-hydroxy-DL-proline"
+},
+"goid": "GO:0019472",
+"goLabel": "4-hydroxyproline biosynthetic process",
+"p233": "C1C(CNC1C(=O)O)O",
+"p235": "PMMYEEVYMWASQN-UHFFFAOYSA-N"
+},
+{
+"item": {
+"value": "Q412382",
+"label": "quinone"
+},
+"goid": "GO:1901663",
+"goLabel": "quinone biosynthetic process",
+"p8533": "[$(C1=CC(=[OX1])C=CC1=[OX1]),$(c1cc(=[OX1])c(=[OX1])cc1)]"
+},
+{
+"item": {
+"value": "Q413248",
+"label": "depsipeptide"
+},
+"goid": "GO:0050763",
+"goLabel": "depsipeptide biosynthetic process"
+},
+{
+"item": {
+"value": "Q414075",
+"label": "methylmercury(1+)"
+},
+"goid": "GO:0042192",
+"goLabel": "methylmercury biosynthetic process",
+"p233": "C[Hg+]",
+"p235": "DBUXSCUEGJMZAE-UHFFFAOYSA-N"
+},
+{
+"item": {
+"value": "Q414083",
+"label": "amino sugar"
+},
+"goid": "GO:0046349",
+"goLabel": "amino sugar biosynthetic process"
+},
+{
+"item": {
+"value": "Q414128",
+"label": "tetrose"
+},
+"goid": "GO:0033348",
+"goLabel": "tetrose biosynthetic process",
+"p8533": "[$([OX2H1][CX4H2][CX4H1]([OX2H1])[CX3](=O)[CX4H2][OX2H1]),$([CX4H2]([CX4H1]([CX4H1]([CX3H1]=O)[OX2H1])[OX2H1])[OX2H1])]"
+},
+{
+"item": {
+"value": "Q414506",
+"label": "mycolic acid"
+},
+"goid": "GO:0071768",
+"goLabel": "mycolic acid biosynthetic process"
+},
+{
+"item": {
+"value": "Q414529",
+"label": "cadinene"
+},
+"goid": "GO:1901928",
+"goLabel": "cadinene biosynthetic process"
+},
+{
+"item": {
+"value": "Q415265",
+"label": "proanthocyanidins"
+},
+"goid": "GO:0010023",
+"goLabel": "proanthocyanidin biosynthetic process"
+},
+{
+"item": {
+"value": "Q415812",
+"label": "polyol"
+},
+"goid": "GO:0046173",
+"goLabel": "polyol biosynthetic process"
+},
+{
+"item": {
+"value": "Q416268",
+"label": "Solute carrier family 2 member 1"
+},
+"goid": "GO:0046951",
+"goLabel": "ketone body biosynthetic process"
+},
+{
+"item": {
+"value": "Q416796",
+"label": "glucan"
+},
+"goid": "GO:0009250",
+"goLabel": "glucan biosynthetic process"
+},
+{
+"item": {
+"value": "Q416883",
+"label": "glucosinolate"
+},
+"goid": "GO:0019761",
+"goLabel": "glucosinolate biosynthetic process",
+"p2017": "[C@H]1(O[C@@H]([C@@H](O)[C@@H]([C@H]1O)O)CO)S/C(=N\\OS([O-])(=O)=O)/*"
+},
+{
+"item": {
+"value": "Q416883",
+"label": "glucosinolate"
+},
+"goid": "GO:0033506",
+"goLabel": "glucosinolate biosynthetic process from homomethionine",
+"p2017": "[C@H]1(O[C@@H]([C@@H](O)[C@@H]([C@H]1O)O)CO)S/C(=N\\OS([O-])(=O)=O)/*"
+},
+{
+"item": {
+"value": "Q416883",
+"label": "glucosinolate"
+},
+"goid": "GO:0033507",
+"goLabel": "glucosinolate biosynthetic process from phenylalanine",
+"p2017": "[C@H]1(O[C@@H]([C@@H](O)[C@@H]([C@H]1O)O)CO)S/C(=N\\OS([O-])(=O)=O)/*"
+},
+{
+"item": {
+"value": "Q417181",
+"label": "phenylpropanoid"
+},
+"goid": "GO:0009699",
+"goLabel": "phenylpropanoid biosynthetic process"
+},
+{
+"item": {
+"value": "Q418533",
+"label": "nucleoside triphosphate"
+},
+"goid": "GO:0009142",
+"goLabel": "nucleoside triphosphate biosynthetic process",
+"p2017": "[C@H]1([C@H]([C@@H](O)[C@@H](O1)*)O)COP(OP(OP(=O)(O)O)(=O)O)(=O)O"
+},
+{
+"item": {
+"value": "Q418712",
+"label": "globoside"
+},
+"goid": "GO:0001576",
+"goLabel": "globoside biosynthetic process"
+},
+{
+"item": {
+"value": "Q418712",
+"label": "globoside"
+},
+"goid": "GO:0010707",
+"goLabel": "globoside biosynthetic process via lactosylceramide"
+},
+{
+"item": {
+"value": "Q418892",
+"label": "glycosphingolipid"
+},
+"goid": "GO:0006688",
+"goLabel": "glycosphingolipid biosynthetic process"
+},
+{
+"item": {
+"value": "Q419220",
+"label": "juvenile hormone"
+},
+"goid": "GO:0006718",
+"goLabel": "juvenile hormone biosynthetic process"
+},
+{
+"item": {
+"value": "Q419287",
+"label": "gangliosides"
+},
+"goid": "GO:0001574",
+"goLabel": "ganglioside biosynthetic process"
+},
+{
+"item": {
+"value": "Q419287",
+"label": "gangliosides"
+},
+"goid": "GO:0010706",
+"goLabel": "ganglioside biosynthetic process via lactosylceramide"
+},
+{
+"item": {
+"value": "Q419547",
+"label": "xylan"
+},
+"goid": "GO:0045492",
+"goLabel": "xylan biosynthetic process"
+},
+{
+"item": {
+"value": "Q419779",
+"label": "Pullulan"
+},
+"goid": "GO:0051677",
+"goLabel": "pullulan biosynthetic process"
+},
+{
+"item": {
+"value": "Q420004",
+"label": "glycerophospholipids"
+},
+"goid": "GO:0046474",
+"goLabel": "glycerophospholipid biosynthetic process"
+},
+{
+"item": {
+"value": "Q420327",
+"label": "hydroxamic acid"
+},
+"goid": "GO:0019539",
+"goLabel": "hydroxymate-containing siderophore biosynthetic process"
+},
+{
+"item": {
+"value": "Q420726",
+"label": "branched-chain amino acid"
+},
+"goid": "GO:0009082",
+"goLabel": "branched-chain amino acid biosynthetic process"
+},
+{
+"item": {
+"value": "Q421603",
+"label": "Galactomannan"
+},
+"goid": "GO:0051070",
+"goLabel": "galactomannan biosynthetic process"
+},
+{
+"item": {
+"value": "Q421804",
+"label": "lipopolysaccharide"
+},
+"goid": "GO:0009103",
+"goLabel": "lipopolysaccharide biosynthetic process"
+},
+{
+"item": {
+"value": "Q421916",
+"label": "diol"
+},
+"goid": "GO:0034312",
+"goLabel": "diol biosynthetic process",
+"p8533": "[$([#6]);!$([#6][OX2H1])][#6]([OX2H1])[#6]([OX2H1])[$([#6]);!$([#6][OX2H1])]"
+},
+{
+"item": {
+"value": "Q421948",
+"label": "organic acid"
+},
+"goid": "GO:0016053",
+"goLabel": "organic acid biosynthetic process"
+},
+{
+"item": {
+"value": "Q421951",
+"label": "kanamycin (extract)"
+},
+"goid": "GO:1901133",
+"goLabel": "kanamycin biosynthetic process"
+},
+{
+"item": {
+"value": "Q421955",
+"label": "Suberin"
+},
+"goid": "GO:0010345",
+"goLabel": "suberin biosynthetic process"
+},
+{
+"item": {
+"value": "Q421959",
+"label": "polyamines"
+},
+"goid": "GO:0006596",
+"goLabel": "polyamine biosynthetic process"
+},
+{
+"item": {
+"value": "Q421961",
+"label": "fructan"
+},
+"goid": "GO:0010146",
+"goLabel": "fructan biosynthetic process"
+},
+{
+"item": {
+"value": "Q421976",
+"label": "brassinosteroid"
+},
+"goid": "GO:0016132",
+"goLabel": "brassinosteroid biosynthetic process",
+"p8533": "[$(C);!$(C(~C)~C)]C12[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)(~C)~C)]3C4([$(C);!$(C(~C)~C)])[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)(~C)~C)]4~[$(C);!$(C(~C)([#8])~C)][#8X2H0][$(C);!$(C(~C)([#8])~C)]~[$(C);!$(C(~C)(~C)(~C)~C)]~3~[$(C);!$(C(~C)(~C)(~C)~C)]2~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)(~C)~C)](~[$([CR0]);!$(C(~C)(~C)(~C)~C)](~[$(C);!$(C(~C)~C)])~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)(~C)~C)](~[$(C);!$(C(~C)~C)])~[$(C);!$(C(~C)(~C)(~C)~C)](~[$(C);!$(C(~C)~C)])~[$(C);!$(C(~C)~C)])1"
+},
+{
+"item": {
+"value": "Q421998",
+"label": "Cutin"
+},
+"goid": "GO:0010143",
+"goLabel": "cutin biosynthetic process"
+},
+{
+"item": {
+"value": "Q422092",
+"label": "alginic acid"
+},
+"goid": "GO:0042121",
+"goLabel": "alginic acid biosynthetic process"
+},
+{
+"item": {
+"value": "Q422399",
+"label": "tetrapyrrole"
+},
+"goid": "GO:0033014",
+"goLabel": "tetrapyrrole biosynthetic process"
+},
+{
+"item": {
+"value": "Q422399",
+"label": "tetrapyrrole"
+},
+"goid": "GO:0033526",
+"goLabel": "tetrapyrrole biosynthetic process from glutamate"
+},
+{
+"item": {
+"value": "Q422399",
+"label": "tetrapyrrole"
+},
+"goid": "GO:0033527",
+"goLabel": "tetrapyrrole biosynthetic process from glycine and succinyl-CoA"
+},
+{
+"item": {
+"value": "Q422484",
+"label": "ribonucleotide"
+},
+"goid": "GO:0009260",
+"goLabel": "ribonucleotide biosynthetic process"
+},
+{
+"item": {
+"value": "Q422519",
+"label": "mineralocorticoids"
+},
+"goid": "GO:0006705",
+"goLabel": "mineralocorticoid biosynthetic process"
+},
+{
+"item": {
+"value": "Q422549",
+"label": "glucocorticoid"
+},
+"goid": "GO:0006704",
+"goLabel": "glucocorticoid biosynthetic process"
+},
+{
+"item": {
+"value": "Q422649",
+"label": "biopolymer"
+},
+"goid": "GO:0009059",
+"goLabel": "macromolecule biosynthetic process"
+},
+{
+"item": {
+"value": "Q422687",
+"label": "macrolides"
+},
+"goid": "GO:0033068",
+"goLabel": "macrolide biosynthetic process"
+},
+{
+"item": {
+"value": "Q422794",
+"label": "thioester"
+},
+"goid": "GO:0035384",
+"goLabel": "thioester biosynthetic process",
+"p8533": "[#6][#6](=[OX1])[#16][#6]"
+},
+{
+"item": {
+"value": "Q422882",
+"label": "glycolipid"
+},
+"goid": "GO:0009247",
+"goLabel": "glycolipid biosynthetic process"
+},
+{
+"item": {
+"value": "Q422926",
+"label": "porphyrins"
+},
+"goid": "GO:0006779",
+"goLabel": "porphyrin-containing compound biosynthetic process"
+},
+{
+"item": {
+"value": "Q422936",
+"label": "cannabinoids"
+},
+"goid": "GO:1901696",
+"goLabel": "cannabinoid biosynthetic process"
+},
+{
+"item": {
+"value": "Q422960",
+"label": "nucleobase"
+},
+"goid": "GO:0046112",
+"goLabel": "nucleobase biosynthetic process"
+},
+{
+"item": {
+"value": "Q423098",
+"label": "neomycin"
+},
+"goid": "GO:1901158",
+"goLabel": "neomycin biosynthetic process"
+},
+{
+"item": {
+"value": "Q424213",
+"label": "ceramide"
+},
+"goid": "GO:0046513",
+"goLabel": "ceramide biosynthetic process",
+"p2017": "O[C@H]([*])[C@H](C[*])NC([*])=O"
+},
+{
+"item": {
+"value": "Q424275",
+"label": "mucilage"
+},
+"goid": "GO:0010192",
+"goLabel": "mucilage biosynthetic process"
+},
+{
+"item": {
+"value": "Q424361",
+"label": "reactive oxygen species"
+},
+"goid": "GO:1903409",
+"goLabel": "reactive oxygen species biosynthetic process"
+},
+{
+"item": {
+"value": "Q424469",
+"label": "polyhydroxybutyrate"
+},
+"goid": "GO:0042619",
+"goLabel": "poly-hydroxybutyrate biosynthetic process"
+},
+{
+"item": {
+"value": "Q424525",
+"label": "flavone"
+},
+"goid": "GO:0051553",
+"goLabel": "flavone biosynthetic process",
+"p233": "O1C2=C(C(C(=C1C3=C(C(=C(C(=C3*)*)*)*)*)*)=O)C(=C(C(=C2*)*)*)*",
+"p8533": "[$(c);$([cX3H0](c)(c)O),$([cX3H1](c)c)]1[$(c);$([cX3H0](c)(c)O),$([cX3H1](c)c)][$(c);$([cX3H0](c)(c)O),$([cX3H1](c)c)][$(c);$([cX3H0](c)(c)O),$([cX3H1](c)c)][$(c);$([cX3H0](c)(c)O),$([cX3H1](c)c)]c1c2oc3[$(c);$([cX3H0](c)(c)O),$([cX3H1](c)c)][$(c);$([cX3H0](c)(c)O),$([cX3H1](c)c)][$(c);$([cX3H0](c)(c)O),$([cX3H1](c)c)][$(c);$([cX3H0](c)(c)O),$([cX3H1](c)c)]c3c(=O)[$(c);$([cX3H0](c)(c)O),$([cX3H1](c)c)]2"
+},
+{
+"item": {
+"value": "Q424634",
+"label": "lignan"
+},
+"goid": "GO:0009807",
+"goLabel": "lignan biosynthetic process"
+},
+{
+"item": {
+"value": "Q424747",
+"label": "siderophore"
+},
+"goid": "GO:0019290",
+"goLabel": "siderophore biosynthetic process"
+},
+{
+"item": {
+"value": "Q425079",
+"label": "polyhydroxyalkanoate"
+},
+"goid": "GO:1901441",
+"goLabel": "poly(hydroxyalkanoate) biosynthetic process"
+},
+{
+"item": {
+"value": "Q425079",
+"label": "polyhydroxyalkanoate"
+},
+"goid": "GO:1902924",
+"goLabel": "poly(hydroxyalkanoate) biosynthetic process from glucose"
+},
+{
+"item": {
+"value": "Q425079",
+"label": "polyhydroxyalkanoate"
+},
+"goid": "GO:1902925",
+"goLabel": "poly(hydroxyalkanoate) biosynthetic process from fatty acid"
+},
+{
+"item": {
+"value": "Q425125",
+"label": "fatty acid methyl ester"
+},
+"goid": "GO:1902899",
+"goLabel": "fatty acid methyl ester biosynthetic process",
+"p233": "COC([*])=O"
+},
+{
+"item": {
+"value": "Q425517",
+"label": "retinoic acid"
+},
+"goid": "GO:0002138",
+"goLabel": "retinoic acid biosynthetic process",
+"p233": "CC1=C(C(CCC1)(C)C)C=CC(=CC=CC(=CC(=O)O)C)C",
+"p235": "SHGAZHPCJJPHSC-UHFFFAOYSA-N"
+},
+{
+"item": {
+"value": "Q426095",
+"label": "phosphatidylethanolamines"
+},
+"goid": "GO:0006646",
+"goLabel": "phosphatidylethanolamine biosynthetic process",
+"p233": "O(P(=O)(OCCN)O)CC(OC(*)=O)COC(*)=O"
+},
+{
+"item": {
+"value": "Q426694",
+"label": "terpenoid"
+},
+"goid": "GO:0016114",
+"goLabel": "terpenoid biosynthetic process"
+},
+{
+"item": {
+"value": "Q516751",
+"label": "polyketide"
+},
+"goid": "GO:0030639",
+"goLabel": "polyketide biosynthetic process"
+},
+{
+"item": {
+"value": "Q620072",
+"label": "Heme A"
+},
+"goid": "GO:0006784",
+"goLabel": "heme A biosynthetic process",
+"p233": "C/C(C)=C\\CCC(\\C)=C\\CCC(\\C)=C\\CCC(O)c1c2/C=C\\3C(\\C)=C(\\C=C)/C=4/C=C8/C(/C)=C(/CCC(O)=O)\\C7=C\\C5C(\\CCC(O)=O)=C(\\C=O)/C6=C/c(c1C)n2[Fe-2]([N+]/3=4)(N56)N78",
+"p235": "ZGGYGTCPXNDTRV-YRJWGCQVSA-L"
+},
+{
+"item": {
+"value": "Q620080",
+"label": "ferroheme c"
+},
+"goid": "GO:0006786",
+"goLabel": "heme C biosynthetic process",
+"p233": "CC1=C(C2=CC3=NC(=CC4=C(C(=C([N-]4)C=C5C(=C(C(=N5)C=C1[N-]2)C)C(C)S)C)C(C)S)C(=C3CCC(=O)O)C)CCC(=O)O.[Fe+2]",
+"p2017": "CC1=C(C2=CC3=NC(=CC4=C(C(=C([N-]4)C=C5C(=C(C(=N5)C=C1[N-]2)C)[C@H](C)S)C)[C@H](C)S)C(=C3CCC(=O)O)C)CCC(=O)O.[Fe+2]",
+"p235": "SZYCWQQPTZLPDK-UHFFFAOYSA-L"
+},
+{
+"item": {
+"value": "Q620211",
+"label": "Heme O"
+},
+"goid": "GO:0048034",
+"goLabel": "heme O biosynthetic process",
+"p233": "CC1=C(C2=CC3=NC(=CC4=C(C(=C([N-]4)C=C5C(=C(C(=N5)C=C1[N-]2)C(CCC=CCCC=CCCC=C(C)C(C)C)O)C)C)CCC(=O)O)C(=C3C)CCC(=O)O)C=C.[Fe+2]",
+"p2017": "CC1=C(C2=CC3=NC(=CC4=C(C(=C([N-]4)C=C5C(=C(C(=N5)C=C1[N-]2)[C@H](CC/C=C\\CC/C=C\\CC/C=C(\\C)/C(C)C)O)C)C)CCC(=O)O)C(=C3C)CCC(=O)O)C=C.[Fe+2]",
+"p235": "MSDQYARVLRSHGB-HQRZMRPPSA-L"
+},
+{
+"item": {
+"value": "Q650187",
+"label": "phosphatidylcholines"
+},
+"goid": "GO:0006656",
+"goLabel": "phosphatidylcholine biosynthetic process",
+"p233": "C[N+](C)(C)CCOP([O-])(=O)OCC(COC([*])=O)OC([*])=O"
+},
+{
+"item": {
+"value": "Q650187",
+"label": "phosphatidylcholines"
+},
+"goid": "GO:0006657",
+"goLabel": "CDP-choline pathway",
+"p233": "C[N+](C)(C)CCOP([O-])(=O)OCC(COC([*])=O)OC([*])=O"
+},
+{
+"item": {
+"value": "Q650187",
+"label": "phosphatidylcholines"
+},
+"goid": "GO:0070832",
+"goLabel": "phosphatidylcholine biosynthesis from phosphoryl-ethanolamine via N-dimethylethanolamine phosphate and CDP-choline",
+"p233": "C[N+](C)(C)CCOP([O-])(=O)OCC(COC([*])=O)OC([*])=O"
+},
+{
+"item": {
+"value": "Q650187",
+"label": "phosphatidylcholines"
+},
+"goid": "GO:0070833",
+"goLabel": "phosphatidylcholine biosynthesis from phosphoryl-ethanolamine via CDP-N-methylethanolamine",
+"p233": "C[N+](C)(C)CCOP([O-])(=O)OCC(COC([*])=O)OC([*])=O"
+},
+{
+"item": {
+"value": "Q650187",
+"label": "phosphatidylcholines"
+},
+"goid": "GO:0070834",
+"goLabel": "phosphatidylcholine biosynthesis from phosphoryl-ethanolamine via N-dimethylethanolamine phosphate and CDP-N-dimethylethanolamine",
+"p233": "C[N+](C)(C)CCOP([O-])(=O)OCC(COC([*])=O)OC([*])=O"
+},
+{
+"item": {
+"value": "Q662225",
+"label": "monoglyceride"
+},
+"goid": "GO:0006640",
+"goLabel": "monoacylglycerol biosynthetic process",
+"p233": "C(O*)C(O*)CO*"
+},
+{
+"item": {
+"value": "Q705605",
+"label": "aromatic amino acid"
+},
+"goid": "GO:0009073",
+"goLabel": "aromatic amino acid family biosynthetic process"
+},
+{
+"item": {
+"value": "Q705605",
+"label": "aromatic amino acid"
+},
+"goid": "GO:0009095",
+"goLabel": "aromatic amino acid family biosynthetic process, prephenate pathway"
+},
+{
+"item": {
+"value": "Q746183",
+"label": "ketone bodies"
+},
+"goid": "GO:0046951",
+"goLabel": "ketone body biosynthetic process"
+},
+{
+"item": {
+"value": "Q781350",
+"label": "lipoteichoic acid"
+},
+"goid": "GO:0070395",
+"goLabel": "lipoteichoic acid biosynthetic process"
+},
+{
+"item": {
+"value": "Q862450",
+"label": "propionate"
+},
+"goid": "GO:0019542",
+"goLabel": "propionate biosynthetic process",
+"p233": "CCC(=O)[O-]",
+"p235": "XBDQKXXYIPTUBI-UHFFFAOYSA-M"
+},
+{
+"item": {
+"value": "Q899834",
+"label": "teichoic acid"
+},
+"goid": "GO:0019350",
+"goLabel": "teichoic acid biosynthetic process"
+},
+{
+"item": {
+"value": "Q935387",
+"label": "cystathionine"
+},
+"goid": "GO:0019279",
+"goLabel": "L-methionine biosynthetic process from L-homoserine via cystathionine",
+"p233": "C(CSCC(C(=O)O)N)C(C(=O)O)N",
+"p235": "ILRYLPWNYFXEMH-UHFFFAOYSA-N"
+},
+{
+"item": {
+"value": "Q935387",
+"label": "cystathionine"
+},
+"goid": "GO:0019283",
+"goLabel": "L-methionine biosynthetic process from O-phospho-L-homoserine and cystathionine",
+"p233": "C(CSCC(C(=O)O)N)C(C(=O)O)N",
+"p235": "ILRYLPWNYFXEMH-UHFFFAOYSA-N"
+},
+{
+"item": {
+"value": "Q935387",
+"label": "cystathionine"
+},
+"goid": "GO:0019343",
+"goLabel": "cysteine biosynthetic process via cystathionine",
+"p233": "C(CSCC(C(=O)O)N)C(C(=O)O)N",
+"p235": "ILRYLPWNYFXEMH-UHFFFAOYSA-N"
+},
+{
+"item": {
+"value": "Q962217",
+"label": "prostanoids"
+},
+"goid": "GO:0046457",
+"goLabel": "prostanoid biosynthetic process"
+},
+{
+"item": {
+"value": "Q967433",
+"label": "cyclic nucleotide"
+},
+"goid": "GO:0009190",
+"goLabel": "cyclic nucleotide biosynthetic process"
+},
+{
+"item": {
+"value": "Q1132297",
+"label": "xyloglucan"
+},
+"goid": "GO:0009969",
+"goLabel": "xyloglucan biosynthetic process"
+},
+{
+"item": {
+"value": "Q1259241",
+"label": "replication termination"
+},
+"goid": "GO:0006260",
+"goLabel": "DNA replication"
+},
+{
+"item": {
+"value": "Q1310878",
+"label": "Wybutosine"
+},
+"goid": "GO:0031591",
+"goLabel": "wybutosine biosynthetic process",
+"p2017": "CC1=C(N2C(=O)C3=C(N(C2=N1)C)N(C=N3)[C@H]4[C@@H]([C@@H]([C@H](O4)CO)O)O)CC[C@@H](C(=O)OC)NC(=O)OC",
+"p235": "QAOHCFGKCWTBGC-QHOAOGIMSA-N"
+},
+{
+"item": {
+"value": "Q1491636",
+"label": "Galactolipid"
+},
+"goid": "GO:0019375",
+"goLabel": "galactolipid biosynthetic process"
+},
+{
+"item": {
+"value": "Q1674528",
+"label": "isoprenoid"
+},
+"goid": "GO:0008299",
+"goLabel": "isoprenoid biosynthetic process"
+},
+{
+"item": {
+"value": "Q1674528",
+"label": "isoprenoid"
+},
+"goid": "GO:1902767",
+"goLabel": "isoprenoid biosynthetic process via mevalonate"
+},
+{
+"item": {
+"value": "Q1674528",
+"label": "isoprenoid"
+},
+"goid": "GO:1902768",
+"goLabel": "isoprenoid biosynthetic process via 1-deoxy-D-xylulose 5-phosphate"
+},
+{
+"item": {
+"value": "Q1727375",
+"label": "Phlobaphene"
+},
+"goid": "GO:0051559",
+"goLabel": "phlobaphene biosynthetic process"
+},
+{
+"item": {
+"value": "Q1773248",
+"label": "very long chain fatty acid"
+},
+"goid": "GO:0042761",
+"goLabel": "very long-chain fatty acid biosynthetic process"
+},
+{
+"item": {
+"value": "Q1982167",
+"label": "prosthetic group"
+},
+"goid": "GO:0051191",
+"goLabel": "prosthetic group biosynthetic process"
+},
+{
+"item": {
+"value": "Q1992180",
+"label": "bacteriochlorophylls"
+},
+"goid": "GO:0030494",
+"goLabel": "bacteriochlorophyll biosynthetic process"
+},
+{
+"item": {
+"value": "Q2076617",
+"label": "beta-glucan"
+},
+"goid": "GO:0051274",
+"goLabel": "beta-glucan biosynthetic process"
+},
+{
+"item": {
+"value": "Q2118866",
+"label": "purine alkaloid"
+},
+"goid": "GO:0009711",
+"goLabel": "purine alkaloid biosynthetic process"
+},
+{
+"item": {
+"value": "Q2157332",
+"label": "strigolactones"
+},
+"goid": "GO:1901601",
+"goLabel": "strigolactone biosynthetic process"
+},
+{
+"item": {
+"value": "Q2182492",
+"label": "organic compound, having C-P covalent bound"
+},
+"goid": "GO:0090407",
+"goLabel": "organophosphate biosynthetic process"
+},
+{
+"item": {
+"value": "Q2250497",
+"label": "unsaturated fatty acids"
+},
+"goid": "GO:0006636",
+"goLabel": "unsaturated fatty acid biosynthetic process"
+},
+{
+"item": {
+"value": "Q2272566",
+"label": "aldonic acid"
+},
+"goid": "GO:0046175",
+"goLabel": "aldonic acid biosynthetic process"
+},
+{
+"item": {
+"value": "Q2273248",
+"label": "phosphatidylinositols"
+},
+"goid": "GO:0006661",
+"goLabel": "phosphatidylinositol biosynthetic process"
+},
+{
+"item": {
+"value": "Q2276562",
+"label": "zeatin"
+},
+"goid": "GO:0033398",
+"goLabel": "zeatin biosynthetic process",
+"p233": "CC(=CCNC1=NC=NC2=C1NC=N2)CO",
+"p235": "UZKQTCBAMSWPJD-UHFFFAOYSA-N"
+},
+{
+"item": {
+"value": "Q2335618",
+"label": "dermatan sulfate"
+},
+"goid": "GO:0030208",
+"goLabel": "dermatan sulfate biosynthetic process"
+},
+{
+"item": {
+"value": "Q2354337",
+"label": "phosphatidyl serine"
+},
+"goid": "GO:0006659",
+"goLabel": "phosphatidylserine biosynthetic process",
+"p2017": "C(C(COP(=O)(OC[C@@H](C(=O)O)N)O)OC(=O)*)OC(=O)*"
+},
+{
+"item": {
+"value": "Q2457767",
+"label": "Keratan sulfate"
+},
+"goid": "GO:0018146",
+"goLabel": "keratan sulfate biosynthetic process"
+},
+{
+"item": {
+"value": "Q2562896",
+"label": "organomercury"
+},
+"goid": "GO:0046414",
+"goLabel": "organomercury biosynthetic process",
+"p8533": "[#6][#80]"
+},
+{
+"item": {
+"value": "Q2640914",
+"label": "propionyl-CoA"
+},
+"goid": "GO:1902860",
+"goLabel": "propionyl-CoA biosynthetic process",
+"p233": "CCC(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)(O)OP(=O)(O)OCC1C(C(C(O1)N2C=NC3=C2N=CN=C3N)O)OP(=O)(O)O)O",
+"p2017": "CCC(=O)SCCNC(=O)CCNC(=O)[C@@H](C(C)(C)COP(=O)(O)OP(=O)(O)OC[C@@H]1[C@H]([C@H]([C@@H](O1)N2C=NC3=C2N=CN=C3N)O)OP(=O)(O)O)O",
+"p235": "QAQREVBBADEHPA-IEXPHMLFSA-N"
+},
+{
+"item": {
+"value": "Q2698455",
+"label": "short-chain fatty acid"
+},
+"goid": "GO:0051790",
+"goLabel": "short-chain fatty acid biosynthetic process"
+},
+{
+"item": {
+"value": "Q2699537",
+"label": "acyl-CoA"
+},
+"goid": "GO:0071616",
+"goLabel": "acyl-CoA biosynthetic process",
+"p2017": "CC(C)(COP(O)(=O)OP(O)(=O)OC[C@H]1O[C@H]([C@H](O)[C@@H]1OP(O)(O)=O)n1cnc2c(N)ncnc12)[C@@H](O)C(=O)NCCC(=O)NCCSC([*])=O"
+},
+{
+"item": {
+"value": "Q2756638",
+"label": "galactocerebroside"
+},
+"goid": "GO:0006682",
+"goLabel": "galactosylceramide biosynthetic process",
+"p2017": "[C@H]([C@@H](*)O)(NC(=O)*)COC1O[C@@H]([C@@H]([C@@H]([C@H]1O)O)O)CO"
+},
+{
+"item": {
+"value": "Q2819370",
+"label": "double-stranded RNA"
+},
+"goid": "GO:0062103",
+"goLabel": "double-stranded RNA biosynthetic process"
+},
+{
+"item": {
+"value": "Q2823204",
+"label": "α-aminoadipic acid"
+},
+"goid": "GO:0051975",
+"goLabel": "lysine biosynthetic process via alpha-aminoadipate and saccharopine",
+"p233": "C(CC(C(=O)O)N)CC(=O)O",
+"p235": "OYIFNHCXNCRBQI-UHFFFAOYSA-N"
+},
+{
+"item": {
+"value": "Q2823204",
+"label": "α-aminoadipic acid"
+},
+"goid": "GO:0051976",
+"goLabel": "lysine biosynthetic process via alpha-aminoadipate and N2-acetyl-alpha-aminoadipate",
+"p233": "C(CC(C(=O)O)N)CC(=O)O",
+"p235": "OYIFNHCXNCRBQI-UHFFFAOYSA-N"
+},
+{
+"item": {
+"value": "Q2832080",
+"label": "tropane alkaloids"
+},
+"goid": "GO:0009710",
+"goLabel": "tropane alkaloid biosynthetic process",
+"p8533": "CN1C2[$(C);$([CX4H1](C)(C)[#6]),$([CX4H1](C)(C)O),$([CX4H2](C)C)][$(C);$([CX4H1](C)(C)O),$([CX4H2](C)C)][$(C);$([CX4H1](C)(C)O),$([CX4H2](C)C)]C1[$(C);$([CX4H1](C)(C)O),$([CX4H2](C)C)][$(C);$([CX4H1](C)(C)O),$([CX4H2](C)C)]2"
+},
+{
+"item": {
+"value": "Q2832080",
+"label": "tropane alkaloids"
+},
+"goid": "GO:0009710",
+"goLabel": "tropane alkaloid biosynthetic process",
+"p8533": "CN1C2CCCC1CC2"
+},
+{
+"item": {
+"value": "Q2832080",
+"label": "tropane alkaloids"
+},
+"goid": "GO:0009710",
+"goLabel": "tropane alkaloid biosynthetic process",
+"p8533": "[NX3H1]1C2[$(C);$([CX4H1](C)(C)[#6]),$([CX4H1](C)(C)O),$([CX4H2](C)C)][$(C);$([CX4H1](C)(C)O),$([CX4H2](C)C)][$(C);$([CX4H1](C)(C)O),$([CX4H2](C)C)]C1[$(C);$([CX4H1](C)(C)O),$([CX4H2](C)C)][$(C);$([CX4H1](C)(C)O),$([CX4H2](C)C)]2"
+},
+{
+"item": {
+"value": "Q2832210",
+"label": "primary alcohol"
+},
+"goid": "GO:0034309",
+"goLabel": "primary alcohol biosynthetic process",
+"p233": "*C(O)([H])[H]",
+"p8533": "[OX2H1][CX4H2]"
+},
+{
+"item": {
+"value": "Q2832211",
+"label": "secondary alcohol"
+},
+"goid": "GO:1902653",
+"goLabel": "secondary alcohol biosynthetic process",
+"p8533": "[CX4H1][OX2H1]"
+},
+{
+"item": {
+"value": "Q2832212",
+"label": "tertiary alcohol"
+},
+"goid": "GO:1902645",
+"goLabel": "tertiary alcohol biosynthetic process",
+"p233": "OC(C[*])(C[*])C[*]"
+},
+{
+"item": {
+"value": "Q2878809",
+"label": "inositol phosphate"
+},
+"goid": "GO:0032958",
+"goLabel": "inositol phosphate biosynthetic process"
+},
+{
+"item": {
+"value": "Q2981798",
+"label": "coenzyme Q"
+},
+"goid": "GO:0006744",
+"goLabel": "ubiquinone biosynthetic process"
+},
+{
+"item": {
+"value": "Q2981798",
+"label": "coenzyme Q"
+},
+"goid": "GO:0032150",
+"goLabel": "ubiquinone biosynthetic process from chorismate"
+},
+{
+"item": {
+"value": "Q2981798",
+"label": "coenzyme Q"
+},
+"goid": "GO:0032180",
+"goLabel": "ubiquinone biosynthetic process from tyrosine"
+},
+{
+"item": {
+"value": "Q2981798",
+"label": "coenzyme Q"
+},
+"goid": "GO:0032193",
+"goLabel": "ubiquinone biosynthetic process via 2-polyprenylphenol"
+},
+{
+"item": {
+"value": "Q2981798",
+"label": "coenzyme Q"
+},
+"goid": "GO:0032194",
+"goLabel": "ubiquinone biosynthetic process via 3,4-dihydroxy-5-polyprenylbenzoate"
+},
+{
+"item": {
+"value": "Q3027893",
+"label": "dihydrogen"
+},
+"goid": "GO:0044812",
+"goLabel": "fermentative hydrogen production",
+"p233": "[HH]",
+"p235": "UFHFLCQGNIYNRP-UHFFFAOYSA-N"
+},
+{
+"item": {
+"value": "Q3027893",
+"label": "dihydrogen"
+},
+"goid": "GO:1902422",
+"goLabel": "hydrogen biosynthetic process",
+"p233": "[HH]",
+"p235": "UFHFLCQGNIYNRP-UHFFFAOYSA-N"
+},
+{
+"item": {
+"value": "Q3027893",
+"label": "dihydrogen"
+},
+"goid": "GO:1990491",
+"goLabel": "methane biosynthetic process from methanol and hydrogen",
+"p233": "[HH]",
+"p235": "UFHFLCQGNIYNRP-UHFFFAOYSA-N"
+},
+{
+"item": {
+"value": "Q3077338",
+"label": "Lipid A"
+},
+"goid": "GO:0009245",
+"goLabel": "lipid A biosynthetic process"
+},
+{
+"item": {
+"value": "Q3078751",
+"label": "Phosphatidylglycerol (no stereochemistry defined)"
+},
+"goid": "GO:0006655",
+"goLabel": "phosphatidylglycerol biosynthetic process",
+"p233": "OCC(O)COP(O)(=O)OCC(COC([*])=O)OC([*])=O"
+},
+{
+"item": {
+"value": "Q3109391",
+"label": "mannans"
+},
+"goid": "GO:0046354",
+"goLabel": "mannan biosynthetic process"
+},
+{
+"item": {
+"value": "Q3138043",
+"label": "Ether lipid"
+},
+"goid": "GO:0008611",
+"goLabel": "ether lipid biosynthetic process"
+},
+{
+"item": {
+"value": "Q3151473",
+"label": "Inosine triphosphate"
+},
+"goid": "GO:0046042",
+"goLabel": "ITP biosynthetic process",
+"p233": "C1=NC(=O)C2=C(N1)N(C=N2)C3C(C(C(O3)COP(=O)(O)OP(=O)(O)OP(=O)(O)O)O)O",
+"p2017": "C1=NC(=O)C2=C(N1)N(C=N2)[C@H]3[C@@H]([C@@H]([C@H](O3)COP(=O)(O)OP(=O)(O)OP(=O)(O)O)O)O",
+"p235": "HAEJPQIATWHALX-KQYNXXCUSA-N"
+},
+{
+"item": {
+"value": "Q3215908",
+"label": "lactosylceramide"
+},
+"goid": "GO:0001572",
+"goLabel": "lactosylceramide biosynthetic process"
+},
+{
+"item": {
+"value": "Q3234924",
+"label": "isoflavonoid"
+},
+"goid": "GO:0009717",
+"goLabel": "isoflavonoid biosynthetic process"
+},
+{
+"item": {
+"value": "Q3268331",
+"label": "fumonisin"
+},
+"goid": "GO:1900541",
+"goLabel": "fumonisin biosynthetic process"
+},
+{
+"item": {
+"value": "Q3329800",
+"label": "cobalamin"
+},
+"goid": "GO:0009236",
+"goLabel": "cobalamin biosynthetic process"
+},
+{
+"item": {
+"value": "Q3360898",
+"label": "purines"
+},
+"goid": "GO:0043101",
+"goLabel": "purine-containing compound salvage",
+"p8533": "c1c2c(ncn1)ncn2"
+},
+{
+"item": {
+"value": "Q3360898",
+"label": "purines"
+},
+"goid": "GO:0072522",
+"goLabel": "purine-containing compound biosynthetic process",
+"p8533": "c1c2c(ncn1)ncn2"
+},
+{
+"item": {
+"value": "Q3469744",
+"label": "salicylate"
+},
+"goid": "GO:0009697",
+"goLabel": "salicylic acid biosynthetic process",
+"p233": "C1=CC=C(C(=C1)C(=O)[O-])O",
+"p235": "YGSDEFSMJLZEOE-UHFFFAOYSA-M"
+},
+{
+"item": {
+"value": "Q3503468",
+"label": "sulfolipid"
+},
+"goid": "GO:0046506",
+"goLabel": "sulfolipid biosynthetic process"
+},
+{
+"item": {
+"value": "Q3774643",
+"label": "ansamycin"
+},
+"goid": "GO:0033070",
+"goLabel": "ansamycin biosynthetic process"
+},
+{
+"item": {
+"value": "Q3943310",
+"label": "S-adenosylmethioninamine"
+},
+"goid": "GO:0006557",
+"goLabel": "S-adenosylmethioninamine biosynthetic process",
+"p233": "C[S+](CCCN)CC1C(C(C(O1)N2C=NC3=C2N=CN=C3N)O)O",
+"p2017": "C[S+](CCCN)C[C@@H]1[C@H]([C@H]([C@@H](O1)N2C=NC3=C2N=CN=C3N)O)O",
+"p235": "ZUNBITIXDCPNSD-LSRJEVITSA-N"
+},
+{
+"item": {
+"value": "Q4351599",
+"label": "enniatins"
+},
+"goid": "GO:0046585",
+"goLabel": "enniatin biosynthetic process"
+},
+{
+"item": {
+"value": "Q4363318",
+"label": "pyrimidine base"
+},
+"goid": "GO:0019856",
+"goLabel": "pyrimidine nucleobase biosynthetic process",
+"p233": "N1C(=C(C(=NC1=*)*)*)*"
+},
+{
+"item": {
+"value": "Q4363318",
+"label": "pyrimidine base"
+},
+"goid": "GO:0043100",
+"goLabel": "pyrimidine nucleobase salvage",
+"p233": "N1C(=C(C(=NC1=*)*)*)*"
+},
+{
+"item": {
+"value": "Q4382082",
+"label": "mycothiol"
+},
+"goid": "GO:0010125",
+"goLabel": "mycothiol biosynthetic process",
+"p233": "CC(=O)NC(CS)C(=O)NC1C(C(C(OC1OC2C(C(C(C(C2O)O)O)O)O)CO)O)O",
+"p2017": "CC(=O)N[C@@H](CS)C(=O)N[C@@H]1[C@H]([C@@H]([C@H](O[C@@H]1OC2[C@@H]([C@H](C([C@H]([C@H]2O)O)O)O)O)CO)O)O",
+"p235": "MQBCDKMPXVYCGO-FQBKTPCVSA-N"
+},
+{
+"item": {
+"value": "Q4382082",
+"label": "mycothiol"
+},
+"goid": "GO:0010125",
+"goLabel": "mycothiol biosynthetic process",
+"p233": "CC(=O)NC(CS)C(=O)NC1C(C(C(OC1OC2C(C(C(C(C2O)O)O)O)O)CO)O)O",
+"p2017": "CC(=O)N[C@@H](CS)C(=O)N[C@@H]1[C@H]([C@@H]([C@H](O[C@@H]1OC2[C@@H]([C@H](C([C@H]([C@H]2O)O)O)O)O)CO)O)O",
+"p235": "MQBCDKMPXVYCGO-MGQAWMCHSA-N"
+},
+{
+"item": {
+"value": "Q4383874",
+"label": "purine base"
+},
+"goid": "GO:0009113",
+"goLabel": "purine nucleobase biosynthetic process",
+"p233": "C1(NC(=NC=2NC=NC12)*)=*"
+},
+{
+"item": {
+"value": "Q4383874",
+"label": "purine base"
+},
+"goid": "GO:0043096",
+"goLabel": "purine nucleobase salvage",
+"p233": "C1(NC(=NC=2NC=NC12)*)=*"
+},
+{
+"item": {
+"value": "Q4625944",
+"label": "alditol"
+},
+"goid": "GO:0019401",
+"goLabel": "alditol biosynthetic process"
+},
+{
+"item": {
+"value": "Q4642879",
+"label": "7-methylguanosine ion"
+},
+"goid": "GO:0046118",
+"goLabel": "7-methylguanosine biosynthetic process",
+"p233": "CN1C=[N+](C2=C1C(=O)N=C(N2)N)C3C(C(C(O3)CO)O)O",
+"p2017": "CN1C=[N+](C2=C1C(=O)N=C(N2)N)[C@H]3[C@@H]([C@@H]([C@H](O3)CO)O)O",
+"p235": "OGHAROSJZRTIOK-KQYNXXCUSA-O"
+},
+{
+"item": {
+"value": "Q5201348",
+"label": "Cytochrome c family"
+},
+"goid": "GO:1903607",
+"goLabel": "cytochrome c biosynthetic process"
+},
+{
+"item": {
+"value": "Q5572367",
+"label": "glucuronoxylan"
+},
+"goid": "GO:0010417",
+"goLabel": "glucuronoxylan biosynthetic process"
+},
+{
+"item": {
+"value": "Q6634283",
+"label": "palmatine"
+},
+"goid": "GO:0035831",
+"goLabel": "palmatine biosynthetic process",
+"p233": "COC1=C(C2=C[N+]3=C(C=C2C=C1)C4=CC(=C(C=C4CC3)OC)OC)OC",
+"p235": "QUCQEUCGKKTEBI-UHFFFAOYSA-N"
+},
+{
+"item": {
+"value": "Q6985085",
+"label": "glycol"
+},
+"goid": "GO:0042845",
+"goLabel": "glycol biosynthetic process"
+},
+{
+"item": {
+"value": "Q7090308",
+"label": "ommochrome"
+},
+"goid": "GO:0006727",
+"goLabel": "ommochrome biosynthetic process"
+},
+{
+"item": {
+"value": "Q7187424",
+"label": "Phosphagen"
+},
+"goid": "GO:0042396",
+"goLabel": "phosphagen biosynthetic process"
+},
+{
+"item": {
+"value": "Q7226864",
+"label": "Polyprenol"
+},
+"goid": "GO:0016094",
+"goLabel": "polyprenol biosynthetic process"
+},
+{
+"item": {
+"value": "Q7256727",
+"label": "pterocarpan"
+},
+"goid": "GO:0009701",
+"goLabel": "isoflavonoid phytoalexin biosynthetic process",
+"p233": "[*]c1c([*])c([*])c2c(OC([*])([*])C3([*])c4c([*])c([*])c([*])c([*])c4OC23[*])c1[*]",
+"p8533": "c1ccc2c(c1)OCc1c-2oc2ccccc12"
+},
+{
+"item": {
+"value": "Q7263189",
+"label": "pyoverdine"
+},
+"goid": "GO:0002049",
+"goLabel": "pyoverdine biosynthetic process"
+},
+{
+"item": {
+"value": "Q7277281",
+"label": "ribonucleoside triphosphate"
+},
+"goid": "GO:0009201",
+"goLabel": "ribonucleoside triphosphate biosynthetic process"
+},
+{
+"item": {
+"value": "Q7279006",
+"label": "(±)-adrenaline"
+},
+"goid": "GO:0042418",
+"goLabel": "epinephrine biosynthetic process",
+"p233": "CNCC(C1=CC(=C(C=C1)O)O)O",
+"p235": "UCTWMZQNUQWSLP-UHFFFAOYSA-N"
+},
+{
+"item": {
+"value": "Q7844276",
+"label": "triterpenoid"
+},
+"goid": "GO:0016104",
+"goLabel": "triterpenoid biosynthetic process"
+},
+{
+"item": {
+"value": "Q8964351",
+"label": "cyanogenic glycoside"
+},
+"goid": "GO:0019756",
+"goLabel": "cyanogenic glycoside biosynthetic process"
+},
+{
+"item": {
+"value": "Q9154808",
+"label": "acetate ion"
+},
+"goid": "GO:0019385",
+"goLabel": "methanogenesis, from acetate",
+"p233": "CC(=O)[O-]",
+"p2017": "CC([O-])=O",
+"p235": "QTBSBXVTEAMEQO-UHFFFAOYSA-M"
+},
+{
+"item": {
+"value": "Q9154808",
+"label": "acetate ion"
+},
+"goid": "GO:0019413",
+"goLabel": "acetate biosynthetic process",
+"p233": "CC(=O)[O-]",
+"p2017": "CC([O-])=O",
+"p235": "QTBSBXVTEAMEQO-UHFFFAOYSA-M"
+},
+{
+"item": {
+"value": "Q9154808",
+"label": "acetate ion"
+},
+"goid": "GO:0019415",
+"goLabel": "acetate biosynthetic process from carbon monoxide",
+"p233": "CC(=O)[O-]",
+"p2017": "CC([O-])=O",
+"p235": "QTBSBXVTEAMEQO-UHFFFAOYSA-M"
+},
+{
+"item": {
+"value": "Q9154808",
+"label": "acetate ion"
+},
+"goid": "GO:0019427",
+"goLabel": "acetyl-CoA biosynthetic process from acetate",
+"p233": "CC(=O)[O-]",
+"p2017": "CC([O-])=O",
+"p235": "QTBSBXVTEAMEQO-UHFFFAOYSA-M"
+},
+{
+"item": {
+"value": "Q9154808",
+"label": "acetate ion"
+},
+"goid": "GO:0019687",
+"goLabel": "pyruvate biosynthetic process from acetate",
+"p233": "CC(=O)[O-]",
+"p2017": "CC([O-])=O",
+"p235": "QTBSBXVTEAMEQO-UHFFFAOYSA-M"
+},
+{
+"item": {
+"value": "Q10809118",
+"label": "mannose"
+},
+"goid": "GO:0019307",
+"goLabel": "mannose biosynthetic process"
+},
+{
+"item": {
+"value": "Q10809118",
+"label": "mannose"
+},
+"goid": "GO:0061728",
+"goLabel": "GDP-mannose biosynthetic process from mannose"
+},
+{
+"item": {
+"value": "Q11685373",
+"label": "alginate"
+},
+"goid": "GO:0042121",
+"goLabel": "alginic acid biosynthetic process"
+},
+{
+"item": {
+"value": "Q11797724",
+"label": "olefin"
+},
+"goid": "GO:1900674",
+"goLabel": "olefin biosynthetic process"
+},
+{
+"item": {
+"value": "Q12499775",
+"label": "nicotinamide adenine dinucleotide"
+},
+"goid": "GO:0009435",
+"goLabel": "NAD biosynthetic process"
+},
+{
+"item": {
+"value": "Q12499775",
+"label": "nicotinamide adenine dinucleotide"
+},
+"goid": "GO:0034355",
+"goLabel": "NAD salvage"
+},
+{
+"item": {
+"value": "Q16002885",
+"label": "aminoalkylindole"
+},
+"goid": "GO:0046219",
+"goLabel": "indolalkylamine biosynthetic process"
+},
+{
+"item": {
+"value": "Q16007012",
+"label": "xanthones"
+},
+"goid": "GO:2001307",
+"goLabel": "xanthone-containing compound biosynthetic process",
+"p8533": "O=c1c2ccccc2oc2ccccc12"
+},
+{
+"item": {
+"value": "Q19834818",
+"label": "aromatic compound"
+},
+"goid": "GO:0019438",
+"goLabel": "aromatic compound biosynthetic process",
+"p8533": "[a]"
+},
+{
+"item": {
+"value": "Q20986771",
+"label": "coumarin"
+},
+"goid": "GO:0009805",
+"goLabel": "coumarin biosynthetic process",
+"p8533": "c1ccc2ccc(=O)oc2c1"
+},
+{
+"item": {
+"value": "Q22082940",
+"label": "CDP-diacyl glycerol"
+},
+"goid": "GO:0016024",
+"goLabel": "CDP-diacylglycerol biosynthetic process"
+},
+{
+"item": {
+"value": "Q22965501",
+"label": "glycerolipid"
+},
+"goid": "GO:0045017",
+"goLabel": "glycerolipid biosynthetic process"
+},
+{
+"item": {
+"value": "Q24067397",
+"label": "long chain fatty acid"
+},
+"goid": "GO:0042759",
+"goLabel": "long-chain fatty acid biosynthetic process"
+},
+{
+"item": {
+"value": "Q24067404",
+"label": "medium-chain fatty acid"
+},
+"goid": "GO:0051792",
+"goLabel": "medium-chain fatty acid biosynthetic process"
+},
+{
+"item": {
+"value": "Q24577828",
+"label": "organic cyclic compound"
+},
+"goid": "GO:1901362",
+"goLabel": "organic cyclic compound biosynthetic process"
+},
+{
+"item": {
+"value": "Q24644552",
+"label": "amino-acid betaine"
+},
+"goid": "GO:0006578",
+"goLabel": "amino-acid betaine biosynthetic process"
+},
+{
+"item": {
+"value": "Q24745328",
+"label": "bradykinin"
+},
+"goid": "GO:0002936",
+"goLabel": "bradykinin biosynthetic process",
+"p233": "C1CC(N(C1)C(=O)C2CCCN2C(=O)C(CCCN=C(N)N)N)C(=O)NCC(=O)NC(CC3=CC=CC=C3)C(=O)NC(CO)C(=O)N4CCCC4C(=O)NC(CC5=CC=CC=C5)C(=O)NC(CCCN=C(N)N)C(=O)O",
+"p2017": "C1C[C@H](N(C1)C(=O)[C@@H]2CCCN2C(=O)[C@H](CCCN=C(N)N)N)C(=O)NCC(=O)N[C@@H](CC3=CC=CC=C3)C(=O)N[C@@H](CO)C(=O)N4CCC[C@H]4C(=O)N[C@@H](CC5=CC=CC=C5)C(=O)N[C@@H](CCCN=C(N)N)C(=O)O",
+"p235": "QXZGBUJJYSLZLT-FDISYFBBSA-N"
+},
+{
+"item": {
+"value": "Q26990366",
+"label": "stilbene"
+},
+"goid": "GO:0009811",
+"goLabel": "stilbene biosynthetic process",
+"p233": "C1=CC=C(C=C1)C=CC2=CC=CC=C2",
+"p235": "PJANXHGTPQOBST-UHFFFAOYSA-N"
+},
+{
+"item": {
+"value": "Q26997410",
+"label": "DL-serine"
+},
+"goid": "GO:2001310",
+"goLabel": "gliotoxin biosynthetic process",
+"p233": "C(C(C(=O)O)N)O",
+"p235": "MTCFGRXMJLQNBG-UHFFFAOYSA-N"
+},
+{
+"item": {
+"value": "Q27075054",
+"label": "benzoate"
+},
+"goid": "GO:0019597",
+"goLabel": "(R)-mandelate catabolic process to benzoate",
+"p233": "C1=CC=C(C=C1)C(=O)[O-]",
+"p235": "WPYMKLBDIGXBTP-UHFFFAOYSA-M"
+},
+{
+"item": {
+"value": "Q27077785",
+"label": "GDP-fucose"
+},
+"goid": "GO:0042350",
+"goLabel": "GDP-L-fucose biosynthetic process",
+"p233": "CC1C(C(C(C(O1)OP(=O)(O)OP(=O)(O)OCC2C(C(C(O2)N3C=NC4=C3NC(=NC4=O)N)O)O)O)O)O",
+"p2017": "C[C@H]1[C@H]([C@H]([C@@H](C(O1)OP(=O)(O)OP(=O)(O)OC[C@@H]2[C@H]([C@H]([C@@H](O2)N3C=NC4=C3NC(=NC4=O)N)O)O)O)O)O",
+"p235": "LQEBEXMHBLQMDB-QIXZNPMTSA-N"
+},
+{
+"item": {
+"value": "Q27077785",
+"label": "GDP-fucose"
+},
+"goid": "GO:0042352",
+"goLabel": "GDP-L-fucose salvage",
+"p233": "CC1C(C(C(C(O1)OP(=O)(O)OP(=O)(O)OCC2C(C(C(O2)N3C=NC4=C3NC(=NC4=O)N)O)O)O)O)O",
+"p2017": "C[C@H]1[C@H]([C@H]([C@@H](C(O1)OP(=O)(O)OP(=O)(O)OC[C@@H]2[C@H]([C@H]([C@@H](O2)N3C=NC4=C3NC(=NC4=O)N)O)O)O)O)O",
+"p235": "LQEBEXMHBLQMDB-QIXZNPMTSA-N"
+},
+{
+"item": {
+"value": "Q27088221",
+"label": "oxalate ion"
+},
+"goid": "GO:0033610",
+"goLabel": "oxalate biosynthetic process",
+"p233": "C(=O)(C(=O)[O-])[O-]",
+"p235": "MUBZPKHOEPUJKR-UHFFFAOYSA-L"
+},
+{
+"item": {
+"value": "Q27088368",
+"label": "phosphoethanolamine ion"
+},
+"goid": "GO:0033325",
+"goLabel": "choline biosynthetic process via phosphoryl-ethanolamine",
+"p233": "C(COP(=O)(O)[O-])N",
+"p235": "SUHOOTKUPISOBE-UHFFFAOYSA-M"
+},
+{
+"item": {
+"value": "Q27088368",
+"label": "phosphoethanolamine ion"
+},
+"goid": "GO:0070832",
+"goLabel": "phosphatidylcholine biosynthesis from phosphoryl-ethanolamine via N-dimethylethanolamine phosphate and CDP-choline",
+"p233": "C(COP(=O)(O)[O-])N",
+"p235": "SUHOOTKUPISOBE-UHFFFAOYSA-M"
+},
+{
+"item": {
+"value": "Q27088368",
+"label": "phosphoethanolamine ion"
+},
+"goid": "GO:0070833",
+"goLabel": "phosphatidylcholine biosynthesis from phosphoryl-ethanolamine via CDP-N-methylethanolamine",
+"p233": "C(COP(=O)(O)[O-])N",
+"p235": "SUHOOTKUPISOBE-UHFFFAOYSA-M"
+},
+{
+"item": {
+"value": "Q27088368",
+"label": "phosphoethanolamine ion"
+},
+"goid": "GO:0070834",
+"goLabel": "phosphatidylcholine biosynthesis from phosphoryl-ethanolamine via N-dimethylethanolamine phosphate and CDP-N-dimethylethanolamine",
+"p233": "C(COP(=O)(O)[O-])N",
+"p235": "SUHOOTKUPISOBE-UHFFFAOYSA-M"
+},
+{
+"item": {
+"value": "Q27088561",
+"label": "(R)-mevalonate"
+},
+"goid": "GO:0010142",
+"goLabel": "farnesyl diphosphate biosynthetic process, mevalonate pathway",
+"p233": "CC(CCO)(CC(=O)[O-])O",
+"p2017": "C[C@@](CCO)(CC(=O)[O-])O",
+"p235": "KJTLQQUUPVSXIM-ZCFIWIBFSA-M"
+},
+{
+"item": {
+"value": "Q27088561",
+"label": "(R)-mevalonate"
+},
+"goid": "GO:0019287",
+"goLabel": "isopentenyl diphosphate biosynthetic process, mevalonate pathway",
+"p233": "CC(CCO)(CC(=O)[O-])O",
+"p2017": "C[C@@](CCO)(CC(=O)[O-])O",
+"p235": "KJTLQQUUPVSXIM-ZCFIWIBFSA-M"
+},
+{
+"item": {
+"value": "Q27098305",
+"label": "UDP-D-apiose"
+},
+"goid": "GO:0033352",
+"goLabel": "UDP-D-apiose biosynthetic process",
+"p233": "C1C(C(C(O1)OP(=O)(O)OP(=O)(O)OCC2C(C(C(O2)N3C=CC(=O)NC3=O)O)O)O)(CO)O",
+"p2017": "C1[C@@]([C@H](C(O1)OP(=O)(O)OP(=O)(O)OC[C@@H]2[C@H]([C@H]([C@@H](O2)N3C=CC(=O)NC3=O)O)O)O)(CO)O",
+"p235": "SYVORCSTSYHSPN-NJYNAKMISA-N"
+},
+{
+"item": {
+"value": "Q27098336",
+"label": "D-lactate ion"
+},
+"goid": "GO:0019245",
+"goLabel": "D(-)-lactate biosynthetic process from pyruvate",
+"p233": "CC(C(=O)[O-])O",
+"p2017": "C[C@H](C(=O)[O-])O",
+"p235": "JVTAAEKCZFNVCJ-UWTATZPHSA-M"
+},
+{
+"item": {
+"value": "Q27098336",
+"label": "D-lactate ion"
+},
+"goid": "GO:0019248",
+"goLabel": "D-lactate biosynthetic process from methylglyoxal via (R)-lactaldehyde",
+"p233": "CC(C(=O)[O-])O",
+"p2017": "C[C@H](C(=O)[O-])O",
+"p235": "JVTAAEKCZFNVCJ-UWTATZPHSA-M"
+},
+{
+"item": {
+"value": "Q27098359",
+"label": "keto-3-deoxy-D-manno-octulosonate"
+},
+"goid": "GO:0019294",
+"goLabel": "keto-3-deoxy-D-manno-octulosonic acid biosynthetic process",
+"p233": "C(C(C(C(C(CO)O)O)O)O)C(=O)C(=O)[O-]",
+"p2017": "C([C@H]([C@H]([C@@H]([C@@H](CO)O)O)O)O)C(=O)C(=O)[O-]",
+"p235": "KYQCXUMVJGMDNG-SHUUEZRQSA-M"
+},
+{
+"item": {
+"value": "Q27101914",
+"label": "pantothenate"
+},
+"goid": "GO:0015940",
+"goLabel": "pantothenate biosynthetic process",
+"p233": "CC(C)(CO)C(C(=O)NCCC(=O)[O-])O",
+"p235": "GHOKWGTUZJEAQD-UHFFFAOYSA-M"
+},
+{
+"item": {
+"value": "Q27101914",
+"label": "pantothenate"
+},
+"goid": "GO:1990181",
+"goLabel": "acetyl-CoA biosynthetic process from pantothenate",
+"p233": "CC(C)(CO)C(C(=O)NCCC(=O)[O-])O",
+"p235": "GHOKWGTUZJEAQD-UHFFFAOYSA-M"
+},
+{
+"item": {
+"value": "Q27102012",
+"label": "UDP-N-acetyl-D-galactosamine"
+},
+"goid": "GO:0019277",
+"goLabel": "UDP-N-acetylgalactosamine biosynthetic process",
+"p233": "CC(=O)NC1C(C(C(OC1OP(=O)(O)OP(=O)(O)OCC2C(C(C(O2)N3C=CC(=O)NC3=O)O)O)CO)O)O",
+"p2017": "CC(=O)N[C@@H]1[C@H]([C@H]([C@H](OC1OP(=O)(O)OP(=O)(O)OC[C@@H]2[C@H]([C@H]([C@@H](O2)N3C=CC(=O)NC3=O)O)O)CO)O)O",
+"p235": "LFTYTUAZOPRMMI-LDDHHVEYSA-N"
+},
+{
+"item": {
+"value": "Q27102013",
+"label": "L-lactate ion"
+},
+"goid": "GO:0019246",
+"goLabel": "L(+)-lactate biosynthetic process from pyruvate",
+"p233": "CC(C(=O)[O-])O",
+"p2017": "C[C@@H](C(=O)[O-])O",
+"p235": "JVTAAEKCZFNVCJ-REOHCLBHSA-M"
+},
+{
+"item": {
+"value": "Q27102062",
+"label": "2-oxobutanoate"
+},
+"goid": "GO:0046360",
+"goLabel": "2-oxobutyrate biosynthetic process",
+"p233": "CCC(=O)C(=O)[O-]",
+"p235": "TYEYBOSBBBHJIV-UHFFFAOYSA-M"
+},
+{
+"item": {
+"value": "Q27102133",
+"label": "gallate"
+},
+"goid": "GO:0046189",
+"goLabel": "phenol-containing compound biosynthetic process",
+"p233": "C1=C(C=C(C(=C1O)O)O)C(=O)[O-]",
+"p235": "LNTHITQWFMADLM-UHFFFAOYSA-M"
+},
+{
+"item": {
+"value": "Q27102463",
+"label": "glycyrrhetinate"
+},
+"goid": "GO:1902386",
+"goLabel": "glycyrrhetinate biosynthetic process",
+"p233": "CC1(C2CCC3(C(C2(CCC1O)C)C(=O)C=C4C3(CCC5(C4CC(CC5)(C)C(=O)[O-])C)C)C)C",
+"p2017": "C[C@]12CC[C@](C[C@H]1C3=CC(=O)[C@@H]4[C@]5(CC[C@@H](C([C@@H]5CC[C@]4([C@@]3(CC2)C)C)(C)C)O)C)(C)C(=O)[O-]",
+"p235": "MPDGHEJMBKOTSU-YKLVYJNSSA-M"
+},
+{
+"item": {
+"value": "Q27102745",
+"label": "UDP-L-arabinose"
+},
+"goid": "GO:0033358",
+"goLabel": "UDP-L-arabinose biosynthetic process",
+"p233": "C1C(C(C(C(O1)OP(=O)(O)OP(=O)(O)OCC2C(C(C(O2)N3C=CC(=O)NC3=O)O)O)O)O)O",
+"p2017": "C1[C@@H]([C@@H]([C@H](C(O1)OP(=O)(O)OP(=O)(O)OC[C@@H]2[C@H]([C@H]([C@@H](O2)N3C=CC(=O)NC3=O)O)O)O)O)O",
+"p235": "DQQDLYVHOTZLOR-OKQNPRBNSA-N"
+},
+{
+"item": {
+"value": "Q27102782",
+"label": "GDP-L-galactose"
+},
+"goid": "GO:0033472",
+"goLabel": "GDP-L-galactose biosynthetic process",
+"p233": "C1=NC2=C(N1C3C(C(C(O3)COP(=O)(O)OP(=O)(O)OC4C(C(C(C(O4)CO)O)O)O)O)O)NC(=NC2=O)N",
+"p2017": "C1=NC2=C(N1[C@H]3[C@@H]([C@@H]([C@H](O3)COP(=O)(O)OP(=O)(O)OC4[C@H]([C@@H]([C@@H]([C@@H](O4)CO)O)O)O)O)O)NC(=NC2=O)N",
+"p235": "MVMSCBBUIHUTGJ-QIXZNPMTSA-N"
+},
+{
+"item": {
+"value": "Q27102910",
+"label": "DL-citrulline"
+},
+"goid": "GO:0019240",
+"goLabel": "citrulline biosynthetic process",
+"p233": "C(CC(C(=O)O)N)CNC(=O)N",
+"p235": "RHGKLRLOHDJJDR-UHFFFAOYSA-N"
+},
+{
+"item": {
+"value": "Q27102985",
+"label": "UDP-D-galactose"
+},
+"goid": "GO:0052574",
+"goLabel": "UDP-galactose biosynthetic process",
+"p233": "C1=CN(C(=O)NC1=O)C2C(C(C(O2)COP(=O)(O)OP(=O)(O)OC3C(C(C(C(O3)CO)O)O)O)O)O",
+"p2017": "C1=CN(C(=O)NC1=O)[C@H]2[C@@H]([C@@H]([C@H](O2)COP(=O)(O)OP(=O)(O)OC3[C@@H]([C@H]([C@H]([C@H](O3)CO)O)O)O)O)O",
+"p235": "HSCJRCZFDFQWRP-LNYDKVEPSA-N"
+},
+{
+"item": {
+"value": "Q27103201",
+"label": "DL-histidine"
+},
+"goid": "GO:0052704",
+"goLabel": "ergothioneine biosynthesis from histidine via gamma-glutamyl-hercynylcysteine sulfoxide",
+"p233": "C1=C(NC=N1)CC(C(=O)O)N",
+"p235": "HNDVDQJCIGZPNO-UHFFFAOYSA-N"
+},
+{
+"item": {
+"value": "Q27103394",
+"label": "DL-tryptophan"
+},
+"goid": "GO:0000162",
+"goLabel": "tryptophan biosynthetic process",
+"p233": "C1=CC=C2C(=C1)C(=CN2)CC(C(=O)O)N",
+"p235": "QIVBCDIJIAJPQS-UHFFFAOYSA-N"
+},
+{
+"item": {
+"value": "Q27103394",
+"label": "DL-tryptophan"
+},
+"goid": "GO:0006587",
+"goLabel": "serotonin biosynthetic process from tryptophan",
+"p233": "C1=CC=C2C(=C1)C(=CN2)CC(C(=O)O)N",
+"p235": "QIVBCDIJIAJPQS-UHFFFAOYSA-N"
+},
+{
+"item": {
+"value": "Q27103394",
+"label": "DL-tryptophan"
+},
+"goid": "GO:0019356",
+"goLabel": "nicotinate nucleotide biosynthetic process from tryptophan",
+"p233": "C1=CC=C2C(=C1)C(=CN2)CC(C(=O)O)N",
+"p235": "QIVBCDIJIAJPQS-UHFFFAOYSA-N"
+},
+{
+"item": {
+"value": "Q27103475",
+"label": "DL-phenylalanine"
+},
+"goid": "GO:0019293",
+"goLabel": "tyrosine biosynthetic process, by oxidation of phenylalanine",
+"p233": "C1=CC=C(C=C1)CC(C(=O)O)N",
+"p235": "COLNVLDHVKWLRT-UHFFFAOYSA-N"
+},
+{
+"item": {
+"value": "Q27103475",
+"label": "DL-phenylalanine"
+},
+"goid": "GO:2001310",
+"goLabel": "gliotoxin biosynthetic process",
+"p233": "C1=CC=C(C=C1)CC(C(=O)O)N",
+"p235": "COLNVLDHVKWLRT-UHFFFAOYSA-N"
+},
+{
+"item": {
+"value": "Q27103862",
+"label": "D-glycero-D-manno-heptose 7-phosphate"
+},
+"goid": "GO:2001061",
+"goLabel": "D-glycero-D-manno-heptose 7-phosphate biosynthetic process",
+"p233": "C(C(C1C(C(C(C(O1)O)O)O)O)O)OP(=O)(O)O",
+"p2017": "C([C@H]([C@@H]1[C@H]([C@@H]([C@@H](C(O1)O)O)O)O)O)OP(=O)(O)O",
+"p235": "SDADNVAZGVDAIM-NNPWBXLPSA-N"
+},
+{
+"item": {
+"value": "Q27103883",
+"label": "2-deoxy-D-ribose 1,5-bisphosphate"
+},
+"goid": "GO:0006017",
+"goLabel": "deoxyribose 1,5-bisphosphate biosynthetic process",
+"p233": "C1C(C(OC1OP(=O)(O)O)COP(=O)(O)O)O",
+"p2017": "C1[C@@H]([C@H](OC1OP(=O)(O)O)COP(=O)(O)O)O",
+"p235": "GBXLSZYXQQKEER-PYHARJCCSA-N"
+},
+{
+"item": {
+"value": "Q27104089",
+"label": "glycolate anion"
+},
+"goid": "GO:0046295",
+"goLabel": "glycolate biosynthetic process",
+"p233": "C(C(=O)[O-])O",
+"p235": "AEMRFAOFKBGASW-UHFFFAOYSA-M"
+},
+{
+"item": {
+"value": "Q27104212",
+"label": "(R)-mandelate"
+},
+"goid": "GO:0019597",
+"goLabel": "(R)-mandelate catabolic process to benzoate",
+"p233": "C1=CC=C(C=C1)C(C(=O)[O-])O",
+"p2017": "C1=CC=C(C=C1)[C@H](C(=O)[O-])O",
+"p235": "IWYDHOAUDWTVEP-SSDOTTSWSA-M"
+},
+{
+"item": {
+"value": "Q27104212",
+"label": "(R)-mandelate"
+},
+"goid": "GO:0019598",
+"goLabel": "(R)-mandelate catabolic process to catechol",
+"p233": "C1=CC=C(C=C1)C(C(=O)[O-])O",
+"p2017": "C1=CC=C(C=C1)[C@H](C(=O)[O-])O",
+"p235": "IWYDHOAUDWTVEP-SSDOTTSWSA-M"
+},
+{
+"item": {
+"value": "Q27104313",
+"label": "N-acetylneuraminate"
+},
+"goid": "GO:0046380",
+"goLabel": "N-acetylneuraminate biosynthetic process",
+"p233": "CC(=O)NC1C(CC(OC1C(C(CO)O)O)(C(=O)[O-])O)O",
+"p2017": "CC(=O)N[C@@H]1[C@H](CC(O[C@H]1[C@@H]([C@@H](CO)O)O)(C(=O)[O-])O)O",
+"p235": "SQVRNKJHWKZAKO-LUWBGTNYSA-M"
+},
+{
+"item": {
+"value": "Q27104376",
+"label": "glyoxylate"
+},
+"goid": "GO:0019265",
+"goLabel": "glycine biosynthetic process, by transamination of glyoxylate",
+"p233": "C(=O)C(=O)[O-]",
+"p235": "HHLFWLYXYJOTON-UHFFFAOYSA-M"
+},
+{
+"item": {
+"value": "Q27104380",
+"label": "alpha-pinene"
+},
+"goid": "GO:0046248",
+"goLabel": "alpha-pinene biosynthetic process",
+"p233": "CC1=CCC2CC1C2(C)C",
+"p235": "GRWFGVWFFZKLTI-UHFFFAOYSA-N"
+},
+{
+"item": {
+"value": "Q27104781",
+"label": "13-sophorosyloxydocosanoate 6',6''-diacetate"
+},
+"goid": "GO:0019435",
+"goLabel": "sophorosyloxydocosanoate biosynthetic process",
+"p233": "CCCCCCCCCC(CCCCCCCCCCCC(=O)O)OC1C(C(C(C(O1)COC(=O)C)O)O)OC2C(C(C(C(O2)COC(=O)C)O)O)O",
+"p2017": "CCCCCCCCCC(CCCCCCCCCCCC(=O)O)O[C@H]1[C@@H]([C@H]([C@@H]([C@H](O1)COC(=O)C)O)O)O[C@H]2[C@@H]([C@H]([C@@H]([C@H](O2)COC(=O)C)O)O)O",
+"p235": "LGIFCELMJBBHMO-SGQFWHNCSA-N"
+},
+{
+"item": {
+"value": "Q27106795",
+"label": "granaticin"
+},
+"goid": "GO:1901109",
+"goLabel": "granaticin biosynthetic process",
+"p233": "CC1(C2=C(C(C3=C(C2=O)C(=C4C(C5(CC(C4(C(C)(O5)[H])O)(O)[H])[H])=C3O)O)=O)C6(C(CC(=O)O6)(O1)[H])[H])[H]",
+"p2017": "CC1(C2=C(C(C3=C(C2=O)C(=C4C([C@]5(C[C@]([C@@]4([C@@](C)(O5)[H])O)(O)[H])[H])=C3O)O)=O)[C@]6([C@](CC(=O)O6)(O1)[H])[H])[H]",
+"p235": "QBQXQYSJPWXZJL-NWVAQQJZSA-N"
+},
+{
+"item": {
+"value": "Q27109419",
+"label": "O-(N-acetylglucosamine-1-phosphoryl)-L-serine"
+},
+"goid": "GO:0018425",
+"goLabel": "O3-(N-acetylglucosamine-1-phosphoryl)-L-serine biosynthetic process",
+"p233": "CC(=O)NC1C(C(C(OC1OP(=O)(O)OCC(C(=O)O)N)CO)O)O",
+"p2017": "CC(=O)N[C@@H]1[C@H]([C@@H]([C@H](OC1OP(=O)(O)OC[C@@H](C(=O)O)N)CO)O)O",
+"p235": "YEYDPVTWAXBSRT-LUWBGTNYSA-N"
+},
+{
+"item": {
+"value": "Q27109567",
+"label": "bis(molybdopterin guanine dinucleotide)molybdenum"
+},
+"goid": "GO:1902758",
+"goLabel": "bis(molybdopterin guanine dinucleotide)molybdenum biosynthetic process",
+"p233": "C1=NC2=C(N1C3C(C(C(O3)COP(=O)(O)OP(=O)(O)OCC4C(=C(C5C(O4)NC6=C(N5)C(=O)N=C(N6)N)[S-])[S-])O)O)NC(=NC2=O)N.C1=NC2=C(N1C3C(C(C(O3)COP(=O)(O)OP(=O)(O)OCC4C(=C(C5C(O4)NC6=C(N5)C(=O)N=C(N6)N)[S-])[S-])O)O)NC(=NC2=O)N.[Mo+4]",
+"p2017": "C1=NC2=C(N1[C@H]3[C@@H]([C@@H](C(O3)COP(=O)(O)OP(=O)(O)OCC4C(=C(C5C(O4)NC6=C(N5)C(=O)N=C(N6)N)[S-])[S-])O)O)NC(=NC2=O)N.C1=NC2=C(N1[C@H]3[C@@H]([C@@H](C(O3)COP(=O)(O)OP(=O)(O)OCC4C(=C(C5C(O4)NC6=C(N5)C(=O)N=C(N6)N)[S-])[S-])O)O)NC(=NC2=O)N.[Mo+4]",
+"p235": "SGPUIEVIARDFJO-SVGCHANLSA-J"
+},
+{
+"item": {
+"value": "Q27109755",
+"label": "cinnamate"
+},
+"goid": "GO:0009800",
+"goLabel": "cinnamic acid biosynthetic process",
+"p233": "C1=CC=C(C=C1)C=CC(=O)[O-]",
+"p235": "WBYWAXJHAXSJNI-UHFFFAOYSA-M"
+},
+{
+"item": {
+"value": "Q27109865",
+"label": "mandelate"
+},
+"goid": "GO:0046236",
+"goLabel": "mandelate biosynthetic process",
+"p233": "C1=CC=C(C=C1)C(C(=O)[O-])O",
+"p235": "IWYDHOAUDWTVEP-UHFFFAOYSA-M"
+},
+{
+"item": {
+"value": "Q27109935",
+"label": "trehalose"
+},
+"goid": "GO:0005992",
+"goLabel": "trehalose biosynthetic process",
+"p233": "C(C1C(C(C(C(O1)OC2C(C(C(C(O2)CO)O)O)O)O)O)O)O",
+"p2017": "C([C@@H]1[C@H]([C@@H]([C@H](C(O1)OC2[C@@H]([C@H]([C@@H]([C@H](O2)CO)O)O)O)O)O)O)O",
+"p235": "HDTRYLNUVZCQOY-MFAKQEFJSA-N"
+},
+{
+"item": {
+"value": "Q27110216",
+"label": "pyochelin"
+},
+"goid": "GO:0042864",
+"goLabel": "pyochelin biosynthetic process",
+"p233": "CN1C(CSC1(C2(CSC(C3=CC=CC=C3O)=N2)[H])[H])(C(=O)O)[H]",
+"p2017": "CN1[C@@](CSC1([C@]2(CSC(C3=CC=CC=C3O)=N2)[H])[H])(C(=O)O)[H]",
+"p235": "NYBZAGXTZXPYND-GDVCOKDOSA-N"
+},
+{
+"item": {
+"value": "Q27110355",
+"label": "glutamate(2-)"
+},
+"goid": "GO:0006537",
+"goLabel": "glutamate biosynthetic process",
+"p233": "C(CC(=O)[O-])C(C(=O)[O-])N",
+"p235": "WHUUTDBJXJRKMK-UHFFFAOYSA-L"
+},
+{
+"item": {
+"value": "Q27110355",
+"label": "glutamate(2-)"
+},
+"goid": "GO:0019353",
+"goLabel": "protoporphyrinogen IX biosynthetic process from glutamate",
+"p233": "C(CC(=O)[O-])C(C(=O)[O-])N",
+"p235": "WHUUTDBJXJRKMK-UHFFFAOYSA-L"
+},
+{
+"item": {
+"value": "Q27110355",
+"label": "glutamate(2-)"
+},
+"goid": "GO:0019554",
+"goLabel": "glutamate catabolic process to oxaloacetate",
+"p233": "C(CC(=O)[O-])C(C(=O)[O-])N",
+"p235": "WHUUTDBJXJRKMK-UHFFFAOYSA-L"
+},
+{
+"item": {
+"value": "Q27110355",
+"label": "glutamate(2-)"
+},
+"goid": "GO:0033526",
+"goLabel": "tetrapyrrole biosynthetic process from glutamate",
+"p233": "C(CC(=O)[O-])C(C(=O)[O-])N",
+"p235": "WHUUTDBJXJRKMK-UHFFFAOYSA-L"
+},
+{
+"item": {
+"value": "Q27110357",
+"label": "L-glutamate(2-)"
+},
+"goid": "GO:0097054",
+"goLabel": "L-glutamate biosynthetic process",
+"p233": "C(CC(=O)[O-])C(C(=O)[O-])N",
+"p2017": "C(CC(=O)[O-])[C@@H](C(=O)[O-])N",
+"p235": "WHUUTDBJXJRKMK-VKHMYHEASA-L"
+},
+{
+"item": {
+"value": "Q27124436",
+"label": "2-methylbutanoyl-CoA(4-)"
+},
+"goid": "GO:1902191",
+"goLabel": "2-methylbutanoyl-CoA(4-) biosynthetic process",
+"p233": "CCC(C)C(=O)SCCNC(=O)CCNC(=O)C(C(C)(C)COP(=O)([O-])OP(=O)([O-])OCC1C(C(C(O1)N2C=NC3=C2N=CN=C3N)O)OP(=O)([O-])[O-])O",
+"p2017": "CCC(C)C(=O)SCCNC(=O)CCNC(=O)[C@@H](C(C)(C)COP(=O)([O-])OP(=O)([O-])OC[C@@H]1[C@H]([C@H]([C@@H](O1)N2C=NC3=C2N=CN=C3N)O)OP(=O)([O-])[O-])O",
+"p235": "LYNVNYDEQMMNMZ-XGXNYEOVSA-J"
+},
+{
+"item": {
+"value": "Q27125430",
+"label": "L-arogenate(1-)"
+},
+"goid": "GO:0033584",
+"goLabel": "tyrosine biosynthetic process from chorismate via L-arogenate",
+"p233": "C1=CC(C=CC1O)(CC(C(=O)[O-])[NH3+])C(=O)[O-]",
+"p2017": "C1=CC(C=CC1O)(C[C@@H](C(=O)[O-])[NH3+])C(=O)[O-]",
+"p235": "MIEILDYWGANZNH-DSQUFTABSA-M"
+},
+{
+"item": {
+"value": "Q27125430",
+"label": "L-arogenate(1-)"
+},
+"goid": "GO:0033586",
+"goLabel": "L-phenylalanine biosynthetic process from chorismate via L-arogenate",
+"p233": "C1=CC(C=CC1O)(CC(C(=O)[O-])[NH3+])C(=O)[O-]",
+"p2017": "C1=CC(C=CC1O)(C[C@@H](C(=O)[O-])[NH3+])C(=O)[O-]",
+"p235": "MIEILDYWGANZNH-DSQUFTABSA-M"
+},
+{
+"item": {
+"value": "Q27129102",
+"label": "(3-aminopropyl)(L-aspartyl-1-amino)phosphoryl-5'-adenosine"
+},
+"goid": "GO:0046550",
+"goLabel": "(3-aminopropyl)(L-aspartyl-1-amino)phosphoryl-5'-adenosine biosynthetic process from asparagine",
+"p233": "C1=NC2=C(C(=N1)N)N=CN2C3C(C(C(O3)COP(=O)(NC(=O)C(CC(=O)O)N)OCCCN)O)O",
+"p2017": "C1=NC2=C(C(=N1)N)N=CN2[C@H]3[C@@H]([C@@H]([C@H](O3)COP(=O)(NC(=O)[C@H](CC(=O)O)N)OCCCN)O)O",
+"p235": "CBRVFFLBHDTTIM-AYDCQREWSA-N"
+},
+{
+"item": {
+"value": "Q27130542",
+"label": "UDP-rhamnose(2-)"
+},
+"goid": "GO:0010253",
+"goLabel": "UDP-rhamnose biosynthetic process",
+"p233": "CC1C(C(C(C(O1)OP(=O)([O-])OP(=O)([O-])OCC2C(C(C(O2)N3C=CC(=O)NC3=O)O)O)O)O)O",
+"p2017": "CC1C(C(C(C(O1)OP(=O)([O-])OP(=O)([O-])OC[C@@H]2[C@H]([C@H]([C@@H](O2)N3C=CC(=O)NC3=O)O)O)O)O)O",
+"p235": "DRDCJEIZVLVWNC-MJIHKOFYSA-L"
+},
+{
+"item": {
+"value": "Q27130826",
+"label": "dTDP-rhamnose"
+},
+"goid": "GO:0019305",
+"goLabel": "dTDP-rhamnose biosynthetic process",
+"p233": "CC1C(C(C(C(O1)OP(=O)(O)OP(=O)(O)OCC2C(CC(O2)N3C=C(C(=O)NC3=O)C)O)O)O)O",
+"p2017": "CC1C(C(C(C(O1)OP(=O)(O)OP(=O)(O)OC[C@@H]2[C@H](C[C@@H](O2)N3C=C(C(=O)NC3=O)C)O)O)O)O",
+"p235": "ZOSQFDVXNQFKBY-ZORVDHEWSA-N"
+},
+{
+"item": {
+"value": "Q27131050",
+"label": "achromobactin"
+},
+"goid": "GO:0042861",
+"goLabel": "achromobactin biosynthetic process",
+"p233": "C1CC(N(C1=O)CCOC(=O)CC(CC(=O)NCCC(C(=O)[O-])N2C(=O)CCC2(C(=O)[O-])O)(C(=O)[O-])O)(C(=O)[O-])O",
+"p2017": "C1CC(N(C1=O)CCOC(=O)C[C@](CC(=O)NCCC(C(=O)[O-])N2C(=O)CCC2(C(=O)[O-])O)(C(=O)[O-])O)(C(=O)[O-])O",
+"p235": "JIVPNYWQBCSFIL-MAVSXWESSA-J"
+},
+{
+"item": {
+"value": "Q27132296",
+"label": "discadenine(1-)"
+},
+"goid": "GO:0034268",
+"goLabel": "discadenine biosynthetic process",
+"p233": "CC(=CCNC1=C2C(=NC=N2)N(C=N1)CCC(C(=O)[O-])N)C",
+"p2017": "CC(=CCNC1=C2C(=NC=N2)N(C=N1)CC[C@@H](C(=O)[O-])N)C",
+"p235": "KGVAAXZLUAKZEO-JTQLQIEISA-M"
+},
+{
+"item": {
+"value": "Q27133332",
+"label": "(RS)-averantin"
+},
+"goid": "GO:1900763",
+"goLabel": "averantin biosynthetic process",
+"p233": "CCCCCC(C1=C(C=C2C(=C1O)C(=O)C3=C(C=C(C=C3C2=O)O)O)O)O",
+"p235": "WGPOPPKSQRZUTP-UHFFFAOYSA-N"
+},
+{
+"item": {
+"value": "Q27145376",
+"label": "D-galactopyranuronate"
+},
+"goid": "GO:0033482",
+"goLabel": "D-galacturonate biosynthetic process",
+"p233": "C1(C(C(OC(C1O)O)C(=O)[O-])O)O",
+"p2017": "[C@@H]1([C@H]([C@H](OC([C@@H]1O)O)C(=O)[O-])O)O",
+"p235": "AEMOLEFTQBMNLQ-YMDCURPLSA-M"
+},
+{
+"item": {
+"value": "Q27148119",
+"label": "hercynylcysteine sulfoxide"
+},
+"goid": "GO:1903253",
+"goLabel": "hercynylcysteine sulfoxide biosynthetic process",
+"p233": "C[N+](C)(C)C(CC1=CN=C(N1)S(=O)CC(C(=O)O)N)C(=O)[O-]",
+"p2017": "C[N+](C)(C)[C@@H](CC1=CN=C(N1)S(=O)C[C@@H](C(=O)O)N)C(=O)[O-]",
+"p235": "CSTNDZVKJNPMIG-PTZMPWRZSA-N"
+},
+{
+"item": {
+"value": "Q27893840",
+"label": "δ-carotene"
+},
+"goid": "GO:1901824",
+"goLabel": "delta-carotene biosynthetic process",
+"p233": "CC1=CCCC(C1C=CC(=CC=CC(=CC=CC=C(C)C=CC=C(C)C=CC=C(C)CCC=C(C)C)C)C)(C)C",
+"p2017": "CC1=CCCC(C1/C=C/C(=C/C=C/C(=C/C=C/C=C(\\C)/C=C/C=C(\\C)/C=C/C=C(\\C)/CCC=C(C)C)/C)/C)(C)C",
+"p235": "WGIYGODPCLMGQH-BXOLYSJBSA-N"
+},
+{
+"item": {
+"value": "Q27895931",
+"label": "DL-lactate ion"
+},
+"goid": "GO:0019244",
+"goLabel": "lactate biosynthetic process from pyruvate",
+"p233": "CC(C(=O)[O-])O",
+"p235": "JVTAAEKCZFNVCJ-UHFFFAOYSA-M"
+},
+{
+"item": {
+"value": "Q27895931",
+"label": "DL-lactate ion"
+},
+"goid": "GO:0019249",
+"goLabel": "lactate biosynthetic process",
+"p233": "CC(C(=O)[O-])O",
+"p235": "JVTAAEKCZFNVCJ-UHFFFAOYSA-M"
+},
+{
+"item": {
+"value": "Q28209819",
+"label": "Phytosteroid"
+},
+"goid": "GO:0016129",
+"goLabel": "phytosteroid biosynthetic process"
+},
+{
+"item": {
+"value": "Q28417815",
+"label": "acetate ester"
+},
+"goid": "GO:1900620",
+"goLabel": "acetate ester biosynthetic process",
+"p233": "CC(=O)O[*]"
+},
+{
+"item": {
+"value": "Q28529717",
+"label": "(DL)-selenocysteine"
+},
+"goid": "GO:0016260",
+"goLabel": "selenocysteine biosynthetic process",
+"p233": "NC(C[SeH])C(O)=O",
+"p235": "ZKZBPNGNEQAJSX-UHFFFAOYSA-N"
+},
+{
+"item": {
+"value": "Q29533415",
+"label": "poly(hydroxyvalerate)"
+},
+"goid": "GO:1902921",
+"goLabel": "poly(hydroxyvalerate) biosynthetic process"
+},
+{
+"item": {
+"value": "Q32907954",
+"label": "glucosamine"
+},
+"goid": "GO:0006042",
+"goLabel": "glucosamine biosynthetic process"
+},
+{
+"item": {
+"value": "Q33616143",
+"label": "fatty acyl-CoA"
+},
+"goid": "GO:0046949",
+"goLabel": "fatty-acyl-CoA biosynthetic process",
+"p2017": "CC(C)(COP(O)(=O)OP(O)(=O)OC[C@H]1O[C@H]([C@H](O)[C@@H]1OP(O)(O)=O)n1cnc2c(N)ncnc12)[C@@H](O)C(=O)NCCC(=O)NCCSC([*])=O"
+},
+{
+"item": {
+"value": "Q35662896",
+"label": "glucosylceramide"
+},
+"goid": "GO:0006679",
+"goLabel": "glucosylceramide biosynthetic process",
+"p2017": "OC[C@H]1OC(OC[C@H](NC([*])=O)[C@H](O)[*])[C@H](O)[C@@H](O)[C@@H]1O"
+},
+{
+"item": {
+"value": "Q38132290",
+"label": "D-glucuronate(1−)"
+},
+"goid": "GO:0042841",
+"goLabel": "D-glucuronate biosynthetic process"
+},
+{
+"item": {
+"value": "Q38132362",
+"label": "dolichyl diphosphate"
+},
+"goid": "GO:0006489",
+"goLabel": "dolichyl diphosphate biosynthetic process"
+},
+{
+"item": {
+"value": "Q38133763",
+"label": "dolichol (N)"
+},
+"goid": "GO:0019408",
+"goLabel": "dolichol biosynthetic process"
+},
+{
+"item": {
+"value": "Q38134329",
+"label": "2'-deoxyribonucleoside triphosphate"
+},
+"goid": "GO:0009202",
+"goLabel": "deoxyribonucleoside triphosphate biosynthetic process"
+},
+{
+"item": {
+"value": "Q38135257",
+"label": "nucleoside diphosphate"
+},
+"goid": "GO:0009133",
+"goLabel": "nucleoside diphosphate biosynthetic process",
+"p2017": "O[C@H]1[C@H]([*])O[C@H](COP(O)(=O)OP(O)(O)=O)[C@H]1O"
+},
+{
+"item": {
+"value": "Q38176423",
+"label": "D-ribose"
+},
+"goid": "GO:0019302",
+"goLabel": "D-ribose biosynthetic process"
+},
+{
+"item": {
+"value": "Q39902949",
+"label": "SM(d18:1)"
+},
+"goid": "GO:0006686",
+"goLabel": "sphingomyelin biosynthetic process",
+"p2017": "O=P(OCC[N+](C)(C)C)(OC[C@H](NC(*)=O)[C@@H](/C=C/CCCCCCCCCCCCC)O)[O-]"
+},
+{
+"item": {
+"value": "Q40211011",
+"label": "heparins"
+},
+"goid": "GO:0030210",
+"goLabel": "heparin biosynthetic process"
+},
+{
+"item": {
+"value": "Q45355603",
+"label": "aminoglycoside antibiotic"
+},
+"goid": "GO:0030648",
+"goLabel": "aminoglycoside antibiotic biosynthetic process"
+},
+{
+"item": {
+"value": "Q46218311",
+"label": "molybdopterin cofactor"
+},
+"goid": "GO:0032324",
+"goLabel": "molybdopterin cofactor biosynthetic process"
+},
+{
+"item": {
+"value": "Q46219052",
+"label": "nicotinamide nucleotide"
+},
+"goid": "GO:0019355",
+"goLabel": "nicotinamide nucleotide biosynthetic process from aspartate"
+},
+{
+"item": {
+"value": "Q46219052",
+"label": "nicotinamide nucleotide"
+},
+"goid": "GO:0019359",
+"goLabel": "nicotinamide nucleotide biosynthetic process"
+},
+{
+"item": {
+"value": "Q46219052",
+"label": "nicotinamide nucleotide"
+},
+"goid": "GO:0019360",
+"goLabel": "nicotinamide nucleotide biosynthetic process from niacinamide"
+},
+{
+"item": {
+"value": "Q46220684",
+"label": "phosphatidylinositol 3-phosphate"
+},
+"goid": "GO:0036092",
+"goLabel": "phosphatidylinositol-3-phosphate biosynthetic process"
+},
+{
+"item": {
+"value": "Q46222910",
+"label": "thiamine"
+},
+"goid": "GO:0042724",
+"goLabel": "thiamine-containing compound biosynthetic process"
+},
+{
+"item": {
+"value": "Q46223777",
+"label": "xylulose"
+},
+"goid": "GO:0005999",
+"goLabel": "xylulose biosynthetic process"
+},
+{
+"item": {
+"value": "Q46224863",
+"label": "tetrahydrofolyl-poly(glutamic acid) macromolecule"
+},
+"goid": "GO:0046901",
+"goLabel": "tetrahydrofolylpolyglutamate biosynthetic process"
+},
+{
+"item": {
+"value": "Q47006360",
+"label": "monoterpenoid"
+},
+"goid": "GO:0016099",
+"goLabel": "monoterpenoid biosynthetic process"
+},
+{
+"item": {
+"value": "Q47006367",
+"label": "diterpenoid"
+},
+"goid": "GO:0016102",
+"goLabel": "diterpenoid biosynthetic process"
+},
+{
+"item": {
+"value": "Q47006373",
+"label": "sesquiterpenoid"
+},
+"goid": "GO:0016106",
+"goLabel": "sesquiterpenoid biosynthetic process"
+},
+{
+"item": {
+"value": "Q47006386",
+"label": "tetraterpenoid"
+},
+"goid": "GO:0016109",
+"goLabel": "tetraterpenoid biosynthetic process"
+},
+{
+"item": {
+"value": "Q47006396",
+"label": "polyterpenoids"
+},
+"goid": "GO:0016112",
+"goLabel": "polyterpenoid biosynthetic process"
+},
+{
+"item": {
+"value": "Q47069735",
+"label": "pyrimidines"
+},
+"goid": "GO:0008655",
+"goLabel": "pyrimidine-containing compound salvage",
+"p8533": "c1ccncn1"
+},
+{
+"item": {
+"value": "Q47069735",
+"label": "pyrimidines"
+},
+"goid": "GO:0072528",
+"goLabel": "pyrimidine-containing compound biosynthetic process",
+"p8533": "c1ccncn1"
+},
+{
+"item": {
+"value": "Q47317020",
+"label": "pyridines"
+},
+"goid": "GO:0072525",
+"goLabel": "pyridine-containing compound biosynthetic process"
+},
+{
+"item": {
+"value": "Q49873787",
+"label": "ergotamines"
+},
+"goid": "GO:0035837",
+"goLabel": "ergot alkaloid biosynthetic process"
+},
+{
+"item": {
+"value": "Q49922434",
+"label": "xanthines"
+},
+"goid": "GO:0046111",
+"goLabel": "xanthine biosynthetic process"
+},
+{
+"item": {
+"value": "Q50362394",
+"label": "5'-xanthylic acid"
+},
+"goid": "GO:0032265",
+"goLabel": "XMP salvage",
+"p233": "O=P(O)(O)OCC1OC(N2C=NC=3C(O)=NC(O)=NC32)C(O)C1O",
+"p2017": "O[C@@H]1[C@@H](COP(O)(O)=O)O[C@H]([C@@H]1O)n1cnc2c1[nH]c(=O)[nH]c2=O",
+"p235": "DCTLYFZHFGENCW-UUOKFMHZSA-N"
+},
+{
+"item": {
+"value": "Q50362394",
+"label": "5'-xanthylic acid"
+},
+"goid": "GO:0097293",
+"goLabel": "XMP biosynthetic process",
+"p233": "O=P(O)(O)OCC1OC(N2C=NC=3C(O)=NC(O)=NC32)C(O)C1O",
+"p2017": "O[C@@H]1[C@@H](COP(O)(O)=O)O[C@H]([C@@H]1O)n1cnc2c1[nH]c(=O)[nH]c2=O",
+"p235": "DCTLYFZHFGENCW-UUOKFMHZSA-N"
+},
+{
+"item": {
+"value": "Q55503523",
+"label": "cyanate anion"
+},
+"goid": "GO:0046201",
+"goLabel": "cyanate biosynthetic process",
+"p233": "C(#N)[O-]",
+"p235": "XLJMAIOERFSOGZ-UHFFFAOYSA-M"
+},
+{
+"item": {
+"value": "Q55525180",
+"label": "carboxylate anion"
+},
+"goid": "GO:0046394",
+"goLabel": "carboxylic acid biosynthetic process",
+"p233": "[O-]C([*])=O"
+},
+{
+"item": {
+"value": "Q55579895",
+"label": "formate anion"
+},
+"goid": "GO:0015943",
+"goLabel": "formate biosynthetic process",
+"p233": "C(=O)[O-]",
+"p235": "BDAGIHXWWSANSR-UHFFFAOYSA-M"
+},
+{
+"item": {
+"value": "Q55579895",
+"label": "formate anion"
+},
+"goid": "GO:2001127",
+"goLabel": "methane biosynthetic process from formic acid",
+"p233": "C(=O)[O-]",
+"p235": "BDAGIHXWWSANSR-UHFFFAOYSA-M"
+},
+{
+"item": {
+"value": "Q55582441",
+"label": "butyrate"
+},
+"goid": "GO:0044581",
+"goLabel": "butyryl-CoA catabolic process to butyrate",
+"p233": "CCCC(=O)[O-]",
+"p235": "FERIUCNNQQJTOY-UHFFFAOYSA-M"
+},
+{
+"item": {
+"value": "Q55582441",
+"label": "butyrate"
+},
+"goid": "GO:0046358",
+"goLabel": "butyrate biosynthetic process",
+"p233": "CCCC(=O)[O-]",
+"p235": "FERIUCNNQQJTOY-UHFFFAOYSA-M"
+},
+{
+"item": {
+"value": "Q55698578",
+"label": "indoles"
+},
+"goid": "GO:0042435",
+"goLabel": "indole-containing compound biosynthetic process"
+},
+{
+"item": {
+"value": "Q55710195",
+"label": "enterobacterial common antigen"
+},
+"goid": "GO:0009246",
+"goLabel": "enterobacterial common antigen biosynthetic process"
+},
+{
+"item": {
+"value": "Q55739694",
+"label": "organonitrogen compound"
+},
+"goid": "GO:1901566",
+"goLabel": "organonitrogen compound biosynthetic process",
+"p8533": "[#6][#7]"
+},
+{
+"item": {
+"value": "Q56071634",
+"label": "S-Adenosylmethionine (1+, protonated carboxy group)"
+},
+"goid": "GO:0006556",
+"goLabel": "S-adenosylmethionine biosynthetic process",
+"p233": "C[S+](CCC(C(=O)O)N)CC1C(C(C(O1)N2C=NC3=C2N=CN=C3N)O)O",
+"p2017": "C[S+](CC[C@@H](C(=O)O)N)C[C@@H]1[C@H]([C@H]([C@@H](O1)N2C=NC3=C2N=CN=C3N)O)O",
+"p235": "MEFKEPWMEQBLKI-AIRLBKTGSA-O"
+},
+{
+"item": {
+"value": "Q56229948",
+"label": "α/β-lactose"
+},
+"goid": "GO:0005989",
+"goLabel": "lactose biosynthetic process",
+"p233": "C(C1C(C(C(C(O1)OC2C(OC(C(C2O)O)O)CO)O)O)O)O",
+"p2017": "C([C@@H]1[C@@H]([C@@H]([C@H]([C@@H](O1)O[C@@H]2[C@H](OC([C@@H]([C@H]2O)O)O)CO)O)O)O)O",
+"p235": "GUBGYTABKSRVRQ-QKKXKWKRSA-N"
+},
+{
+"item": {
+"value": "Q56697247",
+"label": "(±)-nicotine"
+},
+"goid": "GO:0042179",
+"goLabel": "nicotine biosynthetic process"
+},
+{
+"item": {
+"value": "Q56702530",
+"label": "tartrate salt"
+},
+"goid": "GO:1901277",
+"goLabel": "tartrate biosynthetic process"
+},
+{
+"item": {
+"value": "Q60194891",
+"label": "farnesol"
+},
+"goid": "GO:0006715",
+"goLabel": "farnesol biosynthetic process",
+"p233": "OCC=C(C)CCC=C(C)CCC=C(C)C",
+"p235": "CRDAMVZIKSXKFV-UHFFFAOYSA-N"
+},
+{
+"item": {
+"value": "Q60213509",
+"label": "Sec-tRNA(Sec)"
+},
+"goid": "GO:0097056",
+"goLabel": "selenocysteinyl-tRNA(Sec) biosynthetic process"
+},
+{
+"item": {
+"value": "Q60662693",
+"label": "DL-isoleucine"
+},
+"goid": "GO:0009097",
+"goLabel": "isoleucine biosynthetic process",
+"p233": "CC[CH](C)[CH](N)C(O)=O"
+},
+{
+"item": {
+"value": "Q60998692",
+"label": "farnesyl diphosphate"
+},
+"goid": "GO:0010142",
+"goLabel": "farnesyl diphosphate biosynthetic process, mevalonate pathway",
+"p233": "CC(C)=CCCC(C)=CCCC(C)=CCOP(O)(=O)OP(O)(O)=O",
+"p235": "VWFJDQUYCIWHTN-UHFFFAOYSA-N"
+},
+{
+"item": {
+"value": "Q60998692",
+"label": "farnesyl diphosphate"
+},
+"goid": "GO:0045337",
+"goLabel": "farnesyl diphosphate biosynthetic process",
+"p233": "CC(C)=CCCC(C)=CCCC(C)=CCOP(O)(=O)OP(O)(O)=O",
+"p235": "VWFJDQUYCIWHTN-UHFFFAOYSA-N"
+},
+{
+"item": {
+"value": "Q61653285",
+"label": "Candicidin"
+},
+"goid": "GO:1901127",
+"goLabel": "candicidin biosynthetic process"
+},
+{
+"item": {
+"value": "Q61738075",
+"label": "fructose"
+},
+"goid": "GO:0046370",
+"goLabel": "fructose biosynthetic process"
+},
+{
+"item": {
+"value": "Q61738980",
+"label": "monounsaturated fatty acid"
+},
+"goid": "GO:1903966",
+"goLabel": "monounsaturated fatty acid biosynthetic process"
+},
+{
+"item": {
+"value": "Q61740158",
+"label": "tyrocidine"
+},
+"goid": "GO:1901904",
+"goLabel": "tyrocidine biosynthetic process"
+},
+{
+"item": {
+"value": "Q63399306",
+"label": "cyanidin 3-O-β-D-glucoside"
+},
+"goid": "GO:0033485",
+"goLabel": "cyanidin 3-O-glucoside biosynthetic process",
+"p233": "OC=1C=C(O)C=2C=C(OC3OC(CO)C(O)C(O)C3O)C(=[O+]C2C1)C=4C=CC(O)=C(O)C4",
+"p2017": "C1=CC(=C(C=C1C2=C(C=C3C(=CC(=CC3=[O+]2)O)O)O[C@H]4[C@@H]([C@H]([C@@H]([C@H](O4)CO)O)O)O)O)O",
+"p235": "RKWHWFONKJEUEF-GQUPQBGVSA-O"
+},
+{
+"item": {
+"value": "Q64698788",
+"label": "carbohydrate derivative"
+},
+"goid": "GO:1901137",
+"goLabel": "carbohydrate derivative biosynthetic process"
+},
+{
+"item": {
+"value": "Q65966165",
+"label": "folic acids"
+},
+"goid": "GO:0009396",
+"goLabel": "folic acid-containing compound biosynthetic process"
+},
+{
+"item": {
+"value": "Q66000256",
+"label": "phosphatidic acid"
+},
+"goid": "GO:0006654",
+"goLabel": "phosphatidic acid biosynthetic process",
+"p233": "OP(O)(=O)OCC(COC([*])=O)OC([*])=O"
+},
+{
+"item": {
+"value": "Q66589586",
+"label": "N-acetylglucosamine"
+},
+"goid": "GO:0006045",
+"goLabel": "N-acetylglucosamine biosynthetic process"
+},
+{
+"item": {
+"value": "Q66589589",
+"label": "fucose"
+},
+"goid": "GO:0042353",
+"goLabel": "fucose biosynthetic process"
+},
+{
+"item": {
+"value": "Q66589593",
+"label": "galactose"
+},
+"goid": "GO:0046369",
+"goLabel": "galactose biosynthetic process"
+},
+{
+"item": {
+"value": "Q66589595",
+"label": "glucitol"
+},
+"goid": "GO:0006061",
+"goLabel": "sorbitol biosynthetic process",
+"p233": "C(C(C(C(C(CO)O)O)O)O)O"
+},
+{
+"item": {
+"value": "Q66589596",
+"label": "glucosamine derivative"
+},
+"goid": "GO:1901073",
+"goLabel": "glucosamine-containing compound biosynthetic process"
+},
+{
+"item": {
+"value": "Q66589602",
+"label": "rhamnose"
+},
+"goid": "GO:0019300",
+"goLabel": "rhamnose biosynthetic process"
+},
+{
+"item": {
+"value": "Q66589633",
+"label": "heparan sulfate proteoglycans"
+},
+"goid": "GO:0015012",
+"goLabel": "heparan sulfate proteoglycan biosynthetic process"
+},
+{
+"item": {
+"value": "Q67710711",
+"label": "purine nucleosides"
+},
+"goid": "GO:0042451",
+"goLabel": "purine nucleoside biosynthetic process"
+},
+{
+"item": {
+"value": "Q67717431",
+"label": "purine nucleotides"
+},
+"goid": "GO:0006164",
+"goLabel": "purine nucleotide biosynthetic process"
+},
+{
+"item": {
+"value": "Q67717431",
+"label": "purine nucleotides"
+},
+"goid": "GO:0032261",
+"goLabel": "purine nucleotide salvage"
+},
+{
+"item": {
+"value": "Q71152995",
+"label": "glycosyl compound"
+},
+"goid": "GO:1901659",
+"goLabel": "glycosyl compound biosynthetic process"
+},
+{
+"item": {
+"value": "Q71236852",
+"label": "purine ribonucleotide"
+},
+"goid": "GO:0009152",
+"goLabel": "purine ribonucleotide biosynthetic process"
+},
+{
+"item": {
+"value": "Q71238293",
+"label": "purine nucleoside bisphosphate"
+},
+"goid": "GO:0034033",
+"goLabel": "purine nucleoside bisphosphate biosynthetic process"
+},
+{
+"item": {
+"value": "Q71238550",
+"label": "nucleoside bisphosphate"
+},
+"goid": "GO:0033866",
+"goLabel": "nucleoside bisphosphate biosynthetic process"
+},
+{
+"item": {
+"value": "Q71238850",
+"label": "nucleoside phosphate"
+},
+"goid": "GO:1901293",
+"goLabel": "nucleoside phosphate biosynthetic process"
+},
+{
+"item": {
+"value": "Q71239519",
+"label": "ribonucleoside bisphosphate"
+},
+"goid": "GO:0034030",
+"goLabel": "ribonucleoside bisphosphate biosynthetic process"
+},
+{
+"item": {
+"value": "Q71240623",
+"label": "arabinose"
+},
+"goid": "GO:0019567",
+"goLabel": "arabinose biosynthetic process"
+},
+{
+"item": {
+"value": "Q71243424",
+"label": "pteridine"
+},
+"goid": "GO:0042559",
+"goLabel": "pteridine-containing compound biosynthetic process",
+"p8533": "c1cnc2c(n1)cncn2"
+},
+{
+"item": {
+"value": "Q71294861",
+"label": "monocarboxylic acid anion"
+},
+"goid": "GO:0072330",
+"goLabel": "monocarboxylic acid biosynthetic process",
+"p233": "[O-]C([*])=O"
+},
+{
+"item": {
+"value": "Q71375801",
+"label": "glycosinolate"
+},
+"goid": "GO:0019758",
+"goLabel": "glycosinolate biosynthetic process"
+},
+{
+"item": {
+"value": "Q71377943",
+"label": "sulfur molecular entity"
+},
+"goid": "GO:0044272",
+"goLabel": "sulfur compound biosynthetic process"
+},
+{
+"item": {
+"value": "Q71381967",
+"label": "hexitol"
+},
+"goid": "GO:0019406",
+"goLabel": "hexitol biosynthetic process"
+},
+{
+"item": {
+"value": "Q71419357",
+"label": "organic hydroxy compound"
+},
+"goid": "GO:1901617",
+"goLabel": "organic hydroxy compound biosynthetic process",
+"p8533": "[OX2H1][#6]"
+},
+{
+"item": {
+"value": "Q71563137",
+"label": "peptide antibiotic"
+},
+"goid": "GO:0030651",
+"goLabel": "peptide antibiotic biosynthetic process"
+},
+{
+"item": {
+"value": "Q71573087",
+"label": "sulfur-containing amino acid"
+},
+"goid": "GO:0000097",
+"goLabel": "sulfur amino acid biosynthetic process"
+},
+{
+"item": {
+"value": "Q71575539",
+"label": "tricarboxylic acid anion"
+},
+"goid": "GO:0072351",
+"goLabel": "tricarboxylic acid biosynthetic process"
+},
+{
+"item": {
+"value": "Q71590451",
+"label": "hepoxilins"
+},
+"goid": "GO:0051122",
+"goLabel": "hepoxilin biosynthetic process"
+},
+{
+"item": {
+"value": "Q71653081",
+"label": "fatty acid anion"
+},
+"goid": "GO:0006633",
+"goLabel": "fatty acid biosynthetic process",
+"p233": "[O-]C([*])=O"
+},
+{
+"item": {
+"value": "Q71655527",
+"label": "flavin"
+},
+"goid": "GO:0042727",
+"goLabel": "flavin-containing compound biosynthetic process",
+"p233": "Cc1cc2nc3c(nc(=O)[nH]c3=O)n([*])c2cc1C"
+},
+{
+"item": {
+"value": "Q71940325",
+"label": "polyphosphate ion"
+},
+"goid": "GO:0006799",
+"goLabel": "polyphosphate biosynthetic process"
+},
+{
+"item": {
+"value": "Q71955447",
+"label": "amino-acid anion"
+},
+"goid": "GO:0008652",
+"goLabel": "cellular amino acid biosynthetic process"
+},
+{
+"item": {
+"value": "Q71955447",
+"label": "amino-acid anion"
+},
+"goid": "GO:0043102",
+"goLabel": "amino acid salvage"
+},
+{
+"item": {
+"value": "Q71956349",
+"label": "catechol"
+},
+"goid": "GO:0009713",
+"goLabel": "catechol-containing compound biosynthetic process",
+"p233": "OC1=C(O)C(*)=C(*)C(*)=C1*"
+},
+{
+"item": {
+"value": "Q72045739",
+"label": "alpha-amino acid"
+},
+"goid": "GO:1901607",
+"goLabel": "alpha-amino acid biosynthetic process",
+"p233": "NC([*])C(O)=O"
+},
+{
+"item": {
+"value": "Q72046746",
+"label": "aldonate"
+},
+"goid": "GO:0046175",
+"goLabel": "aldonic acid biosynthetic process"
+},
+{
+"item": {
+"value": "Q72077521",
+"label": "dicarboxylic acid anion"
+},
+"goid": "GO:0043650",
+"goLabel": "dicarboxylic acid biosynthetic process"
+},
+{
+"item": {
+"value": "Q72146895",
+"label": "purine ribonucleoside triphosphate"
+},
+"goid": "GO:0009206",
+"goLabel": "purine ribonucleoside triphosphate biosynthetic process"
+},
+{
+"item": {
+"value": "Q72148384",
+"label": "purine nucleoside triphosphate"
+},
+"goid": "GO:0009145",
+"goLabel": "purine nucleoside triphosphate biosynthetic process"
+},
+{
+"item": {
+"value": "Q72152108",
+"label": "organic phosphonate"
+},
+"goid": "GO:0032923",
+"goLabel": "organic phosphonate biosynthetic process",
+"p8533": "P(=[OX1])([#6])(O)O"
+},
+{
+"item": {
+"value": "Q72152628",
+"label": "allose"
+},
+"goid": "GO:0046366",
+"goLabel": "allose biosynthetic process"
+},
+{
+"item": {
+"value": "Q72175414",
+"label": "primary amine"
+},
+"goid": "GO:1901162",
+"goLabel": "primary amino compound biosynthetic process",
+"p8533": "[NX3;H2;!$(NC=[!#6]);!$(NC#[!#6])][#6]"
+},
+{
+"item": {
+"value": "Q72180630",
+"label": "fatty acid derivative"
+},
+"goid": "GO:1901570",
+"goLabel": "fatty acid derivative biosynthetic process"
+},
+{
+"item": {
+"value": "Q72181734",
+"label": "icosanoid anion"
+},
+"goid": "GO:0046456",
+"goLabel": "icosanoid biosynthetic process"
+},
+{
+"item": {
+"value": "Q72182395",
+"label": "prostanoid anion"
+},
+"goid": "GO:0046457",
+"goLabel": "prostanoid biosynthetic process"
+},
+{
+"item": {
+"value": "Q72182580",
+"label": "unsaturated fatty acid anion"
+},
+"goid": "GO:0006636",
+"goLabel": "unsaturated fatty acid biosynthetic process"
+},
+{
+"item": {
+"value": "Q72183598",
+"label": "S-glycosyl compound"
+},
+"goid": "GO:0016144",
+"goLabel": "S-glycoside biosynthetic process"
+},
+{
+"item": {
+"value": "Q72185287",
+"label": "flavonoid"
+},
+"goid": "GO:0009813",
+"goLabel": "flavonoid biosynthetic process"
+},
+{
+"item": {
+"value": "Q72189084",
+"label": "amino acid derivative"
+},
+"goid": "GO:0042398",
+"goLabel": "cellular modified amino acid biosynthetic process"
+},
+{
+"item": {
+"value": "Q72189814",
+"label": "aminoglycan"
+},
+"goid": "GO:0006023",
+"goLabel": "aminoglycan biosynthetic process"
+},
+{
+"item": {
+"value": "Q72296281",
+"label": "gentamycin"
+},
+"goid": "GO:1901130",
+"goLabel": "gentamycin biosynthetic process"
+},
+{
+"item": {
+"value": "Q72557197",
+"label": "cinnamate ester"
+},
+"goid": "GO:0009802",
+"goLabel": "cinnamic acid ester biosynthetic process",
+"p8533": "[$([cX3H1]),$([cX3H0]O)]1[$([cX3H1]),$([cX3H0]O)]cc([CR0]=[CR0]C(=O)[OX2H0])c[$([cX3H1]),$([cX3H0]O)]1"
+},
+{
+"item": {
+"value": "Q72835909",
+"label": "methyl-branched fatty acid"
+},
+"goid": "GO:1902321",
+"goLabel": "methyl-branched fatty acid biosynthetic process"
+},
+{
+"item": {
+"value": "Q73101762",
+"label": "pyrimidine nucleoside"
+},
+"goid": "GO:0043097",
+"goLabel": "pyrimidine nucleoside salvage"
+},
+{
+"item": {
+"value": "Q73101762",
+"label": "pyrimidine nucleoside"
+},
+"goid": "GO:0046134",
+"goLabel": "pyrimidine nucleoside biosynthetic process"
+},
+{
+"item": {
+"value": "Q73146965",
+"label": "ribose phosphate"
+},
+"goid": "GO:0046390",
+"goLabel": "ribose phosphate biosynthetic process"
+},
+{
+"item": {
+"value": "Q73225012",
+"label": "glycosylphosphatidylinositol"
+},
+"goid": "GO:0006506",
+"goLabel": "GPI anchor biosynthetic process"
+},
+{
+"item": {
+"value": "Q73225012",
+"label": "glycosylphosphatidylinositol"
+},
+"goid": "GO:0018265",
+"goLabel": "GPI anchor biosynthetic process via N-asparaginyl-glycosylphosphatidylinositolethanolamine"
+},
+{
+"item": {
+"value": "Q73225012",
+"label": "glycosylphosphatidylinositol"
+},
+"goid": "GO:0018266",
+"goLabel": "GPI anchor biosynthetic process via N-aspartyl-glycosylphosphatidylinositolethanolamine"
+},
+{
+"item": {
+"value": "Q73225012",
+"label": "glycosylphosphatidylinositol"
+},
+"goid": "GO:0018267",
+"goLabel": "GPI anchor biosynthetic process via N-cysteinyl-glycosylphosphatidylinositolethanolamine"
+},
+{
+"item": {
+"value": "Q73225012",
+"label": "glycosylphosphatidylinositol"
+},
+"goid": "GO:0018268",
+"goLabel": "GPI anchor biosynthetic process via N-glycyl-glycosylphosphatidylinositolethanolamine"
+},
+{
+"item": {
+"value": "Q73225012",
+"label": "glycosylphosphatidylinositol"
+},
+"goid": "GO:0018269",
+"goLabel": "GPI anchor biosynthetic process via N-seryl-glycosylphosphatidylinositolethanolamine"
+},
+{
+"item": {
+"value": "Q73225012",
+"label": "glycosylphosphatidylinositol"
+},
+"goid": "GO:0018270",
+"goLabel": "GPI anchor biosynthetic process via N-alanyl-glycosylphosphatidylinositolethanolamine"
+},
+{
+"item": {
+"value": "Q73227255",
+"label": "nucleoside-5'-monophosphate"
+},
+"goid": "GO:0009124",
+"goLabel": "nucleoside monophosphate biosynthetic process",
+"p2017": "O[C@H]1[C@H]([*])O[C@H](COP(O)(O)=O)[C@H]1O"
+},
+{
+"item": {
+"value": "Q73266145",
+"label": "isoquinoline alkaloid"
+},
+"goid": "GO:0033075",
+"goLabel": "isoquinoline alkaloid biosynthetic process",
+"p8533": "[#6R1]1~[#6R1]~[#6R1]~[#6R1]~[#6R2]2~[#6R1]~[#6R1]~[#7R1]~[#6R1]~[#6R2]~2~1"
+},
+{
+"item": {
+"value": "Q73266145",
+"label": "isoquinoline alkaloid"
+},
+"goid": "GO:0033075",
+"goLabel": "isoquinoline alkaloid biosynthetic process",
+"p8533": "[#6]1~[#6]~[#6R1]~[#6R1]~[#6R2]2~[#6R1]~[#6R1]~[#7R1]~[#6](~[r;!r3;!r4;!r5;!r6;!r7])~[#6]~2~1"
+},
+{
+"item": {
+"value": "Q73352452",
+"label": "aldaric acid anion"
+},
+"goid": "GO:0019578",
+"goLabel": "aldaric acid biosynthetic process"
+},
+{
+"item": {
+"value": "Q73401257",
+"label": "aldehydo-D-galacturonate(1-)"
+},
+"goid": "GO:0033482",
+"goLabel": "D-galacturonate biosynthetic process",
+"p2017": "C(=O)[C@@H]([C@H]([C@H]([C@@H](C(=O)[O-])O)O)O)O",
+"p235": "IAJILQKETJEXLJ-RSJOWCBRSA-M"
+},
+{
+"item": {
+"value": "Q73401483",
+"label": "L-pipecolate(1-)"
+},
+"goid": "GO:0062034",
+"goLabel": "L-pipecolic acid biosynthetic process",
+"p2017": "C1CCN[C@@H](C1)C(=O)[O-]",
+"p235": "HXEACLLIILLPRG-YFKPBYRVSA-M"
+},
+{
+"item": {
+"value": "Q73404116",
+"label": "2-methylbut-2-enoyl-CoA(4-)"
+},
+"goid": "GO:1902194",
+"goLabel": "2-methylbut-2-enoyl-CoA(4-) biosynthetic process",
+"p235": "PMWATMXOQQZNBX-DJVIHCHSSA-J"
+},
+{
+"item": {
+"value": "Q73405498",
+"label": "phytoene (cis/trans isomery undefined)"
+},
+"goid": "GO:1901174",
+"goLabel": "phytoene biosynthetic process",
+"p233": "C(=CC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)C)C=C(C)CCC=C(C)CCC=C(C)CCC=C(C)C",
+"p235": "YVLPJIGOMTXXLP-UHFFFAOYSA-N"
+},
+{
+"item": {
+"value": "Q73517169",
+"label": "glycosylceramide"
+},
+"goid": "GO:0046476",
+"goLabel": "glycosylceramide biosynthetic process"
+},
+{
+"item": {
+"value": "Q73653572",
+"label": "ribonucleoside monophosphate"
+},
+"goid": "GO:0009156",
+"goLabel": "ribonucleoside monophosphate biosynthetic process"
+},
+{
+"item": {
+"value": "Q73856432",
+"label": "pyrimidine nucleotides"
+},
+"goid": "GO:0006221",
+"goLabel": "pyrimidine nucleotide biosynthetic process"
+},
+{
+"item": {
+"value": "Q73856432",
+"label": "pyrimidine nucleotides"
+},
+"goid": "GO:0032262",
+"goLabel": "pyrimidine nucleotide salvage"
+},
+{
+"item": {
+"value": "Q74176129",
+"label": "beta-glucoside"
+},
+"goid": "GO:1901806",
+"goLabel": "beta-glucoside biosynthetic process"
+},
+{
+"item": {
+"value": "Q74237672",
+"label": "long-chain fatty acid anion"
+},
+"goid": "GO:0042759",
+"goLabel": "long-chain fatty acid biosynthetic process"
+},
+{
+"item": {
+"value": "Q74240047",
+"label": "glycerol ether"
+},
+"goid": "GO:0046504",
+"goLabel": "glycerol ether biosynthetic process",
+"p8533": "[C!$([#6]=[!#6])][OX2][CX4H2][CX4H1]([OX2])[CX4H2][OX2]"
+},
+{
+"item": {
+"value": "Q74353183",
+"label": "ferrichrome"
+},
+"goid": "GO:0031169",
+"goLabel": "ferrichrome biosynthetic process",
+"p2017": "[C@@]1(C(N[C@@]2(C(N[C@@]3(C(N[C@](C(N[C@@](C(N[C@@](C(N1)=O)([H])*)=O)([H])*)=O)(CCCN4C(=[O+][Fe-3]56(ON(C(=[O+]5)*)CCC3)(ON(C(=[O+]6)*)CCC2)O4)*)[H])=O)[H])=O)[H])=O)([H])*"
+},
+{
+"item": {
+"value": "Q74411179",
+"label": "clavulanate"
+},
+"goid": "GO:0033050",
+"goLabel": "clavulanic acid biosynthetic process",
+"p2017": "C1[C@@H]2N(C1=O)[C@H](/C(=C/CO)/O2)C(=O)[O-]",
+"p235": "HZZVJAQRINQKSD-PBFISZAISA-M"
+},
+{
+"item": {
+"value": "Q74427303",
+"label": "pyruvate family amino acid"
+},
+"goid": "GO:0009079",
+"goLabel": "pyruvate family amino acid biosynthetic process"
+},
+{
+"item": {
+"value": "Q74428604",
+"label": "apo carotenoid"
+},
+"goid": "GO:0043289",
+"goLabel": "apocarotenoid biosynthetic process"
+},
+{
+"item": {
+"value": "Q74504388",
+"label": "urate(1-)"
+},
+"goid": "GO:0034418",
+"goLabel": "urate biosynthetic process"
+},
+{
+"item": {
+"value": "Q74505114",
+"label": "purine ribonucleoside diphosphate"
+},
+"goid": "GO:0009180",
+"goLabel": "purine ribonucleoside diphosphate biosynthetic process"
+},
+{
+"item": {
+"value": "Q74505135",
+"label": "very long-chain fatty acid anion"
+},
+"goid": "GO:0042761",
+"goLabel": "very long-chain fatty acid biosynthetic process"
+},
+{
+"item": {
+"value": "Q74505142",
+"label": "sinapate ester"
+},
+"goid": "GO:0033525",
+"goLabel": "sinapate ester biosynthetic process",
+"p233": "COc1cc(cc(OC)c1O)\\C=C\\C(=O)O[*]"
+},
+{
+"item": {
+"value": "Q74505673",
+"label": "3,4-dihydroxy-5-polyprenylbenzoate"
+},
+"goid": "GO:0032194",
+"goLabel": "ubiquinone biosynthetic process via 3,4-dihydroxy-5-polyprenylbenzoate"
+},
+{
+"item": {
+"value": "Q74506216",
+"label": "protein polypeptide chain"
+},
+"goid": "GO:0006412",
+"goLabel": "protein biosynthesis"
+},
+{
+"item": {
+"value": "Q74507828",
+"label": "pyridine nucleotide"
+},
+"goid": "GO:0019363",
+"goLabel": "pyridine nucleotide biosynthetic process"
+},
+{
+"item": {
+"value": "Q74507828",
+"label": "pyridine nucleotide"
+},
+"goid": "GO:0019365",
+"goLabel": "pyridine nucleotide salvage"
+},
+{
+"item": {
+"value": "Q74508792",
+"label": "cyclic purine nucleotide"
+},
+"goid": "GO:0052652",
+"goLabel": "cyclic purine nucleotide metabolic process"
+},
+{
+"item": {
+"value": "Q74508810",
+"label": "spermidine hydroxycinnamic acid conjugate"
+},
+"goid": "GO:0080088",
+"goLabel": "spermidine hydroxycinnamate conjugate biosynthetic process"
+},
+{
+"item": {
+"value": "Q74509637",
+"label": "teichuronic acid"
+},
+"goid": "GO:0050845",
+"goLabel": "teichuronic acid biosynthetic process"
+},
+{
+"item": {
+"value": "Q74514664",
+"label": "purine nucleoside monophosphate"
+},
+"goid": "GO:0009127",
+"goLabel": "purine nucleoside monophosphate biosynthetic process"
+},
+{
+"item": {
+"value": "Q74552317",
+"label": "W-molybdopterin cofactor"
+},
+"goid": "GO:0032327",
+"goLabel": "W-molybdopterin cofactor catabolic process"
+},
+{
+"item": {
+"value": "Q74552317",
+"label": "W-molybdopterin cofactor"
+},
+"goid": "GO:0042047",
+"goLabel": "W-molybdopterin cofactor biosynthetic process"
+},
+{
+"item": {
+"value": "Q74552320",
+"label": "nucleobase-containing molecular entity"
+},
+"goid": "GO:0034654",
+"goLabel": "nucleobase-containing compound biosynthetic process"
+},
+{
+"item": {
+"value": "Q74552331",
+"label": "pyrimidine deoxyribonucleoside triphosphate"
+},
+"goid": "GO:0009212",
+"goLabel": "pyrimidine deoxyribonucleoside triphosphate biosynthetic process"
+},
+{
+"item": {
+"value": "Q74552350",
+"label": "quinate"
+},
+"goid": "GO:0042194",
+"goLabel": "quinate biosynthetic process",
+"p8533": "O(C1CC(O)(CC(O)C1O)C(O)=O)"
+},
+{
+"item": {
+"value": "Q74561660",
+"label": "p-hydroxyphenyl lignin"
+},
+"goid": "GO:1901060",
+"goLabel": "p-hydroxyphenyl lignin biosynthetic process"
+},
+{
+"item": {
+"value": "Q74562403",
+"label": "sesquarterpene"
+},
+"goid": "GO:1903193",
+"goLabel": "sesquarterpene biosynthetic process"
+},
+{
+"item": {
+"value": "Q74563371",
+"label": "arabinan"
+},
+"goid": "GO:0035884",
+"goLabel": "arabinan biosynthetic process"
+},
+{
+"item": {
+"value": "Q74563377",
+"label": "N-alanyl-glycosylphosphatidylinositolethanolamine"
+},
+"goid": "GO:0018270",
+"goLabel": "GPI anchor biosynthetic process via N-alanyl-glycosylphosphatidylinositolethanolamine"
+},
+{
+"item": {
+"value": "Q74564695",
+"label": "2'-deoxyribonucleoside diphosphate"
+},
+"goid": "GO:0009189",
+"goLabel": "deoxyribonucleoside diphosphate biosynthetic process"
+},
+{
+"item": {
+"value": "Q74565935",
+"label": "organic molecular entity"
+},
+"goid": "GO:1901576",
+"goLabel": "organic substance biosynthetic process"
+},
+{
+"item": {
+"value": "Q74565936",
+"label": "purine deoxyribonucleoside triphosphate"
+},
+"goid": "GO:0009216",
+"goLabel": "purine deoxyribonucleoside triphosphate biosynthetic process"
+},
+{
+"item": {
+"value": "Q74565941",
+"label": "diadenosyl triphosphate"
+},
+"goid": "GO:0015963",
+"goLabel": "diadenosine triphosphate biosynthetic process"
+},
+{
+"item": {
+"value": "Q74566529",
+"label": "pyrimidine ribonucleoside monophosphate"
+},
+"goid": "GO:0009174",
+"goLabel": "pyrimidine ribonucleoside monophosphate biosynthetic process"
+},
+{
+"item": {
+"value": "Q74566534",
+"label": "short-chain fatty acid anion"
+},
+"goid": "GO:0051790",
+"goLabel": "short-chain fatty acid biosynthetic process"
+},
+{
+"item": {
+"value": "Q74566538",
+"label": "oxylipin anion"
+},
+"goid": "GO:0031408",
+"goLabel": "oxylipin biosynthetic process"
+},
+{
+"item": {
+"value": "Q74566543",
+"label": "purine 2'-deoxyribonucleotide"
+},
+"goid": "GO:0009153",
+"goLabel": "purine deoxyribonucleotide biosynthetic process"
+},
+{
+"item": {
+"value": "Q74567588",
+"label": "Fe2S2 iron-sulfur cluster"
+},
+"goid": "GO:0044571",
+"goLabel": "[2Fe-2S] cluster assembly"
+},
+{
+"item": {
+"value": "Q74567592",
+"label": "poly(N-acetyllactosamine)"
+},
+"goid": "GO:0030311",
+"goLabel": "poly-N-acetyllactosamine biosynthetic process"
+},
+{
+"item": {
+"value": "Q74568389",
+"label": "pyrimidine 2'-deoxyribonucleoside"
+},
+"goid": "GO:0043099",
+"goLabel": "pyrimidine deoxyribonucleoside salvage"
+},
+{
+"item": {
+"value": "Q74568389",
+"label": "pyrimidine 2'-deoxyribonucleoside"
+},
+"goid": "GO:0046126",
+"goLabel": "pyrimidine deoxyribonucleoside biosynthetic process"
+},
+{
+"item": {
+"value": "Q74568398",
+"label": "purine 2'-deoxyribonucleoside monophosphate"
+},
+"goid": "GO:0009171",
+"goLabel": "purine deoxyribonucleoside monophosphate biosynthetic process"
+},
+{
+"item": {
+"value": "Q74568400",
+"label": "pyrimidine ribonucleoside triphosphate"
+},
+"goid": "GO:0009209",
+"goLabel": "pyrimidine ribonucleoside triphosphate biosynthetic process"
+},
+{
+"item": {
+"value": "Q74569152",
+"label": "dipyrrins"
+},
+"goid": "GO:0018161",
+"goLabel": "dipyrrin biosynthetic process"
+},
+{
+"item": {
+"value": "Q74569155",
+"label": "methanopterins"
+},
+"goid": "GO:2001116",
+"goLabel": "methanopterin-containing compound biosynthetic process"
+},
+{
+"item": {
+"value": "Q74569161",
+"label": "purine deoxyribonucleoside"
+},
+"goid": "GO:0043098",
+"goLabel": "purine deoxyribonucleoside salvage"
+},
+{
+"item": {
+"value": "Q74569161",
+"label": "purine deoxyribonucleoside"
+},
+"goid": "GO:0046123",
+"goLabel": "purine deoxyribonucleoside biosynthetic process"
+},
+{
+"item": {
+"value": "Q74639577",
+"label": "tetracyclic triterpenoid"
+},
+"goid": "GO:0010686",
+"goLabel": "tetracyclic triterpenoid biosynthetic process"
+},
+{
+"item": {
+"value": "Q74639585",
+"label": "pyrimidine 2'-deoxyribonucleotide"
+},
+"goid": "GO:0009221",
+"goLabel": "pyrimidine deoxyribonucleotide biosynthetic process"
+},
+{
+"item": {
+"value": "Q74639585",
+"label": "pyrimidine 2'-deoxyribonucleotide"
+},
+"goid": "GO:0010139",
+"goLabel": "pyrimidine deoxyribonucleotide salvage"
+},
+{
+"item": {
+"value": "Q74640506",
+"label": "glutamine family amino acid"
+},
+"goid": "GO:0009084",
+"goLabel": "glutamine family amino acid biosynthetic process"
+},
+{
+"item": {
+"value": "Q74640518",
+"label": "erythromycin"
+},
+"goid": "GO:1901115",
+"goLabel": "erythromycin biosynthetic process"
+},
+{
+"item": {
+"value": "Q74642135",
+"label": "N-asparaginyl-glycosylphosphatidylinositolethanolamine"
+},
+"goid": "GO:0018265",
+"goLabel": "GPI anchor biosynthetic process via N-asparaginyl-glycosylphosphatidylinositolethanolamine"
+},
+{
+"item": {
+"value": "Q74642145",
+"label": "K antigen"
+},
+"goid": "GO:0009248",
+"goLabel": "K antigen biosynthetic process"
+},
+{
+"item": {
+"value": "Q74642151",
+"label": "bis(5'-nucleosidyl) oliogophosphate"
+},
+"goid": "GO:0015957",
+"goLabel": "bis(5'-nucleosidyl) oligophosphate biosynthetic process"
+},
+{
+"item": {
+"value": "Q74642153",
+"label": "mannoprotein"
+},
+"goid": "GO:0006057",
+"goLabel": "mannoprotein biosynthetic process"
+},
+{
+"item": {
+"value": "Q74643099",
+"label": "ceramide phosphoethanolamine"
+},
+"goid": "GO:1905373",
+"goLabel": "ceramide phosphoethanolamine biosynthetic process",
+"p2017": "NCCOP(O)(=O)OC[C@H](NC([*])=O)[C@H](O)[*]"
+},
+{
+"item": {
+"value": "Q74643106",
+"label": "galactaric acid anion"
+},
+"goid": "GO:0046357",
+"goLabel": "galactarate biosynthetic process"
+},
+{
+"item": {
+"value": "Q74647056",
+"label": "2-deoxyribose 1-phosphate"
+},
+"goid": "GO:0006016",
+"goLabel": "2-deoxyribose 1-phosphate biosynthetic process",
+"p233": "C1C(C(OC1OP(=O)(O)O)CO)O",
+"p235": "KBDKAJNTYKVSEK-UHFFFAOYSA-N"
+},
+{
+"item": {
+"value": "Q74647060",
+"label": "fumiquinazoline"
+},
+"goid": "GO:1900775",
+"goLabel": "fumiquinazoline biosynthetic process"
+},
+{
+"item": {
+"value": "Q74648568",
+"label": "lipooligosaccharide"
+},
+"goid": "GO:1901271",
+"goLabel": "lipooligosaccharide biosynthetic process"
+},
+{
+"item": {
+"value": "Q74648588",
+"label": "purine 2'-deoxyribonucleoside diphosphate"
+},
+"goid": "GO:0009183",
+"goLabel": "purine deoxyribonucleoside diphosphate biosynthetic process"
+},
+{
+"item": {
+"value": "Q74648592",
+"label": "phosphatidylinositol 5-phosphate"
+},
+"goid": "GO:1904563",
+"goLabel": "phosphatidylinositol 5-phosphate biosynthetic process"
+},
+{
+"item": {
+"value": "Q74650006",
+"label": "myo-inositol trisphosphate"
+},
+"goid": "GO:0032959",
+"goLabel": "inositol trisphosphate biosynthetic process"
+},
+{
+"item": {
+"value": "Q74650011",
+"label": "polyacyl alpha,alpha-trehalose"
+},
+"goid": "GO:0097093",
+"goLabel": "polyacyltrehalose biosynthetic process"
+},
+{
+"item": {
+"value": "Q74651126",
+"label": "guanosines"
+},
+"goid": "GO:1901070",
+"goLabel": "guanosine-containing compound biosynthetic process"
+},
+{
+"item": {
+"value": "Q74651129",
+"label": "N-acylurea"
+},
+"goid": "GO:0010137",
+"goLabel": "ureide biosynthetic process"
+},
+{
+"item": {
+"value": "Q74651581",
+"label": "ketogluconate"
+},
+"goid": "GO:0046180",
+"goLabel": "ketogluconate biosynthetic process"
+},
+{
+"item": {
+"value": "Q74652108",
+"label": "purine ribonucleoside"
+},
+"goid": "GO:0006166",
+"goLabel": "purine ribonucleoside salvage",
+"p2017": "*[C@@H]1O[C@H](CO)[C@@H](O)[C@H]1O"
+},
+{
+"item": {
+"value": "Q74652108",
+"label": "purine ribonucleoside"
+},
+"goid": "GO:0046129",
+"goLabel": "purine ribonucleoside biosynthetic process",
+"p2017": "*[C@@H]1O[C@H](CO)[C@@H](O)[C@H]1O"
+},
+{
+"item": {
+"value": "Q74652113",
+"label": "peptidyl-glycine"
+},
+"goid": "GO:0018173",
+"goLabel": "peptidyl-1-thioglycine biosynthetic process from peptidyl-glycine"
+},
+{
+"item": {
+"value": "Q74652113",
+"label": "peptidyl-glycine"
+},
+"goid": "GO:0019708",
+"goLabel": "peptidyl-glycine cholesteryl ester biosynthesis from peptidyl-glycine"
+},
+{
+"item": {
+"value": "Q74652573",
+"label": "beta-L-Ara4N-lipid A"
+},
+"goid": "GO:1901760",
+"goLabel": "beta-L-Ara4N-lipid A biosynthetic process",
+"p2017": "[C@H]1(OP(=O)(O)O[C@H]2OC[C@@H]([C@@H]([C@H]2O)O)N)[C@H](O*)[C@@H](N*)[C@@H](O[C@@H]1CO)OC[C@@H]3[C@H]([C@@H]([C@H]([C@H](O3)OP(=O)(O)O)N*)O*)O"
+},
+{
+"item": {
+"value": "Q74652581",
+"label": "primary fatty amide"
+},
+"goid": "GO:0062112",
+"goLabel": "fatty acid primary amide biosynthetic process",
+"p233": "N(C(*)=O)([H])[H]"
+},
+{
+"item": {
+"value": "Q74652587",
+"label": "benzylisoquinoline alkaloid"
+},
+"goid": "GO:0009708",
+"goLabel": "benzyl isoquinoline alkaloid biosynthetic process",
+"p8533": "[$(c1cccc2c1CCNC(Cc3ccccc3)2),$(C1CC~CC2C1CCNC(Cc3ccccc3)2)]"
+},
+{
+"item": {
+"value": "Q74652592",
+"label": "tricyclic triterpenoid"
+},
+"goid": "GO:0010263",
+"goLabel": "tricyclic triterpenoid biosynthetic process"
+},
+{
+"item": {
+"value": "Q74652596",
+"label": "long-chain fatty acyl-CoA"
+},
+"goid": "GO:0035338",
+"goLabel": "long-chain fatty-acyl-CoA biosynthetic process",
+"p2017": "CC(C)(COP(O)(=O)OP(O)(=O)OC[C@H]1O[C@H]([C@H](O)[C@@H]1OP(O)(O)=O)n1cnc2c(N)ncnc12)[C@@H](O)C(=O)NCCC(=O)NCCSC([*])=O"
+},
+{
+"item": {
+"value": "Q74655224",
+"label": "L-arabinose"
+},
+"goid": "GO:0019569",
+"goLabel": "L-arabinose catabolic process to xylulose 5-phosphate"
+},
+{
+"item": {
+"value": "Q74655224",
+"label": "L-arabinose"
+},
+"goid": "GO:0033357",
+"goLabel": "L-arabinose biosynthetic process"
+},
+{
+"item": {
+"value": "Q74655232",
+"label": "poly(3-hydroxyvalerate)"
+},
+"goid": "GO:1902923",
+"goLabel": "poly(3-hydroxyvalerate) biosynthetic process"
+},
+{
+"item": {
+"value": "Q74655660",
+"label": "menaquinones"
+},
+"goid": "GO:0009234",
+"goLabel": "menaquinone biosynthetic process"
+},
+{
+"item": {
+"value": "Q74688011",
+"label": "poly(ribitol phosphate) teichoic acid"
+},
+"goid": "GO:1902012",
+"goLabel": "poly(ribitol phosphate) teichoic acid biosynthetic process"
+},
+{
+"item": {
+"value": "Q74688013",
+"label": "mycolates"
+},
+"goid": "GO:0071768",
+"goLabel": "mycolic acid biosynthetic process"
+},
+{
+"item": {
+"value": "Q74690013",
+"label": "L-sorbose"
+},
+"goid": "GO:0042849",
+"goLabel": "L-sorbose biosynthetic process"
+},
+{
+"item": {
+"value": "Q74690018",
+"label": "purine ribonucleoside bisphosphate"
+},
+"goid": "GO:0034036",
+"goLabel": "purine ribonucleoside bisphosphate biosynthetic process"
+},
+{
+"item": {
+"value": "Q74691701",
+"label": "pyridine nucleoside"
+},
+"goid": "GO:0071589",
+"goLabel": "pyridine nucleoside biosynthetic process"
+},
+{
+"item": {
+"value": "Q74693146",
+"label": "threoninate"
+},
+"goid": "GO:0009088",
+"goLabel": "threonine biosynthetic process"
+},
+{
+"item": {
+"value": "Q74693988",
+"label": "lipoxin"
+},
+"goid": "GO:2001301",
+"goLabel": "lipoxin biosynthetic process"
+},
+{
+"item": {
+"value": "Q74696761",
+"label": "2-deoxyribose phosphate"
+},
+"goid": "GO:0046385",
+"goLabel": "deoxyribose phosphate biosynthetic process"
+},
+{
+"item": {
+"value": "Q74696769",
+"label": "tetrahydrofolic acid"
+},
+"goid": "GO:0046654",
+"goLabel": "tetrahydrofolate biosynthetic process"
+},
+{
+"item": {
+"value": "Q74699336",
+"label": "pyrimidine nucleoside triphosphate"
+},
+"goid": "GO:0009148",
+"goLabel": "pyrimidine nucleoside triphosphate biosynthetic process"
+},
+{
+"item": {
+"value": "Q74699342",
+"label": "GDP-alpha-D-mannosylchitobiosyldiphosphodolichol"
+},
+"goid": "GO:0019347",
+"goLabel": "GDP-alpha-D-mannosylchitobiosyldiphosphodolichol biosynthetic process"
+},
+{
+"item": {
+"value": "Q74700300",
+"label": "poly(3-hydroxycarboxylic acid) macromolecule"
+},
+"goid": "GO:0042621",
+"goLabel": "poly(3-hydroxyalkanoate) biosynthetic process"
+},
+{
+"item": {
+"value": "Q74701015",
+"label": "serine family amino acid"
+},
+"goid": "GO:0009070",
+"goLabel": "serine family amino acid biosynthetic process"
+},
+{
+"item": {
+"value": "Q74702230",
+"label": "pyrimidine ribonucleosides"
+},
+"goid": "GO:0046132",
+"goLabel": "pyrimidine ribonucleoside biosynthetic process"
+},
+{
+"item": {
+"value": "Q74703939",
+"label": "flavonoid phytoalexin"
+},
+"goid": "GO:0009716",
+"goLabel": "flavonoid phytoalexin biosynthetic process"
+},
+{
+"item": {
+"value": "Q74704922",
+"label": "GDP-mannose"
+},
+"goid": "GO:0009298",
+"goLabel": "GDP-mannose biosynthetic process"
+},
+{
+"item": {
+"value": "Q74704922",
+"label": "GDP-mannose"
+},
+"goid": "GO:0061728",
+"goLabel": "GDP-mannose biosynthetic process from mannose"
+},
+{
+"item": {
+"value": "Q74704922",
+"label": "GDP-mannose"
+},
+"goid": "GO:0061729",
+"goLabel": "GDP-mannose biosynthetic process from fructose-6-phosphate"
+},
+{
+"item": {
+"value": "Q74705706",
+"label": "pentitol"
+},
+"goid": "GO:0019526",
+"goLabel": "pentitol biosynthetic process"
+},
+{
+"item": {
+"value": "Q74705951",
+"label": "sphingoid"
+},
+"goid": "GO:0046520",
+"goLabel": "sphingoid biosynthetic process"
+},
+{
+"item": {
+"value": "Q74707996",
+"label": "pyrimidine ribonucleotide"
+},
+"goid": "GO:0009220",
+"goLabel": "pyrimidine ribonucleotide biosynthetic process"
+},
+{
+"item": {
+"value": "Q74707996",
+"label": "pyrimidine ribonucleotide"
+},
+"goid": "GO:0010138",
+"goLabel": "pyrimidine ribonucleotide salvage"
+},
+{
+"item": {
+"value": "Q74709611",
+"label": "diadenosyl tetraphosphate"
+},
+"goid": "GO:0015966",
+"goLabel": "diadenosine tetraphosphate biosynthetic process"
+},
+{
+"item": {
+"value": "Q74709614",
+"label": "homogalacturonan"
+},
+"goid": "GO:0010289",
+"goLabel": "homogalacturonan biosynthetic process"
+},
+{
+"item": {
+"value": "Q74709626",
+"label": "nicotinic acid nucleotide"
+},
+"goid": "GO:0019356",
+"goLabel": "nicotinate nucleotide biosynthetic process from tryptophan"
+},
+{
+"item": {
+"value": "Q74709626",
+"label": "nicotinic acid nucleotide"
+},
+"goid": "GO:0019357",
+"goLabel": "nicotinate nucleotide biosynthetic process"
+},
+{
+"item": {
+"value": "Q74709626",
+"label": "nicotinic acid nucleotide"
+},
+"goid": "GO:0019358",
+"goLabel": "nicotinate nucleotide salvage"
+},
+{
+"item": {
+"value": "Q74709637",
+"label": "phosphatidyl-N-methylethanolamine"
+},
+"goid": "GO:0006647",
+"goLabel": "phosphatidyl-N-monomethylethanolamine biosynthetic process",
+"p233": "CNCCOP(O)(=O)OCC(COC([*])=O)OC([*])=O"
+},
+{
+"item": {
+"value": "Q74711336",
+"label": "pyrimidine nucleoside monophosphate"
+},
+"goid": "GO:0009130",
+"goLabel": "pyrimidine nucleoside monophosphate biosynthetic process"
+},
+{
+"item": {
+"value": "Q74711351",
+"label": "emericellamide"
+},
+"goid": "GO:1900557",
+"goLabel": "emericellamide biosynthetic process"
+},
+{
+"item": {
+"value": "Q74711354",
+"label": "alpha-D-glucan"
+},
+"goid": "GO:0030979",
+"goLabel": "alpha-glucan biosynthetic process"
+},
+{
+"item": {
+"value": "Q74713223",
+"label": "D-arabinose"
+},
+"goid": "GO:0019573",
+"goLabel": "D-arabinose catabolic process to xylulose 5-phosphate"
+},
+{
+"item": {
+"value": "Q74713242",
+"label": "(1->6)-beta-D-glucan"
+},
+"goid": "GO:0006078",
+"goLabel": "(1->6)-beta-D-glucan biosynthetic process"
+},
+{
+"item": {
+"value": "Q74796664",
+"label": "hepoxilin anion"
+},
+"goid": "GO:0051122",
+"goLabel": "hepoxilin biosynthetic process"
+},
+{
+"item": {
+"value": "Q74796667",
+"label": "pentacyclic triterpenoid"
+},
+"goid": "GO:0019745",
+"goLabel": "pentacyclic triterpenoid biosynthetic process"
+},
+{
+"item": {
+"value": "Q74801223",
+"label": "octadecene"
+},
+"goid": "GO:1900682",
+"goLabel": "octadecene biosynthetic process"
+},
+{
+"item": {
+"value": "Q74801233",
+"label": "purine nucleoside diphosphate"
+},
+"goid": "GO:0009136",
+"goLabel": "purine nucleoside diphosphate biosynthetic process"
+},
+{
+"item": {
+"value": "Q74801450",
+"label": "2'-deoxyribonucleotide"
+},
+"goid": "GO:0009265",
+"goLabel": "2'-deoxyribonucleotide biosynthetic process"
+},
+{
+"item": {
+"value": "Q74801452",
+"label": "peptidyl-glycine cholesteryl ester"
+},
+"goid": "GO:0019708",
+"goLabel": "peptidyl-glycine cholesteryl ester biosynthesis from peptidyl-glycine"
+},
+{
+"item": {
+"value": "Q74801464",
+"label": "glucosylglycerol"
+},
+"goid": "GO:0051473",
+"goLabel": "glucosylglycerol biosynthetic process"
+},
+{
+"item": {
+"value": "Q74802808",
+"label": "erythrose 4-phosphate/phosphoenolpyruvate family amino acid"
+},
+"goid": "GO:1902223",
+"goLabel": "erythrose 4-phosphate/phosphoenolpyruvate family amino acid biosynthetic process"
+},
+{
+"item": {
+"value": "Q74802810",
+"label": "D-allose"
+},
+"goid": "GO:0019315",
+"goLabel": "D-allose biosynthetic process"
+},
+{
+"item": {
+"value": "Q74804661",
+"label": "diterpene phytoalexin"
+},
+"goid": "GO:0051502",
+"goLabel": "diterpene phytoalexin biosynthetic process"
+},
+{
+"item": {
+"value": "Q75004920",
+"label": "indoleacetic acid conjugate"
+},
+"goid": "GO:0033474",
+"goLabel": "indoleacetic acid conjugate biosynthetic process"
+},
+{
+"item": {
+"value": "Q75004923",
+"label": "pyrimidine nucleoside diphosphate"
+},
+"goid": "GO:0009139",
+"goLabel": "pyrimidine nucleoside diphosphate biosynthetic process"
+},
+{
+"item": {
+"value": "Q75004932",
+"label": "pyrimidine ribonucleoside diphosphate"
+},
+"goid": "GO:0009194",
+"goLabel": "pyrimidine ribonucleoside diphosphate biosynthetic process"
+},
+{
+"item": {
+"value": "Q75005040",
+"label": "lysobisphosphatidic acid"
+},
+"goid": "GO:2001312",
+"goLabel": "lysobisphosphatidic acid biosynthetic process"
+},
+{
+"item": {
+"value": "Q75005045",
+"label": "aspartate family amino acid"
+},
+"goid": "GO:0009067",
+"goLabel": "aspartate family amino acid biosynthetic process"
+},
+{
+"item": {
+"value": "Q75005468",
+"label": "N-cysteinyl-glycosylphosphatidylinositolethanolamine"
+},
+"goid": "GO:0018267",
+"goLabel": "GPI anchor biosynthetic process via N-cysteinyl-glycosylphosphatidylinositolethanolamine"
+},
+{
+"item": {
+"value": "Q75005794",
+"label": "pyrrolizidine alkaloid"
+},
+"goid": "GO:1901085",
+"goLabel": "pyrrolizidine alkaloid biosynthetic process",
+"p8533": "OCC1~[CR1]CN2C[CR1]C(O)C12"
+},
+{
+"item": {
+"value": "Q75005799",
+"label": "dTDP-mannose"
+},
+"goid": "GO:0019308",
+"goLabel": "dTDP-mannose biosynthetic process"
+},
+{
+"item": {
+"value": "Q75005802",
+"label": "indole phytoalexin"
+},
+"goid": "GO:0009700",
+"goLabel": "indole phytoalexin biosynthetic process"
+},
+{
+"item": {
+"value": "Q75006785",
+"label": "quercetin O-glucoside"
+},
+"goid": "GO:0033303",
+"goLabel": "quercetin O-glucoside biosynthetic process"
+},
+{
+"item": {
+"value": "Q75006795",
+"label": "Mo-molybdopterin cofactor"
+},
+"goid": "GO:0006777",
+"goLabel": "Mo-molybdopterin cofactor biosynthetic process"
+},
+{
+"item": {
+"value": "Q75007609",
+"label": "D-mannosyl-D-glyceric acid"
+},
+"goid": "GO:0051479",
+"goLabel": "mannosylglycerate biosynthetic process"
+},
+{
+"item": {
+"value": "Q75007611",
+"label": "glucosiduronic acid"
+},
+"goid": "GO:0019390",
+"goLabel": "glucuronoside biosynthetic process"
+},
+{
+"item": {
+"value": "Q75007799",
+"label": "alkanesulfonate oxoanion"
+},
+"goid": "GO:0046305",
+"goLabel": "alkanesulfonate biosynthetic process",
+"p233": "C(S([O-])(=O)=O)*"
+},
+{
+"item": {
+"value": "Q75007801",
+"label": "leukotriene anion"
+},
+"goid": "GO:0019370",
+"goLabel": "leukotriene biosynthetic process"
+},
+{
+"item": {
+"value": "Q75007806",
+"label": "terpenoid indole alkaloid"
+},
+"goid": "GO:0009709",
+"goLabel": "terpenoid indole alkaloid biosynthetic process"
+},
+{
+"item": {
+"value": "Q75009140",
+"label": "reuteran"
+},
+"goid": "GO:0052784",
+"goLabel": "reuteran biosynthetic process"
+},
+{
+"item": {
+"value": "Q75009147",
+"label": "syringal lignin"
+},
+"goid": "GO:1901066",
+"goLabel": "syringal lignin biosynthetic process"
+},
+{
+"item": {
+"value": "Q75009429",
+"label": "phosphatidate(2-)"
+},
+"goid": "GO:0006654",
+"goLabel": "phosphatidic acid biosynthetic process",
+"p233": "[O-]P([O-])(=O)OCC(COC([*])=O)OC([*])=O"
+},
+{
+"item": {
+"value": "Q75009433",
+"label": "N-seryl-glycosylphosphatidylinositolethanolamine"
+},
+"goid": "GO:0018269",
+"goLabel": "GPI anchor biosynthetic process via N-seryl-glycosylphosphatidylinositolethanolamine"
+},
+{
+"item": {
+"value": "Q75013279",
+"label": "peptidyl-1-thioglycine"
+},
+"goid": "GO:0018173",
+"goLabel": "peptidyl-1-thioglycine biosynthetic process from peptidyl-glycine"
+},
+{
+"item": {
+"value": "Q75013282",
+"label": "guaiacyl lignin"
+},
+"goid": "GO:1901063",
+"goLabel": "guaiacyl lignin biosynthetic process"
+},
+{
+"item": {
+"value": "Q75013284",
+"label": "pyrimidine 2'-deoxyribonucleoside diphosphate"
+},
+"goid": "GO:0009197",
+"goLabel": "pyrimidine deoxyribonucleoside diphosphate biosynthetic process"
+},
+{
+"item": {
+"value": "Q75013286",
+"label": "phenylethylamine"
+},
+"goid": "GO:0042444",
+"goLabel": "phenylethylamine biosynthetic process"
+},
+{
+"item": {
+"value": "Q75013573",
+"label": "raffinose family oligosaccharide"
+},
+"goid": "GO:0010325",
+"goLabel": "raffinose family oligosaccharide biosynthetic process"
+},
+{
+"item": {
+"value": "Q75013869",
+"label": "tetrahydromethanopterin"
+},
+"goid": "GO:2001118",
+"goLabel": "tetrahydromethanopterin biosynthetic process"
+},
+{
+"item": {
+"value": "Q75014662",
+"label": "aromatic primary alcohol"
+},
+"goid": "GO:1902655",
+"goLabel": "aromatic primary alcohol biosynthetic process",
+"p8533": "[OX2H1][CX4H2][a]"
+},
+{
+"item": {
+"value": "Q75014818",
+"label": "bile acid anion"
+},
+"goid": "GO:0006699",
+"goLabel": "bile acid biosynthetic process"
+},
+{
+"item": {
+"value": "Q75025868",
+"label": "keto-D-gluconate"
+},
+"goid": "GO:0046179",
+"goLabel": "keto-D-gluconate biosynthetic process"
+},
+{
+"item": {
+"value": "Q75025870",
+"label": "diadenosyl polyphosphate"
+},
+"goid": "GO:0015960",
+"goLabel": "diadenosine polyphosphate biosynthetic process"
+},
+{
+"item": {
+"value": "Q75026556",
+"label": "galacturonate"
+},
+"goid": "GO:0033481",
+"goLabel": "galacturonate biosynthetic process"
+},
+{
+"item": {
+"value": "Q75026558",
+"label": "poly(5-hydroxyvalerate)"
+},
+"goid": "GO:1902919",
+"goLabel": "poly(5-hydroxyvalerate) biosynthetic process"
+},
+{
+"item": {
+"value": "Q75026764",
+"label": "C21-steroid hormone"
+},
+"goid": "GO:0006700",
+"goLabel": "C21-steroid hormone biosynthetic process"
+},
+{
+"item": {
+"value": "Q75026769",
+"label": "plastoquinones"
+},
+"goid": "GO:0010236",
+"goLabel": "plastoquinone biosynthetic process"
+},
+{
+"item": {
+"value": "Q75026929",
+"label": "mannosylinositol phosphorylceramide"
+},
+"goid": "GO:0051999",
+"goLabel": "mannosyl-inositol phosphorylceramide biosynthetic process",
+"p2017": "OC[C@H]1OC(O[C@@H]2[C@@H](O)[C@H](O)[C@@H](O)[C@@H](O)[C@H]2OP(O)(=O)OC[C@H](NC([*])=O)[C@H](O)[*])[C@@H](O)[C@@H](O)[C@@H]1O"
+},
+{
+"item": {
+"value": "Q75026931",
+"label": "naphtho-gamma-pyrone"
+},
+"goid": "GO:1900787",
+"goLabel": "naphtho-gamma-pyrone biosynthetic process"
+},
+{
+"item": {
+"value": "Q75027395",
+"label": "dolichol-linked oligosaccharide"
+},
+"goid": "GO:0006488",
+"goLabel": "dolichol-linked oligosaccharide biosynthetic process"
+},
+{
+"item": {
+"value": "Q75027705",
+"label": "ascaroside"
+},
+"goid": "GO:1904070",
+"goLabel": "ascaroside biosynthetic process"
+},
+{
+"item": {
+"value": "Q75028431",
+"label": "gamma-poly(glutamate) polymer"
+},
+"goid": "GO:0070501",
+"goLabel": "poly-gamma-glutamate biosynthetic process"
+},
+{
+"item": {
+"value": "Q75030886",
+"label": "purine ribonucleoside monophosphate"
+},
+"goid": "GO:0009168",
+"goLabel": "purine ribonucleoside monophosphate biosynthetic process"
+},
+{
+"item": {
+"value": "Q75030888",
+"label": "D-fructose 6-phosphate"
+},
+"goid": "GO:0061729",
+"goLabel": "GDP-mannose biosynthetic process from fructose-6-phosphate"
+},
+{
+"item": {
+"value": "Q75030891",
+"label": "N-aspartyl-glycosylphosphatidylinositolethanolamine"
+},
+"goid": "GO:0018266",
+"goLabel": "GPI anchor biosynthetic process via N-aspartyl-glycosylphosphatidylinositolethanolamine"
+},
+{
+"item": {
+"value": "Q75031847",
+"label": "(1->3)-alpha-D-glucan"
+},
+"goid": "GO:0070596",
+"goLabel": "(1->3)-alpha-glucan biosynthetic process"
+},
+{
+"item": {
+"value": "Q75032029",
+"label": "prostaglandin carboxylic acid anion"
+},
+"goid": "GO:0001516",
+"goLabel": "prostaglandin biosynthetic process"
+},
+{
+"item": {
+"value": "Q75032618",
+"label": "poly(glucopyranosyl N-acetylgalactosamine 1-phosphate) teichoic acid"
+},
+"goid": "GO:1902016",
+"goLabel": "poly(glucopyranosyl N-acetylgalactosamine 1-phosphate) teichoic acid biosynthetic process"
+},
+{
+"item": {
+"value": "Q75033320",
+"label": "medium-chain fatty acid anion"
+},
+"goid": "GO:0051792",
+"goLabel": "medium-chain fatty acid biosynthetic process"
+},
+{
+"item": {
+"value": "Q75033324",
+"label": "poly(glycerol phosphate) teichoic acid"
+},
+"goid": "GO:1902014",
+"goLabel": "poly(glycerol phosphate) teichoic acid biosynthetic process"
+},
+{
+"item": {
+"value": "Q75033903",
+"label": "N-acetylmannosamine"
+},
+"goid": "GO:0006052",
+"goLabel": "N-acetylmannosamine biosynthetic process"
+},
+{
+"item": {
+"value": "Q75033905",
+"label": "(1->4)-alpha-D-glucan"
+},
+"goid": "GO:0070630",
+"goLabel": "(1->4)-alpha-glucan biosynthetic process"
+},
+{
+"item": {
+"value": "Q75034251",
+"label": "osmoregulated periplasmic glucan"
+},
+"goid": "GO:1900727",
+"goLabel": "osmoregulated periplasmic glucan biosynthetic process"
+},
+{
+"item": {
+"value": "Q75034520",
+"label": "organic heteropentacyclic compound"
+},
+"goid": "GO:1901378",
+"goLabel": "organic heteropentacyclic compound biosynthetic process"
+},
+{
+"item": {
+"value": "Q75034525",
+"label": "colanic acid"
+},
+"goid": "GO:0009242",
+"goLabel": "colanic acid biosynthetic process"
+},
+{
+"item": {
+"value": "Q75035094",
+"label": "ribonucleoside diphosphate"
+},
+"goid": "GO:0009188",
+"goLabel": "ribonucleoside diphosphate biosynthetic process"
+},
+{
+"item": {
+"value": "Q75035304",
+"label": "arugosins"
+},
+"goid": "GO:1900587",
+"goLabel": "arugosin biosynthetic process"
+},
+{
+"item": {
+"value": "Q75035678",
+"label": "holo-[acyl-carrier protein]"
+},
+"goid": "GO:0031108",
+"goLabel": "holo-[acyl-carrier-protein] biosynthetic process",
+"p233": "S*"
+},
+{
+"item": {
+"value": "Q75035808",
+"label": "alkyl caffeate ester"
+},
+"goid": "GO:0090431",
+"goLabel": "alkyl caffeate ester biosynthetic process",
+"p2017": "C=1(C=CC(=C(C1)O)O)/C=C/C(O*)=O"
+},
+{
+"item": {
+"value": "Q75077880",
+"label": "indoleacetic acid amide conjugate"
+},
+"goid": "GO:0033475",
+"goLabel": "indoleacetic acid amide conjugate biosynthetic process",
+"p8533": "[OX2H1][CX3](=[OX1])[CX4H1]([#6])N~C(~O)Cc1cnc2ccccc21"
+},
+{
+"item": {
+"value": "Q75077889",
+"label": "2-polyprenylphenol"
+},
+"goid": "GO:0032193",
+"goLabel": "ubiquinone biosynthetic process via 2-polyprenylphenol"
+},
+{
+"item": {
+"value": "Q75078203",
+"label": "2'-deoxyribonucleoside monophosphate"
+},
+"goid": "GO:0009157",
+"goLabel": "deoxyribonucleoside monophosphate biosynthetic process"
+},
+{
+"item": {
+"value": "Q75078204",
+"label": "pyrimidine 2'-deoxyribonucleoside monophosphate"
+},
+"goid": "GO:0009177",
+"goLabel": "pyrimidine deoxyribonucleoside monophosphate biosynthetic process"
+},
+{
+"item": {
+"value": "Q75078534",
+"label": "histidine derivative"
+},
+"goid": "GO:0052703",
+"goLabel": "cellular modified histidine biosynthetic process"
+},
+{
+"item": {
+"value": "Q75078537",
+"label": "rhamnogalacturonan II"
+},
+"goid": "GO:0010306",
+"goLabel": "rhamnogalacturonan II biosynthetic process"
+},
+{
+"item": {
+"value": "Q75078544",
+"label": "glucarate(2-)"
+},
+"goid": "GO:0019393",
+"goLabel": "glucarate biosynthetic process"
+},
+{
+"item": {
+"value": "Q75078829",
+"label": "Fe4S4 iron-sulfur cluster"
+},
+"goid": "GO:0044572",
+"goLabel": "[4Fe-4S] cluster assembly"
+},
+{
+"item": {
+"value": "Q75079226",
+"label": "dermatan sulfate proteoglycan"
+},
+"goid": "GO:0050651",
+"goLabel": "dermatan sulfate proteoglycan biosynthetic process"
+},
+{
+"item": {
+"value": "Q75079231",
+"label": "N-glycyl-glycosylphosphatidylinositolethanolamine"
+},
+"goid": "GO:0018268",
+"goLabel": "GPI anchor biosynthetic process via N-glycyl-glycosylphosphatidylinositolethanolamine"
+},
+{
+"item": {
+"value": "Q75079467",
+"label": "mannitol"
+},
+"goid": "GO:0019593",
+"goLabel": "mannitol biosynthetic process",
+"p233": "C(C(C(C(C(CO)O)O)O)O)O"
+},
+{
+"item": {
+"value": "Q75079951",
+"label": "indoleacetic acid ester conjugate"
+},
+"goid": "GO:0033476",
+"goLabel": "indoleacetic acid ester conjugate biosynthetic process"
+},
+{
+"item": {
+"value": "Q75080076",
+"label": "flavin adenine dinucleotide"
+},
+"goid": "GO:0072388",
+"goLabel": "flavin adenine dinucleotide biosynthetic process"
+},
+{
+"item": {
+"value": "Q75081693",
+"label": "(1->2)-beta-D-mannan"
+},
+"goid": "GO:0070136",
+"goLabel": "beta-1,2-oligomannoside biosynthetic process"
+},
+{
+"item": {
+"value": "Q75082498",
+"label": "D-xylose"
+},
+"goid": "GO:0044836",
+"goLabel": "D-xylose fermentation"
+},
+{
+"item": {
+"value": "Q75082694",
+"label": "galactosaminoglycan"
+},
+"goid": "GO:0006025",
+"goLabel": "galactosaminoglycan biosynthetic process"
+},
+{
+"item": {
+"value": "Q75082700",
+"label": "mannosamine"
+},
+"goid": "GO:0046347",
+"goLabel": "mannosamine biosynthetic process"
+},
+{
+"item": {
+"value": "Q75082796",
+"label": "glucuronate"
+},
+"goid": "GO:0019640",
+"goLabel": "glucuronate catabolic process to xylulose 5-phosphate"
+},
+{
+"item": {
+"value": "Q75082796",
+"label": "glucuronate"
+},
+"goid": "GO:0046399",
+"goLabel": "glucuronate biosynthetic process"
+},
+{
+"item": {
+"value": "Q75082803",
+"label": "6-alpha-maltosylglucose"
+},
+"goid": "GO:0051680",
+"goLabel": "6-alpha-maltosylglucose biosynthetic process"
+},
+{
+"item": {
+"value": "Q75082910",
+"label": "sorbose"
+},
+"goid": "GO:0042847",
+"goLabel": "sorbose biosynthetic process"
+},
+{
+"item": {
+"value": "Q75082915",
+"label": "D-alpha-amino acid anion"
+},
+"goid": "GO:0046437",
+"goLabel": "D-amino acid biosynthetic process",
+"p2017": "[C@@H](C(=O)[O-])(N)*"
+},
+{
+"item": {
+"value": "Q75082919",
+"label": "prenylcysteine"
+},
+"goid": "GO:0046311",
+"goLabel": "prenylcysteine biosynthetic process"
+},
+{
+"item": {
+"value": "Q75082961",
+"label": "glutathione derivative"
+},
+"goid": "GO:1901687",
+"goLabel": "glutathione derivative biosynthetic process"
+},
+{
+"item": {
+"value": "Q75179767",
+"label": "L-fucose"
+},
+"goid": "GO:0006005",
+"goLabel": "L-fucose biosynthetic process"
+},
+{
+"item": {
+"value": "Q75241881",
+"label": "(1->3)-beta-D-glucan"
+},
+"goid": "GO:0006075",
+"goLabel": "(1->3)-beta-D-glucan biosynthetic process"
+},
+{
+"item": {
+"value": "Q77894008",
+"label": "indole"
+},
+"goid": "GO:0042432",
+"goLabel": "indole biosynthetic process"
+},
+{
+"item": {
+"value": "Q96356735",
+"label": "rhamnogalacturonan I"
+},
+"goid": "GO:0010246",
+"goLabel": "rhamnogalacturonan I biosynthetic process"
+},
+{
+"item": {
+"value": "Q96375800",
+"label": "6-deoxyerythronolide B hydroxylase"
+},
+"goid": "GO:1901115",
+"goLabel": "erythromycin biosynthetic process"
+},
+{
+"item": {
+"value": "Q106377581",
+"label": "aurone"
+},
+"goid": "GO:0051551",
+"goLabel": "aurone biosynthetic process",
+"p2017": "[*]c1c([*])c([*])c(c([*])c1[*])C(\\[*])=C1/Oc2c([*])c([*])c([*])c([*])c2C1=O",
+"p8533": "c1ccccc1~[#6]~[#6]2-O-c3[$(c);$([cX3H0](c)(c)O),$([cX3H1](c)c)][$(c);$([cX3H0](c)(c)O),$([cX3H1](c)c)][$(c);$([cX3H0](c)(c)O),$([cX3H1](c)c)][$(c);$([cX3H0](c)([#6])O),$([cX3H1](c)[#6])]c3~[#6](=O)~2"
+},
+{
+"item": {
+"value": "Q107614678",
+"label": "phosphatidyl-N-monomethylethanolamine"
+},
+"goid": "GO:0006647",
+"goLabel": "phosphatidyl-N-monomethylethanolamine biosynthetic process"
+},
+{
+"item": {
+"value": "Q107621952",
+"label": "mannosylglycerate"
+},
+"goid": "GO:0051479",
+"goLabel": "mannosylglycerate biosynthetic process",
+"p2017": "C([C@@H]1[C@H]([C@@H]([C@@H](C(O1)OC(CO)C(=O)O)O)O)O)O",
+"p235": "DDXCFDOPXBPUJC-LPCDIMPNSA-N"
+},
+{
+"item": {
+"value": "Q107634510",
+"label": "poly-N-acetyllactosamine"
+},
+"goid": "GO:0030311",
+"goLabel": "poly-N-acetyllactosamine biosynthetic process"
+},
+{
+"item": {
+"value": "Q108573225",
+"label": "hopane triterpenoid"
+},
+"goid": "GO:0019746",
+"goLabel": "hopanoid biosynthetic process",
+"p8533": "[$(C);!$(C(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)(~C)~C)](~[$(C);!$(C(~C)~C)])~[$(C);!$(C(~C)(~C)(~C)~C)]1~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]C2([$(C);!$(C(~C)~C)])[$(C);!$(C(~C)(~C)(~C)~C)]3[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)(~C)~C)]4C5([$(C);!$(C(~C)~C)])[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]C([$(C);!$(C(~C)~C)])([$(C);!$(C(~C)~C)])[$(C);!$(C(~C)(~C)(~C)~C)]5~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]C([$(C);!$(C(~C)~C)])4C([$(C);!$(C(~C)~C)])3[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)(~C)~C)]2~1"
+},
+{
+"item": {
+"value": "Q108573225",
+"label": "hopane triterpenoid"
+},
+"goid": "GO:0019746",
+"goLabel": "hopanoid biosynthetic process",
+"p8533": "[$(C);!$(C(~C)~C)]~[$(C);!$(C(~C)(~C)(~C)~C)](~[$(C);!$(C(~C)~C)])~[$(C);!$(C(~C)(~C)(~C)~C)]1~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]C2([$(C);!$(C(~C)~C)])[$(C);!$(C(~C)(~C)(~C)~C)]3~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)][$(C);!$(C(~C)(~C)(~C)~C)]4C5([$(C);!$(C(~C)~C)])[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]C([$(C);!$(C(~C)~C)])([$(C);!$(C(~C)~C)])[$(C);!$(C(~C)(~C)(~C)~C)]5~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]C([$(C);!$(C(~C)~C)])4C([$(C);!$(C(~C)~C)])3[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)~C)]~[$(C);!$(C(~C)(~C)(~C)~C)]2~1"
+},
+{
+"item": {
+"value": "Q108837815",
+"label": "chalcone"
+},
+"goid": "GO:0009715",
+"goLabel": "chalcone biosynthetic process",
+"p8533": "[$(c);$([cX3H0](c)(c)O),$([cX3H1](c)c)]1[$(c);$([cX3H0](c)(c)O),$([cX3H1](c)c)][$(c);$([cX3H0](c)(c)O),$([cX3H1](c)c)][$(c);$([cX3H0](c)(c)O),$([cX3H1](c)c)][$(c);$([cX3H0](c)(c)O),$([cX3H1](c)c)]c1C(=O)[CR0]=[CR0]c2[$(c);$([cX3H0](c)(c)O),$([cX3H1](c)c)][$(c);$([cX3H0](c)(c)O),$([cX3H1](c)c)][$(c);$([cX3H0](c)(c)O),$([cX3H1](c)c)][$(c);$([cX3H0](c)(c)O),$([cX3H1](c)c)][$(c);$([cX3H0](c)(c)O),$([cX3H1](c)c)]2"
+}
+]
