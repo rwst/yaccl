@@ -21,10 +21,10 @@ OFFSET = 1000000000
 
 if dontquery is False:
     print('performing query...', file=sys.stderr)
-    ret = os.popen('wd sparql biosyn-items1.rq >biosyn-items1.json'.format(script, script))
+    ret = os.popen('wd sparql biosyn-classes.rq >biosyn-classes.json'.format(script, script))
     if ret.close() is not None:
         raise
-    ff = open('biosyn-items1.json'.format(script))
+    ff = open('biosyn-classes.json'.format(script))
     s = ff.read()
     jol = json.loads(s)
     with open('data-biosyn-classes.json', 'w+') as f:
