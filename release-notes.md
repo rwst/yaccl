@@ -66,4 +66,9 @@
 * add -j option for JSON output (NP only)
 * all data: flavonoids pt. 3 (est. 95% of all)
 
+==2115==
+* all data: alkaloids pt. 1 (est. 25% of all)
+* test data: alkaloids
+
+
 

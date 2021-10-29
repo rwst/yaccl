@@ -7,7 +7,7 @@ While yaccl is, in principle, a general classifier, development of patterns focu
 
 ## Version
 
-The current version is 2114.
+The current version is 2115.
 
 ## Prerequisites
 
@@ -123,6 +123,7 @@ If you want to tackle a specific superclass we recommend usage of `wdtaxonomy` t
 Of course, any comment or PR is highly appreciated.
 
 ### TODO
+* do we use compound SMILES from biosyn items (e.g. Q27104306)?
 * option to work with NP subgraph only (should be much faster)
 * if there are superclass patterns match them first, narrowing following matches
 * optimize ontology in WD, remove or deprecate redundant P31/P279 stmts
