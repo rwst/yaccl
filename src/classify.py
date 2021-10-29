@@ -211,7 +211,7 @@ smarts = {}
 # read bio process data
 with open(args.data + 'data-biosyn-classes.json', 'r') as f:
     if not silent:
-        print('reading biosyn data')
+        print('reading biosyn class data')
     s = f.read()
     jol = json.loads(s)
 
@@ -252,6 +252,53 @@ for d in jol:
         gos[it] = set(gotup)
     lab = dd.get('label')
     labels[it] = lab
+
+sitems = {}
+with open(args.data + 'data-biosyn-compounds.json', 'r') as f:
+    if not silent:
+        print('reading biosyn compound data')
+    s = f.read()
+    jol = json.loads(s)
+
+for d in jol:
+    dd = d.get('item')
+    it = dd.get('value')
+    ik = d.get('p235')
+    if ik is not None:
+        iks[ik] = it
+        if ik[15:25] == 'UHFFFAOYSA':
+            ik1s[ik[:14]] = it
+    else:
+        sm = None
+        p233 = None
+        p2017 = None
+        p233 = d.get('p233')
+        p2017 = d.get('p2017')
+        if p2017 is not None and len(p2017) > 0:
+            sm = p2017
+        elif p233 is not None and len(p233) > 0:
+            sm = p233
+        if sm is not None:
+            smiles[it] = sm
+        p8533 = d.get('p8533')
+        if p8533 is not None and len(p8533) > 0:
+            t = smarts.get(it)
+            if t is None:
+                smarts[it] = [p8533]
+            else:
+                t.append(p8533)
+    g = gos.get(it)
+    gotup = (d.get('goid'), d.get('goLabel'))
+    if g is not None:
+        g.add(gotup)
+        continue
+    else:
+        gos[it] = set(gotup)
+    lab = dd.get('label')
+    labels[it] = lab
+    p31 = d.get('p31')
+    if p31 is not None:
+        sitems[it] = p31
 
 # read pattern data
 with open(args.data + 'data-class-pattern.json', 'r') as f:
@@ -294,7 +341,6 @@ for d in jol:
     labels[it] = lab
 
 # filling subclass structure
-sitems = {}
 with open(args.data + 'data-class-subclass.json', 'r') as f:
     if not silent:
         print('reading superclass data')
@@ -399,6 +445,7 @@ elif args.nptest:
     print('FAIL: {}/{}'.format(fcount, count))
 else:
     silent = False
+    print(sitems.get('Q167934'))
     if args.json:
         silent = True
     hits = get_hits(mol, silent)
