@@ -23,5 +23,6 @@ SMILES | comment
 `[CR0][$([CR0]);$([CX3H0](=O)),$([CX4H1](C)(C)O),$([CX4H2](C)C)][CR0]` | C-CH2-C or C-CHOH-C or C-C(=O)-C outside of any ring
 `[$(C);$([CX4H1](C)(C)O),$([CX4H2](C)C),$([CX3H0](C)(C)O),$([CX3H1](C)C)]~[$(C);$([CX4H1](C)(C)O),$([CX4H2](C)C),$([CX3H0](C)(C)O),$([CX3H1](C)C)]` | C-C or C=C as part of a C-chain, with possible O being bound
 --- | ---
-`[#6R1]1~[#7R1]~[#6R1]~[#6R1]~[#6R1]~[#6R1]~1` | pyridine ring in any state of hydrogenization (e.g. piperidine), with no second ring attached
+`[#6R1]1~[#7R1]~[#6R1]~[#6R1]~[#6R1]~[#6R1]~1` | pyridine ring in any state of hydrogenization (e.g. piperidine), with no second ring fused
 `[$([#6]);$([CX4r5]N),$([CX4r5]CN),$([CX4r6]N),$([CX4r6]CN),` `$([CX4r6]CCN),$([cX3r6]n),$([cX3r6]cn),$([cX3r6]ccn)]` | C inside a 5- or 6-ring with N being in 1- or 2-position (5-ring), or in 1,2,3-position (aliphatic/aromatic). Reader task: this can be shortened
+`[$([cR1]);!$(c(c)(n)[CR0][CR0](~[CR0](O))[NR0])` `;!$(c(c)(n)[CR0][CR0][NR0]~[CR0](O))` `;!$(c(c)(n)CC[NR1;!r5,!r6,!r7,!r8]~C(O))]` | aromatic C, part of a single ring, without attached ringless CC(CC=O)N moiety, without attached ringless CCNC(=O) moiety (as well as its tautomer CCN=C(O) ), without attached CCNC(=O) (or tautomer) in a ring bigger than 8. This atom is part of the SMARTS for imidazole alkaloid; if we wouldn't exlude all the moieties we would taint our alkaloids with peptides or cyclopeptides containing His
