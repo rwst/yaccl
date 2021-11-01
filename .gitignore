@@ -127,3 +127,10 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Mac OS
+.DS_Store
+
+# after performing the query
+src/class-pattern1.json
+src/class-pattern2.json
