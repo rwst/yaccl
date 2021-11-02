@@ -445,7 +445,6 @@ elif args.nptest:
     print('FAIL: {}/{}'.format(fcount, count))
 else:
     silent = False
-    print(sitems.get('Q167934'))
     if args.json:
         silent = True
     hits = get_hits(mol, silent)
