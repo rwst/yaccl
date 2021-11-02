@@ -7,7 +7,7 @@ While yaccl is, in principle, a general classifier, development of patterns focu
 
 ## Version / Progress
 
-The current version is 2115.
+The current version is 2116.
 
 - [X] terpenoids
 - [X] steroids
@@ -93,17 +93,21 @@ The difference between the `biosyn` and the `class-pattern` datasets is that the
 
 The design of datasets will be subject to change in future versions.
 
+Using the `-q` option with the dataset scripts depends on a working `wikibase-cli` installation
+to attempt an update of the respective database, directly from Wikidata. This is not necessary
+if you frequently `git pull` this repo, as any Wikidata changes will be reflected by repo updates.
+
 ### biosyn-class-stats
-Output stats of `biosyn` dataset.
+Output stats of `biosyn-classes` dataset.
 
 ```
 $ python3 biosyn-class-stats.py 
 #items: 1167
 #InChI keys: 635
 #InChI1 keys: 242
-#smarts: 35
-#smiles: 695
-# w/o pattern: 440
+#smarts: 42
+#smiles: 694
+# w/o pattern: 436
 ```
 
 ### class-pattern
@@ -129,6 +133,7 @@ Of course, any comment or PR is highly appreciated.
 
 ### TODO
 * do we use compound SMILES from biosyn items (e.g. Q27104306)?
+* reduce data diff noise by sorting stmts
 * option to work with NP subgraph only (should be much faster)
 * if there are superclass patterns match them first, narrowing following matches
 * optimize ontology in WD, remove or deprecate redundant P31/P279 stmts

@@ -70,5 +70,8 @@
 * all data: alkaloids pt. 1 (est. 25% of all)
 * test data: alkaloids
 
+==2116==
+* fixed bug where compounds with biosyn process were not seen with -j option
+* all data: alkaloids pt. 2 (est. 45% of all)
 
 
