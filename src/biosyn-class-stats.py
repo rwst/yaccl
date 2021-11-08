@@ -17,7 +17,7 @@ args = parser.parse_args()
 # Check for --version or -V
 dontquery = not args.query
 script = os.path.basename(sys.argv[0])[:-3]
-OFFSET = 1000000000
+OFFSET1 = 1000000000*2**64
 
 if dontquery is False:
     print('performing query...', file=sys.stderr)
@@ -27,13 +27,16 @@ if dontquery is False:
     ff = open('biosyn-classes.json'.format(script))
     s = ff.read()
     jol = json.loads(s)
-    with open('data-biosyn-classes.json', 'w+') as f:
-        f.write(json.dumps(sorted(jol, key=lambda data: OFFSET*int(data.get('item').get('value')[1:]) +\
-            int(data.get('goid')[3:])), indent=0, ensure_ascii=False))
-else:
+
+if dontquery:
     ff = open('data-biosyn-classes.json'.format(script))
     s = ff.read()
     jol = json.loads(s)
+    ff.close()
+
+with open('data-biosyn-classes.json', 'w+') as f:
+    f.write(json.dumps(sorted(jol, key=lambda data: OFFSET1*int(data.get('item').get('value')[1:]) +\
+        abs(hash(data.get('p8533'))) + int(data.get('goid')[3:])), indent=0, ensure_ascii=False))
 
 items = set()
 gos = {}

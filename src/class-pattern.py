@@ -69,7 +69,7 @@ for d in jol:
         smiles[smi] = it
 
 with open('data-class-pattern.json', 'w+') as f:
-    f.write(json.dumps(sorted(outj, key=lambda data: int(data.get('item').get('value')[1:])), indent=0, ensure_ascii=False))
+    f.write(json.dumps(sorted(outj, key=lambda data: 2**64*int(data.get('item').get('value')[1:]) + abs(hash(data.get('p8533')))), indent=0, ensure_ascii=False))
 
 print('#items: {}'.format(len(items)))
 print('#InChI keys: {}'.format(len(iks.keys())))
