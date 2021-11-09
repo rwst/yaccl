@@ -392,6 +392,10 @@
 "lab": "steroid"
 },
 {
+"item": "Q178026",
+"lab": "fullerene"
+},
+{
 "item": "Q178266",
 "lab": "herbicide"
 },
@@ -1068,6 +1072,10 @@
 "lab": "phellandrene"
 },
 {
+"item": "Q414894",
+"lab": "azine"
+},
+{
 "item": "Q414939",
 "lab": "hemiacetal"
 },
@@ -1570,6 +1578,10 @@
 {
 "item": "Q462174",
 "lab": "hydrate"
+},
+{
+"item": "Q474713",
+"lab": "amphibia toxin"
 },
 {
 "item": "Q485014",
@@ -2082,6 +2094,10 @@
 {
 "item": "Q2115726",
 "lab": "pseudoelement"
+},
+{
+"item": "Q2118866",
+"lab": "purine alkaloid"
 },
 {
 "item": "Q2134627",
@@ -2812,8 +2828,8 @@
 "lab": "pterocarpan"
 },
 {
-"item": "Q7261260",
-"lab": "purinone"
+"item": "Q7263189",
+"lab": "pyoverdine"
 },
 {
 "item": "Q7263387",
@@ -3753,7 +3769,7 @@
 },
 {
 "item": "Q47069735",
-"lab": "pyrimidines"
+"lab": "pyrimidine"
 },
 {
 "item": "Q47147773",
@@ -4290,6 +4306,10 @@
 {
 "item": "Q57263546",
 "lab": "quinazoline"
+},
+{
+"item": "Q57263710",
+"lab": "quinoxaline"
 },
 {
 "item": "Q57698981",
@@ -5408,6 +5428,10 @@
 "lab": "Benzalkonium chloride (general)"
 },
 {
+"item": "Q72460324",
+"lab": "1,3-cyclopentanediol"
+},
+{
 "item": "Q72460895",
 "lab": "(RS)-citronellyl (EZ)-cinnamate"
 },
@@ -6300,6 +6324,10 @@
 "lab": "3-hydroxyanthocyanidin betaine"
 },
 {
+"item": "Q75086093",
+"lab": "phenazines"
+},
+{
 "item": "Q75109294",
 "lab": "zirconium compound"
 },
@@ -6561,11 +6589,19 @@
 },
 {
 "item": "Q94962761",
-"lab": "Cephalotaxus alkaloid"
+"lab": "cephalotaxine-like alkaloid"
+},
+{
+"item": "Q94962804",
+"lab": "diterpene alkaloid"
 },
 {
 "item": "Q96032533",
 "lab": "carbazole alkaloid"
+},
+{
+"item": "Q96471835",
+"lab": "cortistatins"
 },
 {
 "item": "Q96631662",
@@ -6794,6 +6830,10 @@
 {
 "item": "Q102015395",
 "lab": "sesamin"
+},
+{
+"item": "Q102036575",
+"lab": "xestospongin"
 },
 {
 "item": "Q102228219",
@@ -8717,11 +8757,11 @@
 },
 {
 "item": "Q109288845",
-"lab": "crinan-type alkaloid"
+"lab": "5,10b-ethanophenanthridine alkaloid"
 },
 {
 "item": "Q109318694",
-"lab": "lycorine-type alkaloid"
+"lab": "galanthane-like alkaloid"
 },
 {
 "item": "Q109318851",
@@ -8854,5 +8894,173 @@
 {
 "item": "Q109350499",
 "lab": "benzothiazole alkaloid"
+},
+{
+"item": "Q109367198",
+"lab": "pyrazine alkaloid"
+},
+{
+"item": "Q109367514",
+"lab": "pyrimidine"
+},
+{
+"item": "Q109375217",
+"lab": "ptilocaulin"
+},
+{
+"item": "Q109375254",
+"lab": "triazaacenaphthylene alkaloid"
+},
+{
+"item": "Q109375325",
+"lab": "phenazine alkaloid"
+},
+{
+"item": "Q109375436",
+"lab": "phenoxazine alkaloid"
+},
+{
+"item": "Q109378676",
+"lab": "pyrrole alkaloid"
+},
+{
+"item": "Q109378896",
+"lab": "polyamine alkaloid"
+},
+{
+"item": "Q109378988",
+"lab": "PA3 polyamine alkaloid"
+},
+{
+"item": "Q109379097",
+"lab": "spermine"
+},
+{
+"item": "Q109379211",
+"lab": "spermidine"
+},
+{
+"item": "Q109379260",
+"lab": "homospermidine"
+},
+{
+"item": "Q109379306",
+"lab": "putrescine"
+},
+{
+"item": "Q109379356",
+"lab": "PA5 polyamine alkaloid"
+},
+{
+"item": "Q109389801",
+"lab": "pyrrolo[2,3-d]pyrimidine alkaloid"
+},
+{
+"item": "Q109391037",
+"lab": "pteridine"
+},
+{
+"item": "Q109393859",
+"lab": "piperazine alkaloid"
+},
+{
+"item": "Q109395358",
+"lab": "oxepinamides"
+},
+{
+"item": "Q109410601",
+"lab": "benzazepine alkaloid"
+},
+{
+"item": "Q109410876",
+"lab": "[2]benzopyrano[3,4-a][3]benzazepine alkaloid"
+},
+{
+"item": "Q109411495",
+"lab": "6H-benzofuro[3a,3,2-ef][2]benzazepine alkaloid"
+},
+{
+"item": "Q109415665",
+"lab": "lythran-type alkaloid"
+},
+{
+"item": "Q109415948",
+"lab": "3,15-diazatetracyclo[7.7.1.0(2,7).0(10,15)]heptadecane alkaloid"
+},
+{
+"item": "Q109416739",
+"lab": "aconitane alkaloid"
+},
+{
+"item": "Q109417092",
+"lab": "atidane / atisine / hetisan type alkaloid"
+},
+{
+"item": "Q109417176",
+"lab": "daphnane alkaloid"
+},
+{
+"item": "Q109417238",
+"lab": "dendrobane alkaloid"
+},
+{
+"item": "Q109433766",
+"lab": "samandarine alkaloid"
+},
+{
+"item": "Q109434553",
+"lab": "conanine alkaloid"
+},
+{
+"item": "Q109435930",
+"lab": "cevane alkaloid"
+},
+{
+"item": "Q109436844",
+"lab": "jervine alkaloid"
+},
+{
+"item": "Q109438645",
+"lab": "cephalostatine / ritterazine alkaloid"
+},
+{
+"item": "Q109458152",
+"lab": "carbapenem biomolecule"
+},
+{
+"item": "Q109458348",
+"lab": "β-lactam biomolecule"
+},
+{
+"item": "Q109460135",
+"lab": "pyrrolo[2,1-b][1,3]oxazine alkaloid"
+},
+{
+"item": "Q109467231",
+"lab": "cyclopenta[b]pyridine alkaloid"
+},
+{
+"item": "Q109469241",
+"lab": "lamellarin alkaloid"
+},
+{
+"item": "Q109475476",
+"lab": "phenanthro[9,10-f]indolizine alkaloid"
+},
+{
+"item": "Q109475660",
+"lab": "phenanthro[9,10-b]quinolizine alkaloid"
+},
+{
+"item": "Q109476518",
+"lab": "spiroindole alkaloid"
+},
+{
+"item": "Q109476791",
+"lab": "biogenic 2,5-diketopiperazine"
+},
+{
+"item": "Q109476802",
+"lab": "biogenic amide"
 }
 ]
