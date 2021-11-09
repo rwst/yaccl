@@ -83,6 +83,30 @@ def path_to_nproot(hit, nplist):
     path.append(hit)
     return path
 
+ctr = 0
+def is_elem(e, s):
+    global ctr
+    ctr = ctr + 1
+    return e in s
+
+# Walk ontology downwards, breadth first, starting from given root, add children to set
+def walk_collect_npclasses(edges, node, collection):
+    visited = set()    # List to keep track of visited nodes.
+    queue = []      #Initialize a queue
+    visited.add(node)
+    queue.append(node)
+
+    while queue:
+        s = queue.pop(0)
+        e = edges.get(s)
+        if e is None:
+            continue
+        for c in e:
+            if c not in visited:
+                visited.add(c)
+                queue.append(c)
+    collection |= visited
+
 # Try to match ALL patterns. Remove redundant. Return remaining.
 def get_hits(mol, silent=False):
     if not silent:
@@ -182,6 +206,7 @@ parser.add_argument("-a", "--rawhits", help="output all hits before hit processi
 parser.add_argument("-t", "--testfile", help="classify all InChis from file, first line may contain check item", type=str)
 parser.add_argument("-n", "--nptest", help="Load N random NP Inchis from WD and classify", action="store_true")
 parser.add_argument("-j", "--json", help="together with -m outputs JSON formatted result", action="store_true")
+parser.add_argument("-N", "--natural", help="prune ontology to only include natural products", action="store_true")
 
 # Read arguments from the command line
 args = parser.parse_args()
@@ -340,6 +365,7 @@ for d in jol:
                 t.append(p8533)
     labels[it] = lab
 
+childs = {}
 # filling subclass structure
 with open(args.data + 'data-class-subclass.json', 'r') as f:
     if not silent:
@@ -350,11 +376,17 @@ with open(args.data + 'data-class-subclass.json', 'r') as f:
 for d in jol:
     it = d.get('item')
     sup = d.get('super')
-    i = sitems.get(it)
-    if i is not None:
-        i.append(sup)
+    if not args.natural:
+        i = sitems.get(it)
+        if i is not None:
+            i.append(sup)
+        else:
+            sitems[it] = [sup]
+    c = childs.get(sup)
+    if c is not None:
+        c.append(it)
     else:
-        sitems[it] = [sup]
+        childs[sup] = [it]
 
 with open(args.data + 'data-class-subclass-names.json', 'r') as ff:
     s = ff.read()
@@ -372,10 +404,29 @@ sitems['Q2393187'] = ['Q43460564']
 labels['Q2393187'] = 'molecular entity'
 labels['Q43460564'] = 'chemical entity'
 
+#load list of NP roots
 nplist = set()
 with open('natural.txt', 'r') as nf:
     nl = nf.readlines()
     nplist = set([line.rstrip() for line in nl])
+
+#create specialized ontology
+if args.natural:
+    nps = set()
+    for nproot in nplist:
+        walk_collect_npclasses(childs, nproot, nps)
+#        print((nproot,len(nps),ctr))
+        ctr = 0
+    for np in nps:
+        clist = childs.get(np)
+        if clist is None:
+            continue
+        for c in clist:
+            i = sitems.get(c)
+            if i is not None:
+                i.append(np)
+            else:
+                sitems[c] = [np]
 
 if args.testfile is not None:
     print('classifying testfile {}'.format(args.testfile))
