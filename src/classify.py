@@ -20,9 +20,9 @@ def walk_ont(sitems, hitemset, hitem, minors):
 # Walk reverse ontology subgraph (root = node) upwards, breadth first. The first encountered
 # GO process is returned.
 def walk_ont_go(sitems, node, gos):
-    visited = []    # List to keep track of visited nodes.
+    visited = set()    # List to keep track of visited nodes.
     queue = []      #Initialize a queue
-    visited.append(node)
+    visited.add(node)
     queue.append(node)
 
     while queue:
@@ -35,7 +35,7 @@ def walk_ont_go(sitems, node, gos):
             continue
         for c in ch:
             if c not in visited:
-                visited.append(c)
+                visited.add(c)
                 queue.append(c)
     return None
 
