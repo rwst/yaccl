@@ -7,7 +7,7 @@ While yaccl is, in principle, a general classifier, development of patterns focu
 
 ## Version / Progress
 
-The current version is 2116.
+The current version is 2117.
 
 - [X] terpenoids
 - [X] steroids
@@ -133,9 +133,8 @@ Of course, any comment or PR is highly appreciated.
 
 ### TODO
 * do we use compound SMILES from biosyn items (e.g. Q27104306)?
-* reduce data diff noise by sorting stmts
+* check if there are biosyn classes not in the NP sub-ontology
 * option to work with NP subgraph only (should be much faster)
-* if there are superclass patterns match them first, narrowing following matches
 * optimize ontology in WD, remove or deprecate redundant P31/P279 stmts
 * write toolserver client
 * use RHEA to list enzymatic reactions

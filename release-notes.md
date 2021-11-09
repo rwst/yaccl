@@ -74,4 +74,6 @@
 * fixed bug where compounds with biosyn process were not seen with -j option
 * all data: alkaloids pt. 2 (est. 45% of all)
 
-
+==2117==
+* sort pattern data on SMARTS hash to avoid most reshuffling
+* all data: alkaloids pt. 3 (est. 62% of all)
