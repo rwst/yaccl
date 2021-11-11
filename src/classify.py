@@ -107,6 +107,12 @@ def walk_collect_npclasses(edges, node, collection):
                 queue.append(c)
     collection |= visited
 
+#rule A-1
+def check_unspec_alkaloid(mol):
+    if mol.HasSubstructMatch(Chem.MolFromSmarts('[#7R]')):
+        if not mol.HasSubstructMatch(Chem.MolFromSmarts('[#7]~[#6](~[OX1H0,OX2H1])')):
+            return True
+
 # Try to match ALL patterns. Remove redundant. Return remaining.
 def get_hits(mol, silent=False):
     if not silent:
@@ -193,6 +199,10 @@ def get_hits(mol, silent=False):
         walk_ont(sitems, hitemset, hit, minors)
     for m in minors:
         hits.pop(m)
+    if len(hits) == 0:
+        print(1)
+        if check_unspec_alkaloid(mol):
+            hits['Q70702'] = ('Q70702', 'unspecified alkaloid', 'Rule A-1')
 
     return hits
 
