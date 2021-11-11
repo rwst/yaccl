@@ -76,6 +76,8 @@ def walk_find_list(sitems, hitem, item_set):
 # Find path to topmost natural product, return as array of names
 def path_to_nproot(hit, nplist):
     global path
+    if hit in nplist:
+        return [hit]
     path = []
     success = walk_find_list(sitems, hit, set(nplist))
     if not success:
@@ -109,9 +111,26 @@ def walk_collect_npclasses(edges, node, collection):
 
 #rule A-1
 def check_unspec_alkaloid(mol):
-    if mol.HasSubstructMatch(Chem.MolFromSmarts('[#7R]')):
-        if not mol.HasSubstructMatch(Chem.MolFromSmarts('[#7]~[#6](~[OX1H0,OX2H1])')):
-            return True
+    #ring-N
+    if not mol.HasSubstructMatch(Chem.MolFromSmarts('[#7R]')):
+        return False
+    #!peptide
+    if mol.HasSubstructMatch(Chem.MolFromSmarts('[$([NR0]),$([Nr;!r3;!r4;!r5;!r6;!r7;!r8])]~C(~[OX1H0,OX2H1])')):
+        return False
+    #!tetrapyrroles
+    if mol.HasSubstructMatch(Chem.MolFromSmarts('[#6]1~[#6]~[#6]2~[#6]~[#6]3~[#6]~[#6]~[#6](~[#6]~[#6]4~[#6]~[#6]~[#6](~[#6]~[#6]5~[#6]~[#6]~[#6](~[#6]~[#6]~1~[#7]~2)~[#7]~5)~[#7]~4)~[#7]~3')):
+        return False
+    if mol.HasSubstructMatch(Chem.MolFromSmarts('[#6]1~[#6]~[#7]~[#6](~[#6R0]~[#6]2~[#6]~[#6]~[#6](~[#6R0]~[#6]3~[#6]~[#6]~[#6](~[#6R0]~[#6]4~[#6]~[#6]~[#6]~[#7]~4)~[#7]~3)~[#7]~2)~[#6]~1')):
+        return False
+    #!nucleotides
+    if mol.HasSubstructMatch(Chem.MolFromSmarts('POCC1CCC(n2cnc3cncnc32)O1')):
+        return False
+    if mol.HasSubstructMatch(Chem.MolFromSmarts('POCC2CCC([#7R1]1~[#6R1]~[#7R1]~[#6R1]~[#6R1]~[#6R1]~1)O2')):
+        return False
+    #!diketopiperazine
+    if mol.HasSubstructMatch(Chem.MolFromSmarts('[#6]1~[#7]~[#6](~O)~[#6]~[#7]~[#6](~O)~1')):
+        return False
+    return True
 
 # Try to match ALL patterns. Remove redundant. Return remaining.
 def get_hits(mol, silent=False):
@@ -191,6 +210,9 @@ def get_hits(mol, silent=False):
                     print('{} {} {} {}'.format(it, labels.get(it), sm, go))
                 break
 
+    if check_unspec_alkaloid(mol):
+        hits['Q70702'] = ('Q70702', 'unspecified alkaloid', 'Rule A-1')
+    
     if not silent:
         print('purging redundant hits')
     hitemset = set(hits.keys())
@@ -199,10 +221,6 @@ def get_hits(mol, silent=False):
         walk_ont(sitems, hitemset, hit, minors)
     for m in minors:
         hits.pop(m)
-    if len(hits) == 0:
-        print(1)
-        if check_unspec_alkaloid(mol):
-            hits['Q70702'] = ('Q70702', 'unspecified alkaloid', 'Rule A-1')
 
     return hits
 
