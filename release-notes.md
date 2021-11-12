@@ -77,3 +77,12 @@
 ==2117==
 * sort pattern data on SMARTS hash to avoid most reshuffling
 * all data: alkaloids pt. 3 (est. 62% of all)
+
+==2118==
+* fix bug where hits to NP root classes were ignored
+* again fix data write order; Py hash() was salted
+* add rule to recognize unspecified alkaloids
+* all data: alkaloids pt. 4 (est. 35% unspecified)
+* add option ouputting NP roots in JSON format
+* revamp top NP hierarchy
+
