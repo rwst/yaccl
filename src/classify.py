@@ -235,10 +235,14 @@ parser.add_argument("-t", "--testfile", help="classify all InChis from file, fir
 parser.add_argument("-n", "--nptest", help="Load N random NP Inchis from WD and classify", action="store_true")
 parser.add_argument("-j", "--json", help="together with -m outputs JSON formatted result", action="store_true")
 parser.add_argument("-N", "--natural", help="prune ontology to only include natural products", action="store_true")
+parser.add_argument("--list_nproots", help="list of topmost natural products classes", action="store_true")
 
 # Read arguments from the command line
 args = parser.parse_args()
-if args.molecule is None and args.testfile is None and args.nptest is False:
+is_normal_run = not (args.molecule is None) or not(args.testfile is None) or args.nptest
+is_extra_service = args.list_nproots
+
+if not is_normal_run and not is_extra_service:
     print('One of -m or -t or -n is needed')
     parser.print_usage()
     exit()
@@ -248,7 +252,7 @@ silent = args.json
 if not silent:
     print(args)
 
-if args.testfile is None and args.testfile is None and args.nptest is False:
+if is_normal_run and args.testfile is None and args.nptest is False:
     if args.molecule.find('InChI=') >= 0:
         mol = Chem.MolFromInchi(args.molecule)
     else:
@@ -437,6 +441,16 @@ nplist = set()
 with open('natural.txt', 'r') as nf:
     nl = nf.readlines()
     nplist = set([line.rstrip() for line in nl])
+
+if args.list_nproots:
+    j = []
+    for i in nplist:
+        d = {}
+        d['item'] = i
+        d['name'] = labels.get(i)
+        j.append(d)
+    print(json.dumps(j))
+    exit()
 
 #create specialized ontology
 if args.natural:
