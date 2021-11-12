@@ -4,6 +4,23 @@ import os, json, argparse, sys
 """
 Load chemclasses from Wikidata that link to biosynthetic processes, save in canonical form (Q numbers sorted numerically), output statistics
 """
+# see https://stackoverflow.com/questions/793761/built-in-python-hash-function
+def c_mul(a, b):
+  return eval(hex((int(a) * b) & (2**64 - 1))[:-1])
+
+def py25hash(self):
+  if not self:
+    return 0 # empty
+  value = ord(self[0]) << 7
+  for char in self:
+    value = c_mul(1000003, value) ^ ord(char)
+  value = value ^ len(self)
+  if value == -1:
+    value = -2
+  if value >= 2**63:
+    value -= 2**64
+  return value
+
 # Initiate the parser
 parser = argparse.ArgumentParser()
 parser.add_argument("-q", "--query", help="perform SPARQL query",
@@ -36,7 +53,7 @@ if dontquery:
 
 with open('data-biosyn-classes.json', 'w+') as f:
     f.write(json.dumps(sorted(jol, key=lambda data: OFFSET1*int(data.get('item').get('value')[1:]) +\
-        abs(hash(data.get('p8533'))) + int(data.get('goid')[3:])), indent=0, ensure_ascii=False))
+        abs(py25hash(data.get('p8533'))) + int(data.get('goid')[3:])), indent=0, ensure_ascii=False))
 
 items = set()
 gos = {}
