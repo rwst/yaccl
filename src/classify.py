@@ -449,7 +449,7 @@ if args.list_nproots:
         d['item'] = i
         d['name'] = labels.get(i)
         j.append(d)
-    print(json.dumps(j))
+    print(json.dumps(j, indent=0))
     exit()
 
 #create specialized ontology
