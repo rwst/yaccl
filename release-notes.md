@@ -86,3 +86,10 @@
 * add option ouputting NP roots in JSON format
 * revamp top NP hierarchy
 
+==2119==
+* all data: polyketides pt. 1 (est. 90% of all)
+* test data: polyketides
+* prettify `--list_nproots`
+* further NP root optimizations
+
+

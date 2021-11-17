@@ -7,12 +7,14 @@ While yaccl is, in principle, a general classifier, development of patterns focu
 
 ## Version / Progress
 
-The current version is 2118.
+The current version is 2119.
 
 - [X] terpenoids
 - [X] steroids
 - [X] flavonoids
-- [ ] alkaloids (in progress)
+- [X] alkaloids (35% unspecified but recognized)
+- [ ] polyketides (in progress)
+
 
 ## Prerequisites
 
