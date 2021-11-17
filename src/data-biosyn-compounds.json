@@ -1332,7 +1332,8 @@
 "p31": [
 "Q12140",
 "Q35456",
-"Q15710532"
+"Q15710532",
+"Q109559439"
 ]
 },
 {
@@ -2244,7 +2245,8 @@
 "p235": "POJWUDADGALRAB-UHFFFAOYSA-N",
 "p31": [
 "Q193430",
-"Q902638"
+"Q902638",
+"Q109559114"
 ]
 },
 {
@@ -3874,7 +3876,8 @@
 "p2017": "CC1=C(C=CC2=C1OC(=O)C(=C2O)NC(=O)C3=CC(=C(C=C3)O)CC=C(C)C)O[C@H]4[C@@H]([C@@H]([C@H](C(O4)(C)C)OC)OC(=O)N)O",
 "p235": "YJQPYGGHQPGBLI-KGSXXDOSSA-N",
 "p31": [
-"Q12140"
+"Q12140",
+"Q109583589"
 ]
 },
 {
@@ -4245,7 +4248,10 @@
 "goid": "GO:0033493",
 "goLabel": "esculetin biosynthetic process",
 "p233": "C1=CC(=O)OC2=CC(=C(C=C21)O)O",
-"p235": "ILEDWLMCKZNDJK-UHFFFAOYSA-N"
+"p235": "ILEDWLMCKZNDJK-UHFFFAOYSA-N",
+"p31": [
+"Q109583589"
+]
 },
 {
 "item": {
@@ -4430,7 +4436,7 @@
 {
 "item": {
 "value": "Q3934263",
-"label": "Ribostamycin"
+"label": "ribostamycin"
 },
 "goid": "GO:1901152",
 "goLabel": "vistamycin biosynthetic process",
@@ -4486,6 +4492,7 @@
 "p233": "CC1=CC(=C2C(=C1)C(=O)C3=CC(=CC(=C3C2=O)O)O)O",
 "p235": "RHMXXJGYXNZAPX-UHFFFAOYSA-N",
 "p31": [
+"Q574302",
 "Q66124525"
 ]
 },
@@ -5016,7 +5023,10 @@
 "goid": "GO:1900599",
 "goLabel": "demethylkotanin biosynthetic process",
 "p233": "CC1=CC(=C(C2=C1C(=CC(=O)O2)OC)C3=C(C=C(C4=C3OC(=O)C=C4OC)C)OC)O",
-"p235": "WNAATGJTLYDMRY-UHFFFAOYSA-N"
+"p235": "WNAATGJTLYDMRY-UHFFFAOYSA-N",
+"p31": [
+"Q109583589"
+]
 },
 {
 "item": {
@@ -5082,7 +5092,10 @@
 "goid": "GO:1901884",
 "goLabel": "4-hydroxycoumarin biosynthetic process",
 "p233": "C1=CC=C2C(=C1)C(=CC(=O)O2)O",
-"p235": "VXIXUWQIVKSKSA-UHFFFAOYSA-N"
+"p235": "VXIXUWQIVKSKSA-UHFFFAOYSA-N",
+"p31": [
+"Q109583589"
+]
 },
 {
 "item": {
@@ -7852,7 +7865,10 @@
 "goLabel": "asperthecin biosynthetic process",
 "p233": "C1=C2C(=C(C(=C1CO)O)O)C(=O)C3=C(C2=O)C(=C(C=C3O)O)O",
 "p2017": "O=C1c2c(cc(CO)c(O)c2O)C(=O)c2c(O)c(O)cc(O)c21",
-"p235": "DLOLMYKOOZLTPY-UHFFFAOYSA-N"
+"p235": "DLOLMYKOOZLTPY-UHFFFAOYSA-N",
+"p31": [
+"Q574302"
+]
 },
 {
 "item": {
@@ -7874,7 +7890,10 @@
 "goLabel": "emericellamide A biosynthetic process",
 "p233": "CCCCCCC(C)C1C(C(=O)NCC(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)O1)C)C)CC(C)C)C(C)C)C",
 "p2017": "CCCCCC[C@H](C)[C@@H]1[C@H](C(=O)NCC(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)O1)C)C)CC(C)C)C(C)C)C",
-"p235": "QURRTAYEASAREY-OOVPVTRWSA-N"
+"p235": "QURRTAYEASAREY-OOVPVTRWSA-N",
+"p31": [
+"Q109559114"
+]
 },
 {
 "item": {
@@ -8008,7 +8027,10 @@
 "goid": "GO:1900602",
 "goLabel": "endocrocin biosynthetic process",
 "p233": "CC1=C(C(=C2C(=C1)C(=O)C3=CC(=CC(=C3C2=O)O)O)O)C(=O)O",
-"p235": "UZOHDKGTYVTYDZ-UHFFFAOYSA-N"
+"p235": "UZOHDKGTYVTYDZ-UHFFFAOYSA-N",
+"p31": [
+"Q574302"
+]
 },
 {
 "item": {
@@ -8018,7 +8040,10 @@
 "goid": "GO:1900596",
 "goLabel": "(+)-kotanin biosynthetic process",
 "p233": "CC1=CC(=C(C2=C1C(=CC(=O)O2)OC)C3=C(C=C(C4=C3OC(=O)C=C4OC)C)OC)OC",
-"p235": "CSJOUDOXDHMIAH-UHFFFAOYSA-N"
+"p235": "CSJOUDOXDHMIAH-UHFFFAOYSA-N",
+"p31": [
+"Q109583589"
+]
 },
 {
 "item": {
@@ -8028,7 +8053,10 @@
 "goid": "GO:1900821",
 "goLabel": "orlandin biosynthetic process",
 "p233": "CC1=CC(=C(C2=C1C(=CC(=O)O2)OC)C3=C(C=C(C4=C3OC(=O)C=C4OC)C)O)O",
-"p235": "SSGXAFNGBRRLQM-UHFFFAOYSA-N"
+"p235": "SSGXAFNGBRRLQM-UHFFFAOYSA-N",
+"p31": [
+"Q109583589"
+]
 },
 {
 "item": {

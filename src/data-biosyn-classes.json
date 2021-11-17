@@ -1686,8 +1686,7 @@
 "label": "fatty acid methyl ester"
 },
 "goid": "GO:1902899",
-"goLabel": "fatty acid methyl ester biosynthetic process",
-"p233": "COC([*])=O"
+"goLabel": "fatty acid methyl ester biosynthetic process"
 },
 {
 "item": {

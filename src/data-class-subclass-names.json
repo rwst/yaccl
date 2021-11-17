@@ -948,6 +948,10 @@
 "lab": "indole alkaloid"
 },
 {
+"item": "Q408611",
+"lab": "depside"
+},
+{
 "item": "Q408683",
 "lab": "mineral acid"
 },
@@ -1625,7 +1629,7 @@
 },
 {
 "item": "Q574302",
-"lab": "anthraquinones"
+"lab": "biogenic anthraquinones"
 },
 {
 "item": "Q574820",
@@ -2014,6 +2018,10 @@
 {
 "item": "Q1659847",
 "lab": "imidazole"
+},
+{
+"item": "Q1660181",
+"lab": "Immunogen"
 },
 {
 "item": "Q1660194",
@@ -2406,6 +2414,10 @@
 {
 "item": "Q3058925",
 "lab": "sulfite ester"
+},
+{
+"item": "Q3073444",
+"lab": "flavagline"
 },
 {
 "item": "Q3073451",
@@ -3236,6 +3248,10 @@
 "lab": "oxo compound"
 },
 {
+"item": "Q19932714",
+"lab": "azaphilone"
+},
+{
 "item": "Q20054553",
 "lab": "thiuram"
 },
@@ -3432,6 +3448,10 @@
 "lab": "benzofurans"
 },
 {
+"item": "Q25326518",
+"lab": "depsidone"
+},
+{
 "item": "Q25383529",
 "lab": "aluminum compound"
 },
@@ -3550,6 +3570,10 @@
 {
 "item": "Q27163713",
 "lab": "1H-indole-3-carboxylic acid (8-methyl-8-azabicyclo[3.2.1]octan-3-yl) ester"
+},
+{
+"item": "Q27164772",
+"lab": "5-(1,3-benzodioxol-5-yl)-1-(1-piperidinyl)-1-penta-2,4-dienone"
 },
 {
 "item": "Q27165475",
@@ -4060,6 +4084,10 @@
 "lab": "cyclopropane fatty acid"
 },
 {
+"item": "Q55658949",
+"lab": "isobenzofuran"
+},
+{
 "item": "Q55665770",
 "lab": "isoindole"
 },
@@ -4094,6 +4122,10 @@
 {
 "item": "Q56099970",
 "lab": "azocine"
+},
+{
+"item": "Q56244534",
+"lab": "azaspiracid"
 },
 {
 "item": "Q56249615",
@@ -5798,6 +5830,14 @@
 {
 "item": "Q73594096",
 "lab": "heterocyclic acid"
+},
+{
+"item": "Q73605636",
+"lab": "isocoumarins"
+},
+{
+"item": "Q73606158",
+"lab": "pyranocoumarins"
 },
 {
 "item": "Q73653572",
@@ -9122,5 +9162,73 @@
 {
 "item": "Q109545427",
 "lab": "biogenic xanthone"
+},
+{
+"item": "Q109559114",
+"lab": "biogenic cyclopeptide"
+},
+{
+"item": "Q109559439",
+"lab": "biogenic naphthochinone"
+},
+{
+"item": "Q109559516",
+"lab": "biogenic quinone"
+},
+{
+"item": "Q109562462",
+"lab": "biogenic benzofuran"
+},
+{
+"item": "Q109562497",
+"lab": "biogenic isobenzofuran"
+},
+{
+"item": "Q109562738",
+"lab": "angeolide"
+},
+{
+"item": "Q109562815",
+"lab": "benzodifuran"
+},
+{
+"item": "Q109568569",
+"lab": "chromanone"
+},
+{
+"item": "Q109583240",
+"lab": "biogenic chromone"
+},
+{
+"item": "Q109583370",
+"lab": "2-chromene"
+},
+{
+"item": "Q109583425",
+"lab": "3-chromene"
+},
+{
+"item": "Q109583589",
+"lab": "biogenic coumarin"
+},
+{
+"item": "Q109587323",
+"lab": "isochromene"
+},
+{
+"item": "Q109587342",
+"lab": "isocoumarin"
+},
+{
+"item": "Q109602493",
+"lab": "dibenzopyran"
+},
+{
+"item": "Q109602853",
+"lab": "grisan-type benzofuranoid"
+},
+{
+"item": "Q109603820",
+"lab": "anthracyclinone"
 }
 ]
