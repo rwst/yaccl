@@ -7,7 +7,7 @@ While yaccl is, in principle, a general classifier, development of patterns focu
 
 ## Version / Progress
 
-The current version is 2119.
+The current version is 2120.
 
 - [X] terpenoids
 - [X] steroids

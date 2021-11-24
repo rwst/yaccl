@@ -92,4 +92,9 @@
 * prettify `--list_nproots`
 * further NP root optimizations
 
+==2120==
+* test data polyketides was missing
+* add rule to recognize unspecified macrolides
+* all data: polyketides pt. 2 (est. 97% of all)
+
 
