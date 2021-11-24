@@ -1638,7 +1638,7 @@
 "goid": "GO:0051553",
 "goLabel": "flavone biosynthetic process",
 "p233": "O1C2=C(C(C(=C1C3=C(C(=C(C(=C3*)*)*)*)*)*)=O)C(=C(C(=C2*)*)*)*",
-"p8533": "[$(c);$([cX3H0](c)(c)O),$([cX3H1](c)c)]1[$(c);$([cX3H0](c)(c)O),$([cX3H1](c)c)][$(c);$([cX3H0](c)(c)O),$([cX3H1](c)c)][$(c);$([cX3H0](c)(c)O),$([cX3H1](c)c)][$(c);$([cX3H0](c)(c)O),$([cX3H1](c)c)]c1c2oc3[$(c);$([cX3H0](c)(c)O),$([cX3H1](c)c)][$(c);$([cX3H0](c)(c)O),$([cX3H1](c)c)][$(c);$([cX3H0](c)(c)O),$([cX3H1](c)c)][$(c);$([cX3H0](c)(c)O),$([cX3H1](c)c)]c3c(=O)[$(c);$([cX3H0](c)(c)O),$([cX3H1](c)c)]2"
+"p8533": "[$(c);$([cX3H0](c)(c)[O,F,Cl,Br,I]),$([cX3H1](c)c)]1[$(c);$([cX3H0](c)(c)[O,F,Cl,Br,I]),$([cX3H1](c)c)][$(c);$([cX3H0](c)(c)[O,F,Cl,Br,I]),$([cX3H1](c)c)][$(c);$([cX3H0](c)(c)[O,F,Cl,Br,I]),$([cX3H1](c)c)][$(c);$([cX3H0](c)(c)[O,F,Cl,Br,I]),$([cX3H1](c)c)]c1c2oc3[$(c);$([cX3H0](c)(c)[O,F,Cl,Br,I]),$([cX3H1](c)c)][$(c);$([cX3H0](c)(c)[O,F,Cl,Br,I]),$([cX3H1](c)c)][$(c);$([cX3H0](c)(c)[O,F,Cl,Br,I]),$([cX3H1](c)c)][$(c);$([cX3H0](c)(c)[O,F,Cl,Br,I]),$([cX3H1](c)c)]c3c(=O)[$(c);$([cX3H0](c)(c)[O,F,Cl,Br,I]),$([cX3H1](c)c)]2"
 },
 {
 "item": {
@@ -2412,7 +2412,8 @@
 "label": "ansamycin"
 },
 "goid": "GO:0033070",
-"goLabel": "ansamycin biosynthetic process"
+"goLabel": "ansamycin biosynthetic process",
+"p8533": "c1ccccc1[N;r{9-}][C;r{9-}](=O)"
 },
 {
 "item": {
@@ -5764,6 +5765,15 @@
 },
 "goid": "GO:1901085",
 "goLabel": "pyrrolizidine alkaloid biosynthetic process",
+"p8533": "[#6,#8;r{9-}][#6R2]1~[#6R1]~[#6R1][#7R2]2[#6R1]~[#6R1]~[#6R2]([#6,#8;r{9-}])~[#6R3]~12"
+},
+{
+"item": {
+"value": "Q75005794",
+"label": "pyrrolizidine alkaloid"
+},
+"goid": "GO:1901085",
+"goLabel": "pyrrolizidine alkaloid biosynthetic process",
 "p8533": "OCC1~[CR1]CN2C[CR1]C(O)C12"
 },
 {
@@ -6460,6 +6470,6 @@
 },
 "goid": "GO:0009715",
 "goLabel": "chalcone biosynthetic process",
-"p8533": "[$(c);$([cX3H0](c)(c)O),$([cX3H1](c)c)]1[$(c);$([cX3H0](c)(c)O),$([cX3H1](c)c)][$(c);$([cX3H0](c)(c)O),$([cX3H1](c)c)][$(c);$([cX3H0](c)(c)O),$([cX3H1](c)c)][$(c);$([cX3H0](c)(c)O),$([cX3H1](c)c)]c1C(=O)[CR0]=[CR0]c2[$(c);$([cX3H0](c)(c)O),$([cX3H1](c)c)][$(c);$([cX3H0](c)(c)O),$([cX3H1](c)c)][$(c);$([cX3H0](c)(c)O),$([cX3H1](c)c)][$(c);$([cX3H0](c)(c)O),$([cX3H1](c)c)][$(c);$([cX3H0](c)(c)O),$([cX3H1](c)c)]2"
+"p8533": "[$(c);$([cX3H0](c)(c)[O,Cl,Br]),$([cX3H1](c)c)]1[$(c);$([cX3H0](c)(c)[O,Cl,Br]),$([cX3H1](c)c)][$(c);$([cX3H0](c)(c)[O,Cl,Br]),$([cX3H1](c)c)][$(c);$([cX3H0](c)(c)[O,Cl,Br]),$([cX3H1](c)c)][$(c);$([cX3H0](c)(c)[O,Cl,Br]),$([cX3H1](c)c)]c1C(=O)[CR0]=[CR0]c2[$(c);$([cX3H0](c)(c)[O,Cl,Br]),$([cX3H1](c)c)][$(c);$([cX3H0](c)(c)[O,Cl,Br]),$([cX3H1](c)c)][$(c);$([cX3H0](c)(c)[O,Cl,Br]),$([cX3H1](c)c)][$(c);$([cX3H0](c)(c)[O,Cl,Br]),$([cX3H1](c)c)][$(c);$([cX3H0](c)(c)[O,Cl,Br]),$([cX3H1](c)c)]2"
 }
 ]

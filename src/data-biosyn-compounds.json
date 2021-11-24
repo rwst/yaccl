@@ -1580,7 +1580,7 @@
 {
 "item": {
 "value": "Q207843",
-"label": "nitric oxide (radical)"
+"label": "nitric oxide"
 },
 "goid": "GO:0006809",
 "goLabel": "nitric oxide biosynthetic process",
@@ -2470,7 +2470,8 @@
 "p31": [
 "Q12140",
 "Q35456",
-"Q187661"
+"Q187661",
+"Q109603820"
 ]
 },
 {
@@ -3556,7 +3557,10 @@
 "goLabel": "enterobactin biosynthetic process",
 "p233": "C1C(C(=O)OCC(C(=O)OCC(C(=O)O1)NC(=O)C2=C(C(=CC=C2)O)O)NC(=O)C3=C(C(=CC=C3)O)O)NC(=O)C4=C(C(=CC=C4)O)O",
 "p2017": "C1[C@@H](C(=O)OC[C@@H](C(=O)OC[C@@H](C(=O)O1)NC(=O)C2=C(C(=CC=C2)O)O)NC(=O)C3=C(C(=CC=C3)O)O)NC(=O)C4=C(C(=CC=C4)O)O",
-"p235": "SERBHKJMVBATSJ-BZSNNMDCSA-N"
+"p235": "SERBHKJMVBATSJ-BZSNNMDCSA-N",
+"p31": [
+"Q422687"
+]
 },
 {
 "item": {
@@ -4147,7 +4151,8 @@
 "p2017": "COC1=C2C(=C3[C@@H]4C=CO[C@@H]4OC3=C1)OC5=C(C2=O)C(=CC=C5)O",
 "p235": "UTSVPXMQSFGQTM-DCXZOGHSSA-N",
 "p31": [
-"Q187661"
+"Q187661",
+"Q109715429"
 ]
 },
 {
@@ -4355,7 +4360,9 @@
 "p2017": "CC[C@]1(CC[C@@H](O1)[C@@]2(CC[C@@]3(O2)C[C@@H]([C@H]([C@H](O3)[C@@H](C)[C@H]([C@H](C)C(=O)O)OC)C)O)C)[C@H]4[C@H](C[C@@H](O4)[C@@H]5[C@H](C[C@H]([C@@](O5)(CO)O)C)C)C",
 "p235": "GAOZTHIDHYLHMS-KEOBGNEYSA-N",
 "p31": [
-"Q134856"
+"Q134856",
+"Q107605772",
+"Q109615021"
 ]
 },
 {

@@ -40,6 +40,10 @@
 "lab": "base"
 },
 {
+"item": "Q11351",
+"lab": "organic chemistry"
+},
+{
 "item": "Q11358",
 "lab": "carbohydrate"
 },
@@ -624,6 +628,10 @@
 "lab": "acetate"
 },
 {
+"item": "Q212936",
+"lab": "aflatoxins"
+},
+{
 "item": "Q214609",
 "lab": "material"
 },
@@ -1192,6 +1200,10 @@
 "lab": "cyclophane"
 },
 {
+"item": "Q419147",
+"lab": "Alkylphenol"
+},
+{
 "item": "Q419178",
 "lab": "macrocycle"
 },
@@ -1726,6 +1738,10 @@
 {
 "item": "Q757138",
 "lab": "hazardous substances"
+},
+{
+"item": "Q781204",
+"lab": "clathrate compound"
 },
 {
 "item": "Q804539",
@@ -2540,6 +2556,10 @@
 "lab": "nitrogen compound"
 },
 {
+"item": "Q3774643",
+"lab": "ansamycin"
+},
+{
 "item": "Q3819788",
 "lab": "adipate"
 },
@@ -2682,6 +2702,10 @@
 {
 "item": "Q5159421",
 "lab": "conduritol"
+},
+{
+"item": "Q5168035",
+"lab": "coordination polymer"
 },
 {
 "item": "Q5217682",
@@ -3168,8 +3192,16 @@
 "lab": "monoprotic acid"
 },
 {
+"item": "Q16969306",
+"lab": "kinamycin"
+},
+{
 "item": "Q16976956",
 "lab": "isoflavene"
+},
+{
+"item": "Q16978028",
+"lab": "phenolic lipid"
 },
 {
 "item": "Q17118718",
@@ -4210,6 +4242,10 @@
 {
 "item": "Q56696697",
 "lab": "carboxylic anhydride"
+},
+{
+"item": "Q56696799",
+"lab": "anthrone"
 },
 {
 "item": "Q56697523",
@@ -6000,10 +6036,6 @@
 "lab": "homodetic cyclic peptide"
 },
 {
-"item": "Q74361069",
-"lab": "anthracycline"
-},
-{
 "item": "Q74366064",
 "lab": "3-oxoacyl-CoA(4-)"
 },
@@ -6940,6 +6972,10 @@
 "lab": "tropin"
 },
 {
+"item": "Q104982920",
+"lab": "(1R,2R,7R)-cedr-8(15)-en-9-ol"
+},
+{
 "item": "Q105019941",
 "lab": "hexopyranosyl-(1->4)-hexopyranose"
 },
@@ -7190,6 +7226,14 @@
 {
 "item": "Q107566905",
 "lab": "epoxy fatty acid"
+},
+{
+"item": "Q107605341",
+"lab": "polyene macrolide"
+},
+{
+"item": "Q107605772",
+"lab": "polyether polyketide"
 },
 {
 "item": "Q107634376",
@@ -9229,6 +9273,118 @@
 },
 {
 "item": "Q109603820",
-"lab": "anthracyclinone"
+"lab": "anthracycline polyketide"
+},
+{
+"item": "Q109610330",
+"lab": "biogenic alkylphenol"
+},
+{
+"item": "Q109614590",
+"lab": "alkylhydroquinone"
+},
+{
+"item": "Q109615021",
+"lab": "biogenic 1,6-dioxaspiro(4.5)decane"
+},
+{
+"item": "Q109615067",
+"lab": "biogenic 1,7-dioxaspiro(5.5)undecane"
+},
+{
+"item": "Q109615113",
+"lab": "biogenic 1,5-dioxaspiro(4.4)nonane"
+},
+{
+"item": "Q109615426",
+"lab": "2,8-dioxabicyclo[3.2.1]octane polyketide"
+},
+{
+"item": "Q109627784",
+"lab": "2-methylidenecyclopent-4-ene-1,3-dione polyketide"
+},
+{
+"item": "Q109628128",
+"lab": "6C-substituted isoflavanone"
+},
+{
+"item": "Q109628258",
+"lab": "6C-substituted flavan"
+},
+{
+"item": "Q109628467",
+"lab": "3',8C-substituted flavone"
+},
+{
+"item": "Q109643746",
+"lab": "6C-substituted isoflavane"
+},
+{
+"item": "Q109644126",
+"lab": "5C-substituted flavanone"
+},
+{
+"item": "Q109644703",
+"lab": "2,8C-substituted isoflavane"
+},
+{
+"item": "Q109645025",
+"lab": "2',3,8C-substituted flavone"
+},
+{
+"item": "Q109645362",
+"lab": "3',8C-substituted flavanone"
+},
+{
+"item": "Q109645624",
+"lab": "p-nitrophenyl polyketide"
+},
+{
+"item": "Q109653078",
+"lab": "benzo[a]anthracene polyketide"
+},
+{
+"item": "Q109653162",
+"lab": "tetracycline polyketide"
+},
+{
+"item": "Q109653460",
+"lab": "cyclic imine"
+},
+{
+"item": "Q109660056",
+"lab": "anthrone polyketide"
+},
+{
+"item": "Q109673806",
+"lab": "2,2,6,6-tetramethylcyclohex-4-ene-1,3-dione polyketide"
+},
+{
+"item": "Q109674135",
+"lab": "5,8C-substituted flavan"
+},
+{
+"item": "Q109674227",
+"lab": "2'C-substituted isoflavone"
+},
+{
+"item": "Q109714105",
+"lab": "5,6-dihydrobenzo[c]xanthen-7-one flavonoid"
+},
+{
+"item": "Q109714203",
+"lab": "[1]benzofuro[2,3-b]chromen-11-one isoflavonoid"
+},
+{
+"item": "Q109714808",
+"lab": "flavone quinonoid"
+},
+{
+"item": "Q109715429",
+"lab": "sterigmatocystin-type polyketide"
+},
+{
+"item": "Q109715515",
+"lab": "bisanthrone polyketide"
 }
 ]
