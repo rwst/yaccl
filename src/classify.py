@@ -563,6 +563,7 @@ else:
         print('----------------------------------')
     D = {}
     D['molecule'] = args.molecule
+    D['ikey'] = Chem.MolToInchiKey(mol)
     j = []
     for hit in hits.keys():
         if args.json:
