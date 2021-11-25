@@ -561,6 +561,8 @@ else:
     hits = get_hits(mol, silent)
     if args.rawhits:
         print('----------------------------------')
+    D = {}
+    D['molecule'] = args.molecule
     j = []
     for hit in hits.keys():
         if args.json:
@@ -578,6 +580,8 @@ else:
         else:
             print('{} {}'.format(hits.get(hit), cgo))
     if args.json:
-        print(json.dumps(j))
+        if len(j) > 0:
+            D['hits'] = j
+        print(json.dumps(D))
 
 
