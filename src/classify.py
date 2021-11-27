@@ -135,16 +135,18 @@ def check_unspec_alkaloid(mol):
 #rule M-1
 def check_unspec_macrolide(mol):
     #8+ macro lactone
-    if not mol.HasSubstructMatch(Chem.MolFromSmarts('[OR1;r{9-}][CR1;r{9-}](=O)')):
+    if not mol.HasSubstructMatch(Chem.MolFromSmarts('[OR1;r{8-}][CR1;r{8-}](=O)')):
         return False
     #!macrocyclic benzene
-    if mol.HasSubstructMatch(Chem.MolFromSmarts('[cR2]([C,O;r{9-}])1[cR2][cR2]([#6,O])[cR1][cR1][cR1]1')):
+    if mol.HasSubstructMatch(Chem.MolFromSmarts('[cR]([C,O;r{9-}])1[cR]([#6,O])[cR1][cR1][cR1][cR1]1')):
         return False
-    #!pyrrolizidin alkaloid
-    if mol.HasSubstructMatch(Chem.MolFromSmarts('[#6,#8;r{9-}][#6R2]1~[#6R1]~[#6R1][#7R2]2[#6R1]~[#6R1]~[#6R2]([#6,#8;r{9-}])~[#6R3]~12')):
+    if mol.HasSubstructMatch(Chem.MolFromSmarts('[cR]([C,O;r{9-}])1[cR][cR]([#6,O])[cR1][cR1][cR1]1')):
         return False
     #!cyclopeptide
-    if mol.HasSubstructMatch(Chem.MolFromSmarts('[NR1]~[CR1](~[OX1H0,OX2H1])[CR1][NR1;r{7-}]~[CR1](~[OX1H0,OX2H1])')):
+    if mol.HasSubstructMatch(Chem.MolFromSmarts('[NR]~[CR](~[OX1H0,OX2H1])[CR][NR;r{7-}]~[CR](~[OX1H0,OX2H1])')):
+        return False
+    #!cyclodepsipeptide
+    if mol.HasSubstructMatch(Chem.MolFromSmarts('[CR](=O)[NR][CR][CR](=O)[OR][CR][CR](=O)[NR][CR][CR](=O)[OR]')):
         return False
     return True
 
