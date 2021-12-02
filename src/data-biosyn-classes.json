@@ -6172,7 +6172,8 @@
 },
 "goid": "GO:0090431",
 "goLabel": "alkyl caffeate ester biosynthetic process",
-"p2017": "C=1(C=CC(=C(C1)O)O)/C=C/C(O*)=O"
+"p2017": "C=1(C=CC(=C(C1)O)O)/C=C/C(O*)=O",
+"p8533": "O=C(O[#6])/C=C/-c1ccc(O)c(O)c1"
 },
 {
 "item": {

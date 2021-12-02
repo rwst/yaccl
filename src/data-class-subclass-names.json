@@ -40,10 +40,6 @@
 "lab": "base"
 },
 {
-"item": "Q11351",
-"lab": "organic chemistry"
-},
-{
 "item": "Q11358",
 "lab": "carbohydrate"
 },
@@ -1949,7 +1945,7 @@
 },
 {
 "item": "Q1146640",
-"lab": "citrate"
+"lab": "citratel"
 },
 {
 "item": "Q1151249",
@@ -3648,6 +3644,10 @@
 "lab": "pyridine alkaloids"
 },
 {
+"item": "Q31190430",
+"lab": "cedr-8(15)-en-9-ol"
+},
+{
 "item": "Q32904830",
 "lab": "pentose phosphate"
 },
@@ -4410,6 +4410,10 @@
 {
 "item": "Q57893334",
 "lab": "dioxole"
+},
+{
+"item": "Q58622417",
+"lab": "benzophenanthridines"
 },
 {
 "item": "Q58623289",
@@ -6204,6 +6208,10 @@
 "lab": "medium-chain primary fatty alcohol"
 },
 {
+"item": "Q74652108",
+"lab": "purine ribonucleoside"
+},
+{
 "item": "Q74652581",
 "lab": "primary fatty amide"
 },
@@ -6986,6 +6994,10 @@
 {
 "item": "Q105029610",
 "lab": "1,5-anhydro-1-[7-hydroxy-3-(4-hydroxyphenyl)-4-oxo-4H-chromen-8-yl]hexitol"
+},
+{
+"item": "Q105118736",
+"lab": "alpha-cedrene"
 },
 {
 "item": "Q105146923",
@@ -8917,7 +8929,7 @@
 },
 {
 "item": "Q109324924",
-"lab": "ajmalicine-like alkaloid"
+"lab": "indolo[2,3-a]quinolizine alkaloid"
 },
 {
 "item": "Q109325168",
@@ -9188,10 +9200,6 @@
 "lab": "cromakalim"
 },
 {
-"item": "Q109525996",
-"lab": "biogenic pyrrole"
-},
-{
 "item": "Q109526510",
 "lab": "oxazolidine alkaloid"
 },
@@ -9386,5 +9394,69 @@
 {
 "item": "Q109715515",
 "lab": "bisanthrone polyketide"
+},
+{
+"item": "Q109718763",
+"lab": "cedrene"
+},
+{
+"item": "Q109779499",
+"lab": "biogenic purinyloxolane"
+},
+{
+"item": "Q109784110",
+"lab": "cyclopenta[c]pyridine alkaloid"
+},
+{
+"item": "Q109788335",
+"lab": "indole-diterpenoid alkaloid"
+},
+{
+"item": "Q109789193",
+"lab": "daphniphyllum alkaloid"
+},
+{
+"item": "Q109790173",
+"lab": "napelline-type alkaloid"
+},
+{
+"item": "Q109803926",
+"lab": "gelsedine-type alkaloid"
+},
+{
+"item": "Q109803983",
+"lab": "mitraphylline-type alkaloid"
+},
+{
+"item": "Q109833748",
+"lab": "pretazettine-type alkaloid"
+},
+{
+"item": "Q109835728",
+"lab": "naphtho[1,2,3-cd]indole alkaloid"
+},
+{
+"item": "Q109856246",
+"lab": "fawcettimine-type alkaloid"
+},
+{
+"item": "Q109856868",
+"lab": "gelsemine-type alkaloid"
+},
+{
+"item": "Q109857153",
+"lab": "lycodine-type alkaloid"
+},
+{
+"item": "Q109857366",
+"lab": "indolo[7a,1-a][2]benzazepine alkaloid"
+},
+{
+"item": "Q109858170",
+"lab": "echitamine-type alkaloid"
+},
+{
+"item": "Q109859866",
+"lab": "2-azaspiro[4.5]decane alkaloid"
 }
 ]
