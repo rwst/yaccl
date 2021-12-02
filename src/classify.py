@@ -538,7 +538,7 @@ elif args.nptest:
         tfs = [line.strip() for line in tf.readlines()]
     count = 0
     fcount = 0
-    check_item = 'Q206229'
+    j = []
     for t_inchi in tfs:
         mol = Chem.MolFromInchi(t_inchi)
         if mol is None:
@@ -548,14 +548,30 @@ elif args.nptest:
         count = count + 1
         found = False
         for hit in hits.keys():
-            if walk_find(sitems, hit, check_item):
-                print('{} OK {}'.format(count, hits.get(hit)))
+            p = path_to_nproot(hit, nplist)
+            if len(p) > 0:
+                if args.json:
+                    d = { 'result': True,
+                            'classification_names': [labels.get(it) for it in p]
+                        }
+                    j.append(d)
+                else:
+                    print('{} OK {}'.format(count, labels.get(p[-1])))
                 found = True
                 break
         if not found:
-            print('{} FAIL: {}'.format(count, t_inchi))
+            if args.json:
+                d = { 'result': False,
+                        'InChi': t_inchi,
+                    }
+                j.append(d)
+            else:
+                print('{} FAIL: {}'.format(count, t_inchi))
             fcount = fcount + 1
-    print('FAIL: {}/{}'.format(fcount, count))
+    if args.json:
+        print(json.dumps(j))
+    else:
+        print('FAIL: {}/{}'.format(fcount, count))
 else:
     silent = False
     if args.json:
