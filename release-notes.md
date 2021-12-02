@@ -97,4 +97,10 @@
 * add rule to recognize unspecified macrolides
 * all data: polyketides pt. 2 (est. 97% of all)
 
+==2121==
+* classify: revamp -n code
+* classify: include mol data with JSON output
+* improve macrolide rule
+* reduced unspec. alkaloids to 25% by adding more small groups
+* unspec. alkaloids and makrolides tagged in WD
 

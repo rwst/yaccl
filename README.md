@@ -12,8 +12,8 @@ The current version is 2120.
 - [X] terpenoids
 - [X] steroids
 - [X] flavonoids
-- [X] alkaloids (35% unspecified but recognized)
-- [ ] polyketides (in progress)
+- [X] alkaloids (25% unspecified but recognized)
+- [X] polyketides
 
 
 ## Prerequisites
