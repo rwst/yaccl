@@ -132,6 +132,91 @@ def check_unspec_alkaloid(mol):
         return False
     return True
 
+#rule H-1
+def check_unspec_hydrocarbon(mol):
+    # aliphatic
+    if not mol.HasSubstructMatch(Chem.MolFromSmarts('C')):
+        return False
+    if mol.HasSubstructMatch(Chem.MolFromSmarts('[c,#7,#8,#16,F,Cl,Br,I,P,As,Se]')):
+        return False
+    return True
+
+def check_acyclic_ketone(mol):
+    # aliphatic
+    if not mol.HasSubstructMatch(Chem.MolFromSmarts('CC(=O)C')):
+        return False
+    if mol.HasSubstructMatch(Chem.MolFromSmarts('[CR,c,#7,o,#16,F,Cl,Br,I,P,As,Se]')):
+        return False
+    if mol.HasSubstructMatch(Chem.MolFromSmarts('O~CC(~O)C~O')):
+        return False
+    return True
+
+def check_acyclic_aldehyde(mol):
+    if not mol.HasSubstructMatch(Chem.MolFromSmarts('O=[CX3H1]C')):
+        return False
+    if mol.HasSubstructMatch(Chem.MolFromSmarts('[CR,c,#7,o,#16,F,Cl,Br,I,P,As,Se]')):
+        return False
+    if mol.HasSubstructMatch(Chem.MolFromSmarts('[$(O);!$(O=C(C)C);!$(O=[CX3H1]C)]')):
+        return False
+    return True
+
+def check_acyclic_epoxide(mol):
+    if not mol.HasSubstructMatch(Chem.MolFromSmarts('[OX2H0]1[CR1][CR1]1')):
+        return False
+    if mol.HasSubstructMatch(Chem.MolFromSmarts('[C;r{4-}]')):
+        return False
+    if mol.HasSubstructMatch(Chem.MolFromSmarts('[c,#7,o,#16,F,Cl,Br,I,P,As,Se]')):
+        return False
+    return True
+
+def check_acyclic_ether(mol):
+    if not mol.HasSubstructMatch(Chem.MolFromSmarts('O([$(C);!$(C(~O)O)])[$(C);!$(C(~O)O)]')):
+        return False
+    if mol.HasSubstructMatch(Chem.MolFromSmarts('[CR,c,#7,o,#16,F,Cl,Br,I,P,As,Se]')):
+        return False
+    return True
+
+def check_acyclic_ester(mol):
+    if not mol.HasSubstructMatch(Chem.MolFromSmarts('C[CX3](=O)[OX2H0][$(C);!$(C=O)]')):
+        return False
+    if mol.HasSubstructMatch(Chem.MolFromSmarts('[CR,c,#7,o,#16,F,Cl,Br,I,P,As,Se]')):
+        return False
+    return True
+
+def check_acyclic_alcohol(mol):
+    if not mol.HasSubstructMatch(Chem.MolFromSmarts('[$(C);!$(C~O)]~[$(C);!$(C=O)][OX2H1]')):
+        return False
+    if mol.HasSubstructMatch(Chem.MolFromSmarts('[CR,c,#7,o,#16,F,Cl,Br,I,P,As,Se]')):
+        return False
+    if mol.HasSubstructMatch(Chem.MolFromSmarts('OCC(O)C~O')):
+        return False
+    return True
+
+def check_acyclic_peroxide(mol):
+    if not mol.HasSubstructMatch(Chem.MolFromSmarts('[OX2][OX2]')):
+        return False
+    if mol.HasSubstructMatch(Chem.MolFromSmarts('[CR,c,#7,o,#16,F,Cl,Br,I,P,As,Se]')):
+        return False
+    return True
+
+def check_fatty_acid_anion(mol):
+    if not mol.HasSubstructMatch(Chem.MolFromSmarts('[CX3](=O)[OX1H0-]')):
+        return False
+    if not mol.HasSubstructMatch(Chem.MolFromSmarts('C~C~C~C')):
+        return False
+    if mol.HasSubstructMatch(Chem.MolFromSmarts('[CR,c,#7,o,S,P,As]')):
+        return False
+    return True
+
+def check_fatty_acid(mol):
+    if not mol.HasSubstructMatch(Chem.MolFromSmarts('[CX3](=O)[OX2H1]')):
+        return False
+    if not mol.HasSubstructMatch(Chem.MolFromSmarts('C~C~C~C')):
+        return False
+    if mol.HasSubstructMatch(Chem.MolFromSmarts('[CR,c,#7,o,S,P,As]')):
+        return False
+    return True
+
 #rule M-1
 def check_unspec_macrolide(mol):
     #8+ macro lactone
@@ -228,10 +313,31 @@ def get_hits(mol, silent=False):
                     print('{} {} {} {}'.format(it, labels.get(it), sm, go))
                 break
 
-    if check_unspec_alkaloid(mol):
-        hits['Q70702'] = ('Q70702', 'unspecified alkaloid', 'Rule A-1')
-    if check_unspec_macrolide(mol):
-        hits['Q422687'] = ('Q422687', 'unspecified macrolide', 'Rule M-1')
+    if check_unspec_hydrocarbon(mol):
+        hits['Q109910560'] = ('Q109910560', 'unspecified hydrocarbon', 'Rule H-1')
+    else:
+        if check_fatty_acid_anion(mol):
+            hits['Q71653081'] = ('Q71653081', 'fatty acid anion', 'Rule F-8')
+        if check_fatty_acid(mol):
+            hits['Q61476'] = ('Q61476', 'fatty acid', 'Rule F-9')
+        if check_acyclic_aldehyde(mol):
+            hits['Q109923365'] = ('Q109923365', 'acyclic aldehyde', 'Rule F-2')
+        if check_acyclic_ether(mol):
+            hits['Q109923862'] = ('Q109923862', 'acyclic ether', 'Rule F-4')
+        if check_acyclic_epoxide(mol):
+            hits['Q109923685'] = ('Q109923685', 'acyclic epoxide', 'Rule F-3')
+        if check_acyclic_ketone(mol):
+            hits['Q109911294'] = ('Q109911294', 'acyclic ketone', 'Rule F-1')
+        if check_acyclic_ester(mol):
+            hits['Q109923912'] = ('Q109923912', 'acyclic ester', 'Rule F-5')
+        if check_acyclic_alcohol(mol):
+            hits['Q378871'] = ('Q378871', 'fatty alcohol', 'Rule F-6')
+        if check_acyclic_peroxide(mol):
+            hits['Q109946855'] = ('Q109946855', 'acyclic peroxide', 'Rule F-7')
+        if check_unspec_alkaloid(mol):
+            hits['Q70702'] = ('Q70702', 'unspecified alkaloid', 'Rule A-1')
+        if check_unspec_macrolide(mol):
+            hits['Q422687'] = ('Q422687', 'unspecified macrolide', 'Rule M-1')
     
     if not silent:
         print('purging redundant hits')
