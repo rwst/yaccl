@@ -104,3 +104,9 @@
 * reduced unspec. alkaloids to 25% by adding more small groups
 * unspec. alkaloids and makrolides tagged in WD
 
+==2122==
+* all data: fatty acyl pt. 1 (est. 77% of all)
+* test data: fatty acyl
+* classify: fatty acyl rules
+
+

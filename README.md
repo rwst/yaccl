@@ -7,13 +7,14 @@ While yaccl is, in principle, a general classifier, development of patterns focu
 
 ## Version / Progress
 
-The current version is 2120.
+The current version is 2122.
 
 - [X] terpenoids
 - [X] steroids
 - [X] flavonoids
 - [X] alkaloids (25% unspecified but recognized)
 - [X] polyketides
+- [ ] fatty acyls (in progress)
 
 
 ## Prerequisites
@@ -139,4 +140,4 @@ Of course, any comment or PR is highly appreciated.
 * optimize ontology in WD, remove or deprecate redundant P31/P279 stmts
 * write toolserver client
 * use RHEA to list enzymatic reactions
-* handle iridoid + glycoside --> iridoid glycoside
+* handle iridoid + glycoside --> iridoid glycoside (probably just write a bot for giv cases)
