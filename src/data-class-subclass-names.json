@@ -1773,7 +1773,7 @@
 },
 {
 "item": "Q898753",
-"lab": "Acidity regulator"
+"lab": "acidity regulator"
 },
 {
 "item": "Q898866",
@@ -1945,7 +1945,7 @@
 },
 {
 "item": "Q1146640",
-"lab": "citratel"
+"lab": "citrate"
 },
 {
 "item": "Q1151249",
@@ -2373,7 +2373,7 @@
 },
 {
 "item": "Q2901852",
-"lab": "compound of carbon"
+"lab": "carbon compound"
 },
 {
 "item": "Q2903964",
@@ -2689,7 +2689,7 @@
 },
 {
 "item": "Q5156939",
-"lab": "compound of lead"
+"lab": "lead compound"
 },
 {
 "item": "Q5156940",
@@ -2989,7 +2989,7 @@
 },
 {
 "item": "Q10749005",
-"lab": "compound of zinc"
+"lab": "zinc compound"
 },
 {
 "item": "Q10809118",
@@ -6396,6 +6396,10 @@
 "lab": "caprolactams"
 },
 {
+"item": "Q75035808",
+"lab": "alkyl caffeate ester"
+},
+{
 "item": "Q75079224",
 "lab": "D-glucose"
 },
@@ -9458,5 +9462,37 @@
 {
 "item": "Q109859866",
 "lab": "2-azaspiro[4.5]decane alkaloid"
+},
+{
+"item": "Q109910358",
+"lab": "biogenic lipid"
+},
+{
+"item": "Q109910560",
+"lab": "biogenic aliphatic hydrocarbon"
+},
+{
+"item": "Q109911294",
+"lab": "biogenic acyclic ketone"
+},
+{
+"item": "Q109923365",
+"lab": "biogenic acyclic aldehyde"
+},
+{
+"item": "Q109923685",
+"lab": "biogenic acyclic epoxide"
+},
+{
+"item": "Q109923862",
+"lab": "biogenic acyclic ether"
+},
+{
+"item": "Q109923912",
+"lab": "biogenic acyclic ester"
+},
+{
+"item": "Q109946855",
+"lab": "biogenic acyclic peroxide"
 }
 ]

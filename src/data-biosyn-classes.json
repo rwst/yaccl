@@ -34,14 +34,6 @@
 },
 {
 "item": {
-"value": "Q11367",
-"label": "lipid"
-},
-"goid": "GO:0008610",
-"goLabel": "lipid biosynthetic process"
-},
-{
-"item": {
 "value": "Q12190",
 "label": "penicillin"
 },
@@ -6472,5 +6464,13 @@
 "goid": "GO:0009715",
 "goLabel": "chalcone biosynthetic process",
 "p8533": "[$(c);$([cX3H0](c)(c)[O,Cl,Br]),$([cX3H1](c)c)]1[$(c);$([cX3H0](c)(c)[O,Cl,Br]),$([cX3H1](c)c)][$(c);$([cX3H0](c)(c)[O,Cl,Br]),$([cX3H1](c)c)][$(c);$([cX3H0](c)(c)[O,Cl,Br]),$([cX3H1](c)c)][$(c);$([cX3H0](c)(c)[O,Cl,Br]),$([cX3H1](c)c)]c1C(=O)[CR0]=[CR0]c2[$(c);$([cX3H0](c)(c)[O,Cl,Br]),$([cX3H1](c)c)][$(c);$([cX3H0](c)(c)[O,Cl,Br]),$([cX3H1](c)c)][$(c);$([cX3H0](c)(c)[O,Cl,Br]),$([cX3H1](c)c)][$(c);$([cX3H0](c)(c)[O,Cl,Br]),$([cX3H1](c)c)][$(c);$([cX3H0](c)(c)[O,Cl,Br]),$([cX3H1](c)c)]2"
+},
+{
+"item": {
+"value": "Q109910358",
+"label": "biogenic lipid"
+},
+"goid": "GO:0008610",
+"goLabel": "lipid biosynthetic process"
 }
 ]
