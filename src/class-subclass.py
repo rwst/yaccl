@@ -70,11 +70,11 @@ if dontquery is False:
     f.close()
 
     print('querying names for {} items...'.format(len(sups)))
-    ret = os.popen('wd sparql {}-1.rq >{}.names'.format(script, script))
+    ret = os.popen('wd sparql {}-1.rq >{}'.format(script, script))
     if ret.close() is not None:
         exit()
 
-with open('{}.names'.format(script), 'r') as ff:
+with open('{}'.format(script), 'r') as ff:
     s = ff.read()
     jol = json.loads(s)
 
